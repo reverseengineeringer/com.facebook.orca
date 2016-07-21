@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.fbui.pagerindicator.TabbedViewPagerIndicator android:id="@id/qr_code_pay_tabs" style="@style/Payments.TabIndicator" />
+    <android.support.v4.view.ViewPager android:gravity="center" android:id="@id/qr_code_pay_pager" android:padding="@dimen/qr_code_row_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/payment_overline_border" android:paddingLeft="@dimen/qr_code_row_padding" android:paddingRight="@dimen/qr_code_row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/qr_code_row_height">
+        <com.facebook.payments.ui.FloatingLabelTextView android:layout_gravity="center_vertical" android:id="@id/qr_code_pay_reference_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <com.facebook.messaging.payment.ui.DollarIconEditText android:enabled="false" android:textSize="@dimen/fbui_text_size_xxxlarge_6" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/qr_code_pay_amount" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="sans-serif-regular" />
+    </LinearLayout>
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/payment_action_blue" android:gravity="center" android:id="@id/qr_code_pay_complete_button" android:background="@drawable/payment_overline_border" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/qr_code_row_height" android:text="@string/qr_code_dismiss_button_text" />
+</LinearLayout>

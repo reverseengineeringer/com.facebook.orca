@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_tiny_small" android:textColor="@color/fbui_bluegrey_30" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timeline_title_see_first" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_bluegrey_30" android:gravity="center_horizontal" android:id="@id/see_first_notice" android:paddingTop="@dimen/see_first_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timeline_notice_default" />
+</merge>

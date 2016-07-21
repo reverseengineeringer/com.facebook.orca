@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:textColor="@color/grey47" android:gravity="center|left" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/orca_action_compose_option_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

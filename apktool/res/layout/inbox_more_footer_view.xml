@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/more_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/more_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="28.0dip" android:src="@drawable/msgr_ic_arrow_forward_black_24dp" android:layout_marginStart="28.0dip" />
+        <com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:id="@id/more_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginStart="28.0dip" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/more_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?loadingFooterStyle" />
+</merge>

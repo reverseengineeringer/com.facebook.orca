@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/photo_video_switch_guide" android:background="@drawable/switch_slider" android:layout_width="@dimen/video_switcher_guide_width" android:layout_height="@dimen/video_switcher_guide_height" style="@style/camera_guide_style" />
+    <View android:id="@id/photo_video_switch_toggle" android:background="@drawable/switch_toggle" android:layout_width="@dimen/video_switcher_toggle_diameter" android:layout_height="@dimen/video_switcher_toggle_diameter" style="@style/camera_toggle_style" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/photo_video_switch_photo" android:layout_width="@dimen/video_switcher_camera_size" android:layout_height="@dimen/video_switcher_camera_size" android:src="@drawable/fbui_camera_l" style="@style/camera_photo_icon_style" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/photo_video_switch_video" android:layout_width="@dimen/video_switcher_camera_size" android:layout_height="@dimen/video_switcher_camera_size" android:src="@drawable/fbui_camcorder_l" style="@style/camera_video_icon_style" />
+</merge>

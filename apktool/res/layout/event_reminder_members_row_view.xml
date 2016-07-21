@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/event_reminder_members_row_margin">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fig_usage_secondary_text" android:id="@id/event_reminder_members_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/event_reminder_members_row_margin" android:layout_marginRight="@dimen/event_reminder_members_row_margin" android:text="@string/event_reminder_responses_title" android:maxLines="1" android:layout_marginStart="@dimen/event_reminder_members_row_margin" android:layout_marginEnd="@dimen/event_reminder_members_row_margin" app:fontFamily="roboto" app:fontWeight="medium" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_tiny_small" android:textColor="@color/fig_usage_secondary_text" android:ellipsize="end" android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/event_reminder_members_overview_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/event_reminder_members_row_margin" android:maxLines="1" android:layout_marginEnd="@dimen/event_reminder_members_row_margin" app:fontFamily="roboto" app:fontWeight="regular" />
+    </com.facebook.widget.CustomLinearLayout>
+    <com.facebook.widget.hscrollrecyclerview.HScrollRecyclerView android:id="@id/event_reminder_members_facepile" android:layout_width="fill_parent" android:layout_height="wrap_content" app:isSnappingEnabled="false" />
+</merge>

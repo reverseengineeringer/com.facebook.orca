@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/friends_selector_nux" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/friend_selector_autocomplete_container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="top" android:id="@id/friends_selector_nux_divider" android:background="@color/black12a" android:layout_width="fill_parent" android:layout_height="@dimen/divider_width" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/friends_selector_nux_image" android:padding="@dimen/fbui_drawable_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/friends_selector_nux_text" android:padding="@dimen/fbui_padding_standard" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="end|center|top" android:id="@id/friends_selector_nux_dismiss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:src="@drawable/fbui_cross_l" />
+    </LinearLayout>
+</FrameLayout>

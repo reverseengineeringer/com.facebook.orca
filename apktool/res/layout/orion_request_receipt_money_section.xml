@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/payment_underline_border" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.facebook.messaging.payment.ui.DollarIconEditText android:enabled="false" android:textSize="@dimen/payment_value_text_size_medium" android:gravity="center" android:id="@id/receipt_amount" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="sans-serif-thin" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/receipt_action_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/action_text_color" android:layout_gravity="center_horizontal" android:id="@id/receipt_cancel_request_action_text" android:clickable="true" android:layout_marginTop="@dimen/receipt_body_widgets_vertical_spacing" android:text="@string/receipt_cancel_request" android:textAllCaps="true" android:fontFamily="sans-serif" style="@style/PaymentActionTextViewStyle" />
+    </LinearLayout>
+</merge>

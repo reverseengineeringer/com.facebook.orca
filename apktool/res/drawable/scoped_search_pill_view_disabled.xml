@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/scoped_search_pill_border_width" android:color="@color/fbui_white" android:dashWidth="@dimen/scoped_search_pill_border_dash_width" android:dashGap="@dimen/scoped_search_pill_border_dash_gap" />
+    <solid android:color="@android:color/transparent" />
+    <padding android:left="@dimen/scoped_search_pill_padding_horizontal" android:top="@dimen/scoped_search_pill_padding_vertical" android:right="@dimen/scoped_search_pill_padding_horizontal" android:bottom="@dimen/scoped_search_pill_padding_vertical" />
+    <corners android:radius="@dimen/scoped_search_pill_radius" />
+</shape>

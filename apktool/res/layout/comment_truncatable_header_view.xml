@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/comment_header_base" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/grey68" android:textColorHighlight="@color/flyout_press_state_background_color" android:id="@id/see_translation_text_view" android:background="@drawable/ufiservices_transparent_background_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="12.0dip" android:includeFontPadding="false" android:lineSpacingExtra="1.2999878dip" android:layout_marginEnd="12.0dip" />
+    <include layout="@layout/comment_header_view_stubs" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.quickcam.NonConsumingSystemInsetFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.common.ui.keyboard.SoftInputDetectingLinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.messaging.montage.viewer.MontageProgressIndicatorView android:id="@id/progress_indicator" android:layout_width="fill_parent" android:layout_height="@dimen/msgr_montage_viewer_progress_indicator_height" />
+        <FrameLayout android:id="@id/message_composer_placeholder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/custom_keyboard_layout_stub" android:layout="@layout/custom_keyboard_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.facebook.common.ui.keyboard.SoftInputDetectingLinearLayout>
+</com.facebook.messaging.quickcam.NonConsumingSystemInsetFrameLayout>

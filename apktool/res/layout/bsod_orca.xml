@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_marginRight="88.0dip" android:layout_marginStart="56.0dip" android:layout_marginEnd="88.0dip">
+        <com.facebook.resources.ui.FbTextView android:textSize="34.0sp" android:textColor="@android:color/black" android:id="@id/bsod_title" android:paddingTop="35.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bsod_app_title" android:fontFamily="sans-serif-thin" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/bsod_info_text_size" android:textColor="@android:color/black" android:textColorLink="@android:color/black" android:gravity="start" android:linksClickable="true" android:id="@id/bsod_cause" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

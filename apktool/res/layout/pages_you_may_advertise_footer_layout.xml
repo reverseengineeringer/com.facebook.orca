@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/feed_feedback_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_bluegrey_80" android:gravity="center" android:id="@id/pyma_footer_text" android:paddingTop="@dimen/pyma_footer_text_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontFamily="roboto" fb:fontWeight="medium" />
+    <com.facebook.resources.ui.FbButton android:gravity="center" android:id="@id/pyma_footer_cta_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pyma_footer_cta_margin_top" android:layout_marginBottom="@dimen/pyma_header_bottom_margin" style="@style/Widget.Button.FBUi.Light.Primary.Medium" />
+</LinearLayout>

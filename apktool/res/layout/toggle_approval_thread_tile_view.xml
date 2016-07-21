@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.tiles.ThreadTileView android:layout_width="@dimen/share_sheet_toggle_approval_thread_tile_size" android:layout_height="@dimen/share_sheet_toggle_approval_thread_tile_size" app:threadTileSize="@dimen/share_sheet_toggle_approval_thread_tile_size" app:asCircle="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

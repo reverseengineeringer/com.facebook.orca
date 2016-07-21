@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.user.tiles.BorderedUserTileView android:layout_width="@dimen/orca_admin_message_face_pile_size" android:layout_height="@dimen/orca_admin_message_face_pile_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

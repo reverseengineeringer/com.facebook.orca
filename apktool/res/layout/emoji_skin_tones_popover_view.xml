@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/orca_tooltip_white_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/emoji_skin_tone_popover_bottom_margin">
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/emoji_popover_nux_stub" android:layout="@layout/emoji_skin_tones_popover_nux" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/emoji_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView style="@style/coloredEmojiPickerItemStyle" />
+            <ImageView style="@style/coloredEmojiPickerItemStyle" />
+            <ImageView style="@style/coloredEmojiPickerItemStyle" />
+            <ImageView style="@style/coloredEmojiPickerItemStyle" />
+            <ImageView style="@style/coloredEmojiPickerItemStyle" />
+            <ImageView style="@style/coloredEmojiPickerItemStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@id/emoji_container_nub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orca_tooltip_white_nub_above" />
+</FrameLayout>

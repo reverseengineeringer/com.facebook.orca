@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:showDividers="middle" fb:dividerPadding="@dimen/fbui_button_padding_bottom_small" fb:divider="@android:color/darker_gray" fb:dividerThickness="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbButton android:textColor="@android:color/black" android:id="@id/ia_long_press_copy_button" android:padding="@dimen/fbui_button_padding_bottom_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" style="?android:attr/borderlessButtonStyle" />
+    <com.facebook.resources.ui.FbButton android:textColor="@android:color/black" android:id="@id/ia_long_press_share_button" android:padding="@dimen/fbui_button_padding_bottom_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/richdocument_share" android:textAllCaps="false" style="?android:attr/borderlessButtonStyle" />
+</com.facebook.fbui.widget.layout.SegmentedLinearLayout>

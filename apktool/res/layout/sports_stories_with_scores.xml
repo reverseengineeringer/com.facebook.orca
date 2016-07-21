@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:background="@drawable/feed_attachment_background" android:padding="@dimen/sports_stories_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/sports_stories_with_scores_home_team_logo" android:layout_width="@dimen/sports_stories_team_logo_size" android:layout_height="@dimen/sports_stories_team_logo_size" fb:placeholderImage="@drawable/photo_downloading" fb:actualImageScaleType="centerCrop" />
+        <com.facebook.resources.ui.FbTextView android:id="@id/sports_stories_with_scores_home_team_name" android:paddingLeft="@dimen/sports_stories_with_scores_team_name_paddingLeft" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/sports_stories_team_name" />
+        <com.facebook.resources.ui.FbTextView android:id="@id/sports_stories_with_scores_home_team_score" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sports_stories_with_scores_team_score" />
+    </com.facebook.widget.CustomLinearLayout>
+    <com.facebook.widget.CustomLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sports_stories_with_scores_padding_between_lines">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/sports_stories_with_scores_away_team_logo" android:layout_width="@dimen/sports_stories_team_logo_size" android:layout_height="@dimen/sports_stories_team_logo_size" fb:placeholderImage="@drawable/photo_downloading" fb:actualImageScaleType="centerCrop" />
+        <com.facebook.resources.ui.FbTextView android:id="@id/sports_stories_with_scores_away_team_name" android:paddingLeft="@dimen/sports_stories_with_scores_team_name_paddingLeft" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/sports_stories_team_name" />
+        <com.facebook.resources.ui.FbTextView android:id="@id/sports_stories_with_scores_away_team_score" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sports_stories_with_scores_team_score" />
+    </com.facebook.widget.CustomLinearLayout>
+</com.facebook.widget.CustomLinearLayout>

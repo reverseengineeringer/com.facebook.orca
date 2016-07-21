@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.FbTextView android:gravity="center" android:padding="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/page_identity_services_empty_list_text" style="@style/TextAppearance.Fig.MediumSize.MediumColor"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:gravity="center" android:id="@id/play_download_plugin_container" android:background="@color/video_download_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/play_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/button_camera_video_play" android:padding="@dimen/download_video_button_padding" android:layout_width="@dimen/download_video_button_size" android:layout_height="@dimen/download_video_button_size" android:layout_margin="@dimen/download_video_button_margin" android:src="@drawable/fbui_play_l" android:adjustViewBounds="true" fb:roundAsCircle="true" fb:glyphColor="@color/fbui_white" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textStyle="bold" android:textColor="@color/fbui_white" android:id="@id/play_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" fb:fontWeight="medium" />
+            <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_white" android:id="@id/play_qualifier" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" fb:fontWeight="medium" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/download_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/play_button_container">
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/button_video_save_download" android:padding="@dimen/download_video_button_padding" android:layout_width="@dimen/download_video_button_size" android:layout_height="@dimen/download_video_button_size" android:layout_margin="@dimen/download_video_button_margin" android:src="@drawable/fbui_download_l" android:adjustViewBounds="true" fb:roundAsCircle="true" fb:glyphColor="@color/fbui_white" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textStyle="bold" android:textColor="@color/fbui_white" android:id="@id/download_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" fb:fontWeight="medium" />
+            <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_white" android:id="@id/download_qualifier" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" fb:fontWeight="medium" />
+        </LinearLayout>
+    </LinearLayout>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

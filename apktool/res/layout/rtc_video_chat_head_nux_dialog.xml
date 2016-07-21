@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.layout.ImageBlockLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/fbui_tooltip_background" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:thumbnailGravity="center" fb:thumbnailPadding="20.0dip">
+        <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_gravity="center" android:id="@id/floating_view_container" android:background="@drawable/vch_promotion_home" android:layout_width="88.0dip" android:layout_height="156.0dip" fb:layout_useAsThumbnail="true">
+            <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <com.facebook.user.tiles.UserTileView android:id="@id/fbui_tooltip_peer_profile_picture" android:layout_width="64.0dip" android:layout_height="64.0dip" fb:asCircle="true" />
+                <com.facebook.user.tiles.UserTileView android:id="@id/fbui_tooltip_self_profile_picture" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignRight="@id/fbui_tooltip_peer_profile_picture" android:layout_alignBottom="@id/fbui_tooltip_peer_profile_picture" android:layout_alignEnd="@id/fbui_tooltip_peer_profile_picture" fb:asCircle="true" />
+            </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+        </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+        <com.facebook.resources.ui.FbTextView android:textColor="@color/rtc_nux_title_color" android:id="@id/fbui_tooltip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:text="@string/rtc_video_chat_head_nux_title_home" style="@style/Widget.Tooltip.Title.Rtc" />
+        <com.facebook.resources.ui.FbTextView android:textColor="@color/rtc_nux_description_color" android:id="@id/fbui_tooltip_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rtc_video_chat_head_nux_description_home" style="@style/Widget.Tooltip.Description.Rtc" />
+    </com.facebook.fbui.widget.layout.ImageBlockLayout>
+</FrameLayout>

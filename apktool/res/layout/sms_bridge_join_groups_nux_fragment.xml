@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_xxxlarge" android:gravity="center_horizontal" android:id="@id/title" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" fb:fontFamily="roboto" fb:fontWeight="light" />
+            <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="#ff8a8a8a" android:gravity="center_horizontal" android:id="@id/description" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" />
+            <com.facebook.widget.listview.BetterListView android:id="@id/groups_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@android:color/transparent" android:divider="@null" style="?contactPickerListStyle" />
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:background="@drawable/sms_bridge_join_groups_nux_action_bar_shadow_top" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    </FrameLayout>
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/buttons_container" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <com.facebook.resources.ui.FbTextView android:id="@id/skip_action" android:text="@string/sms_bridge_join_groups_nux_skip" style="@style/SmsBridgeJoinGroupsNuxActionButton" />
+        <com.facebook.resources.ui.FbTextView android:id="@id/continue_action" android:text="@string/sms_bridge_join_groups_nux_continue" style="@style/SmsBridgeJoinGroupsNuxActionButton" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/story_set_item_container" android:background="@drawable/feed_storyset_item_background_box" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.feedplugins.video.RichVideoAttachmentView android:id="@id/story_set_item_video_attachment" android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="@dimen/video_sets_video_height" />
+    <com.facebook.feedplugins.storyset.rows.ui.StoryPageLabelWithSocialContextView android:gravity="center_vertical" android:id="@id/story_set_item_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/story_set_label_padding" />
+</LinearLayout>

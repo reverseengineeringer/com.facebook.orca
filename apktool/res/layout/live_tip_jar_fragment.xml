@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.facecastdisplay.FacecastSquareView android:id="@id/facecast_tip_jar_square_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.facecastdisplay.tipjar.LiveTipJarView android:id="@id/live_tip_jar_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

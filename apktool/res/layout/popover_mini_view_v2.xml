@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/popover_mini_view_v2" android:layout_width="@dimen/popover_v2_size" android:layout_height="@dimen/popover_v2_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:backgroundImage="@drawable/black_background_shadow" app:overlayImage="@drawable/blue_scrim_transparent" app:roundedCornerRadius="4.0dip" />
+    <com.facebook.resources.ui.FbTextView android:textSize="12.0dip" android:textColor="@color/orca_white" android:layout_gravity="start|center|top" android:id="@id/badge_count" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="end|bottom|center" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_white_badge_outline_bolt" />
+</FrameLayout>

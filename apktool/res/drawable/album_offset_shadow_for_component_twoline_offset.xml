@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/album_offset_shadow" android:left="@dimen/album_shadow_offset_twoline_lower_level_padding" android:top="@dimen/album_shadow_offset_twoline_lower_level_padding" />
+    <item android:drawable="@drawable/album_offset_shadow" android:left="@dimen/album_shadow_offset_twoline_unipadding" android:top="@dimen/album_shadow_offset_twoline_unipadding" android:right="@dimen/album_shadow_offset_twoline_unipadding" android:bottom="@dimen/album_shadow_offset_twoline_unipadding" />
+</layer-list>

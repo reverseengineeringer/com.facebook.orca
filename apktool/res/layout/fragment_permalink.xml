@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.feed.permalink.PermalinkRelativeLayout android:background="@color/feed_list_item_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.feed.permalink.PermalinkAddReplyView android:id="@id/add_reply" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.facebook.widget.refreshableview.RefreshableListViewContainer android:id="@id/permalink_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/add_reply">
+        <com.facebook.widget.refreshableview.RefreshableViewOverflowItem android:background="@color/feed_list_item_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.widget.refreshableview.RefreshableViewItem android:background="@color/feed_list_item_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.widget.listview.BetterListView android:id="@android:id/list" android:paddingBottom="14.0dip" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" />
+    </com.facebook.widget.refreshableview.RefreshableListViewContainer>
+    <include layout="@layout/empty_layout" />
+    <com.facebook.feed.ui.GenericNotificationBanner android:id="@id/error_banner" android:layout_width="fill_parent" android:layout_height="@dimen/feed_top_bar_height" />
+    <ImageView android:background="@drawable/permalink_add_reply_entry_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/permalink_container" />
+</com.facebook.feed.permalink.PermalinkRelativeLayout>

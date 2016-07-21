@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/thread_settings_help_center_link" android:orderInCategory="270" android:title="@string/thread_context_menu_help_link" fb:showAsAction="collapseActionView" />
+</menu>

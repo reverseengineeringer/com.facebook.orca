@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:id="@id/people_tab_container" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:traceAs="PeopleFragmentContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.uicontrib.segmentedtabbar.SegmentedTabBar android:layout_gravity="center|top" android:id="@id/flip_tab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/neue_tab_margins" android:layout_marginTop="@dimen/neue_tab_margins" android:layout_marginRight="@dimen/neue_tab_margins" android:layout_marginBottom="1.0dip" fb:leftTabName="@string/contacts_messenger_tab" fb:rightTabName="@string/contacts_facebook_tab" />
+    <FrameLayout android:id="@id/tabs_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</com.facebook.widget.CustomLinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/payment_bubble_theme_image" android:layout_width="fill_parent" android:layout_height="65.0dip" />
+</merge>

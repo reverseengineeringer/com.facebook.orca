@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/orca_neue_primary" android:paddingLeft="@dimen/nux_exterior_padding" android:paddingRight="@dimen/nux_exterior_padding" android:layout_width="fill_parent" android:layout_height="@dimen/nux_container_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textSize="16.0sp" android:textColor="@android:color/white" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/pichead_nux_title" android:layout_weight="1.0" />
+    <ImageView android:id="@id/settings_icon" android:layout_width="@dimen/nux_setting_icon_size" android:layout_height="@dimen/nux_setting_icon_size" android:src="@drawable/ic_settings_white_24dp" android:contentDescription="@string/pichead_nux_settings" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.EllipsizingTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/feed_feedback_text_color" android:textColorHighlight="@color/feed_press_state_background_color" android:ellipsize="end" android:id="@id/comment_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/comment_author" android:lineSpacingExtra="1.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

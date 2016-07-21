@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:orientation="vertical" android:id="@id/main_activity_container_outer" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_activity_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <fragment android:name="com.facebook.rtc.fragments.VoipCallStatusBarFragment" android:id="@id/voip_call_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/omni_picker_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

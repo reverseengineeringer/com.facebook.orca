@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="vertical" android:id="@id/ad_interfaces_overview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_horizontal_margin" android:layout_marginStart="@dimen/card_horizontal_margin" fb:showDividers="middle" fb:divider="@drawable/adinterfaces_vertical_divider" fb:dividerThickness="1.0px">
+        <com.facebook.widget.CustomLinearLayout android:gravity="center_vertical" android:id="@id/ad_interfaces_overview_status_row" style="@style/AdInterfacesOverviewRow">
+            <com.facebook.widget.text.BetterTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad_interfaces_status" android:layout_weight="1.0" style="@style/AdInterfacesText.LargeSize.Regular" />
+            <com.facebook.widget.FbImageView android:layout_gravity="center" android:id="@id/ad_interfaces_overview_status_circle" android:layout_width="@dimen/ad_interfaces_glyph_length" android:layout_height="@dimen/ad_interfaces_glyph_length" android:layout_marginLeft="@dimen/ad_interfaces_glyph_horizontal_padding" android:layout_marginRight="@dimen/ad_interfaces_glyph_horizontal_padding" android:layout_marginStart="@dimen/ad_interfaces_glyph_horizontal_padding" android:layout_marginEnd="@dimen/ad_interfaces_glyph_horizontal_padding" />
+            <com.facebook.widget.text.BetterTextView android:id="@id/ad_interfaces_overview_status_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AdInterfacesText.LargeSize.Title" />
+        </com.facebook.widget.CustomLinearLayout>
+        <com.facebook.widget.CustomLinearLayout android:id="@id/ad_interfaces_overview_audience_row" style="@style/AdInterfacesOverviewRow">
+            <com.facebook.widget.text.BetterTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad_interfaces_audience" style="@style/AdInterfacesText.LargeSize.Regular" />
+            <com.facebook.widget.text.BetterTextView android:gravity="end" android:id="@id/ad_interfaces_overview_audience_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/AdInterfacesText.LargeSize.Title" />
+        </com.facebook.widget.CustomLinearLayout>
+        <com.facebook.widget.CustomLinearLayout android:id="@id/ad_interfaces_overview_end_date_row" style="@style/AdInterfacesOverviewRow">
+            <com.facebook.widget.text.BetterTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad_interfaces_end_date" style="@style/AdInterfacesText.LargeSize.Regular" />
+            <com.facebook.widget.text.BetterTextView android:gravity="end" android:id="@id/ad_interfaces_overview_end_date_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/AdInterfacesText.LargeSize.Title" />
+        </com.facebook.widget.CustomLinearLayout>
+        <com.facebook.widget.CustomLinearLayout android:id="@id/ad_interfaces_overview_amount_spent_row" style="@style/AdInterfacesOverviewRow">
+            <com.facebook.widget.text.BetterTextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ad_interfaces_overview_amount_spent" android:layout_weight="1.0" style="@style/AdInterfacesText.LargeSize.Regular" />
+            <com.facebook.widget.text.BetterTextView android:gravity="end" android:id="@id/ad_interfaces_overview_amount_spent_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/AdInterfacesText.LargeSize.Title" />
+        </com.facebook.widget.CustomLinearLayout>
+        <com.facebook.widget.CustomLinearLayout android:id="@id/ad_interfaces_overview_payment_method_row" style="@style/AdInterfacesOverviewRow">
+            <com.facebook.widget.text.BetterTextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ad_interfaces_overview_payment_method" android:layout_weight="1.0" style="@style/AdInterfacesText.LargeSize.Regular" />
+            <com.facebook.widget.text.BetterTextView android:gravity="end" android:id="@id/ad_interfaces_overview_payment_method_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/AdInterfacesText.LargeSize.Title" />
+        </com.facebook.widget.CustomLinearLayout>
+    </com.facebook.fbui.widget.layout.SegmentedLinearLayout>
+    <View android:background="@drawable/adinterfaces_horizontal_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.facebook.adinterfaces.ui.AdInterfacesOverviewFooterView android:orientation="vertical" android:id="@id/ad_interfaces_overview_footer_view" android:paddingLeft="@dimen/ad_interfaces_footer_horizontal_padding" android:paddingTop="@dimen/ad_interfaces_footer_button_vertical_padding" android:paddingRight="@dimen/ad_interfaces_footer_horizontal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.adinterfaces.ui.AdInterfacesOverviewPendingView android:orientation="vertical" android:id="@id/ad_interfaces_overview_pending_view" android:background="@color/fbui_bg_medium" android:paddingLeft="@dimen/ad_interfaces_footer_horizontal_padding" android:paddingTop="@dimen/card_footer_vertical_padding" android:paddingRight="@dimen/ad_interfaces_footer_horizontal_padding" android:paddingBottom="@dimen/card_footer_vertical_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

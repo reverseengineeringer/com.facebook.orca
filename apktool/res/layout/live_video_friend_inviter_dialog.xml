@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/live_video_friend_inviter_empty_space" android:background="@color/black_40" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include layout="@layout/friend_selector_titlebar" />
+    <FrameLayout android:id="@id/live_video_friend_inviter_dialog" android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0" />
+</LinearLayout>

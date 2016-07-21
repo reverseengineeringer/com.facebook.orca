@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/contact_user_tile_image" android:background="@drawable/contact_item_circle_tile_background" android:src="@drawable/orca_groups_placeholder" android:scaleType="centerCrop" fb:glyphColor="@color/orca_white" style="?contactPickerThreadTileViewStyle" />
+    <com.facebook.widget.CustomLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="?contactPickerRowHeight" android:layout_marginLeft="?contactPickerContainerMarginLeft" android:layout_toRightOf="@id/contact_user_tile_image" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="?contactPickerContainerMarginLeft" android:layout_toEndOf="@id/contact_user_tile_image" android:layout_alignParentEnd="true" style="?contactPickerItemTextContainerStyle">
+        <com.facebook.widget.text.SimpleVariableTextLayoutView android:id="@id/contact_name" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:text="@string/msgr_montage_picker_text" style="?attr/contactPickerItemNameStyle" />
+        <com.facebook.widget.text.SimpleVariableTextLayoutView android:ellipsize="end" android:id="@id/contact_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" fb:maxLines="1" fb:text="@string/msgr_montage_picker_status_text" style="?attr/contactPickerItemStatusStyle" />
+    </com.facebook.widget.CustomLinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contact_row_extras_holder" android:layout_width="wrap_content" android:layout_height="?contactPickerRowHeight" android:layout_alignParentRight="true">
+        <CheckBox android:id="@id/is_picked_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:textOn="@null" android:textOff="@null" android:text="@null" style="?contactPickerSecondaryCheckboxStyle" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/single_tap_send_button_stub" android:layout="@layout/contact_row_send_button" android:layout_width="wrap_content" android:layout_height="@dimen/contact_picker_invite_button_height" />
+    </LinearLayout>
+    <View android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" style="?attr/contactPickerItemDividerStyle" />
+</merge>

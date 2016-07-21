@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.DraweeView android:id="@id/timeline_profile_pic_image" android:clickable="true" android:layout_width="@dimen/timeline_profile_image_size" android:layout_height="@dimen/timeline_profile_image_size" android:contentDescription="@string/accessibility_profile_picture" />
+    <ViewStub android:id="@id/add_profile_pic_stub" android:layout="@layout/timeline_add_profile_pic_btn" android:inflatedId="@id/add_profile_pic_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" />
+    <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/edit_profile_pic_icon_stub" android:layout="@layout/timeline_edit_profile_pic_icon" android:inflatedId="@id/edit_profile_pic_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

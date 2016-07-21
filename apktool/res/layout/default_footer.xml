@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/feed_feedback_container" android:layout_width="fill_parent" android:layout_height="?defaultFeedFeedbackHeight" style="?attr/defaultFeedFeedbackStyle">
+        <include layout="@layout/default_footer_buttons" />
+    </LinearLayout>
+</merge>

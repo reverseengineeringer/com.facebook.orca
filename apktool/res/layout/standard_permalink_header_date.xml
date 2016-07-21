@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/standard_permalink_header_date_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fbui_content_view_horizontal_padding" android:layout_marginStart="@dimen/fbui_content_view_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/date_day" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StandardPermalinkHeaderDateDay" />
+    <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/date_month" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StandardPermalinkHeaderDateMonth" />
+</LinearLayout>

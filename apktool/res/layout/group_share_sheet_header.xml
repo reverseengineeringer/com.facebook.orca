@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.messaging.groups.sharesheet.GroupCustomShareActionsView android:id="@id/share_sheet_actions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+    <com.facebook.messaging.groups.sharesheet.ToggleApprovalsShareSheetView android:id="@id/share_sheet_toggle_approvals" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+    <FrameLayout android:id="@id/share_sheet_text_container" android:background="@color/orca_neue_primary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/share_sheet_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/share_sheet_snackbar_left_right_margin" android:layout_marginRight="@dimen/share_sheet_snackbar_left_right_margin" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/share_sheet_progress_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="?android:textColorSecondary" android:id="@id/share_sheet_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/share_sheet_snackbar_left_right_margin" android:layout_marginRight="@dimen/share_sheet_snackbar_left_right_margin" />
+        <ProgressBar android:id="@id/share_sheet_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </LinearLayout>
+</merge>

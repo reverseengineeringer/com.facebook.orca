@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="14.0sp" android:textColor="@color/fbui_white" android:gravity="start|center" android:id="@id/dsm_indicator_text" android:background="@color/dsm_orange" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="@dimen/dsm_top_banner_height" android:fontFamily="sans-serif"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <com.facebook.resources.ui.FbTextView android:textSize="14.0sp" android:textColor="@color/fbui_white" android:gravity="end|center" android:id="@id/dsm_indicator_settings" android:background="@color/dsm_orange" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:height="@dimen/dsm_top_banner_height" android:textAllCaps="true" android:fontFamily="sans-serif"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

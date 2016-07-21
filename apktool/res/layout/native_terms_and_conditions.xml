@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/fbui_white" android:padding="@dimen/native_terms_and_conditions_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/native_terms_and_conditions_text_size" android:textColor="@color/dialtone_optin_title_text_color" android:gravity="start" android:id="@id/terms_and_conditions_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/terms_and_conditions_spacer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.facebook.fig.button.FigButton android:id="@id/terms_and_conditions_okay_button" android:layout_width="fill_parent" android:layout_height="@dimen/dialtone_optin_button_primary_height" android:text="@string/ok" fb:buttonType="filled_large" />
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/terms_and_conditions_progress_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.ProgressBar.FBUi" />
+    <View android:id="@id/terms_and_conditions_bottom_spacer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

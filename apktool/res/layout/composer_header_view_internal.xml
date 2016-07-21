@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="top" android:id="@id/composer_header_profile_image" android:layout_width="@dimen/composer_profile_image_size_large" android:layout_height="@dimen/composer_profile_image_size_large" fb:placeholderImage="@drawable/no_avatar" fb:actualImageScaleType="centerCrop" fb:layout_useAsThumbnail="true" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/black" android:gravity="top" android:id="@id/meta_text" android:focusable="true" android:clickable="true" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.widget.FlowLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:horizontalSpacing="@dimen/underwood_status_text_side_padding" fb:verticalSpacing="@dimen/underwood_status_text_side_padding">
+        <ViewStub android:id="@id/loading_privacy_pill_view_stub" android:layout="@layout/pill_view" android:inflatedId="@id/loading_privacy_pill_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/selectable_privacy_pill_view_stub" android:layout="@layout/pill_view" android:inflatedId="@id/selectable_privacy_pill_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/privacy_tag_expansion_view_stub" android:layout="@layout/pill_view" android:inflatedId="@id/privacy_tag_expansion_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/fixed_privacy_pill_view_stub" android:layout="@layout/pill_view" android:inflatedId="@id/fixed_privacy_pill_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/implicit_location_pill_view_stub" android:layout="@layout/pill_view" android:inflatedId="@id/implicit_location_pill_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/album_pill_view_stub" android:layout="@layout/pill_view" android:inflatedId="@id/album_pill_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/topic_pills_view_stub" android:layout="@layout/composer_topic_selection_bar" android:inflatedId="@id/topic_pills_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.facebook.widget.FlowLayout>
+</merge>

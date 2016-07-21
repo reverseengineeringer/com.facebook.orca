@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/thread_media_preview_thumbnail" android:layout_width="@dimen/thread_list_item_media_preview_size" android:layout_height="@dimen/thread_list_item_media_preview_size" fb:placeholderImage="@color/orca_image_placeholder_color" fb:roundedCornerRadius="@dimen/thread_list_item_media_preview_rounded_corner_radius" fb:roundWithOverlayColor="@android:color/white" />
+    <ImageView android:layout_gravity="center" android:id="@id/thread_media_preview_overlay" android:layout_width="@dimen/thread_list_item_media_preview_play_overlay_size" android:layout_height="@dimen/thread_list_item_media_preview_play_overlay_size" android:src="@drawable/play_circle" />
+</merge>

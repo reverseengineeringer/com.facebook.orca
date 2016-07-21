@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/orca_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/orca_reg_automatic_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/orca_reg_side_margin">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/orca_reg_spinner_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_reg_normal_margin" />
+                <com.facebook.widget.text.BetterTextView android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/orca_reg_confirming_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.facebook.widget.text.BetterTextView android:layout_gravity="bottom|center" android:id="@id/orca_reg_confirm_manually_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/orca_reg_side_margin" android:layout_marginBottom="@dimen/orca_reg_side_margin" android:text="@string/orca_reg_confirm_manually_text" style="@style/OrcaRegBlueTextButton" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/orca_reg_manual_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/orca_reg_side_margin" android:layout_weight="1.0">
+            <com.facebook.widget.text.BetterTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_reg_intertitle_margin" android:text="@string/orca_reg_confirm_title" style="@style/Widget.Messenger.TextView.Title" />
+            <com.facebook.widget.text.BetterTextView android:gravity="center" android:id="@id/orca_reg_confirm_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_reg_intertitle_margin" style="@style/Widget.Messenger.TextView.Secondary.Wide" />
+            <com.facebook.messaging.registration.fragment.SplitFieldCodeInputView android:id="@id/orca_reg_code_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/orca_reg_normal_margin" android:layout_marginBottom="@dimen/orca_reg_normal_margin" />
+            <com.facebook.resources.ui.FbTextView android:id="@id/orca_reg_confirm_error" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.facebook.widget.text.BetterTextView android:id="@id/orca_reg_resend_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/orca_reg_confirm_resend_code" style="@style/OrcaRegBlueTextButton" />
+        </LinearLayout>
+        <android.support.v7.internal.widget.ViewStubCompat android:layout_gravity="bottom" android:id="@id/login_footer_holder" android:layout="@layout/facebook_login_footer_alternate" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

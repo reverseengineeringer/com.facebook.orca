@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/event_reminder_settings_row_glyph" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:glyphColor="@color/orca_neue_primary" style="@style/EventReminderSettingsRowGlyphView" />
+    <com.facebook.widget.text.BetterTextView android:id="@id/event_reminder_settings_row_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EventReminderSettingsRowTextView" />
+</com.facebook.widget.CustomLinearLayout>

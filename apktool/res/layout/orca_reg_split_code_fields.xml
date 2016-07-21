@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.DigitEditText android:id="@id/orca_reg_code_input_digit0" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SplitCodeField" />
+    <com.facebook.resources.ui.DigitEditText android:id="@id/orca_reg_code_input_digit1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SplitCodeField" />
+    <com.facebook.resources.ui.DigitEditText android:id="@id/orca_reg_code_input_digit2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SplitCodeField" />
+    <com.facebook.resources.ui.DigitEditText android:id="@id/orca_reg_code_input_digit3" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SplitCodeField" />
+    <com.facebook.resources.ui.DigitEditText android:id="@id/orca_reg_code_input_digit4" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SplitCodeField" />
+    <com.facebook.resources.ui.DigitEditText android:id="@id/orca_reg_code_input_digit5" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SplitCodeField" />
+</LinearLayout>

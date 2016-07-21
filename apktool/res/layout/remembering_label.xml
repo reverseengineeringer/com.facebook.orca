@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timeline_remembering_label" android:maxLines="2" android:shadowColor="#7f000000" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:fontFamily="sans-serif-light"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

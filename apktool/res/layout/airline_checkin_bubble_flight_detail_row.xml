@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.business.airline.view.AirlineFlightRouteView android:id="@id/airline_checkin_bubble_flight_route" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/airline_margin_default" android:layout_marginBottom="@dimen/airline_margin_default" fb:bubbleType="checkin" style="@style/airline_horizontal_margin_default"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

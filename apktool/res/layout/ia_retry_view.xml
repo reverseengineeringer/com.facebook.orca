@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.richdocument.view.widget.InstantArticlesRetryViewGroup android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.resources.ui.FbTextView android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/ia_retry_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ia_load_failure_error_message" />
+        <com.facebook.resources.ui.FbTextView android:textColor="@color/richdocument_30_percent_black" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ia_retry_subtitle_line_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/richdocument_load_failure_retry_message_line_1" />
+        <com.facebook.resources.ui.FbTextView android:textColor="@color/richdocument_30_percent_black" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ia_retry_subtitle_line_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/richdocument_load_failure_retry_message_line_2" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/ia_retry_image" android:layout_width="@dimen/ia_retry_button_size" android:layout_height="@dimen/ia_retry_button_size" android:src="@drawable/richdocument_retry" />
+    </LinearLayout>
+</com.facebook.richdocument.view.widget.InstantArticlesRetryViewGroup>

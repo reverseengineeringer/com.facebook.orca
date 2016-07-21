@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:layout_gravity="center" android:background="@drawable/add_comment_place_info_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/comment_place_info_vertical_margin" android:layout_marginBottom="@dimen/comment_place_info_vertical_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterButton android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fig_usage_secondary_text" android:id="@id/add_place_to_map_button" android:paddingTop="@dimen/fbui_button_padding_top_small" android:paddingBottom="@dimen/fbui_button_padding_bottom_small" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/comment_add_place_to_map_button" fb:fontFamily="roboto" fb:fontWeight="medium" />
+</com.facebook.widget.CustomFrameLayout>

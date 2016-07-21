@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Messenger.Dialog.SlidingSheet.Text.Caption" />
+    <com.facebook.widget.text.BetterTextView android:gravity="center_horizontal" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Messenger.Dialog.SlidingSheet.Text.Subcaption" />
+    <android.support.v7.widget.RecyclerView android:id="@id/suggestions" android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/Widget.Messenger.Dialog.SlidingSheet.List" />
+</merge>

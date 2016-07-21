@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContactsAccountType
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ContactsDataKind android:icon="@drawable/quick_contacts_message" android:mimeType="vnd.android.cursor.item/com.facebook.messenger.chat" android:summaryColumn="data2" android:detailColumn="data3" />
+    <ContactsDataKind android:icon="@drawable/quick_contacts_message" android:mimeType="vnd.android.cursor.item/com.facebook.messenger.smsChat" android:summaryColumn="data2" android:detailColumn="data3" />
+    <ContactsDataKind android:icon="@drawable/quick_contacts_phone" android:mimeType="vnd.android.cursor.item/com.facebook.messenger.audiocall" android:summaryColumn="data2" android:detailColumn="data3" />
+    <ContactsDataKind android:icon="@drawable/quick_contacts_video" android:mimeType="vnd.android.cursor.item/com.facebook.messenger.videocall" android:summaryColumn="data2" android:detailColumn="data3" />
+</ContactsAccountType>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.FbTextView android:textSize="13.0sp" android:textColor="@color/fig_ui_black" android:id="@id/nux_refresher_bio_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_nux_refresher_bio_text" android:fontFamily="sans-serif" android:textAlignment="center"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

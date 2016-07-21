@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/fbui_white" android:layout_width="@dimen/payment_bubble_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/theme_stub" android:layout="@layout/orca_payment_view_theme_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/header_stub" android:layout="@layout/orca_payment_view_header_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/dollar_amount_stub" android:layout="@layout/orca_payment_view_dollar_amount_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/recipient_name_stub" android:layout="@layout/orca_payment_view_recipient_name_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/loading_stub" android:layout="@layout/orca_payment_view_loading_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/details_stub" android:layout="@layout/orca_payment_view_details_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/supplementary_stub" android:layout="@layout/orca_payment_view_supplementary_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/action_buttons_stub" android:layout="@layout/orca_payment_view_action_buttons_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

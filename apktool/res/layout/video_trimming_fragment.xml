@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/video_trimming_layout" android:background="@color/video_trimming_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/video_preview_area" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/trimming_preview_margin" android:layout_weight="1.0">
+        <com.facebook.videocodec.trimming.VideoTrimmingPreviewView android:id="@id/video_trimming_preview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.facebook.widget.listview.EmptyListViewItem android:id="@id/empty_item_view" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <include android:id="@id/video_trimming_editing_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/video_trimming_area" />
+</LinearLayout>

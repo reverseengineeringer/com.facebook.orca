@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.ShimmerFrameLayout android:background="@android:color/white" android:paddingLeft="@dimen/review_view_standard_padding" android:paddingTop="@dimen/review_view_standard_padding" android:paddingRight="@dimen/review_view_standard_padding" android:paddingBottom="@dimen/review_feed_histogram_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/review_view_standard_padding" fb:auto_start="true" fb:base_alpha="0.45" fb:duration="1000" fb:repeat_mode="restart" fb:shape="linear" fb:tilt="10.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.feedplugins.loadingindicator.LoadingStoryView android:layout_width="fill_parent" android:layout_height="@dimen/review_loading_story_height" android:scaleType="fitEnd" />
+</com.facebook.widget.ShimmerFrameLayout>

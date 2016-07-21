@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center" android:id="@id/inbox_quick_share_search_image" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" fb:actualImageScaleType="center" fb:backgroundImage="@color/black_alpha_54" fb:roundAsCircle="true" style="?threadListItemThreadTileStyle" />
+    <com.facebook.resources.ui.FbTextView android:textSize="12.0dip" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/inbox_quick_share_search_button" android:singleLine="true" />
+</merge>

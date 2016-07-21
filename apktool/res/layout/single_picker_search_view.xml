@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/search_arrow_back" android:background="?selectableItemBackgroundBorderless" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msgr_ic_arrow_back" android:contentDescription="@string/navigate_up_content_description" fb:glyphColor="?colorControlNormal" />
+    <android.support.v7.widget.SearchView android:id="@id/search_view" android:background="?singlePickerBackground" android:layout_width="fill_parent" android:layout_height="?actionBarSize" fb:iconifiedByDefault="false" />
+</merge>

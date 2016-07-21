@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:id="@id/page_service_carousel_item_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/page_service_carousel_item_cover_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:actualImageScaleType="centerCrop" />
+    <View android:id="@id/page_service_carousel_item_gradient" android:background="@drawable/page_identity_services_carousel_gradient_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.widget.CustomLinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:padding="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.resources.ui.FbTextView android:textColor="@color/fig_usage_dark_primary_text" android:ellipsize="end" android:id="@id/page_service_carousel_item_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/TextAppearance.Fig.LargeSize.PrimaryColor" />
+        <com.facebook.resources.ui.FbTextView android:textColor="@color/fig_usage_dark_primary_text" android:ellipsize="end" android:id="@id/page_service_carousel_item_price_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/TextAppearance.Fig.SmallSize.PrimaryColor" />
+    </com.facebook.widget.CustomLinearLayout>
+</com.facebook.widget.CustomFrameLayout>

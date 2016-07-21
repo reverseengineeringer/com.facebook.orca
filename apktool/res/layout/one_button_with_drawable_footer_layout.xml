@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/feed_feedback_divider" android:background="@color/feed_feedback_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/one_px" />
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:background="@drawable/feed_feedback_whole_button_bg_selector" android:layout_width="fill_parent" android:layout_height="@dimen/fbui_image_button_size_small">
+        <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/footer_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/one_grid_size" android:layout_marginRight="@dimen/one_grid_size" android:layout_centerInParent="true" android:layout_marginStart="@dimen/one_grid_size" android:layout_marginEnd="@dimen/one_grid_size" style="@style/ufi_button_text" />
+        <ImageView android:gravity="center" android:id="@id/footer_text_single_button_glyph_disclosure" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/footer_text" android:layout_toEndOf="@id/footer_text" />
+        <ImageView android:gravity="center" android:id="@id/footer_text_single_button_glyph_share" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/footer_text" android:layout_toStartOf="@id/footer_text" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+</merge>

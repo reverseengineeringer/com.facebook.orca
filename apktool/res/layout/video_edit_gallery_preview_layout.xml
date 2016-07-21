@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.video.creativeediting.VideoEditGalleryVideoPreviewView android:layout_gravity="center" android:id="@id/video_preview_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/video_edit_gallery_inline_metadata_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.video.creativeediting.VideoEditGalleryTrimmerFilmstripView android:id="@id/video_edit_gallery_filmstrip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/gallery_trimmer_filmstrip_container_height" />
+</merge>

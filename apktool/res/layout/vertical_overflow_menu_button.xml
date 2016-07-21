@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/menu_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fullscreen_video_control_padding" android:layout_marginRight="@dimen/fullscreen_video_control_padding" android:src="@drawable/fullscreen_video_menu_button" android:contentDescription="@string/accessibility_overflow_menu" android:layout_marginStart="@dimen/fullscreen_video_control_padding" android:layout_marginEnd="@dimen/fullscreen_video_control_padding" />
+</merge>

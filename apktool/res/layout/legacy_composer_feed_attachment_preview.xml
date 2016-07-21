@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/composer_attachment_preview_attachment_container" android:paddingTop="@dimen/fbui_padding_standard" android:paddingBottom="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/composer_attachment_preview_remove_button" android:padding="@dimen/underwood_remove_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preview_attachment_remove_button_margin_top" android:src="@drawable/remove_icon" />
+</FrameLayout>

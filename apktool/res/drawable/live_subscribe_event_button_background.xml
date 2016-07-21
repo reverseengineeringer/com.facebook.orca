@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/transparent" />
+    <stroke android:width="1.0dip" android:color="@color/fbui_bluegrey_20" />
+    <corners android:topLeftRadius="@dimen/live_subscribe_event_background_corner_radius" android:topRightRadius="@dimen/live_subscribe_event_background_corner_radius" android:bottomLeftRadius="@dimen/live_subscribe_event_background_corner_radius" android:bottomRightRadius="@dimen/live_subscribe_event_background_corner_radius" />
+</shape>

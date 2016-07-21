@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/fbui_bluegrey_5" android:paddingLeft="@dimen/composer_topic_selection_listing_header_padding_left_right" android:paddingTop="@dimen/composer_topic_selection_listing_header_padding_top_bottom" android:paddingRight="@dimen/composer_topic_selection_listing_header_padding_left_right" android:paddingBottom="@dimen/composer_topic_selection_listing_header_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/composer_topic_selection_listing_header_text" style="@style/TextAppearance.Fig.LargeSize.PrimaryColor" />
+    <com.facebook.resources.ui.FbTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/composer_topic_selection_listing_header_action_text" android:singleLine="false" style="@style/TextAppearance.Fig.MediumSize.SecondaryColor" />
+</LinearLayout>

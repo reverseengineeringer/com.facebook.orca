@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/image_contents" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <ViewStub android:id="@id/image_stub" android:layout="@layout/uw_swipable_photo_layout" android:inflatedId="@id/image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.facebook.photos.tagging.shared.FaceBoxesView android:id="@id/faceboxes_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.facebook.photos.creativeediting.renderers.CreativeEditingPhotoOverlayView android:id="@id/editing_overlay_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:layout_gravity="center" android:id="@id/video_icon" android:layout="@layout/uw_video_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="bottom|center|left" android:id="@id/video_edit_icon_stub" android:visibility="gone" android:layout="@layout/video_edit_gallery_launcher_button" android:inflatedId="@id/video_edit_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/composer_video_edit_button_left_margin" android:layout_marginStart="@dimen/composer_video_edit_button_left_margin" />
+        <ViewStub android:layout_gravity="bottom" android:id="@id/editing_stub" android:layout="@layout/photo_editing_controls" android:inflatedId="@id/editing_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include layout="@layout/uw_remove_button_layout" />
+    <com.facebook.tagging.ui.MentionsAutoCompleteTextView android:textSize="15.5sp" android:textColor="@color/black" android:textColorHint="?android:textColorTertiary" android:id="@id/edit_caption_box" android:background="@color/white" android:paddingLeft="12.0dip" android:paddingTop="6.5dip" android:paddingRight="12.0dip" android:paddingBottom="@dimen/underwood_caption_bottom_padding" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/composer_uw_caption_box_hint" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionDone" android:textCursorDrawable="@null" />
+</merge>

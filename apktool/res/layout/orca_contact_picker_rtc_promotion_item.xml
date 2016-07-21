@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/rtc_promotion_icon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/msgr_ic_people" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" fb:glyphColor="@color/orca_neue_primary" />
+    <com.facebook.widget.text.SimpleVariableTextLayoutView android:id="@id/rtc_promotion_text" android:layout_width="fill_parent" android:layout_height="?contactPickerRowHeight" android:layout_marginLeft="?contactPickerContainerMarginLeft" android:layout_toRightOf="@id/rtc_promotion_icon" android:layout_alignParentRight="true" android:layout_marginStart="?contactPickerContainerMarginLeft" android:layout_toEndOf="@id/rtc_promotion_icon" android:layout_alignParentEnd="true" fb:text="@string/voip_start_group_call_title" style="?attr/contactPickerItemNameStyle" />
+</merge>

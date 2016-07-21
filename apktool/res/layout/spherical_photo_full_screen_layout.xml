@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.attachments.photos.ui.FullScreenPhoto360View android:id="@id/photo_360_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.photos.sphericalphoto.SphericalPhotoFooterView android:id="@id/spherical_photo_footer_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

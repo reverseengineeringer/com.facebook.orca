@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:id="@id/learn_more" android:text="@string/group_commerce_footer_text" style="@style/Awareness.ActionText" />
+</merge>

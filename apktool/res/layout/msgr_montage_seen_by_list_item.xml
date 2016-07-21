@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.montage.viewer.MontageSeenByListItemView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.user.tiles.UserTileView android:layout_gravity="center_vertical" android:id="@id/user_tile" android:layout_marginLeft="@dimen/montage_seen_by_list_padding_horizontal" android:layout_marginStart="@dimen/montage_seen_by_list_padding_horizontal" style="@style/MontageSeenByList.UserTile" />
+    <com.facebook.widget.CustomLinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/montage_seen_by_list_padding_horizontal" android:paddingTop="@dimen/montage_seen_by_list_padding_vertical" android:paddingRight="@dimen/montage_seen_by_list_padding_horizontal" android:paddingBottom="@dimen/montage_seen_by_list_padding_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/montage_seen_by_list_title_row_height" android:layout_weight="1.0">
+        <com.facebook.resources.ui.FbTextView android:layout_gravity="center_vertical" android:id="@id/participant_name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MontageSeenByList.Text.ParticipantName" />
+        <com.facebook.resources.ui.FbTextView android:id="@id/last_read_timestamp" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MontageSeenByList.Text.LastSeenTimestamp" />
+    </com.facebook.widget.CustomLinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/overflow_handle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/montage_seen_by_list_padding_horizontal" android:src="@drawable/three_dots_vertical_light_grey_l" android:layout_marginEnd="@dimen/montage_seen_by_list_padding_horizontal" />
+</com.facebook.messaging.montage.viewer.MontageSeenByListItemView>

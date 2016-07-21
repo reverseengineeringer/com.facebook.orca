@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/richdocument_byline" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/richdocument_block_new"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/richdocument_byline_images" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/richdocument_byline_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/richdocument_byline_images" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <com.facebook.richdocument.view.widget.RichTextView android:id="@id/richdocument_byline_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_toRightOf="@id/richdocument_byline_image" android:layout_below="@id/richdocument_byline_images" android:layout_toEndOf="@id/richdocument_byline_image" style="@style/richdocument_mini_label_text_style" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

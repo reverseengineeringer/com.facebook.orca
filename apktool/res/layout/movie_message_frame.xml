@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/movie_message_header_height" android:layout_marginLeft="@dimen/movie_message_margin" android:layout_marginTop="@dimen/movie_message_margin" android:layout_marginRight="@dimen/movie_message_margin" android:layout_marginBottom="@dimen/movie_message_header_margin" android:layout_marginStart="@dimen/movie_message_margin" android:layout_marginEnd="@dimen/movie_message_margin" orca:actualImageScaleType="fitStart" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/movie_secondary_text_size" android:textStyle="bold" android:textColor="@color/movie_primary_text" android:layout_gravity="right" android:id="@id/call_to_action" android:background="@drawable/orca_neue_item_background" android:padding="@dimen/movie_message_call_to_action_padding" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

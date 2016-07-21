@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomRelativeLayout android:id="@id/preference_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/orca_me_preference_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@android:id/icon" android:layout_width="@dimen/orca_me_preference_icon_size" android:layout_height="@dimen/orca_me_preference_icon_size" fb:glyphColor="?preferenceIconColor" style="@style/MePreferenceIconStyle" />
+    <LinearLayout android:orientation="horizontal" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MePreferenceWidgetStyle" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_toLeftOf="@android:id/widget_frame" android:layout_toRightOf="@android:id/icon" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@android:id/widget_frame" android:layout_toEndOf="@android:id/icon">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/black" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:adjustLRGravityByTextDirectionCompat="true" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" fb:adjustLRGravityByTextDirectionCompat="true" />
+    </LinearLayout>
+    <View android:id="@id/preference_border" android:background="#ffe5e5e5" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="72.0dip" android:layout_toRightOf="@id/icon" android:layout_alignParentBottom="true" android:layout_marginStart="72.0dip" android:layout_toEndOf="@id/icon" />
+</com.facebook.widget.CustomRelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.user.tiles.UserTileView android:layout_gravity="center" android:id="@id/profile_image" android:layout_width="@dimen/protect_conversation_tile_icon_size" android:layout_height="@dimen/protect_conversation_tile_icon_size" android:layout_marginTop="@dimen/protect_conversation_tile_icon_top_down_margin" android:layout_marginBottom="@dimen/protect_conversation_tile_icon_top_down_margin" fb:tileSize="@dimen/protect_conversation_tile_icon_size" fb:facebookBadge="@drawable/orca_facebook_user_badge" fb:messengerBadge="@drawable/orca_messenger_user_badge" fb:asCircle="true" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/protect_conversation_text_size" android:layout_gravity="center_vertical" android:id="@id/profile_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/protect_conversation_text_margin_left" android:layout_weight="1.0" android:layout_marginStart="@dimen/protect_conversation_text_margin_left" />
+    <com.facebook.resources.ui.FbSwitch android:layout_gravity="center_vertical" android:id="@id/protect_conversation_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

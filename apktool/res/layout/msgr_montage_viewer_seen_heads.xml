@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.messaging.montage.viewer.MontageSeenHeadsRecyclerView android:id="@id/seen_heads_recycler_view" android:paddingLeft="@dimen/material_standard_padding" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.facebook.fbui.glyph.GlyphButton android:id="@id/overflow_handle" android:layout_width="@dimen/material_standard_touch_target_size" android:layout_height="fill_parent" android:src="@drawable/three_dots_vertical_light_grey_l" android:scaleType="centerInside" fb:glyphColor="@android:color/white" />
+</merge>

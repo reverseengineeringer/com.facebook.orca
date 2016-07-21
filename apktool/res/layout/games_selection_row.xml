@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center" android:id="@id/games_selection_row_image" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="6.0dip" fb:roundAsCircle="true" xmlns:fb="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.facebook.widget.text.BetterTextView android:textSize="16.0sp" android:id="@id/games_selection_row_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <com.facebook.widget.text.BetterTextView android:textSize="12.0sp" android:textColor="@color/fbui_grey_30" android:id="@id/games_selection_secondary_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+    </LinearLayout>
+    <com.facebook.widget.text.BetterButton android:textSize="16.0sp" android:textColor="@color/orca_neue_primary" android:gravity="center" android:id="@id/games_selection_play_button" android:layout_width="80.0dip" android:layout_height="50.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/games_selection_row_play" />
+</LinearLayout>

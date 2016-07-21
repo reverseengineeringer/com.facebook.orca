@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.quickcam.CaptureButton android:layout_gravity="bottom|center" android:id="@id/capture_photo_button" android:layout_width="@dimen/msgr_montage_composer_camera_btn_size" android:layout_height="@dimen/msgr_montage_composer_camera_btn_size" android:layout_marginLeft="@dimen/msgr_montage_composer_camera_btn_side_margin" android:layout_marginRight="@dimen/msgr_montage_composer_camera_btn_side_margin" android:layout_marginBottom="@dimen/msgr_montage_composer_camera_btn_bottom_margin" android:contentDescription="@string/quickcam_capture_photo"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

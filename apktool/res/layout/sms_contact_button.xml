@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.glyph.GlyphView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msgr_ic_thread_details" android:contentDescription="@string/view_contact_label" fb:glyphColor="@color/orca_sms_primary" style="?actionButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

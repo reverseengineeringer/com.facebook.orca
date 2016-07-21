@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/fbui_padding_standard" android:paddingBottom="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tokenizedtypeahead_loading_left_padding" android:layout_marginRight="@dimen/fbui_padding_standard" android:layout_marginStart="@dimen/tokenizedtypeahead_loading_left_padding" android:layout_marginEnd="@dimen/fbui_padding_standard" style="@style/Widget.ProgressBar.FBUi" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium_large" android:layout_gravity="center_vertical" android:id="@id/tokenizedtyeahead_loading_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/typeahead_view_loading_text" />
+</LinearLayout>

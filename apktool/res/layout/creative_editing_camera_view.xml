@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.photos.creativecam.ui.CreativeCamLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/top_level_camera_container" layout="@layout/camera_layout" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/top_level_bottom_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/top_level_top_bar_container" layout="@layout/top_bar_layout" />
+</com.facebook.photos.creativecam.ui.CreativeCamLayout>

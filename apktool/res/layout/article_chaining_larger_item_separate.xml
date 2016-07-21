@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/article_chaining_item" android:background="@drawable/feed_attachment_background" android:layout_width="@dimen/article_chaining_item_width_separate" android:layout_height="wrap_content">
+        <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/article_chaining_item_image" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:viewAspectRatio="1.0" fb:placeholderImage="@drawable/cover_photo_placeholder" fb:actualImageScaleType="centerCrop" />
+            <com.facebook.attachments.angora.InstantArticleIconView android:id="@id/article_chaining_lightning_icon" android:background="@color/transparent" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="12.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
+        </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.facebook.resources.ui.EllipsizingTextView android:textSize="@dimen/article_chaining_item_title_text" android:textStyle="bold" android:textColor="@color/feed_attachment_title_color" android:id="@id/article_chaining_item_title" android:paddingLeft="@dimen/article_chaining_item_text_right_padding" android:paddingRight="@dimen/article_chaining_item_text_right_padding" android:layout_width="fill_parent" android:layout_height="@dimen/article_chaining_item_text_height" android:layout_marginTop="@dimen/article_chaining_larger_item_top_margin" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="0.5dip" fb:ellipsizeLineBreaks="false" />
+            <com.facebook.widget.text.BetterTextView android:textSize="@dimen/article_chaining_item_subtitle_text" android:textColor="@color/feed_attachment_context_color" android:ellipsize="end" android:id="@id/article_chaining_item_subtitle" android:paddingLeft="@dimen/article_chaining_item_text_right_padding" android:paddingRight="@dimen/article_chaining_item_text_right_padding" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" fb:adjustLRGravityByTextDirectionCompat="true" />
+        </LinearLayout>
+        <ViewStub android:id="@id/article_chaining_action_footer_stub" android:layout="@layout/article_chaining_action_footer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

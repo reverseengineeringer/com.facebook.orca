@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/netego_story_set_item_header_base_layout" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/feed_app_ad_description_color" android:ellipsize="end" android:id="@id/story_set_forsale_item_title" android:paddingLeft="@dimen/feed_story_margin" android:paddingRight="@dimen/feed_story_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:id="@id/story_set_forsale_item_price" android:paddingLeft="@dimen/feed_story_margin" android:paddingRight="@dimen/feed_story_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

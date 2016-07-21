@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.messaging.business.airline.view.AirlineHeaderView android:id="@id/airline_boarding_pass_bubble_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/airline_bubble_header_height" fb:bubbleType="boarding" />
+    <include layout="@layout/airline_divider_reverse" />
+    <com.facebook.messaging.business.airline.view.AirlinePassengerTableView android:id="@id/airline_boarding_pass_bubble_passenger_table" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/airline_margin_default" android:layout_marginBottom="@dimen/airline_margin_default" fb:reverseColor="true" style="@style/airline_horizontal_margin_default" />
+    <include layout="@layout/airline_divider_reverse" />
+    <com.facebook.messaging.business.airline.view.AirlineFlightRouteView android:id="@id/airline_boarding_pass_bubble_flight_route" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/airline_margin_default" android:layout_marginBottom="@dimen/airline_margin_default" fb:bubbleType="boarding" style="@style/airline_horizontal_margin_default" />
+    <View android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.facebook.widget.text.BetterButton android:id="@id/airline_boarding_pass_bubble_label" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/airline_bubble_boarding_pass_label" style="@style/Widget.XMA.Button" />
+</merge>

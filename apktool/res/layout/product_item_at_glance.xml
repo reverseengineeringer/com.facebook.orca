@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/product_image" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:viewAspectRatio="1.0" />
+    <com.facebook.widget.text.BetterTextView android:gravity="top" android:id="@id/product_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fbui_padding_half_text" android:layout_marginRight="@dimen/fbui_padding_half_text" android:layout_marginStart="@dimen/fbui_padding_half_text" android:layout_marginEnd="@dimen/fbui_padding_half_text" style="@style/ProductItemLabel.Name" />
+    <com.facebook.widget.text.BetterTextView android:gravity="top" android:id="@id/product_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fbui_padding_half_text" android:layout_marginRight="@dimen/fbui_padding_half_text" android:layout_marginStart="@dimen/fbui_padding_half_text" android:layout_marginEnd="@dimen/fbui_padding_half_text" style="@style/ProductItemLabel.Price" />
+</merge>

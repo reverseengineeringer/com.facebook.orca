@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/pause_frame" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerCrop" android:layout_alignLeft="@id/video_container" android:layout_alignTop="@id/video_container" android:layout_alignRight="@id/video_container" android:layout_alignBottom="@id/video_container" android:layout_alignStart="@id/video_container" android:layout_alignEnd="@id/video_container" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/chat_head_width" android:layout_height="@dimen/chat_head_height" android:src="@drawable/orca_chat_head_overlay" android:adjustViewBounds="true" />
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/chat_head_tile_size" android:layout_height="@dimen/chat_head_tile_size" android:src="@drawable/chat_head_composer" android:adjustViewBounds="true" />
+</merge>

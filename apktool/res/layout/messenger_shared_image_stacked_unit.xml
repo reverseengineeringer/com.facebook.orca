@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/shared_image_group" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/shared_image_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/shared_image_preview_margin_size" android:layout_weight="1.0" layout="@layout/messenger_shared_image" />
+    <include android:id="@id/shared_image_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/messenger_shared_image" />
+</LinearLayout>

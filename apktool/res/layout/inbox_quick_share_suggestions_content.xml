@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/inbox_quick_share_heading_text_size" android:textColor="@color/black_alpha_87" android:gravity="center_vertical" android:paddingLeft="@dimen/inbox_quick_share_horizontal_padding" android:paddingRight="@dimen/inbox_quick_share_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/inbox_quick_share_heading_height" android:text="@string/inbox_quick_share_heading" />
+    <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@id/inbox_quick_share_suggestions_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</merge>

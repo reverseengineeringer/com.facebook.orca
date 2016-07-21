@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Messenger.Montage.Viewer" parent="@style/Theme.Messenger.Montage">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="Theme.Orca.Neue.IntentHandler" parent="@android:style/Theme.Translucent.NoTitleBar" />
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/floating_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <com.facebook.rtc.views.RtcFloatingPeerView android:id="@id/floating_peer_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" fb:cropToCircle="true" />
+        <com.facebook.rtc.views.RtcFloatingSelfView android:id="@id/floating_self_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" fb:cropToCircle="true" />
+        <com.facebook.resources.ui.FbTextView android:textColor="@color/black" android:gravity="center" android:id="@id/tap_to_full_holder" android:background="@color/rtc_transparent_white" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/rtc_tap_to_expand" android:layout_centerInParent="true" />
+        <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:gravity="top" android:orientation="horizontal" android:id="@id/tap_for_sound_holder" android:background="@drawable/rtc_rounded_corner_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" />
+        <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:gravity="top" android:orientation="horizontal" android:id="@id/video_chathead_incall_viewing_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip">
+            <com.facebook.user.tiles.UserTileView android:id="@id/watching_peer_profile_picture" android:layout_width="8.0dip" android:layout_height="8.0dip" fb:asCircle="true" />
+            <com.facebook.resources.ui.FbTextView android:textColor="@color/white90a" android:id="@id/remote_is_watching_textview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:shadowColor="@color/black" android:layout_marginStart="14.0dip" />
+        </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+        <ProgressBar android:gravity="center" android:id="@id/video_chathead_progress_to_expand" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Inverse" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/video_chathead_incall_button_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentBottom="true">
+            <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.facebook.fbui.glyph.GlyphButton android:id="@id/answer_call_button" android:background="@drawable/voip_instant_video_green_circle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_videocam_black_24dp" android:contentDescription="@string/incall_answer_call" fb:glyphColor="@color/white" />
+            </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+            <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.facebook.fbui.glyph.GlyphButton android:id="@id/toggle_video_button" android:background="@drawable/voip_instant_video_white_circle" android:layout_width="32.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_videocam_black_24dp" android:contentDescription="@string/incall_answer_call" fb:glyphColor="@color/black" />
+            </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+            <View android:id="@id/accept_divider" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.facebook.fbui.glyph.GlyphButton android:id="@id/incall_button_mute" android:background="@drawable/voip_instant_video_white_circle" android:layout_width="32.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_mic_black_24dp" android:contentDescription="@string/incall_toggle_mute" fb:glyphColor="@color/black" />
+            </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+            <View android:id="@id/camera_mute_divider" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.facebook.fbui.glyph.GlyphButton android:id="@id/swap_camera_button" android:background="@drawable/rtc_gray_circle_transparent" android:layout_width="32.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_loop_black_24dp" android:contentDescription="@string/incall_switch_camera" fb:glyphColor="@color/orca_white" />
+            </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.facebook.fbui.glyph.GlyphButton android:id="@id/decline_call_button" android:background="@drawable/voip_instant_video_red_circle" android:layout_width="32.0dip" android:layout_height="fill_parent" android:src="@drawable/msgr_ic_call_end_18px" android:contentDescription="@string/incall_decline_call" fb:glyphColor="@color/orca_white" />
+            </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+        </LinearLayout>
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

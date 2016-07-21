@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="top" android:id="@id/header_page_outcomes_container" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:layout_useAsAuxView="true">
+        <com.facebook.widget.FbImageView android:layout_gravity="end" android:id="@id/header_view_menu_button" android:paddingLeft="10.0dip" android:paddingTop="9.0dip" android:paddingRight="14.0dip" android:paddingBottom="7.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/feed_story_chevron" android:contentDescription="@string/accessibility_feed_unit_menu" />
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="start" android:id="@id/header_view_page_outcome_button" android:background="@color/fig_ui_light_05" android:paddingLeft="8.0dip" android:paddingTop="6.0dip" android:paddingRight="8.0dip" android:paddingBottom="6.0dip" android:layout_width="32.0dip" android:layout_height="28.0dip" android:layout_marginLeft="@dimen/feed_see_first_story_header_menu_button_left_margin" android:layout_marginTop="17.0dip" android:layout_marginRight="36.0dip" android:layout_marginStart="@dimen/feed_see_first_story_header_menu_button_left_margin" android:layout_marginEnd="36.0dip" />
+    </FrameLayout>
+</merge>

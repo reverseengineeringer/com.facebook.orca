@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.FbImageView android:layout_gravity="center|right|top" android:id="@id/remove_button" android:padding="@dimen/underwood_remove_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/underwood_remove_button_top_margin" android:layout_marginRight="@dimen/underwood_remove_button_right_margin" android:src="@drawable/uw_cross" android:contentDescription="@string/composer_photo_cancel_content_description" android:layout_marginEnd="@dimen/underwood_remove_button_right_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

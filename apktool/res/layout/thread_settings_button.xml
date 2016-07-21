@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.glyph.GlyphView android:id="@id/thread_settings_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msgr_ic_thread_details" android:contentDescription="@string/thread_details_label" fb:glyphColor="?topToolbarIconTintColor" style="?actionButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

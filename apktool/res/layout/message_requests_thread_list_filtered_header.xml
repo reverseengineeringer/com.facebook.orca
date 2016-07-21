@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/message_requests_header_divider_bg" android:padding="@dimen/message_request_threadlist_header_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/grey60" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/message_requests_filtered_requests_header" android:layout_weight="1.0" />
+</LinearLayout>

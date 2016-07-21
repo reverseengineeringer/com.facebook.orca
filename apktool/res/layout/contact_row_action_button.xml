@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.BetterButton android:textSize="@dimen/fbui_text_size_small" android:textStyle="bold" android:textColor="@color/contact_invite_button_text" android:background="@drawable/contact_invite_button" android:layout_width="wrap_content" android:layout_height="@dimen/contact_picker_invite_button_height" android:text="@string/invite_recipient_button"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

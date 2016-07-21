@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/unpin" android:orderInCategory="200" android:title="@string/orca_neue_pinned_groups_menu_unpin" />
+    <item android:id="@id/pin_to_top" android:orderInCategory="205" android:title="@string/orca_neue_pinned_groups_menu_pin_to_top" />
+    <item android:id="@id/open_chat_head" android:orderInCategory="210" android:title="@string/thread_context_menu_show_chat_head" />
+    <item android:id="@id/mute_notifications" android:orderInCategory="215" android:title="@string/menu_mute" />
+    <item android:id="@id/enable_notifications" android:orderInCategory="220" android:title="@string/menu_unmute" />
+    <item android:id="@id/create_shortcut" android:orderInCategory="225" android:title="@string/thread_context_menu_create_shortcut" />
+</menu>

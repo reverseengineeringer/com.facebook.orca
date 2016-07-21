@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/thread_list_empty_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_xxxlarge_3" android:textColor="@color/grey60" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_requests_empty_view_title" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/grey60" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_requests_empty_view_description" />
+    <com.facebook.widget.text.BetterTextView android:layout_gravity="center_horizontal" android:id="@id/thread_list_refresh_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_requests_refresh_label" style="@style/Widget.Messenger.Button.Blue.Nux" />
+</com.facebook.widget.CustomLinearLayout>

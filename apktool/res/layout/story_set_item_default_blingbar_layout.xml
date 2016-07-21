@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.feedplugins.base.blingbar.ui.ConstantHeightBlingBarView android:id="@id/story_set_item_bling_bar" android:paddingLeft="@dimen/story_set_bling_bar_margin" android:paddingRight="@dimen/story_set_bling_bar_margin" android:paddingBottom="@dimen/story_set_bling_bar_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/one_px"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

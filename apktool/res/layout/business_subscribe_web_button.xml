@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/folllow_button_text" android:layout_width="wrap_content" android:layout_height="@dimen/subscribe_button_height" style="@style/subscribe_button" />
+    <ImageView android:layout_gravity="start|center" android:id="@id/follow_button_icon" android:layout_width="@dimen/subscribe_button_icon_size" android:layout_height="@dimen/subscribe_button_icon_size" android:layout_marginLeft="@dimen/subscribe_button_icon_margin" android:scaleType="centerInside" android:layout_marginStart="@dimen/subscribe_button_icon_margin" />
+</merge>

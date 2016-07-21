@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.user.tiles.UserTileView android:layout_gravity="center|top" android:id="@id/user_tile_view" android:layout_marginTop="@dimen/call_upsell_user_tile_top_margin" android:layout_marginBottom="@dimen/call_upsell_user_tile_bottom_margin" fb:facebookBadge="@drawable/orca_facebook_user_badge" fb:messengerBadge="@drawable/orca_messenger_user_badge" style="@style/call_upsell_user_tile" />
+    <com.facebook.widget.text.BetterTextView android:id="@id/upsell_message" style="@style/call_upsell_confirm_message" />
+    <com.facebook.widget.text.BetterTextView android:id="@id/upsell_subtitle" android:layout_marginBottom="@dimen/call_upsell_confirm_dialog_subtitle_bottom_margin" android:text="@string/business_call_upsell_text_confirm_dialog_subtitle" style="@style/call_upsell_confirm_subtitle" />
+    <LinearLayout android:gravity="right" android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/call_upsell_confirm_button_margin">
+        <com.facebook.widget.text.BetterTextView android:id="@id/cancel_button" android:text="@string/call_upsell_confirm_dialog_cancel_button" style="@style/call_upsell_confirm_buttons" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/switch_button" android:text="@string/call_upsell_confirm_dialog_switch_button" style="@style/call_upsell_confirm_buttons" />
+    </LinearLayout>
+</merge>

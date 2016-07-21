@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.FbTextView android:id="@id/page_identity_posts_by_others_total_posts" android:padding="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/pages_manager_posts_by_others" android:drawablePadding="@dimen/fbui_padding_standard" android:layout_centerVertical="true" style="@style/Pages.TextAppearance.Dark.Large"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/zero_indicator_titlebar_stub" android:layout="@layout/fb4a_zero_indicator_wrapper" android:inflatedId="@id/zero_indicator_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/dialtone_switcher_bar_stub" android:layout="@layout/dialtone_switcher_bar_wrapper" android:inflatedId="@id/dialtone_switcher_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.ui.titlebar.Fb4aTitleBar android:id="@id/titlebar" android:background="?titleBarBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" style="@android:style/Widget.ProgressBar.Inverse" />
+        <ListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView android:id="@id/imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/nux_phones" android:scaleType="matrix" android:layout_weight="4.0" />
+</LinearLayout>

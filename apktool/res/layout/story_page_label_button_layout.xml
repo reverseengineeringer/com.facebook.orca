@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.attachments.angora.actionbutton.GenericActionButtonView android:gravity="center_vertical" android:id="@id/story_set_item_action_button" android:padding="@dimen/feed_attachment_action_container_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" fb:layout_useAsAuxView="true" />
+</merge>

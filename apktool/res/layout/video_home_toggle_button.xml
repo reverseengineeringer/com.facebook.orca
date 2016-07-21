@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center_vertical" android:id="@id/glyph" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/fbui_checkmark_l" android:layout_marginStart="0.0dip" android:layout_marginEnd="4.0dip" fb:glyphColor="@color/fig_usage_dark_primary_text" />
+    <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:textColor="@color/fig_usage_dark_primary_text" android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/fbui_white" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.fbui.facepile.FacepileView android:gravity="center" android:id="@id/popup_facepile" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:roundingBorderWidth="1.0dip" fb:roundingBorderColor="@color/fbui_white" fb:horizontalPadding="-4.0dip" fb:faceSize="24.0dip" fb:roundFaces="true" fb:facepilePlaceholderImage="@drawable/default_avatar" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fig_usage_secondary_text" android:id="@id/popup_facepile_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <View android:layout_gravity="center_horizontal" android:id="@id/popup_facepile_nub" android:layout_width="12.0dip" android:layout_height="6.0dip" />
+</merge>

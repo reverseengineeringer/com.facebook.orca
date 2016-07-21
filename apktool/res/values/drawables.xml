@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="thread_item_unread_background_color">#ffe4e9f2</item>
+    <item type="drawable" name="gray_wash_color">#88555555</item>
+    <item type="drawable" name="audio_player_timer_text_left_normal">#fff8effe</item>
+    <item type="drawable" name="audio_player_timer_text_left_selected">#ffa73cec</item>
+    <item type="drawable" name="audio_player_timer_text_right_normal">#ffdfedff</item>
+    <item type="drawable" name="audio_player_timer_text_right_selected">#ff5393ed</item>
+    <item type="drawable" name="audio_player_timer_text_left_normal_neue">@color/orca_convo_bubble_normal</item>
+    <item type="drawable" name="audio_player_timer_text_left_selected_neue">@color/orca_convo_bubble_normal</item>
+    <item type="drawable" name="audio_player_timer_text_right_normal_neue">#ff1787fb</item>
+    <item type="drawable" name="audio_player_timer_text_right_selected_neue">#ff0d5eaf</item>
+    <item type="drawable" name="multipicker_cover_color">#c0eceef1</item>
+    <item type="drawable" name="url_image_upload_cover_color">#c0eceef1</item>
+    <item type="drawable" name="clear">#00000000</item>
+    <item type="drawable" name="loading_text_color">#ff787878</item>
+    <item type="drawable" name="dark_gray_text_color">#ff7d7d7d</item>
+    <item type="drawable" name="blue_text_color">#ff6085b8</item>
+    <item type="drawable" name="hlv_overscroll_glow">#00000000</item>
+    <item type="drawable" name="hlv_overscroll_edge">#00000000</item>
+</resources>

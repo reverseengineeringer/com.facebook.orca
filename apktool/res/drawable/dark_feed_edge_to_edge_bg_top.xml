@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/fbui_bluegrey_10" />
+        </shape>
+    </item>
+    <item android:left="@dimen/feed_substory_box_width" android:top="@dimen/feed_substory_box_width" android:right="@dimen/feed_substory_box_width">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/dark_edge_to_edge_background_color" />
+        </shape>
+    </item>
+</layer-list>

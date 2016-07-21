@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fbui_popover_window_max_width">520.0dip</dimen>
+    <dimen name="feed_top_ptr_chrome_margin">102.0dip</dimen>
+    <dimen name="new_stories_pill_titlebar_hideaway">98.0dip</dimen>
+    <dimen name="feed_publisher_button_text_size">14.0sp</dimen>
+    <dimen name="feed_publisher_button_text_size_caspian">12.0sp</dimen>
+    <dimen name="see_first_img_margin_horizontal">46.0dip</dimen>
+    <dimen name="see_first_img_width">89.0dip</dimen>
+    <dimen name="see_first_img_height">128.0dip</dimen>
+    <dimen name="follow_switcher_width">450.0dip</dimen>
+    <dimen name="follow_switcher_height">320.0dip</dimen>
+    <item type="dimen" name="collage_plus_n_text_size">@dimen/fbui_text_size_xxxlarge_6</item>
+    <dimen name="harrison_tab_bar_height">48.0dip</dimen>
+    <dimen name="harrison_tab_bar_above_indicator_height">42.0dip</dimen>
+    <dimen name="harrison_tab_bar_above_indicator_padding_top">7.0dip</dimen>
+    <dimen name="harrison_tab_bar_above_indicator_padding_bottom">3.0dip</dimen>
+    <dimen name="harrison_tab_bar_indicator_height">6.0dip</dimen>
+    <dimen name="harrison_total_chrome_height">96.0dip</dimen>
+    <dimen name="tab_max_width">520.0dip</dimen>
+</resources>

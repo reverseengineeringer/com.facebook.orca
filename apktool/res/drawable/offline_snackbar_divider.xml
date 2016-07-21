@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/offline_snackbar_divider_horizontal_padding" android:top="@dimen/offline_snackbar_divider_vertical_padding" android:right="@dimen/offline_snackbar_divider_horizontal_padding" android:bottom="@dimen/offline_snackbar_divider_vertical_padding">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/fbui_bluegrey_50" />
+        </shape>
+    </item>
+</layer-list>

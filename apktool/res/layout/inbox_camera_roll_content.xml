@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@id/inbox_camera_roll_recycler_view" android:paddingTop="@dimen/inbox_camera_roll_vertical_padding" android:paddingBottom="@dimen/inbox_camera_roll_vertical_padding" android:layout_width="fill_parent" android:layout_height="@dimen/inbox_camera_roll_height" />
+    <com.facebook.messaging.inbox2.sharing.ShareFlowSelectorView android:id="@id/inbox_camera_roll_share_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

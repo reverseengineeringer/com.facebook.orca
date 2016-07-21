@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/place_picker_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <ViewStub android:id="@id/blue_titlebar_stub" android:layout="@layout/composer_fb4atitlebar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/blue_titlebar_search_stub" android:layout="@layout/place_picker_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/fbui_wash_mobile" android:layout_width="fill_parent" android:layout_height="@dimen/one_px" />
+        <ViewStub android:id="@id/place_picker_edit_dialog_stub" android:layout="@layout/place_picker_edit_dialog_layout" android:inflatedId="@id/place_picker_edit_dialog_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/place_picker_megaphone_stub" android:layout="@layout/place_picker_megaphone_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/place_picker_alert_view_stub" android:layout="@layout/place_picker_alert_view_niem" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.places.checkin.ui.PlacesListContainer android:id="@id/nearby_places_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ViewStub android:layout_gravity="bottom" android:id="@id/place_picker_footer_stub" android:layout="@layout/place_picker_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

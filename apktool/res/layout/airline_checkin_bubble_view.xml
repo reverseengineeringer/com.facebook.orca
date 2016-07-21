@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.messaging.business.airline.view.AirlineHeaderView android:id="@id/airline_checkin_bubble_header" android:background="@color/airline_messenger_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/airline_bubble_header_height" fb:bubbleType="checkin" />
+    <LinearLayout android:orientation="vertical" android:id="@id/airline_checkin_bubble_flight_details_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.widget.text.BetterButton android:id="@id/airline_checkin_bubble_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/airline_bubble_checkin_label" style="@style/Widget.XMA.Button" />
+</merge>

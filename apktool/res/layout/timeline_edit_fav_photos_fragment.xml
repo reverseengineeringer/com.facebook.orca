@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/intro_card_privacy_message" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small_medium" android:textColor="@color/fbui_black" android:gravity="center_horizontal" android:id="@id/timeline_edit_fav_photos_hint" android:paddingTop="14.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timeline_edit_fav_photos_hint" />
+    <com.facebook.fig.button.FigButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/timeline_add_fav_photo_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/timeline_edit_fav_photos_add_photo_button_start_end_padding" android:layout_marginRight="@dimen/timeline_edit_fav_photos_add_photo_button_start_end_padding" android:layout_marginBottom="14.0dip" android:text="@string/timeline_add_fav_photo" android:layout_marginStart="@dimen/timeline_edit_fav_photos_add_photo_button_start_end_padding" android:layout_marginEnd="@dimen/timeline_edit_fav_photos_add_photo_button_start_end_padding" fb:glyphSrc="@drawable/photo_add" fb:buttonType="outline_primary_medium" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.widget.mosaic.MosaicGridLayout android:id="@id/timeline_fav_photos_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ViewStub android:id="@id/feed_sharing_view_stub" android:inflatedId="@id/feed_sharing_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

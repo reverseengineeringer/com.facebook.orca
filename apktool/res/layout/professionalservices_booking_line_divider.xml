@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/professionalservices_booking_line_divider" android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

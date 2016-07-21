@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ref_fbui_bluegrey_2" android:padding="@dimen/ref_fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/top_linearlayout" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <ImageView android:id="@id/app_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="12.0dip" />
+        <com.facebook.resources.ui.FbTextView android:textSize="20.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/ref_fbui_text_medium" android:id="@id/install_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Install Title" />
+    </LinearLayout>
+    <View android:id="@id/top_divider" android:background="@color/ref_fbui_grey_80" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginBottom="@dimen/ref_fbui_padding_standard" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/ref_fbui_text_size_medium" android:textColor="@color/ref_fbui_text_medium" android:id="@id/release_notes_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Release Notes Header" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/ref_fbui_text_size_medium" android:textColor="@color/ref_fbui_text_medium" android:id="@id/release_notes_text" android:padding="@dimen/ref_fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ref_fbui_padding_standard" android:text="Release Notes" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/progress_ui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/ref_fbui_text_size_medium" android:textColor="@color/ref_fbui_text_medium" android:gravity="left" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Progress Text..." android:layout_weight="1.0" />
+        <Button android:id="@id/btn_stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" style="?attr/buttonRegularSmall" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/start_download_ui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:id="@id/not_now" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Not Now" android:layout_weight="1.0" style="?attr/buttonRegularMedium" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:gravity="center" android:id="@id/download_and_install" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Download and Install" android:layout_weight="1.0" style="?attr/buttonSpecialMedium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/install_ui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:id="@id/discard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Discard" android:layout_weight="1.0" style="?attr/buttonRegularMedium" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:gravity="center" android:id="@id/install" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Install" android:layout_weight="1.0" style="?attr/buttonSpecialMedium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/failure_ui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ref_fbui_text_size_medium" android:textColor="@color/ref_fbui_text_medium" android:id="@id/failure_message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Failure Message" />
+        <Button android:layout_gravity="right" android:id="@id/discard_after_failure_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ok" style="?attr/buttonSpecialMedium" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.video.followvideos.VideoHomeToggleButton android:id="@id/follow_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.video.followvideos.VideoHomeToggleButton android:id="@id/subscribe_notif_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip" />
+</merge>

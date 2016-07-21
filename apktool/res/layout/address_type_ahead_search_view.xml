@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/address_type_ahead_search_bar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <FrameLayout android:padding="@dimen/address_type_ahead_margin_default" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.fbui.glyph.GlyphView android:id="@id/address_type_ahead_search_arrow_back" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha" android:contentDescription="@string/generic_back" fb:glyphColor="?colorControlNormal" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/address_detail_progress_bar" android:visibility="invisible" android:layout_width="@dimen/address_detail_progress_bar_size" android:layout_height="@dimen/address_detail_progress_bar_size" style="?android:attr/progressBarStyle" />
+        </FrameLayout>
+        <android.support.v7.widget.SearchView android:id="@id/address_type_ahead_search_text" android:background="@color/transparent" android:saveEnabled="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:inputType="textNoSuggestions" />
+    </LinearLayout>
+    <View android:background="@color/fbui_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_width" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/address_type_ahead_margin_default" android:layout_marginRight="@dimen/address_type_ahead_margin_default" android:layout_marginStart="@dimen/address_type_ahead_margin_default" android:layout_marginEnd="@dimen/address_type_ahead_margin_default">
+        <android.support.v7.widget.RecyclerView android:id="@id/address_suggestions_recycler_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.widget.text.BetterTextView android:layout_gravity="center" android:id="@id/address_suggestions_null_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/address_type_ahead_null_state" style="@style/address_type_ahead_text_default" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/address_suggestions_progress_bar" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+    </FrameLayout>
+</merge>

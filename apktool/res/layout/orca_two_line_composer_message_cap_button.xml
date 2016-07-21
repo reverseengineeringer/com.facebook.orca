@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.BetterTextView android:textSize="@dimen/message_cap_button_text_size" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/message_cap_button" android:background="@drawable/orca_composer_message_cap_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

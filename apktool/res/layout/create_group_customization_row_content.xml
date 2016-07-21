@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="?android:textColor" android:layout_gravity="start" android:id="@id/customize_row_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontFamily="roboto" app:fontWeight="regular" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/orca_neue_primary" android:layout_gravity="end" android:id="@id/customize_row_action" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontFamily="roboto" app:fontWeight="regular" />
+    <ImageView android:layout_gravity="end" android:id="@id/customize_row_action_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

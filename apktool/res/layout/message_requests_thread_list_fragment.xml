@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomRelativeLayout android:id="@id/threadlist_root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/thread_list_stub" android:inflatedId="@id/thread_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/thread_list_empty_view" android:layout="@layout/message_requests_thread_list_empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.widget.listview.EmptyListViewItem android:id="@id/thread_list_loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+</com.facebook.widget.CustomRelativeLayout>

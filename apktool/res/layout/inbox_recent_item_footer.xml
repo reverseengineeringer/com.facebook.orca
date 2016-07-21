@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/inbox_recent_item_title_container_height" android:layout_marginTop="@dimen/inbox_recent_item_title_margin_top">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/inbox_recent_item_author_icon" android:layout_width="@dimen/inbox_recent_item_author_icon_size" android:layout_height="@dimen/inbox_recent_item_author_icon_size" android:layout_marginRight="@dimen/inbox_recent_item_title_icon_spacing" android:layout_marginEnd="@dimen/inbox_recent_item_title_icon_spacing" fb:actualImageScaleType="fitCenter" fb:roundAsCircle="true" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/inbox_recent_item_title_text_size" android:textColor="@color/black_alpha_87" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/inbox_recent_item_title" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:lines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/inbox_recent_item_summary_text_size" android:textColor="@color/black_alpha_54" android:ellipsize="end" android:id="@id/inbox_recent_item_summary" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/inbox_recent_item_summary_height" android:layout_marginTop="@dimen/inbox_recent_item_summary_margin_top" android:lines="2" />
+</merge>

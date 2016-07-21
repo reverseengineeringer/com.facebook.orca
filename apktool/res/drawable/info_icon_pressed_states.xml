@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:id="@id/card_info_entry_point_wrapper"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/info_icon" />
+    <item android:state_focused="true" android:drawable="@drawable/info_icon" />
+    <item android:state_pressed="false" android:height="@dimen/card_entry_info_icon_size" android:width="@dimen/card_entry_info_icon_size" android:drawable="@drawable/place_card_info" />
+</selector>

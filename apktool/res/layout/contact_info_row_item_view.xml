@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.payments.ui.FloatingLabelTextView android:id="@id/contact_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:id="@id/checkmark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitCenter" fb:glyphColor="?paymentsActionTextColor" fb:source="@drawable/fbui_checkmark_l" />
+</merge>

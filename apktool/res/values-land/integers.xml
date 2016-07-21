@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="orca_two_line_composer_edit_text_max_length">5000</integer>
+    <integer name="orca_two_line_composer_edit_text_max_lines">2</integer>
+    <integer name="orca_audio_composer_text_size">18</integer>
+    <integer name="qp_interstitial_title_max_lines">1</integer>
+    <integer name="qp_interstitial_title_no_image_max_lines">2</integer>
+    <integer name="qp_interstitial_title_no_image_or_social_context_max_lines">4</integer>
+    <integer name="qp_interstitial_content_with_image_max_lines">3</integer>
+    <integer name="qp_interstitial_social_context_max_lines">2</integer>
+    <integer name="qp_interstitial_footer_max_lines">1</integer>
+    <integer name="qp_interstitial_button_max_lines">1</integer>
+</resources>

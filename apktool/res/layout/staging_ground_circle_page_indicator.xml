@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.timeline.stagingground.StagingGroundHScrollCirclePageIndicator android:id="@id/frame_page_indicator" android:paddingLeft="@dimen/fbui_padding_one_fourth_standard" android:paddingTop="@dimen/fbui_padding_one_fourth_standard" android:paddingRight="@dimen/fbui_padding_one_fourth_standard" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:strokeWidth="0.0dip" fb:fillColor="@color/fbui_black" fb:pageColor="@color/fbui_bluegrey_30" fb:radius="4.0dip" fb:snap="true" fb:spacing="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

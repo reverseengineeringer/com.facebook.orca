@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@id/appointment_detail" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/stub_msgr_thread_setting_appointment_request_cacnel_button" android:inflatedId="@id/msgr_thread_setting_appointment_request_cacnel_button_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

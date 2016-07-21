@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/ephemeral_picker_text_size" android:gravity="center" android:layout_gravity="center" android:id="@id/ephemeral_keyboard_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ephemeral_picker_text_top_margin" android:text="@string/ephemeral_picker_cta_text" />
+    <NumberPicker android:gravity="center" android:id="@id/ephemeral_time_number_picker" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/ephemeral_number_picker_margin" />
+</merge>

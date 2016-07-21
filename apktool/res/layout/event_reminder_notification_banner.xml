@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:id="@id/event_reminder_banner_text_container" android:background="@drawable/event_reminder_banner_divider_long" android:paddingLeft="@dimen/event_reminder_banner_outer_padding" android:paddingRight="@dimen/event_reminder_banner_outer_padding" android:layout_width="fill_parent" android:layout_height="@dimen/event_reminder_banner_text_height">
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msgr_ic_event_reminder_s" app:glyphColor="@color/fig_ui_light_50" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/event_reminder_text_color" android:ellipsize="end" android:gravity="start|center" android:id="@id/event_reminder_banner_text" android:paddingLeft="@dimen/event_reminder_icon_text_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fig_usage_secondary_text" android:gravity="center_vertical" android:id="@id/event_reminder_banner_rsvp_text" android:paddingLeft="@dimen/event_reminder_icon_text_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" />
+    </com.facebook.widget.CustomLinearLayout>
+    <com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:id="@id/event_reminder_rsvp_buttons" android:background="@drawable/event_reminder_banner_divider_long" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.text.BetterTextView android:id="@id/event_reminder_banner_going" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/event_reminder_going_text" android:layout_weight="1.0" style="@style/EventReminderBannerButtonStyle" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/event_reminder_banner_cant_go" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/event_reminder_cant_go_text" android:layout_weight="1.0" style="@style/EventReminderBannerButtonStyle" />
+    </com.facebook.widget.CustomLinearLayout>
+</merge>

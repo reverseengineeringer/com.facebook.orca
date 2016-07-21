@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.ImageBlockLayout android:gravity="center_vertical" android:background="@color/fbui_white" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:thumbnailPadding="@dimen/row_item_view_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="start|center" android:id="@id/payment_method_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:layout_useAsThumbnail="true" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_black" android:id="@id/payment_method_title" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontWeight="medium" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_text_light" android:id="@id/payment_method_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontWeight="light" />
+</com.facebook.fbui.widget.layout.ImageBlockLayout>

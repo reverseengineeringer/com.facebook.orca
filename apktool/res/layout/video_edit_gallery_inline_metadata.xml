@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:id="@id/video_edit_gallery_inline_metadata" android:padding="@dimen/gallery_trimmer_inline_metadata_padding" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:gravity="start" android:id="@id/trimmed_video_file_size" android:paddingLeft="@dimen/gallery_trimmer_inline_metadata_text_padding" android:paddingRight="@dimen/gallery_trimmer_inline_metadata_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.facebook.resources.ui.FbTextView android:gravity="end" android:id="@id/trimmed_video_length" android:paddingLeft="@dimen/gallery_trimmer_inline_metadata_text_padding" android:paddingRight="@dimen/gallery_trimmer_inline_metadata_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</com.facebook.widget.CustomLinearLayout>

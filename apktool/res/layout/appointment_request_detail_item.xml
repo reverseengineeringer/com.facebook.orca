@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/msgr_thread_setting_appointment_request_detail_item_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/appointment_detail_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xlarge" android:ellipsize="end" android:id="@id/appointment_detail_item_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xlarge" android:textColor="?android:textColorSecondary" android:id="@id/appointment_detail_item_extra" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginStart="12.0dip" />
+    </LinearLayout>
+</LinearLayout>

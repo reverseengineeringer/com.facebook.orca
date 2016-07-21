@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.picassolike.PicassoLikeViewStub android:id="@id/upsell_dialog_title_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/upsell_interstitial_keyline_margin" android:layout_marginTop="@dimen/upsell_interstitial_logo_padding" android:layout_marginRight="@dimen/upsell_interstitial_keyline_margin" android:layout_marginStart="@dimen/upsell_interstitial_keyline_margin" android:layout_marginEnd="@dimen/upsell_interstitial_keyline_margin" />
+</merge>

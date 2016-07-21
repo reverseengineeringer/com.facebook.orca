@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:id="@id/camera_view_top_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center|left" android:id="@id/close_button" android:padding="@dimen/x_button_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/top_bar_side_margin" android:src="@drawable/creativecam_x" android:layout_marginStart="@dimen/top_bar_side_margin" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large_xlarge" android:textColor="@color/fbui_white" android:gravity="center" android:layout_gravity="center" android:id="@id/swipe_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/swipe_nux_text" fb:fontFamily="roboto" fb:fontWeight="regular" />
+    <com.facebook.widget.CustomLinearLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <include layout="@layout/camera_flash_button" />
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/switch_camera_button" android:padding="@dimen/switch_button_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/top_bar_side_margin" android:src="@drawable/creativecam_switch" android:layout_marginEnd="@dimen/top_bar_side_margin" />
+    </com.facebook.widget.CustomLinearLayout>
+</com.facebook.widget.CustomFrameLayout>

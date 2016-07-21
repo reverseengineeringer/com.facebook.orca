@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textStyle="normal" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/ad_interfaces_selector_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_content_marginStart" android:layout_marginTop="@dimen/card_content_marginTop" android:layout_marginRight="@dimen/card_content_marginEnd" android:text="@string/ad_interfaces_local_targeting_location_titile" android:layout_marginStart="@dimen/card_content_marginStart" android:layout_marginEnd="@dimen/card_content_marginEnd" style="@style/AdInterfacesText.LargeSize.Title" />
+    <com.facebook.uicontrib.segmentedtabbar.SegmentedTabBar android:id="@id/ad_interfaces_flip_tab" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:leftTabName="@string/ad_interfaces_local_targeting_region" fb:rightTabName="@string/ad_interfaces_local_targeting_address" style="@style/AdInterfacesText.LargeSize.SpacedTitle" />
+    <FrameLayout android:gravity="center_horizontal" android:id="@id/ad_interfaces_location_tabs_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.adinterfaces.ui.AdInterfacesRegionTabView android:orientation="horizontal" android:id="@id/ad_interfaces_region_tab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_content_marginTop" fb:selectorTitle="@string/ad_interfaces_locations_targeting" style="@style/AdInterfacesText.LargeSize.SpacedTitle" />
+        <com.facebook.adinterfaces.ui.AdInterfacesAddressTabView android:orientation="vertical" android:id="@id/ad_interfaces_address_tab" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</merge>

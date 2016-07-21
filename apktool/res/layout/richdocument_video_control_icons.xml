@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.richdocument.view.widget.video.VideoControlPlayIcon android:id="@id/video_control_play_icon" android:layout_width="@dimen/richdocument_video_play_button_width" android:layout_height="@dimen/richdocument_video_play_button_height" fb:wormThickness="@dimen/richdocument_video_play_button_thickness" />
+    <com.facebook.richdocument.view.widget.video.VideoControlPauseIcon android:id="@id/video_control_pause_icon" android:layout_width="@dimen/richdocument_video_pause_button_width" android:layout_height="@dimen/richdocument_video_pause_button_height" fb:wormThickness="@dimen/richdocument_video_play_button_thickness" />
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.feedback.ui.TypingDotsView android:background="@drawable/new_comments_pill_background" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:dotColor="#ffffffff"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

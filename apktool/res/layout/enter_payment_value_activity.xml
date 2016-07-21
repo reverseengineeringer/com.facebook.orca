@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.pagerindicator.TabbedViewPagerIndicator android:id="@id/orion_messenger_pay_tabs" android:visibility="gone" style="@style/Payments.TabIndicator" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.messaging.payment.value.input.ui.OrionMessengerPayViewPager android:gravity="center" android:id="@id/orion_messenger_pay_pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/single_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.facebook.messaging.payment.ui.MessengerPayNuxBannerView android:id="@id/nux_banner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:banner_title="@string/send_money_screen_request_nux_banner_title" fb:banner_description="@string/send_money_screen_request_nux_banner_description" fb:banner_drawable="@drawable/nux_banner_dollar" />
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/create_context_progress_bar" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" style="?android:attr/progressBarStyle" />
+</LinearLayout>

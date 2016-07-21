@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/ad_interfaces_standard_horizontal_padding" android:paddingTop="@dimen/ad_interfaces_standard_vertical_padding" android:paddingRight="@dimen/ad_interfaces_standard_horizontal_padding" android:paddingBottom="@dimen/ad_interfaces_standard_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.text.BetterTextView android:id="@id/ad_interfaces_address_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/AdInterfacesText.MediumSize.Regular" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/ad_interfaces_radius_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ad_interfaces_standard_horizontal_padding" android:layout_marginStart="@dimen/ad_interfaces_standard_horizontal_padding" style="@style/AdInterfacesText.MediumSize.Light.Blue" />
+    </LinearLayout>
+    <com.facebook.adinterfaces.ui.AdInterfacesMapPreviewView android:id="@id/ad_interfaces_map_preview" android:layout_width="fill_parent" android:layout_height="@dimen/ad_interfaces_map_preview_height" />
+</merge>

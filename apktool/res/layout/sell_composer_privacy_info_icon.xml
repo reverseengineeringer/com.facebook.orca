@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.glyph.GlyphView android:id="@id/sell_composer_privacy_info_icon" android:background="@drawable/privacy_audience_bar_background" android:paddingLeft="@dimen/sell_composer_privacy_info_icon_padding" android:paddingRight="@dimen/sell_composer_privacy_info_icon_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/fbui_info_solid_m" fb:glyphColor="@color/fbui_bluegrey_10"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

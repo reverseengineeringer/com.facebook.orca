@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.SimpleVariableTextLayoutView android:id="@id/secondary_named_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" fb:textColor="?titleBarButtonTextColor" fb:maxLines="1" fb:minScaledTextSize="8" fb:maxScaledTextSize="14"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

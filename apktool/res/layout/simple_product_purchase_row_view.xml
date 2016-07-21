@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fig_ui_light_30" android:gravity="center" android:id="@id/product_purchase_text_id" android:paddingLeft="@dimen/confirmation_row_horizontal_padding" android:paddingTop="@dimen/confirmation_product_purchase_top_padding" android:paddingRight="@dimen/confirmation_row_horizontal_padding" android:paddingBottom="@dimen/confirmation_product_purchase_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontFamily="roboto" fb:fontWeight="regular"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

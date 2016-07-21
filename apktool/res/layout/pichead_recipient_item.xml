@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:id="@id/halo" android:background="@drawable/recipient_halo" android:layout_width="@dimen/recipient_halo_size" android:layout_height="@dimen/recipient_halo_size" />
+        <com.facebook.user.tiles.UserTileView android:id="@id/tile" android:layout_width="@dimen/recipient_tile_size" android:layout_height="@dimen/recipient_tile_size" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" app:asCircle="true" />
+    </FrameLayout>
+    <com.facebook.widget.text.BetterTextView android:gravity="center_horizontal" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

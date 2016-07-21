@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/offline_retry_header" android:layout_width="fill_parent" android:layout_height="@dimen/feed_offline_header_height">
+        <com.facebook.widget.FbImageView android:layout_gravity="center" android:id="@id/retry_button" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/offline_posting_retry" android:contentDescription="@string/offline_posting_accessibility_retry" />
+        <com.facebook.widget.FbImageView android:layout_gravity="center" android:id="@id/retry_separator" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/offline_posting_line" />
+        <com.facebook.widget.NotificationTextSwitcher android:layout_gravity="center" android:id="@id/retry_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inAnimation="@anim/none" android:outAnimation="@anim/abc_fade_out" android:layout_weight="1.0" fb:textColor="@color/offline_story_error_text_color" />
+        <com.facebook.widget.FbImageView android:layout_gravity="center" android:id="@id/cancel_separator" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/offline_posting_line" />
+        <com.facebook.widget.FbImageView android:layout_gravity="center" android:id="@id/cancel_button" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/offline_posting_cancel_initial" android:contentDescription="@string/offline_posting_accessibility_cancel" />
+    </LinearLayout>
+</merge>

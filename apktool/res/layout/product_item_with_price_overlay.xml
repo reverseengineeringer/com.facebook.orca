@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/product_image" android:layout_width="@dimen/product_item_with_price_overlay_size" android:layout_height="@dimen/product_item_with_price_overlay_size" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_white" android:gravity="end|bottom|center" android:id="@id/product_price" android:background="@drawable/product_image_shadow_overlay" android:paddingLeft="@dimen/fbui_padding_standard" android:paddingRight="@dimen/fbui_padding_standard" android:paddingBottom="@dimen/fbui_padding_half_standard" android:layout_width="@dimen/product_item_with_price_overlay_size" android:layout_height="@dimen/product_item_with_price_overlay_size" />
+</merge>

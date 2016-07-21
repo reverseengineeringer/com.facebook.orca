@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center_horizontal" android:id="@id/minutiae_icon" android:layout_width="@dimen/minutiae_attachment_icon_width" android:layout_height="@dimen/minutiae_attachment_icon_height" />
+</merge>

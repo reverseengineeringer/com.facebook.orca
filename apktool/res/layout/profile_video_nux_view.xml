@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/profile_video_nux_background" android:background="@drawable/profile_video_android_blue_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:layout_width="190.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/profile_video_nux_card_offset_top">
+                <FrameLayout android:paddingBottom="@dimen/profile_video_nux_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/profile_video_nux_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/profile_video_android_profile_video_nux_card" />
+                    <ImageView android:layout_gravity="center|left|top" android:id="@id/profile_video_nux_arm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/profile_video_nux_arm_offset_start" android:layout_marginTop="@dimen/profile_video_nux_arm_offset_top" android:src="@drawable/profile_video_android_profile_video_nux_arm" android:layout_marginStart="@dimen/profile_video_nux_arm_offset_start" />
+                </FrameLayout>
+                <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textStyle="bold" android:textColor="@color/fbui_black" android:paddingTop="@dimen/profile_video_nux_padding" android:paddingBottom="@dimen/profile_video_nux_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_video_nux_title" />
+                <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:id="@id/profile_video_nux_text" android:paddingBottom="@dimen/profile_video_nux_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</merge>

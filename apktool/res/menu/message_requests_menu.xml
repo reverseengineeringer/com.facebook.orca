@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/message_requests_edit" android:orderInCategory="200" android:title="@string/message_requests_menu_edit" fb:showAsAction="collapseActionView" />
+    <item android:id="@id/message_requests_ignore_all" android:orderInCategory="300" android:title="@string/message_requests_ignore_all" fb:showAsAction="collapseActionView" />
+    <item android:id="@id/message_requests_delete_all" android:orderInCategory="400" android:title="@string/message_requests_delete_all" fb:showAsAction="collapseActionView" />
+</menu>

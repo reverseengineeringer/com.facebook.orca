@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="start|center" android:id="@id/page_inline_composer_component_view_profile_icon" android:layout_width="@dimen/page_inline_composer_profile_icon_size" android:layout_height="@dimen/page_inline_composer_profile_icon_size" fb:placeholderImage="@color/fbui_wash_mobile" fb:actualImageScaleType="centerInside" fb:layout_useAsThumbnail="true" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/page_inline_composer_component_view_message" android:paddingLeft="@dimen/fbui_content_view_horizontal_padding" android:paddingRight="@dimen/fbui_content_view_horizontal_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

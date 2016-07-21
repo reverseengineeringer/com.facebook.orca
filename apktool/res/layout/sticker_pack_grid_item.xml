@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/thumbnail" android:padding="@dimen/sticker_grid_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:soundEffectsEnabled="false" android:contentDescription="@string/sticker_pack_thumbnail_description" orca:viewAspectRatio="1.0" orca:actualImageScaleType="fitCenter"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto" />

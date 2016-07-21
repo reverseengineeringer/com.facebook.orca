@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/inline_reply_actor_image_view" android:layout_width="@dimen/inline_reply_composer_thumbnail_size" android:layout_height="@dimen/inline_reply_composer_thumbnail_size" fb:placeholderImage="@drawable/no_avatar" fb:actualImageScaleType="centerCrop" fb:layout_useAsThumbnail="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.composer.ui.statusview.ComposerHeaderView android:gravity="top" android:id="@id/composer_wysiwyg_header_view" android:paddingLeft="@dimen/composer_status_wrapper_padding" android:paddingRight="@dimen/composer_status_wrapper_padding" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:thumbnailPadding="@dimen/underwood_status_text_side_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

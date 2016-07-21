@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/orca_neue_primary" android:gravity="center" android:id="@id/voip_join_call_button" android:visibility="gone" android:layout_width="96.0dip" android:layout_height="fill_parent" android:text="@string/webrtc_conference_call_join_all_caps" android:maxLines="1" />
+    <ImageView android:id="@id/voip_call_button" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/voip_titlebar_button_icon" android:scaleType="center" android:contentDescription="@string/webrtc_start_call_title" />
+    <ImageView android:id="@id/voip_video_call_button" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/voip_video_titlebar_button_icon_blue" android:scaleType="center" android:contentDescription="@string/webrtc_start_video_call_title" />
+</LinearLayout>

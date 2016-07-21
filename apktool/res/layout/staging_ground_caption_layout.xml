@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.tagging.ui.MentionsAutoCompleteTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_bluegrey_30" android:gravity="top" android:background="@null" android:padding="@dimen/staging_ground_caption_textview_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:minLines="1" android:inputType="textFilter|textAutoCorrect|textCapSentences|textMultiLine" android:imeActionLabel="@string/staging_ground_caption_hint" android:imeActionId="107"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app-region fbui:density="160" fbui:atlas="@drawable/feed_hide_icons" fbui:left="145.0px" fbui:top="0.0px" fbui:right="166.0px" fbui:bottom="21.0px" fbui:paddingLeft="1.0px" fbui:paddingTop="1.0px" fbui:paddingRight="2.0px" fbui:paddingBottom="2.0px" fbui:atlasWidth="189.0px" fbui:atlasHeight="24.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto" />

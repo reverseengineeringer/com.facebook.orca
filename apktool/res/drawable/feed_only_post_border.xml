@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/feed_only_post_border_width_negative" android:top="@dimen/feed_only_post_border_width" android:right="@dimen/feed_only_post_border_width_negative" android:bottom="@dimen/feed_only_post_border_width">
+        <shape android:shape="rectangle">
+            <size android:height="9.0dip" android:width="9.0dip" />
+            <solid android:color="@color/feed_only_post_toggle_divider_color" />
+        </shape>
+    </item>
+</layer-list>

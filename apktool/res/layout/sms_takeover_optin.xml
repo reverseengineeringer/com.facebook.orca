@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/sms_nux_side_margin" android:paddingRight="@dimen/sms_nux_side_margin" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/promo_image" android:layout_width="wrap_content" android:layout_height="100.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/orca_nux_sticker_sms_bubbles" android:scaleType="centerInside" />
+        <com.facebook.widget.text.BetterTextView android:textSize="20.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/full_mode_optin_title" style="@style/Widget.Messenger.TextView.Title" />
+        <com.facebook.widget.text.BetterTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/full_mode_optin_description" style="@style/Widget.Messenger.TextView.Secondary" />
+        <com.facebook.widget.text.BetterTextView android:gravity="center" android:id="@id/upgrade" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sms_nux_normal_margin" android:layout_marginBottom="@dimen/sms_nux_normal_margin" android:text="@string/sms_integration_optin_turnon" style="@style/Widget.Messenger.Button.Blue.Nux" />
+        <com.facebook.widget.text.BetterTextView android:gravity="center" android:id="@id/not_now" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sms_nux_normal_margin" android:text="@string/sms_integration_optin_notnow" style="@style/Widget.Messenger.TextView.Secondary" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

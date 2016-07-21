@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:auto="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_box_collapsed" android:paddingLeft="@dimen/msgr_toolbar_left_padding" android:paddingRight="@dimen/msgr_toolbar_right_padding" android:layout_width="fill_parent" android:layout_height="@dimen/msgr_toolbar_height" android:paddingStart="@dimen/msgr_toolbar_left_padding" android:paddingEnd="@dimen/msgr_toolbar_right_padding">
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center_vertical" android:id="@id/search_magnifying_glass" android:layout_width="@dimen/msgr_toolbar_search_box_icon_size" android:layout_height="@dimen/msgr_toolbar_search_box_icon_size" android:src="@drawable/msgr_ic_search" android:importantForAccessibility="no" auto:glyphColor="?colorControlNormal" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/msgr_toolbar_search_text_size" android:textColorHint="?android:textColorSecondary" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/search_box_start_search" android:layout_width="0.0dip" android:layout_height="@dimen/msgr_toolbar_search_text_height" android:layout_marginLeft="@dimen/msgr_toolbar_search_box_collapsed_text_margin_left" android:includeFontPadding="false" android:layout_weight="1.0" auto:fontFamily="roboto" auto:fontWeight="regular" />
+    </LinearLayout>
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/search_box_expanded_stub" android:layout="@layout/msgr_home_toolbar_expanded" android:layout_width="fill_parent" android:layout_height="@dimen/msgr_expanded_toolbar_height" />
+</merge>

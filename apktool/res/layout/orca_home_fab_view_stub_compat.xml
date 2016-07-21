@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.ViewStubCompat android:layout_gravity="bottom|center|right" android:id="@id/home_fab_stub" android:layout="@layout/orca_home_fab_stub" android:inflatedId="@id/orca_home_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fab_corner_margin" android:layout_marginBottom="@dimen/fab_corner_margin" android:layout_marginEnd="@dimen/fab_corner_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

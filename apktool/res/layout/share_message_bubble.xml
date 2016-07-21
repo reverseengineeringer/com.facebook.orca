@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/fbui_white" android:paddingBottom="@dimen/share_message_bubble_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.messaging.sharerendering.ShareMessageBubbleImageView android:id="@id/link_share_image" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:actualImageScaleType="centerCrop" />
+        <ImageView android:id="@id/link_attachment_article_icon" android:visibility="gone" android:layout_width="@dimen/ia_icon_size" android:layout_height="@dimen/ia_icon_size" android:src="@drawable/ia_lightning_bolt" android:scaleType="centerCrop" style="@style/Widget.Messenger.IAIconStyle" />
+    </FrameLayout>
+    <View android:id="@id/share_message_bubble_image_divider" android:layout_width="fill_parent" android:layout_height="@dimen/share_message_bubble_divider_height" android:layout_margin="@dimen/share_message_bubble_divider_margin" android:maxHeight="@dimen/share_message_bubble_divider_height" />
+    <com.facebook.widget.text.BetterTextView android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Messenger.ShareMessageBubbleTitle" />
+    <com.facebook.widget.text.BetterTextView android:layout_gravity="center_vertical" android:id="@id/description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/share_message_bubble_desc_height" style="@style/Widget.Messenger.ShareMessageBubbleDesc" />
+    <com.facebook.widget.text.BetterTextView android:id="@id/source_text" android:layout_width="fill_parent" android:layout_height="@dimen/share_message_bubble_desc_height" style="@style/Widget.Messenger.ShareMessageBubbleSource" />
+</LinearLayout>

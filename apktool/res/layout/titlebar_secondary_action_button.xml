@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.apptab.glyph.BadgableGlyphView android:id="@id/secondary_action_button" android:visibility="gone" android:layout_width="@dimen/title_bar_height" android:layout_height="fill_parent" style="@style/Fb4aTitlebarImageButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

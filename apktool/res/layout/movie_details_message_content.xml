@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/movie_primary_text_size" android:textStyle="bold" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/movie_message_margin" android:layout_marginRight="@dimen/movie_message_margin" android:layout_marginStart="@dimen/movie_message_margin" android:layout_marginEnd="@dimen/movie_message_margin" />
+    <com.facebook.messaging.movies.LinearListView android:orientation="vertical" android:id="@id/list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

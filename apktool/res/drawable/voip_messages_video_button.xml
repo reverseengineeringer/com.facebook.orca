@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/voip_incall_video_circle" />
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_messages_video_white" />
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="true" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/voip_incall_video_circle_pressed" />
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_messages_video" />
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="true" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/voip_incall_video_circle" />
+            <item android:drawable="@drawable/rtc_gray_circle_transparent" />
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_messages_video_white" />
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="false" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/voip_incall_video_circle_pressed" />
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_messages_video" />
+            </item>
+        </layer-list>
+    </item>
+</selector>

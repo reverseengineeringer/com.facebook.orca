@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.messaging.business.airline.view.AirlineHeaderView android:id="@id/airline_confirmation_bubble_header" android:background="@color/airline_messenger_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/airline_bubble_header_height" fb:bubbleType="receipt" />
+    <com.facebook.messaging.business.airline.view.AirlinePassengerTableView android:id="@id/airline_confirmation_bubble_passenger_table" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/airline_margin_default" android:layout_marginTop="@dimen/airline_bubble_margin_vertical" android:layout_marginRight="@dimen/airline_margin_default" android:layout_marginBottom="@dimen/airline_bubble_margin_vertical" android:layout_marginStart="@dimen/airline_margin_default" android:layout_marginEnd="@dimen/airline_margin_default" fb:reverseColor="false" />
+    <include layout="@layout/business_bubble_divider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/airline_confirmation_bubble_flight_details_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/business_bubble_total_price_footer_view" />
+    <include layout="@layout/business_bubble_divider" />
+    <com.facebook.widget.text.BetterButton android:id="@id/airline_confirmation_bubble_view_details_button" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.XMA.Button" />
+</merge>

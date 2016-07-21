@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/payments_underline_border" android:padding="@dimen/receipt_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/commerce_invoice_proof_of_payment_title" style="@style/ReceiptsText.Title" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/receipt_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/receipt_padding_standard" fb:viewAspectRatio="1.0" />
+</LinearLayout>

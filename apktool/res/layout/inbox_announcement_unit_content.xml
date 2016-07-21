@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/inbox_announcement_unit_icon" fb:backgroundImage="@color/black_alpha_12" fb:roundAsCircle="true" style="?threadListItemThreadTileStyle" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textStyle="bold" android:id="@id/inbox_announcement_unit_title" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontFamily="roboto" fb:fontWeight="medium" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/orca_neue_text_grey" android:id="@id/inbox_announcement_unit_caption" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontFamily="roboto" />
+        <com.facebook.widget.text.BetterButton android:id="@id/inbox_announcement_unit_dismiss_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/inbox_announcement_dismiss_button_vertical_margin" android:minWidth="@dimen/inbox_announcement_dismiss_button_width" android:minHeight="@dimen/inbox_announcement_dismiss_button_height" style="?inboxButtonStyle" />
+    </LinearLayout>
+</merge>

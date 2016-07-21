@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/orca_neue_create_pinned_group_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/pinned_groups_action_button_container" android:background="@drawable/orca_pinned_group_disabled_continue_button" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/pinned_groups_action_button_drawable" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orca_action_bar_save" />
+        <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center|right" android:id="@id/pinned_groups_action_button" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/pinned_groups_create_button_height" android:text="@string/orca_neue_pinned_groups_new_group" android:textAllCaps="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/create_group_customization_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <fragment android:name="com.facebook.orca.contacts.picker.ContactMultipickerFragment" android:id="@id/pinned_groups_multipicker_fragment" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

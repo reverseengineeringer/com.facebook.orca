@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.inbox2.recents.InboxRecentItemVideoView android:layout_width="@dimen/inbox_recent_item_banner_width" android:layout_height="@dimen/inbox_recent_item_banner_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

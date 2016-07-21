@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/home_notifications_panel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.facebook.widget.FbSwipeRefreshLayout android:id="@id/swipe_container" android:background="?mainTabListBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.notifications.widget.NotificationsListView android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/white" android:dividerHeight="0.0px" />
+        </com.facebook.widget.FbSwipeRefreshLayout>
+        <include layout="@layout/notifications_empty_layout" />
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/more_notifications_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</merge>

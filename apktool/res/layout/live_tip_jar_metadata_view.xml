@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="top" android:id="@id/tip_jar_metadata_actor_image" android:layout_width="@dimen/live_tip_jar_metadata_actor_thumbnail_size" android:layout_height="@dimen/live_tip_jar_metadata_actor_thumbnail_size" android:layout_marginLeft="@dimen/live_tip_jar_metadata_actor_image_margin_left" android:layout_marginRight="@dimen/live_tip_jar_metadata_actor_image_margin_right" android:layout_marginStart="@dimen/live_tip_jar_metadata_actor_image_margin_left" android:layout_marginEnd="@dimen/live_tip_jar_metadata_actor_image_margin_right" fb:placeholderImage="@drawable/no_avatar" fb:actualImageScaleType="centerCrop" fb:layout_useAsThumbnail="true" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/live_tip_jar_metadata_title_text_size" android:id="@id/tip_jar_metadata_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tip_jar_metadata_pill_button_layout_padding_top">
+        <com.facebook.resources.ui.FbButton android:id="@id/privacy_button_metadata_view" android:layout_width="wrap_content" android:layout_height="@dimen/live_tip_jar_metadata_pill_button_height" android:layout_marginRight="@dimen/live_tip_jar_metadata_pill_button_margin" android:text="@string/live_tip_jar_viewer_privacy_botton_anonymous" android:layout_marginEnd="@dimen/live_tip_jar_metadata_pill_button_margin" style="@style/live_tip_jar_pill_button" />
+        <com.facebook.resources.ui.FbButton android:gravity="center" android:id="@id/live_tip_jar_payment_method_button" android:layout_width="wrap_content" android:layout_height="@dimen/live_tip_jar_metadata_pill_button_height" style="@style/live_tip_jar_pill_button" />
+    </LinearLayout>
+    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="top" android:id="@id/exit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fbui_cross_m" fb:layout_useAsAuxView="true" />
+</merge>

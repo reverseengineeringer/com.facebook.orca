@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingLeft="24.0dip" android:paddingTop="@dimen/fbui_padding_standard" android:paddingRight="24.0dip" android:paddingBottom="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/rtc_merged_dialog_item_icon" android:paddingRight="@dimen/fbui_padding_standard" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:id="@id/rtc_merged_dialog_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

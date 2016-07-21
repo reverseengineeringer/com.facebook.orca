@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.tiles.ThreadTileView android:layout_gravity="center" android:id="@id/picked_thread_tile_view" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="6.0dip" fb:threadTileSize="48.0dip" fb:bigImageWidthPercent="0.5" fb:overlayDivider="true" fb:asCircle="true" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="6.0dip" fb:placeholderImage="@drawable/orca_forward_check_icon" fb:placeholderImageScaleType="center" fb:backgroundImage="@color/chat_dark_grey" fb:roundAsCircle="true" fb:overlayDivider="true" />
+</merge>

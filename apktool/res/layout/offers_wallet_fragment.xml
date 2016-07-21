@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uib="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="@dimen/offer_detail_top_button_height">
+        <com.facebook.fbui.widget.text.ImageWithTextView android:textSize="@dimen/fbui_text_size_large" android:textStyle="bold" android:textColor="@color/fbui_text_dark" android:id="@id/offers_wallet_top_selector_button" android:background="@drawable/white_clickable_bg" android:padding="@dimen/offer_card_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/offers_menu_active" android:drawablePadding="5.0dip" uib:drawable="@drawable/chevron_down_light_grey_m" uib:drawableOrientation="end" />
+    </LinearLayout>
+    <com.facebook.widget.FbSwipeRefreshLayout android:id="@id/offers_wallet_swipe_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/offer_card_padding">
+        <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@id/offers_wallet_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.widget.FbSwipeRefreshLayout>
+</LinearLayout>

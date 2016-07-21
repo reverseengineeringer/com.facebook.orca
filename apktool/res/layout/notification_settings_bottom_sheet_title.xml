@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.textwithentitiesview.TextWithEntitiesView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_text_dark" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fbui_content_view_horizontal_padding" android:layout_marginTop="@dimen/fbui_content_view_horizontal_padding" android:layout_marginRight="@dimen/fbui_content_view_horizontal_padding" />
+    <com.facebook.widget.text.textwithentitiesview.TextWithEntitiesView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_text_medium" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fbui_content_view_horizontal_padding" android:layout_marginRight="@dimen/fbui_content_view_horizontal_padding" android:layout_marginBottom="@dimen/fbui_content_view_horizontal_padding" />
+    <include layout="@layout/notification_settings_divider" />
+</LinearLayout>

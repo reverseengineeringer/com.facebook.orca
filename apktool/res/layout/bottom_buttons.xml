@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomRelativeLayout android:layout_gravity="bottom" android:id="@id/top_level_bottom_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/page_indicator_button" />
+    <include layout="@layout/camera_footer_buttons" />
+</com.facebook.widget.CustomRelativeLayout>

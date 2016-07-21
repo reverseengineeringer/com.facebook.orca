@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:background="@color/thread_setting_item_background" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="18.0sp" android:textColor="@color/fbui_black" android:ellipsize="end" android:id="@id/thread_settings_preference_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/business_details_view_all_orders_label" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" fb:adjustLRGravityByTextDirectionCompat="true" />
+    <ImageView android:id="@id/thread_settings_preference_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/broadcast_chevron" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+    <View android:id="@id/view_all_order_preference_divider" android:layout_marginBottom="1.0dip" android:layout_alignParentBottom="true" style="?attr/sectionHeaderDividerStyle" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

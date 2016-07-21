@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/fbui_grey_30" />
+    <size android:height="@dimen/composer_selectable_privacy_pill_loading_inner_box" android:width="@dimen/composer_selectable_privacy_pill_loading_inner_box" />
+</shape>

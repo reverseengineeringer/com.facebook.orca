@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/contact_menu_add_admin" android:title="@string/thread_action_add_admin" />
+    <item android:id="@id/contact_menu_remove_admin" android:title="@string/thread_action_remove_admin" />
+    <item android:id="@id/open_send_message" android:title="@string/contact_menu_send_message" />
+    <item android:id="@id/open_audio_call" android:title="@string/contact_menu_voip_call" />
+    <item android:id="@id/open_video_call" android:title="@string/contact_menu_direct_video_call" />
+    <item android:id="@id/open_view_profile" android:title="@string/contact_menu_view_profile" />
+    <item android:id="@id/open_contact_info_dialog" android:title="@string/contact_menu_contact_info" />
+    <item android:id="@id/add_contact" android:title="@string/contact_menu_add_contact" />
+    <item android:id="@id/add_to_existing_contact" android:title="@string/contact_menu_add_to_existing_contact" />
+    <item android:id="@id/open_remove_group" android:title="@string/contact_menu_remove" />
+    <item android:id="@id/leave_conversation" android:title="@string/thread_action_leave_conversation" />
+</menu>

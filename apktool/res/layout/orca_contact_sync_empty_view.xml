@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/white" android:padding="@dimen/orca_null_side_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_null_icon_lower_margin" android:src="@drawable/orca_nullstate_icon_contacts" />
+        <com.facebook.resources.ui.FbTextView android:textSize="24.0sp" android:textColor="#80000000" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_null_title_lower_margin" android:maxWidth="@dimen/orca_null_text_max_width" android:text="@string/messaging_contact_sync_null_state_title" />
+        <com.facebook.resources.ui.FbTextView android:textSize="14.0sp" android:textColor="#80000000" android:gravity="center_horizontal" android:id="@id/body_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_null_subtitle_lower_margin" android:maxWidth="@dimen/orca_null_text_max_width" android:text="@string/messaging_contact_sync_null_state_body" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/permission_request_view" android:layout="@layout/contacts_permission_request_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/sync_contacts_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/messaging_tab_sync_contacts_button_title" style="@style/OrcaRegBlueTextButton" />
+    </LinearLayout>
+</ScrollView>

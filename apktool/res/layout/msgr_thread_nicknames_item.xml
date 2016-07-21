@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip" style="?contactPickerItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.user.tiles.UserTileView android:id="@id/user_tile" style="?contactPickerThreadTileViewStyle" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip">
+        <com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:id="@id/nickname_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?contactPickerItemNameStyle" />
+        <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:id="@id/name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?contactPickerItemNameStyle" />
+    </LinearLayout>
+</LinearLayout>

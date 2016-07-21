@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialtone_switcher_bar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:paddingLeft="@dimen/dialtone_switcher_left_padding" android:paddingRight="@dimen/dialtone_switcher_right_padding" android:layout_width="fill_parent" android:layout_height="@dimen/dialtone_switcher_top_banner_height"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ToggleButton android:textSize="@dimen/fbui_text_size_tiny" android:textColor="@color/fbui_white" android:id="@id/switcher_toggle_button" android:layout_width="wrap_content" android:layout_height="@dimen/dialtone_switcher_new_button_height" android:textOn="@null" android:textOff="@null" android:text="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_white" android:gravity="center_vertical" android:id="@id/switcher_title_text_view" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/switcher_toggle_button" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/switcher_toggle_button" android:layout_alignParentStart="true" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+    <com.facebook.resources.ui.FbTextView android:background="@color/lightswitch_black" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

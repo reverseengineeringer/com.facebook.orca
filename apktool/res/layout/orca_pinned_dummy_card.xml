@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pinned_groups_dummy_card_container" android:background="@drawable/orca_groups_pinned_dummy_card_dotted_background" android:layout_width="fill_parent" android:layout_height="@dimen/pinned_groups_card_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pinned_dummy_card_image_view" android:layout_width="66.0dip" android:layout_height="66.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/orca_groups_card_create" android:scaleType="fitCenter" />
+    <com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:textColor="@color/orca_neue_primary" android:ellipsize="end" android:gravity="center" android:id="@id/pinned_dummy_card_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:maxLines="2" />
+    <com.facebook.resources.ui.FbTextView android:textSize="11.0sp" android:textColor="@color/orca_neue_light_gray" android:ellipsize="end" android:gravity="center" android:id="@id/pinned_dummy_card_sub_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="6.0dip" android:maxLines="2" />
+</LinearLayout>

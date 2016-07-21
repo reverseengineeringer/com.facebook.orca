@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <inset android:insetRight="10.0dip">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/fast_scroll_thumb_corner" />
+                <solid android:color="#ff0084ff" />
+                <size android:height="@dimen/fast_scroll_thumb_height" android:width="@dimen/fast_scroll_thumb_width" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset android:insetRight="10.0dip">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/fast_scroll_thumb_corner" />
+                <solid android:color="#8a000000" />
+                <size android:height="@dimen/fast_scroll_thumb_height" android:width="@dimen/fast_scroll_thumb_width" />
+            </shape>
+        </inset>
+    </item>
+</selector>

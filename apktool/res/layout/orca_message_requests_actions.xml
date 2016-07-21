@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:background="@drawable/orca_threadview_call_to_action_separator" android:layout_width="fill_parent" android:layout_height="@dimen/orca_thread_bottom_action_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:layout_gravity="center" android:id="@id/message_requests_decline_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/message_requests_ignore_button_label" android:layout_weight="1.0" style="@style/Widget.Messenger.Button.CallToAction" />
+    <com.facebook.widget.text.BetterTextView android:layout_gravity="center" android:id="@id/message_requests_accept_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/message_requests_accept_label" android:layout_weight="1.0" style="@style/Widget.Messenger.Button.CallToAction" />
+</com.facebook.widget.CustomLinearLayout>

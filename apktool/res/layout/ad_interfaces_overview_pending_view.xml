@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:id="@id/ad_interfaces_overview_learn_more" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AdInterfacesText.MediumSize.Regular" />
+    <com.facebook.widget.text.BetterTextView android:id="@id/ad_interfaces_overview_cancel_order" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AdInterfacesText.MediumSize.Regular" />
+</merge>

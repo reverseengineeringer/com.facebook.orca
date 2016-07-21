@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomRelativeLayout android:background="@drawable/subscribe_banner_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.tiles.ThreadTileView android:id="@id/banner_tile_img" android:layout_width="@dimen/subscribe_banner_tile_size" android:layout_height="@dimen/subscribe_banner_tile_size" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/subscribe_banner_tile" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/banner_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/banner_tile_img" android:layout_alignParentTop="true" android:layout_toEndOf="@id/banner_tile_img" style="@style/subscribe_banner_name" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/banner_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/banner_subscribe_button" android:layout_toRightOf="@id/banner_tile_img" android:layout_below="@id/banner_name" android:layout_toStartOf="@id/banner_subscribe_button" android:layout_toEndOf="@id/banner_tile_img" style="@style/subscribe_banner_content" />
+    <com.facebook.messaging.business.subscription.common.view.BusinessSubscribeButton android:id="@id/banner_subscribe_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</com.facebook.widget.CustomRelativeLayout>

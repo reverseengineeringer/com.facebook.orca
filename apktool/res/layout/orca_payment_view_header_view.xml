@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/black" android:ellipsize="end" android:id="@id/payment_bubble_header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/payment_bubble_widgets_vertical_spacing" android:layout_marginBottom="@dimen/payment_bubble_widgets_vertical_spacing" fb:fontFamily="roboto" fb:fontWeight="regular" />
+</merge>

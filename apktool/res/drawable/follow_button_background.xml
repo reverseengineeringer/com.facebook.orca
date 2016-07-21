@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0dip" android:color="@color/messenger_blue" />
+            <corners android:radius="3.0dip" />
+            <solid android:color="@color/subscribe_button_press_color" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0dip" android:color="@color/messenger_blue" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0dip" android:color="@color/subscribed_button_color" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.messaging.photos.view.PhotoGallery android:id="@id/gallery" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/slideshow" android:background="@color/black25a" android:paddingTop="@dimen/media_slideshow_view_vertical_padding" android:paddingBottom="@dimen/media_slideshow_view_vertical_padding" android:layout_width="fill_parent" android:layout_height="@dimen/media_slideshow_view_height">
+        <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.facebook.widget.FbImageView android:id="@id/gallery_button" android:background="@color/media_slideshow_button_background" android:padding="@dimen/media_slideshow_button_inner_padding" android:layout_width="@dimen/media_slideshow_item_height" android:layout_height="@dimen/media_slideshow_item_height" android:src="@drawable/ic_photo_library" android:tint="@android:color/white" android:cropToPadding="true" fb:actualImageScaleType="centerCrop" />
+    </LinearLayout>
+    <android.support.v7.widget.Toolbar android:id="@id/media_view_with_slideshow_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:theme="?threadTitleTheme" style="?attr/toolbarStyle">
+        <com.facebook.messaging.threadview.title.ThreadTitleView android:id="@id/thread_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+</FrameLayout>

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emoji_skin_tone_options">
+        <item>@string/emoji_skin_tone_default_option</item>
+        <item>@string/emoji_skin_tone_type_1_2_option</item>
+        <item>@string/emoji_skin_tone_type_3_option</item>
+        <item>@string/emoji_skin_tone_type_4_option</item>
+        <item>@string/emoji_skin_tone_type_5_option</item>
+        <item>@string/emoji_skin_tone_type_6_option</item>
+    </string-array>
+    <string-array name="link_preview_actions">
+        <item>Remove Link</item>
+    </string-array>
+    <string-array name="web_server_tiers">
+        <item>Production</item>
+        <item>Intern</item>
+        <item>Dev</item>
+        <item>Sandbox</item>
+        <item>Use sandbox if specified, otherwise production</item>
+    </string-array>
+    <string-array name="web_server_tiers_values">
+        <item>production</item>
+        <item>intern</item>
+        <item>dev</item>
+        <item>sandbox</item>
+        <item>default</item>
+    </string-array>
+    <string-array name="mqtt_server_tiers">
+        <item>Production</item>
+        <item>Sandbox (ssl disabled)</item>
+    </string-array>
+    <string-array name="mqtt_server_tiers_values">
+        <item>default</item>
+        <item>sandbox</item>
+    </string-array>
+    <string-array name="upload_contacts_batch_sizes">
+        <item>Default</item>
+        <item>100</item>
+        <item>50</item>
+        <item>25</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="upload_contacts_batch_size_values">
+        <item>-1</item>
+        <item>100</item>
+        <item>50</item>
+        <item>25</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="voip_audio_modes">
+        <item>Overridden by Automation</item>
+        <item>No override</item>
+        <item>NORMAL</item>
+        <item>IN_CALL</item>
+        <item>IN_COMMUNICATION</item>
+        <item>RINGTONE</item>
+    </string-array>
+    <string-array name="voip_audio_modes_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="voip_logging_level_names">
+        <item>None</item>
+        <item>Basic</item>
+        <item>Debug</item>
+        <item>Warning</item>
+        <item>Info</item>
+        <item>Verbose</item>
+    </string-array>
+    <string-array name="voip_logging_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="voip_codec_override_modes">
+        <item>No override</item>
+        <item>iSAC</item>
+        <item>Speex</item>
+        <item>Opus</item>
+        <item>ISPX(Independent WB) + PL</item>
+        <item>OPISPX</item>
+        <item>AAC</item>
+    </string-array>
+    <string-array name="voip_codec_override_modes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="voip_codec_bitrate_override_empty">
+        <item>No override</item>
+    </string-array>
+    <string-array name="voip_codec_bitrate_override_empty_values">
+        <item>-1</item>
+    </string-array>
+    <string-array name="voip_codec_bitrate_override_isac">
+        <item>No override</item>
+        <item>Adaptive</item>
+        <item>10Kbps</item>
+        <item>16Kbps</item>
+        <item>32Kbps</item>
+    </string-array>
+    <string-array name="voip_codec_bitrate_override_isac_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>10000</item>
+        <item>16000</item>
+        <item>32000</item>
+    </string-array>
+    <string-array name="voip_codec_bitrate_override_speex">
+        <item>No override</item>
+        <item>Adaptive</item>
+        <item>4Kbps</item>
+        <item>8Kbps</item>
+        <item>15Kbps</item>
+        <item>25Kbps</item>
+    </string-array>
+    <string-array name="voip_codec_bitrate_override_speex_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>4000</item>
+        <item>8000</item>
+        <item>15000</item>
+        <item>25000</item>
+    </string-array>
+    <string-array name="voip_codec_bitrate_override_opus">
+        <item>No override</item>
+        <item>6Kbps</item>
+        <item>10Kbps</item>
+        <item>16Kbps</item>
+        <item>32Kbps</item>
+        <item>56Kbps</item>
+    </string-array>
+    <string-array name="voip_codec_bitrate_override_opus_values">
+        <item>-1</item>
+        <item>6000</item>
+        <item>10000</item>
+        <item>16000</item>
+        <item>32000</item>
+        <item>56000</item>
+    </string-array>
+    <string-array name="voip_ispx_initial_sub_codec_names">
+        <item>No override</item>
+        <item>Speex</item>
+        <item>iSAC</item>
+    </string-array>
+    <string-array name="voip_ispx_initial_sub_codec_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="voip_opispx_initial_sub_codec_names">
+        <item>No override</item>
+        <item>Speex</item>
+        <item>iSAC</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="voip_opispx_initial_sub_codec_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="voip_ispx_fec_names">
+        <item>No override</item>
+        <item>Off</item>
+        <item>On</item>
+        <item>Adaptive</item>
+    </string-array>
+    <string-array name="voip_ispx_fec_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="voip_ispx_implementation_names">
+        <item>No override</item>
+        <item>Legacy</item>
+        <item>OPISPX-compatibility</item>
+    </string-array>
+    <string-array name="voip_ispx_implementation_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="speex_frames_per_packet_ispx_names">
+        <item>No override</item>
+        <item>3</item>
+        <item>6</item>
+        <item>9</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="speex_frames_per_packet_ispx_values">
+        <item>-1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>9</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="isac_frames_per_packet_ispx_names">
+        <item>No override</item>
+        <item>Adaptive</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="isac_frames_per_packet_ispx_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="ispx_max_aggr_bwe_offset_isac_names">
+        <item>No override</item>
+        <item>0Kbps</item>
+        <item>1Kbps</item>
+        <item>2Kbps</item>
+        <item>3Kbps</item>
+        <item>4Kbps</item>
+        <item>5Kbps</item>
+    </string-array>
+    <string-array name="ispx_max_aggr_bwe_offset_isac_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+    </string-array>
+    <string-array name="ispx_aggregation_stabilization_ms_isac_names">
+        <item>No override</item>
+        <item>0sec</item>
+        <item>1sec</item>
+        <item>2sec</item>
+        <item>3sec</item>
+        <item>4sec</item>
+        <item>5sec</item>
+    </string-array>
+    <string-array name="ispx_aggregation_stabilization_ms_isac_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+    </string-array>
+    <string-array name="voip_isac_initial_bitrate_names">
+        <item>No override</item>
+        <item>10Kbps</item>
+        <item>12Kbps</item>
+        <item>15Kbps</item>
+        <item>17bps</item>
+        <item>20Kbps</item>
+        <item>25Kbps</item>
+        <item>32Kbps</item>
+    </string-array>
+    <string-array name="voip_isac_initial_bitrate_values">
+        <item>-1</item>
+        <item>10000</item>
+        <item>12000</item>
+        <item>15000</item>
+        <item>17000</item>
+        <item>20000</item>
+        <item>25000</item>
+        <item>32000</item>
+    </string-array>
+    <string-array name="voip_speex_initial_bitrate_names">
+        <item>No override</item>
+        <item>4Kbps</item>
+        <item>6Kbps</item>
+        <item>8Kbps</item>
+        <item>10Kbps</item>
+        <item>12Kbps</item>
+        <item>14Kbps</item>
+        <item>16Kbps</item>
+        <item>18Kbps</item>
+        <item>20Kbps</item>
+        <item>22Kbps</item>
+        <item>24Kbps</item>
+    </string-array>
+    <string-array name="voip_speex_initial_bitrate_values">
+        <item>-1</item>
+        <item>4000</item>
+        <item>6000</item>
+        <item>8000</item>
+        <item>10000</item>
+        <item>12000</item>
+        <item>14000</item>
+        <item>16000</item>
+        <item>18000</item>
+        <item>20000</item>
+        <item>22000</item>
+        <item>24000</item>
+    </string-array>
+    <string-array name="voip_packet_loss_percentage_names">
+        <item>No override</item>
+        <item>0%</item>
+        <item>5%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+        <item>30%</item>
+        <item>35%</item>
+        <item>40%</item>
+        <item>45%</item>
+        <item>50%</item>
+        <item>55%</item>
+        <item>60%</item>
+        <item>65%</item>
+        <item>70%</item>
+        <item>75%</item>
+        <item>80%</item>
+        <item>85%</item>
+        <item>90%</item>
+        <item>95%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="voip_packet_loss_percentage_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="packet_interval_names">
+        <item>No override</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+    </string-array>
+    <string-array name="packet_interval_values">
+        <item>-1</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+    </string-array>
+    <string-array name="remote_video_grace_period_ms_names">
+        <item>No override</item>
+        <item>0</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+        <item>4500</item>
+        <item>5000</item>
+    </string-array>
+    <string-array name="remote_video_grace_period_ms_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+        <item>4500</item>
+        <item>5000</item>
+    </string-array>
+    <string-array name="voip_webrtc_option_controls">
+        <item>default</item>
+        <item>Disable</item>
+        <item>Enable</item>
+    </string-array>
+    <string-array name="voip_webrtc_option_controls_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="voip_webrtc_ec_modes">
+        <item>default</item>
+        <item>Platform Default</item>
+        <item>Conference</item>
+        <item>AEC</item>
+    </string-array>
+    <string-array name="voip_webrtc_ec_mode_values">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="voip_webrtc_aecm_modes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="voip_webrtc_agc_modes">
+        <item>default</item>
+        <item>Platform Default</item>
+        <item>Adaptive Analog</item>
+        <item>Adaptive Digital</item>
+        <item>Fixed Digital</item>
+    </string-array>
+    <string-array name="voip_webrtc_agc_modes_values">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="voip_webrtc_ns_modes">
+        <item>default</item>
+        <item>Platform Default</item>
+        <item>Conference</item>
+        <item>Low Suppression</item>
+        <item>Moderate Suppression</item>
+        <item>High Suppression</item>
+        <item>Very High Suppression</item>
+    </string-array>
+    <string-array name="voip_webrtc_ns_modes_values">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="voip_webrtc_lafns_modes">
+        <item>default</item>
+        <item>Platform Default</item>
+        <item>Disable</item>
+        <item>Very Low</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Very High</item>
+    </string-array>
+    <string-array name="voip_webrtc_lafns_modes_values">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="voip_use_jni_audio_types">
+        <item>No override</item>
+        <item>OpenSLES Audio</item>
+        <item>JNI Audio</item>
+    </string-array>
+    <string-array name="voip_use_jni_audio_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="voip_use_one_on_one_over_multiway_types">
+        <item>No override</item>
+        <item>Disabled</item>
+        <item>Enabled</item>
+    </string-array>
+    <string-array name="voip_use_one_on_one_over_multiway_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="is_traveling_internationally_types">
+        <item>No override</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="is_traveling_internationally_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="video_codec_override_modes">
+        <item>No override</item>
+        <item>VP8</item>
+        <item>H264</item>
+    </string-array>
+    <string-array name="video_codec_override_modes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="jobscheduler_analytics2">
+        <item>@id/jobscheduler_analytics2_normal_pri</item>
+        <item>@id/jobscheduler_analytics2_high_pri</item>
+    </array>
+    <string-array name="review_translation_star_label">
+        <item>Tap a star to rate</item>
+        <item>"&lt;b>Very bad:&lt;/b> I can't understand anything."</item>
+        <item>"&lt;b>Bad:&lt;/b> I can't understand most of this."</item>
+        <item>&lt;b>OK:&lt;/b> I can understand enough of this.</item>
+        <item>&lt;b>Good:&lt;/b> I can understand most of this.</item>
+        <item>&lt;b>Very good:&lt;/b> I can understand everything.</item>
+    </string-array>
+    <string-array name="review_composer_rating_selector_label">
+        <item>I hated it</item>
+        <item>"I didn't like it"</item>
+        <item>"It's okay"</item>
+        <item>I liked it</item>
+        <item>I loved it</item>
+    </string-array>
+    <string-array name="shipping_address_types">
+        <item>@string/shipping_address_type_home</item>
+        <item>@string/shipping_address_type_work</item>
+        <item>@string/shipping_address_type_other</item>
+    </string-array>
+    <string-array name="nux_close_dialog_options">
+        <item>@string/nux_dialog_accept_later</item>
+        <item>@string/nux_dialog_decline_payment</item>
+        <item>@string/dialog_cancel</item>
+    </string-array>
+    <string-array name="event_dashboard_time_am_pm_symbols">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <array name="msgr_thread_view_particle_balloon_variations">
+        <item>@drawable/msgr_thread_view_particle_balloon_blue</item>
+        <item>@drawable/msgr_thread_view_particle_balloon_purple</item>
+        <item>@drawable/msgr_thread_view_particle_balloon_pink</item>
+        <item>@drawable/msgr_thread_view_particle_balloon_red</item>
+        <item>@drawable/msgr_thread_view_particle_balloon_orange</item>
+        <item>@drawable/msgr_thread_view_particle_balloon_yellow</item>
+        <item>@drawable/msgr_thread_view_particle_balloon_green</item>
+        <item>@drawable/msgr_thread_view_particle_balloon_cyan</item>
+    </array>
+    <array name="msgr_thread_view_particle_bill_frames">
+        <item>@drawable/msgr_thread_view_particle_bill1</item>
+        <item>@drawable/msgr_thread_view_particle_bill1</item>
+        <item>@drawable/msgr_thread_view_particle_bill2</item>
+        <item>@drawable/msgr_thread_view_particle_bill2</item>
+        <item>@drawable/msgr_thread_view_particle_bill1</item>
+        <item>@drawable/msgr_thread_view_particle_bill3</item>
+        <item>@drawable/msgr_thread_view_particle_bill3</item>
+        <item>@drawable/msgr_thread_view_particle_bill4</item>
+        <item>@drawable/msgr_thread_view_particle_bill5</item>
+        <item>@drawable/msgr_thread_view_particle_bill6</item>
+        <item>@drawable/msgr_thread_view_particle_bill7</item>
+        <item>@drawable/msgr_thread_view_particle_bill8</item>
+        <item>@drawable/msgr_thread_view_particle_bill8</item>
+        <item>@drawable/msgr_thread_view_particle_bill8</item>
+        <item>@drawable/msgr_thread_view_particle_bill9</item>
+        <item>@drawable/msgr_thread_view_particle_bill9</item>
+        <item>@drawable/msgr_thread_view_particle_bill9</item>
+        <item>@drawable/msgr_thread_view_particle_bill10</item>
+        <item>@drawable/msgr_thread_view_particle_bill11</item>
+        <item>@drawable/msgr_thread_view_particle_bill12</item>
+        <item>@drawable/msgr_thread_view_particle_bill13</item>
+        <item>@drawable/msgr_thread_view_particle_bill14</item>
+        <item>@drawable/msgr_thread_view_particle_bill14</item>
+        <item>@drawable/msgr_thread_view_particle_bill14</item>
+    </array>
+    <array name="msgr_thread_view_particle_coin_frames">
+        <item>@drawable/msgr_thread_view_particle_coin1</item>
+        <item>@drawable/msgr_thread_view_particle_coin2</item>
+        <item>@drawable/msgr_thread_view_particle_coin3</item>
+    </array>
+    <array name="msgr_thread_view_particle_snow_variations">
+        <item>@drawable/msgr_thread_view_particle_snow1</item>
+        <item>@drawable/msgr_thread_view_particle_snow2</item>
+        <item>@drawable/msgr_thread_view_particle_snow3</item>
+        <item>@drawable/msgr_thread_view_particle_snow4</item>
+        <item>@drawable/msgr_thread_view_particle_snow5</item>
+        <item>@drawable/msgr_thread_view_particle_snow6</item>
+        <item>@drawable/msgr_thread_view_particle_snow7</item>
+    </array>
+    <string-array name="android_wear_capabilities">
+        <item>messenger_app</item>
+    </string-array>
+    <string-array name="logger_levels">
+        <item>Default</item>
+        <item>Verbose</item>
+        <item>Debug</item>
+        <item>Info</item>
+        <item>Warn</item>
+        <item>Error</item>
+        <item>Assert</item>
+    </string-array>
+    <string-array name="logger_levels_values">
+        <item>-1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+</resources>

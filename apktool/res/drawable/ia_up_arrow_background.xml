@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/ia_scroll_to_top_button_corner_radius" />
+    <solid android:color="@color/richdocument_30_percent_black" />
+    <padding android:left="@dimen/ia_scroll_to_top_button_padding" android:top="@dimen/ia_scroll_to_top_button_padding" android:right="@dimen/ia_scroll_to_top_button_padding" android:bottom="@dimen/ia_scroll_to_top_button_padding" />
+</shape>

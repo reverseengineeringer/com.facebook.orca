@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/story_set_item_attachment_container" android:paddingLeft="@dimen/feed_story_margin" android:paddingTop="@dimen/feed_story_margin" android:paddingRight="@dimen/feed_story_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.GenericDraweeView android:id="@id/story_set_item_photo_attachment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    </LinearLayout>
+</merge>

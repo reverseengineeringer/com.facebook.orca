@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.BetterTextView android:textColor="@color/black_alpha_54" android:gravity="center" android:paddingTop="@dimen/emoji_skin_tone_popover_nux_vertical_padding" android:paddingBottom="@dimen/emoji_skin_tone_popover_nux_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/emoji_color_picker_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

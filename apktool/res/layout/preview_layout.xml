@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/photo_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:placeholderImage="@color/black" />
+    <ViewStub android:id="@id/video_preview_stub" android:visibility="gone" android:layout="@layout/creativecam_video_preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.widget.loadingindicator.LoadingIndicatorView android:gravity="center" android:id="@id/photo_loading_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.facebook.widget.CustomFrameLayout>

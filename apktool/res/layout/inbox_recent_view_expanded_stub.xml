@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?rootFragmentBackgroundColor" android:paddingTop="@dimen/inbox_recent_item_vertical_padding" android:paddingBottom="@dimen/inbox_recent_item_vertical_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:auto="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.ChildSharingFrameLayout android:id="@id/inbox_recent_item_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/inbox_recent_items_horizontal_padding" android:layout_marginRight="@dimen/inbox_recent_items_horizontal_padding" android:layout_weight="1.0" />
+    <com.facebook.messaging.inbox2.recents.InboxRecentItemFooter android:id="@id/inbox_recent_item_footer" android:paddingLeft="@dimen/inbox_recent_item_footer_horizontal_padding" android:paddingRight="@dimen/inbox_recent_item_footer_horizontal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inbox_recent_items_horizontal_padding" android:layout_marginRight="@dimen/inbox_recent_items_horizontal_padding" />
+    <com.facebook.messaging.inbox2.sharing.ShareFlowSelectorView android:id="@id/inbox_recent_item_share" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

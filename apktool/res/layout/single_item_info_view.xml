@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/item_image" android:layout_width="@dimen/single_item_info_image_size_large" android:layout_height="@dimen/single_item_info_image_size_large" android:layout_marginRight="@dimen/single_item_info_image_text_padding" android:layout_marginEnd="@dimen/single_item_info_image_text_padding" fb:actualImageScaleType="focusCrop" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/fbui_white" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.facebook.widget.text.BetterTextView android:textStyle="bold" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="@dimen/single_item_info_title_text_height" style="@style/Payments.ItemInfoText.Title" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/subtitle_text" android:layout_width="fill_parent" style="@style/Payments.ItemInfoText.Subtitle" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/sub_subtitle_text" android:layout_width="fill_parent" style="@style/Payments.ItemInfoText.Subtitle" />
+    </LinearLayout>
+</merge>

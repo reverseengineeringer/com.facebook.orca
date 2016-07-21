@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.messaging.professionalservices.booking.ui.CalendarDateView android:layout_gravity="center_vertical" android:id="@id/professionalservices_appointment_calendar_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fbui_padding_standard" android:layout_marginEnd="@dimen/fbui_padding_standard" />
+    <com.facebook.fbui.widget.contentview.ContentView android:layout_gravity="center_vertical" android:id="@id/professionalservices_appointment_title_and_subtitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:titleTextAppearance="@style/ProfessionalservicesAppointmentTitle" app:subtitleTextAppearance="@style/ProfessionalservicesAppointmentSubtitle" app:maxLinesFromThumbnailSize="false" app:titleMaxLines="1" app:subtitleMaxLines="1" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:layout_gravity="top" android:id="@id/professionalservices_appointment_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fbui_padding_standard" android:layout_marginStart="@dimen/fbui_padding_standard" />
+</merge>

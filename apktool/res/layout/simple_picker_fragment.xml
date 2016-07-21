@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/simple_picker_root" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/grid_view" android:paddingTop="@dimen/simplepicker_title_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/simplepicker_grid_spacing" android:verticalSpacing="@dimen/simplepicker_grid_spacing" android:stretchMode="columnWidth" android:columnWidth="@dimen/simplepicker_thumbnail_size" android:numColumns="auto_fit" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/recycler_view_stub" android:layout="@layout/simple_picker_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/simplepicker_title_bar_height" />
+    <ViewStub android:id="@id/slideshow_entrypoint_view_stub" android:layout="@layout/slideshow_selector_view" android:inflatedId="@id/slideshow_entrypoint_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/simplepicker_title_bar_height" />
+    <ViewStub android:id="@id/no_photo_view_stub" android:layout="@layout/no_photo_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.ui.titlebar.Fb4aTitleBar android:id="@id/titlebar" android:background="?titleBarBackground" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:gravity="center" android:id="@id/loading_indicator" android:background="@color/title_bar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/simplepicker_title_bar_height">
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/camera_roll_text_size" android:textColor="@color/white" android:id="@id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_indicator_text" />
+    </LinearLayout>
+    <com.facebook.photos.simplepicker.view.PickerLongPressProgressBar android:layout_gravity="center|left|top" android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/simplepicker_progress_bar_height" android:layout_marginTop="@dimen/simplepicker_progress_bar_margin_top" />
+    <ViewStub android:id="@id/souvenir_nux_stub" android:layout="@layout/souvenir_nux_view" android:inflatedId="@id/souvenir_nux" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="bottom|center" android:id="@id/nux_anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/simplepicker_nux_bottom_padding" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/slideshow_error_message_view_stub" android:layout="@layout/slideshow_error_message" android:inflatedId="@id/slideshow_error_message_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

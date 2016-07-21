@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.messaging.business.ride.view.RideRouteInfoView android:id="@id/ride_receipt_bubble_route_info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ride_bubble_margin_top" android:layout_marginBottom="@dimen/business_margin_default" style="@style/business_bubble_margin_horizontal_default">
+        <com.facebook.messaging.business.common.view.BusinessPairTextView android:id="@id/ride_bubble_type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" fb:titleString="@string/ride_bubble_type_title" fb:textOrientation="vertical" />
+        <com.facebook.messaging.business.common.view.BusinessPairTextView android:id="@id/ride_bubble_miles" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" fb:titleString="@string/ride_bubble_miles_title" fb:textOrientation="vertical" />
+        <com.facebook.messaging.business.common.view.BusinessPairTextView android:id="@id/ride_bubble_trip_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" fb:titleString="@string/ride_bubble_trip_time_title" fb:textOrientation="vertical" />
+    </LinearLayout>
+</merge>

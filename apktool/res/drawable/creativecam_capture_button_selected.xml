@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/capture_button_dim" android:width="@dimen/capture_button_dim" />
+            <solid android:color="@color/transparent" />
+            <stroke android:width="@dimen/capture_button_outerborder" android:color="@color/fbui_white_40" />
+        </shape>
+    </item>
+    <item android:left="@dimen/capture_button_innerborder" android:top="@dimen/capture_button_innerborder" android:right="@dimen/capture_button_innerborder" android:bottom="@dimen/capture_button_innerborder">
+        <shape android:shape="oval">
+            <solid android:color="@color/photo_capture_innercircle_selected" />
+        </shape>
+    </item>
+</layer-list>

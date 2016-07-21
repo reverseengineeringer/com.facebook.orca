@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/composer_attachment_item_image_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.widget.FbImageView android:id="@id/composer_attachment_item_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/composer_photo_content_description" />
+        <com.facebook.widget.FbImageView android:layout_gravity="center" android:id="@id/video_grid_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_grid_icon" />
+        <com.facebook.widget.ShimmerFrameLayout android:id="@id/shimmering_faceboxes_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.facebook.widget.FbImageView android:layout_gravity="bottom|center|right" android:id="@id/composer_attachment_item_tag_indicator" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.9" />
+    <com.facebook.widget.FbImageView android:layout_gravity="center|right|top" android:id="@id/composer_attachment_item_remove" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/facebox_remove_icon_margin" android:layout_marginRight="@dimen/facebox_remove_icon_margin" android:src="@drawable/remove_icon" android:contentDescription="@string/composer_accessibility_attachment_item_remove" android:alpha="0.9" android:layout_marginEnd="@dimen/facebox_remove_icon_margin" />
+</FrameLayout>

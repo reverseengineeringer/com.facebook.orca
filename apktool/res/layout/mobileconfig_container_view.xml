@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mobileconfig_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.titlebar.TitleBarViewStub android:id="@id/mobileconfig_titlebar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.fig.textinput.FigEditText android:id="@id/mobileconfig_search" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/search_bar" android:layout_weight="0.9" />
+        <com.facebook.fig.button.FigButton android:id="@id/mobileconfig_search_cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/search_cancel" android:layout_weight="0.1" fb:buttonType="flat_secondary_medium" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/mobileconfig_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

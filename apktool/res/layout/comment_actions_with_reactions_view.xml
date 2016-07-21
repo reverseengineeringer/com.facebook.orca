@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.accessibility.AccessibleTextView android:id="@id/comment_metadata_view" android:paddingTop="@dimen/feedback_comment_view_metadata_top_padding" android:paddingBottom="@dimen/feedback_reactions_comment_view_metadata_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.feedback.reactions.ui.ReactionsFooterSelectionView android:layout_gravity="center_vertical" android:id="@id/comment_reactions_selector_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/feedback_comment_reactions_selection_height" />
+</merge>

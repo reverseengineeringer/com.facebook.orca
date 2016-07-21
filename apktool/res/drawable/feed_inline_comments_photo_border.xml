@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/feed_inline_comments_photo_border_width" android:color="@color/fbui_bluegrey_10" />
+    <padding android:left="@dimen/feed_inline_comments_photo_border_width" android:top="@dimen/feed_inline_comments_photo_border_width" android:right="@dimen/feed_inline_comments_photo_border_width" android:bottom="@dimen/feed_inline_comments_photo_border_width" />
+</shape>

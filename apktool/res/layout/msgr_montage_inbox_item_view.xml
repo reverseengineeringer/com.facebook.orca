@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.messaging.montage.MontageTileView android:id="@id/montage_tile" style="@style/MontageInboxItem.MontageTile" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/user_name" style="@style/MontageInboxItem.Username" />
+</merge>

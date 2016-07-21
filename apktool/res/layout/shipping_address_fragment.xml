@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.payments.ui.titlebar.PaymentsTitleBarViewStub android:id="@id/titlebar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/shipping_address_input_container" android:paddingLeft="@dimen/shipping_address_left_right_padding" android:paddingRight="@dimen/shipping_address_left_right_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip">
+                <View android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/name_edit_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" fb:hint="@string/shipping_address_name" fb:errorMessage="@string/shipping_address_name_error" />
+                    <Spinner android:entries="@array/shipping_address_types" android:id="@id/shipping_address_type_spinner" android:paddingBottom="@dimen/shipping_address_spinner_bottom_padding" android:layout_width="112.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/shipping_address_spinner_top_margin" android:minHeight="@dimen/shipping_address_spinner_min_height" android:layout_marginStart="16.0dip" />
+                </LinearLayout>
+                <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/address1_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:hint="@string/shipping_address_address1" fb:errorMessage="@string/shipping_address_address1_error" />
+                <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/address2_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/city_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:errorMessage="@string/shipping_address_city_error" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/state_edit_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_weight="1.0" android:layout_marginEnd="8.0dip" fb:errorMessage="@string/shipping_address_state_error" />
+                    <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/billing_zip_edit_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0" android:layout_marginStart="8.0dip" />
+                </LinearLayout>
+                <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/country_text" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:hint="@string/shipping_address_country" />
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@id/shipping_address_progress_bar" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" style="?android:attr/progressBarStyle" />
+        </FrameLayout>
+    </ScrollView>
+</com.facebook.widget.CustomLinearLayout>

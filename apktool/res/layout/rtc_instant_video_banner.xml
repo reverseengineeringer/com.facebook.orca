@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/instant_video_banner_container" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="14.0sp" android:textColor="@color/fbui_white" android:gravity="center" android:id="@id/instant_video_banner_text" android:background="@color/voip_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/voip_blue" android:layout_width="fill_parent" android:layout_height="164.0dip">
+        <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="120.0dip" android:layout_height="fill_parent">
+            <com.facebook.rtc.customui.GlyphLayerButton android:id="@id/instant_video_dismiss_button" android:background="@color/clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" fb:frontImage="@drawable/end_call_phone" fb:backImage="@drawable/rtc_green_filled_circle" fb:frontColor="@color/voip_red" fb:backColor="@color/fbui_white" />
+            <com.facebook.widget.text.BetterTextView android:textSize="12.0sp" android:textColor="@color/fbui_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rtc_decline_all_caps" android:layout_below="@id/instant_video_dismiss_button" android:layout_centerHorizontal="true" />
+        </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="120.0dip" android:layout_height="fill_parent">
+            <com.facebook.rtc.customui.GlyphLayerButton android:id="@id/instant_video_send_back_button" android:background="@color/clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" fb:frontImage="@drawable/voip_video_blue" fb:backImage="@drawable/rtc_red_filled_circle" fb:frontColor="@color/fbui_white" fb:backColor="@color/rtc_green" />
+            <com.facebook.widget.text.BetterTextView android:textSize="12.0sp" android:textColor="@color/fbui_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rtc_answer_all_caps" android:layout_below="@id/instant_video_send_back_button" android:layout_centerHorizontal="true" />
+        </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="20.0dip" android:src="@drawable/rtc_banner_shadow" />
+</LinearLayout>

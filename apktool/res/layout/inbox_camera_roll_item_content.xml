@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/inbox_camera_roll_item_image" android:layout_width="@dimen/inbox_camera_roll_height" android:layout_height="fill_parent" fb:placeholderImage="@color/orca_image_placeholder_color" fb:progressBarImage="@drawable/white_spinner" fb:progressBarAutoRotateInterval="1000" fb:actualImageScaleType="centerCrop" />
+    <ImageView android:layout_gravity="start|center|top" android:id="@id/inbox_camera_roll_item_checkbox" android:layout_width="@dimen/inbox_camera_roll_checkbox_size" android:layout_height="@dimen/inbox_camera_roll_checkbox_size" android:layout_marginLeft="@dimen/inbox_camera_roll_checkbox_margin" android:layout_marginTop="@dimen/inbox_camera_roll_checkbox_margin" android:src="@drawable/fbui_check_on" android:scaleType="centerInside" android:layout_marginStart="@dimen/inbox_camera_roll_checkbox_margin" />
+</merge>

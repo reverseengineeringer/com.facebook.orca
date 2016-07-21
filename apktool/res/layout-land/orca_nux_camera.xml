@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/camera_clipper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/camera_preview_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/camera_snapshot_placeholder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center" android:id="@id/camera_mask" android:background="@drawable/orca_circular_camera_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:layout_gravity="left" android:id="@id/camera_mask_top" android:background="@android:color/white" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <View android:layout_gravity="right" android:id="@id/camera_mask_bottom" android:background="@android:color/white" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <View android:id="@id/camera_flash_overlay" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/camera_controls_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/gallery_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orca_reg_gallery_icon" android:contentDescription="@string/orca_nux_profile_pic_go_gallery_button" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/take_picture_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/orca_reg_camera_trigger" android:contentDescription="@string/orca_nux_profile_pic_go_cam_button" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/flip_camera_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orca_reg_flip_camera" android:contentDescription="@string/orca_nux_profile_pic_flip_cam_button_description" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/after_picture_taken_controls_group" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <com.facebook.widget.text.BetterTextView android:textStyle="bold" android:layout_gravity="center" android:id="@id/continue_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/orca_reg_normal_margin" android:layout_marginBottom="@dimen/orca_reg_normal_margin" android:text="@string/orca_nux_profile_picture_continue" fb:allCaps="true" style="@style/Widget.Messenger.Button.Blue.Nux" />
+        <com.facebook.widget.text.BetterTextView android:layout_gravity="center" android:id="@id/retake_picture_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/orca_nux_profile_picture_retake_picture" fb:allCaps="true" style="@style/OrcaRegBlueTextButton" />
+    </LinearLayout>
+</FrameLayout>

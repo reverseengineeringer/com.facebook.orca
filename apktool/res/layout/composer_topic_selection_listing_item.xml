@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.contentview.CheckedContentView android:gravity="center_vertical" android:padding="@dimen/composer_topic_selection_listing_row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="@drawable/fb4a_material_checkbox"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/topic_row_icon" android:layout_width="@dimen/composer_topic_selection_listing_row_icon_size" android:layout_height="@dimen/composer_topic_selection_listing_row_icon_size" android:cropToPadding="true" fb:placeholderImage="@color/fbui_white" fb:actualImageScaleType="center" fb:roundedCornerRadius="@dimen/composer_topic_selection_listing_row_icon_corner_radius" fb:layout_useAsThumbnail="true" />
+</com.facebook.fbui.widget.contentview.CheckedContentView>

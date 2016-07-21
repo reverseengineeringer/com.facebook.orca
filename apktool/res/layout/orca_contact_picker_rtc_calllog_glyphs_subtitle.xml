@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/rtc_calllog_glyphs_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:id="@id/rtc_calllog_ellipsis" android:paddingRight="@dimen/rtc_call_log_right_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ellipses" android:includeFontPadding="false" style="?attr/contactPickerItemStatusStyle" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/rtc_calllog_glyph_optional" android:paddingRight="@dimen/rtc_call_log_right_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/rtc_calllog_glyph_left" android:paddingRight="@dimen/rtc_call_log_right_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/rtc_calllog_glyph_center" android:paddingRight="@dimen/rtc_call_log_right_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/rtc_calllog_glyph_right" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

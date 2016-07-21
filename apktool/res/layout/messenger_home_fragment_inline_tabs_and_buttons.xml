@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/search_and_tabs_container" android:background="?topToolbarBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?topToolbarElevation">
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/searchview_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.widget.CustomFrameLayout android:id="@id/top_toolbar_container" android:paddingRight="4.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+            <com.facebook.messenger.neue.DelayedAssetLoadingIconTabbedViewPagerIndicator android:id="@id/tab_indicator" android:layout_width="wrap_content" android:layout_height="fill_parent" fb:fillParentWidth="false" style="?tabbedViewPagerIndicatorStyle" />
+            <android.support.v7.internal.widget.ViewStubCompat android:layout_gravity="right" android:id="@id/home_buttons_stub" android:layout="@layout/orca_home_button_layout_stub_inline" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </com.facebook.widget.CustomFrameLayout>
+    </LinearLayout>
+    <com.facebook.messenger.neue.MessengerHomeFragmentView android:id="@id/messenger_home_root" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.facebook.widget.AdvancedVerticalLinearLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:spaceSavingThreshold="@dimen/space_saving_height">
+            <include layout="@layout/messenger_home_fragment_main_content" />
+        </com.facebook.widget.AdvancedVerticalLinearLayout>
+        <include layout="@layout/orca_home_fab_view_stub_compat" />
+    </com.facebook.messenger.neue.MessengerHomeFragmentView>
+</merge>

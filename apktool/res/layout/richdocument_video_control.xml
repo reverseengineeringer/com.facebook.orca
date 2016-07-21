@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.richdocument.view.widget.video.InstantArticlesVideoControlsView android:layout_width="@dimen/richdocument_video_play_button_width" android:layout_height="@dimen/richdocument_video_pause_button_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

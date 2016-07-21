@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/msgr_thread_theme_item_size" android:layout_height="@dimen/msgr_thread_theme_item_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/color" android:background="@drawable/orca_neue_item_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/custom_color_icon" />
+    <ImageView android:layout_gravity="center" android:id="@id/checkmark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msgr_checkmark_white" />
+</FrameLayout>

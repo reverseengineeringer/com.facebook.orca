@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.fbui.widget.layout.ImageBlockLayout android:gravity="center_vertical" android:id="@id/feed_composer_header" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:thumbnailPadding="@dimen/timeline_composer_default_padding">
+            <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center_vertical" android:id="@id/feed_composer_profile_image" android:layout_width="@dimen/timeline_composer_profile_image_large_size" android:layout_height="@dimen/timeline_composer_profile_image_large_size" fb:placeholderImage="@drawable/no_avatar" fb:actualImageScaleType="centerCrop" fb:layout_useAsThumbnail="true" />
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/composer_hint_text_color" android:layout_gravity="start|center" android:id="@id/feed_composer_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.facebook.fbui.widget.layout.ImageBlockLayout>
+    </LinearLayout>
+</merge>

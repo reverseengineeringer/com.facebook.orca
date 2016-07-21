@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/image_preview_stub" android:layout="@layout/multimedia_editor_image_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/video_preview_stub" android:layout="@layout/multimedia_editor_video_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.messaging.photos.editing.LayerGroupLayout android:id="@id/layers" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/orca_photo_editing_controls_layout" />
+    <include layout="@layout/orca_photo_editing_text_styles_layout" />
+    <include layout="@layout/orca_photo_editing_delete_layer_button" />
+    <ImageButton android:layout_gravity="start|center|top" android:id="@id/cancel_button" android:background="@null" android:layout_width="@dimen/app_bar_button_dimension" android:layout_height="@dimen/app_bar_button_dimension" android:layout_marginLeft="@dimen/app_bar_button_horizontal_margin" android:layout_marginTop="@dimen/app_bar_button_vertical_margin" android:src="@drawable/msgr_ic_arrow_back_shadow" android:contentDescription="@string/dialog_cancel" android:layout_marginStart="@dimen/app_bar_button_horizontal_margin" />
+    <ImageButton android:layout_gravity="bottom|center" android:id="@id/done_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quick_cam_progress_bar_item_vertical_margin" android:layout_marginBottom="@dimen/quick_cam_progress_bar_item_vertical_margin" android:src="@drawable/msgr_camera_send" android:contentDescription="@string/generic_send" />
+</merge>

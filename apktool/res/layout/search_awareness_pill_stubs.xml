@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center|top" android:id="@id/search_awareness_pill_stub_top" android:layout="@layout/awareness_pill_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_awareness_pill_margin_top" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/search_awareness_pill_stub_bottom" android:layout="@layout/awareness_pill_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/search_awareness_pill_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+</merge>

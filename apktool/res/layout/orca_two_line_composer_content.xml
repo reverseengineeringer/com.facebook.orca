@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/flower_border_mode_banner_stub" android:layout="@layout/msgr_flower_border_mode_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/mentions_search_results_view_stub" android:layout="@layout/orca_two_line_composer_mentions_search" android:inflatedId="@id/triggers_mentions_view" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@id/content_search_scroller" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/content_search_results_view_stub" android:layout="@layout/orca_two_line_composer_content_search" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/extensible_container_scroller" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.messaging.composershortcuts.OverflowComposerShortcutsContainer android:id="@id/extensible_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/flower_border_mode_button_stub" android:layout="@layout/orca_composer_flower_border_button" android:layout_width="@dimen/messaging_composershortcuts_button_size" android:layout_height="@dimen/messaging_composershortcuts_row_height" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/text_line_scroller" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.orca.compose.TextLineComposer android:id="@id/text_line_composer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/orca_compose_min_text_input_container_height" />
+    </FrameLayout>
+</merge>

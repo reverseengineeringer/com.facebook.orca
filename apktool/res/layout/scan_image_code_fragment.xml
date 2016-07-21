@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:id="@id/scan_image_code_fragment_root_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/scan_image_code_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/image_code_camera_preview_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/scan_image_code_button_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/image_code_camera_mask" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerInParent="true" app:glyphColor="@color/black_alpha_38" app:source="@drawable/orca_circular_camera_mask" />
+        <View android:id="@id/image_code_camera_mask_top" android:background="@color/black_alpha_38" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/image_code_camera_mask" android:layout_alignParentTop="true" />
+        <View android:id="@id/image_code_camera_mask_bottom" android:background="@color/black_alpha_38" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/image_code_camera_mask" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/image_code_gallery_button" android:background="@drawable/media_tray_gallery_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/scan_image_code_gallery_button_margin" android:layout_marginBottom="@dimen/scan_image_code_gallery_button_margin" android:src="@drawable/media_tray_gallery_button" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/media_tray_gallery_button" />
+        <com.facebook.widget.listview.EmptyListViewItem android:id="@id/image_code_loading_indicator" android:background="@drawable/transparent_drawable" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/image_code_camera_mask_bottom" android:layout_below="@id/image_code_camera_mask_top" android:layout_centerVertical="true" />
+        <View android:id="@id/image_code_loading_overlay" android:background="@color/black_alpha_38" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/scan_image_code_permission_request_view_stub" android:layout="@layout/scan_image_code_permission_request_view_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+</com.facebook.widget.CustomFrameLayout>

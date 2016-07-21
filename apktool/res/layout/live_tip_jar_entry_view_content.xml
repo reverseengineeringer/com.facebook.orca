@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/tip_jar_entry_actor_image" android:layout_width="@dimen/live_tip_jar_entry_view_content_height" android:layout_height="@dimen/live_tip_jar_entry_view_content_height" android:layout_marginRight="@dimen/fbui_padding_half_standard" android:layout_marginEnd="@dimen/fbui_padding_half_standard" fb:placeholderImage="@drawable/no_avatar" fb:actualImageScaleType="centerCrop" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:layout_gravity="center_vertical" android:id="@id/tip_jar_entry_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/tip_button" android:background="@drawable/live_tip_jar_entry_view_button_background" android:padding="@dimen/fbui_padding_half_standard" android:layout_width="@dimen/live_tip_jar_entry_view_content_height" android:layout_height="@dimen/live_tip_jar_entry_view_content_height" android:src="@drawable/fbui_tip_jar_l" fb:glyphColor="@color/white" />
+</merge>

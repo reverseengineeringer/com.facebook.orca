@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="omnipicker_autocomplete_input_max_height">96.0dip</dimen>
+</resources>

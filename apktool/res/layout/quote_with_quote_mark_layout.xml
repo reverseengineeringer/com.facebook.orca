@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/quote_mark" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/fbui_app_mentions_l" fb:glyphColor="@color/fbui_bluegrey_40" />
+    <com.facebook.resources.ui.ExpandingEllipsizingTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_text_light" android:ellipsize="end" android:gravity="left" android:id="@id/quote_text" android:paddingLeft="10.0dip" android:paddingRight="0.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:maxLines="3" android:includeFontPadding="false" android:layout_weight="1.0" android:lineSpacingExtra="1.5dip" fb:ellipsisText="@string/quote_ellipsis_more" />
+</com.facebook.widget.CustomLinearLayout>

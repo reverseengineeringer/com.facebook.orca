@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/video_container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:actualImageScaleType="centerCrop" />
+    <com.facebook.video.commercialbreak.plugins.CommercialBreakSquareLinearLayout android:gravity="center" android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/profile_pic" android:layout_width="66.0dip" android:layout_height="66.0dip" fb:roundAsCircle="true" />
+        <com.facebook.resources.ui.FbTextView android:textSize="18.0sp" android:textColor="@color/fbui_white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" />
+        <com.facebook.resources.ui.FbTextView android:textSize="14.0sp" android:textColor="@color/fbui_white" android:id="@id/transition_state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/commercial_break_transition_start_text" />
+        <com.facebook.resources.ui.FbTextView android:textSize="40.0sp" android:textColor="@color/fbui_white" android:id="@id/static_countdown_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+        <com.facebook.widget.loadingindicator.LoadingIndicatorView android:id="@id/ad_loading_indicator_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" fb:imageSize="large" />
+    </com.facebook.video.commercialbreak.plugins.CommercialBreakSquareLinearLayout>
+</FrameLayout>

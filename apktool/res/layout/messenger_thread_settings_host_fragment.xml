@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/thread_settings_toolbar" layout="@layout/action_bar_toolbar" />
+    <com.facebook.widget.CustomFrameLayout android:id="@id/thread_settings_fragment_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.facebook.widget.CustomLinearLayout>

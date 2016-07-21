@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.facebook.orca" platformBuildVersionCode="23" platformBuildVersionName="6.0-2166767">
+    <uses-permission android:name="com.facebook.katana.provider.ACCESS"/>
+    <compatible-screens>
+        <screen android:screenDensity="560" android:screenSize="small"/>
+        <screen android:screenDensity="560" android:screenSize="normal"/>
+        <screen android:screenDensity="560" android:screenSize="large"/>
+        <screen android:screenDensity="560" android:screenSize="xlarge"/>
+        <screen android:screenDensity="420" android:screenSize="small"/>
+        <screen android:screenDensity="420" android:screenSize="normal"/>
+        <screen android:screenDensity="420" android:screenSize="large"/>
+        <screen android:screenDensity="420" android:screenSize="xlarge"/>
+        <screen android:screenDensity="640" android:screenSize="small"/>
+        <screen android:screenDensity="640" android:screenSize="normal"/>
+        <screen android:screenDensity="640" android:screenSize="large"/>
+        <screen android:screenDensity="640" android:screenSize="xlarge"/>
+        <screen android:screenDensity="400" android:screenSize="small"/>
+        <screen android:screenDensity="400" android:screenSize="normal"/>
+        <screen android:screenDensity="400" android:screenSize="large"/>
+        <screen android:screenDensity="400" android:screenSize="xlarge"/>
+        <screen android:screenDensity="280" android:screenSize="small"/>
+        <screen android:screenDensity="280" android:screenSize="normal"/>
+        <screen android:screenDensity="280" android:screenSize="large"/>
+        <screen android:screenDensity="280" android:screenSize="xlarge"/>
+        <screen android:screenDensity="360" android:screenSize="small"/>
+        <screen android:screenDensity="360" android:screenSize="normal"/>
+        <screen android:screenDensity="360" android:screenSize="large"/>
+        <screen android:screenDensity="360" android:screenSize="xlarge"/>
+        <screen android:screenDensity="480" android:screenSize="small"/>
+        <screen android:screenDensity="480" android:screenSize="normal"/>
+        <screen android:screenDensity="480" android:screenSize="large"/>
+        <screen android:screenDensity="480" android:screenSize="xlarge"/>
+    </compatible-screens>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <permission android:name="com.facebook.orca.provider.ACCESS" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.facebook.orca.provider.ACCESS"/>
+    <permission android:name="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.facebook.permission.prod.FB_APP_COMMUNICATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-feature android:glEsVersion="0x20000" android:required="false"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission-sdk-m android:name="android.permission.READ_CALENDAR"/>
+    <application android:allowBackup="false" android:debuggable="false" android:hardwareAccelerated="true" android:icon="@drawable/launcher_icon" android:label="@string/app_name" android:largeHeap="true" android:name="com.facebook.messenger.app.MessengerApplication" android:theme="@style/Theme.Orca.Neue">
+        <meta-data android:name="com.facebook.build_rule" android:value="messenger_art_staticdi_dextr_str_xzso_xxhdpi_armv7_release_fbsign"/>
+        <meta-data android:name="com.facebook.package_type" android:value="release"/>
+        <meta-data android:name="com.facebook.build_time" android:value="1468626465000L"/>
+        <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"/>
+        <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyB2qiehH9CMRIuRVJghvnluwA1GvQ3FCe4"/>
+        <meta-data android:name="com.facebook.rti.fbns.FB_SHARED_VERSION" android:value="2.8"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:launchMode="singleTask" android:name="com.facebook.messaging.auth.StartScreenActivity" android:theme="@style/Theme.Orca.Neue.Start" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.facebook.messenger.app.MessengerSplashScreenActivity"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.facebook.messaging.chatheads.view.ChatHeadForegroundActivity" android:taskAffinity="com.facebook.messaging.chatheads.view.ChatHeadForegroundActivity" android:theme="@style/Theme.Orca.ChatHeadForegroundActivity"/>
+        <activity android:name="com.facebook.messaging.about.MessengerAboutLicenseActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.facebook.messaging.neue.nux.NeueNuxActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.facebook.messaging.invites.InviteLinkActivity" android:theme="@style/Theme.Messenger.Material" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.facebook.orca.threadview.ThreadViewActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.facebook.messenger.neue.MainActivity" android:theme="@style/Theme.Orca.Neue.Home" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.facebook.orca.threadview.montage.MontageViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Messenger.Montage.Viewer" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.facebook.messaging.messagerequests.activity.MessageRequestsActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.orca.creation.CreateThreadActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:finishOnTaskLaunch="true" android:name="com.facebook.messaging.voipsearch.OrcaVoipSearchActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:exported="false" android:name="com.facebook.orca.contacts.picker.ContactStartGroupCallActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:exported="false" android:label="@string/voip_schedule_call_title" android:name="com.facebook.orca.contacts.picker.ContactScheduleCallActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messenger.neue.NeueContactPickerActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:theme="@style/Theme.Orca.Neue.NeueContactPickerActivty" android:windowSoftInputMode="adjustPan|stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.orca.threadview.AddMembersActivity" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:name="com.facebook.addresstypeahead.AddressTypeAheadActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.facebook.browser.lite.BrowserLiteActivity" android:process=":browser" android:windowSoftInputMode="adjustResize"/>
+        <service android:exported="false" android:name="com.facebook.messaging.browser.MessengerBrowserLiteCallbackService">
+            <intent-filter>
+                <action android:name="com.facebook.browser.lite.BrowserLiteCallback"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.facebook.messaging.business.common.activity.BusinessActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.facebook.messaging.payment.method.verification.PaymentMethodVerificationHostActivity" android:theme="@style/Theme.Transparent.OrcaDialogNeue" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.facebook.messaging.payment.value.input.BankPickerScreenActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.facebook.messaging.payment.value.input.pagescommerce.BankWebViewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.facebook.messaging.payment.value.input.pagescommerce.QrCodePayActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.facebook.messaging.payment.value.input.EnterPaymentValueActivity" android:parentActivityName=".threadview.ThreadViewActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".threadview.ThreadViewActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.events.banner.EventReminderSettingsActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.payment.prefs.transactions.MessengerPayHistoryActivity"/>
+        <activity android:name="com.facebook.messaging.payment.prefs.receipts.PaymentReceiptActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.facebook.messaging.payment.awareness.PaymentAwarenessActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.facebook.messaging.payment.prefs.receipts.ThemeFullScreenCardActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.facebook.messaging.payment.prefs.verification.PaymentRiskVerificationActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.facebook.messaging.payment.pin.PaymentPinCreationActivity" android:parentActivityName="com.facebook.messaging.payment.prefs.PaymentsPreferenceActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messaging.payment.prefs.PaymentsPreferenceActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.payment.pin.PaymentPinChangeActivity" android:parentActivityName="com.facebook.messaging.payment.prefs.PaymentPinPreferenceActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messaging.payment.prefs.PaymentPinPreferenceActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.payment.pin.PaymentPinConfirmActivity" android:parentActivityName="com.facebook.messaging.payment.value.input.EnterPaymentValueActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messaging.payment.value.input.EnterPaymentValueActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.payment.pin.PaymentPinResetActivity" android:parentActivityName="com.facebook.messaging.payment.prefs.PaymentsPreferenceActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messaging.payment.prefs.PaymentsPreferenceActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.payment.pin.PaymentPinRequireActivity" android:parentActivityName="com.facebook.messaging.payment.prefs.PaymentsPreferenceActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messaging.payment.prefs.PaymentsPreferenceActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.payment.pin.PaymentPinDeletionActivity" android:parentActivityName="com.facebook.messaging.payment.prefs.PaymentPinPreferenceActivity" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messaging.payment.prefs.PaymentPinPreferenceActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.payment.prefs.PaymentsPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:label="@string/preference_security_title" android:name="com.facebook.messaging.security.SecurityPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.payment.prefs.PaymentPinPreferenceActivity" android:parentActivityName="com.facebook.messaging.payment.prefs.PaymentsPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messaging.payment.prefs.PaymentsPreferenceActivity"/>
+        </activity>
+        <activity android:exported="false" android:label="@string/manage_blocking_title" android:name="com.facebook.messaging.blocking.ManageBlockingActivity" android:parentActivityName="com.facebook.messenger.neue.block.BlockPeopleActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.block.BlockPeopleActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.messengerprefs.OrcaNotificationPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.messengerprefs.MessageCappingOptinPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.messengerprefs.FreeMessengerOptinPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messenger.neue.NeueAboutPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.neue.nux.DeactivationsLearnMoreActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messenger.neue.DeactivateMessengerActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messenger.neue.NeueContactsPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messenger.neue.NeuePhotosAndMediaPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.facebook.messenger.neue.NeueCustomVoicemailPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:screenOrientation="portrait">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.sms.NeueSmsPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:exported="false" android:name="com.facebook.messenger.neue.block.BlockPeopleActivity" android:parentActivityName="com.facebook.messenger.neue.NeueContactsPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.NeueContactsPreferenceActivity"/>
+        </activity>
+        <activity android:exported="false" android:name="com.facebook.messenger.neue.block.ContactPickerActivity"/>
+        <activity android:name="com.facebook.messaging.threadview.iconpicker.ThreadIconPickerActivity"/>
+        <activity android:name="com.facebook.messaging.camerautil.CropImage"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.facebook.messenger.intents.IntentHandlerActivity" android:taskAffinity="com.facebook.orca.intenthandler" android:theme="@style/Theme.Orca.Neue.IntentHandler">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fb-messenger"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="fb.me" android:pathPrefix="/msg" android:scheme="http"/>
+                <data android:host="fb.me" android:pathPrefix="/Msg" android:scheme="http"/>
+                <data android:host="fb.me" android:pathPrefix="/MSG" android:scheme="http"/>
+                <data android:host="www.fb.me" android:pathPrefix="/msg" android:scheme="http"/>
+                <data android:host="www.fb.me" android:pathPrefix="/Msg" android:scheme="http"/>
+                <data android:host="www.fb.me" android:pathPrefix="/MSG" android:scheme="http"/>
+                <data android:host="fb.me" android:pathPrefix="/msg" android:scheme="https"/>
+                <data android:host="fb.me" android:pathPrefix="/Msg" android:scheme="https"/>
+                <data android:host="fb.me" android:pathPrefix="/MSG" android:scheme="https"/>
+                <data android:host="www.fb.me" android:pathPrefix="/msg" android:scheme="https"/>
+                <data android:host="www.fb.me" android:pathPrefix="/Msg" android:scheme="https"/>
+                <data android:host="www.fb.me" android:pathPrefix="/MSG" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="m.me" android:scheme="http"/>
+                <data android:host="www.m.me" android:scheme="http"/>
+                <data android:host="m.me" android:scheme="https"/>
+                <data android:host="www.m.me" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="facebook.com" android:pathPrefix="/messages" android:scheme="http"/>
+                <data android:host="facebook.com" android:pathPrefix="/Messages" android:scheme="http"/>
+                <data android:host="facebook.com" android:pathPrefix="/MESSAGES" android:scheme="http"/>
+                <data android:host="www.facebook.com" android:pathPrefix="/messages" android:scheme="http"/>
+                <data android:host="www.facebook.com" android:pathPrefix="/Messages" android:scheme="http"/>
+                <data android:host="www.facebook.com" android:pathPrefix="/MESSAGES" android:scheme="http"/>
+                <data android:host="facebook.com" android:pathPrefix="/messages" android:scheme="https"/>
+                <data android:host="facebook.com" android:pathPrefix="/Messages" android:scheme="https"/>
+                <data android:host="facebook.com" android:pathPrefix="/MESSAGES" android:scheme="https"/>
+                <data android:host="www.facebook.com" android:pathPrefix="/messages" android:scheme="https"/>
+                <data android:host="www.facebook.com" android:pathPrefix="/Messages" android:scheme="https"/>
+                <data android:host="www.facebook.com" android:pathPrefix="/MESSAGES" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="messenger.com" android:pathPrefix="/t" android:scheme="http"/>
+                <data android:host="messenger.com" android:pathPrefix="/T" android:scheme="http"/>
+                <data android:host="www.messenger.com" android:pathPrefix="/t" android:scheme="http"/>
+                <data android:host="www.messenger.com" android:pathPrefix="/T" android:scheme="http"/>
+                <data android:host="messenger.com" android:pathPrefix="/t" android:scheme="https"/>
+                <data android:host="messenger.com" android:pathPrefix="/T" android:scheme="https"/>
+                <data android:host="www.messenger.com" android:pathPrefix="/t" android:scheme="https"/>
+                <data android:host="www.messenger.com" android:pathPrefix="/T" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:icon="@drawable/quick_contacts_message">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/com.facebook.messenger.chat"/>
+            </intent-filter>
+            <intent-filter android:icon="@drawable/quick_contacts_phone">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/com.facebook.messenger.audiocall"/>
+            </intent-filter>
+            <intent-filter android:icon="@drawable/quick_contacts_video">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/com.facebook.messenger.videocall"/>
+            </intent-filter>
+            <intent-filter android:icon="@drawable/quick_contacts_message">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/com.facebook.messenger.smsChat"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.facebook.messenger.intents.SecureIntentHandlerActivity" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:taskAffinity="com.facebook.orca.intenthandler" android:theme="@style/Theme.Orca.Neue.IntentHandler">
+            <intent-filter>
+                <action android:name="com.facebook.orca.notify.SECURE_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="fb-messenger"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.facebook.orca.notify.ACTION_LIKE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="fb-messenger"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="fb-messenger-secure"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.facebook.messaging.sms.HEADLESS_SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="fb-messenger"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.facebook.messenger.intents.SecureSameTaskIntentHandlerActivity" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:theme="@style/Theme.Orca.Neue.IntentHandler">
+            <intent-filter>
+                <action android:name="com.facebook.orca.notify.SECURE_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="fb-messenger-sametask"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="fb-messenger-sametask"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.facebook.messenger.intents.SameTaskIntentHandlerActivity" android:theme="@style/Theme.Orca.Neue.IntentHandler">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="fb-messenger-sametask"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.facebook.messaging.sharing.ShareLauncherActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:theme="@style/Theme.Orca.Neue.ShareLauncherActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.facebook.messaging.sharing.SingleRecipientShareLauncherActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:theme="@style/Theme.Orca.Neue.ShareLauncherActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.messaging.imagecode.ImageCodeActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Messenger">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.users.username.EditUsernameActivity"/>
+        <activity android:excludeFromRecents="true" android:name="com.facebook.messaging.invites.InviteFriendsActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:theme="@style/Theme.Orca.Neue.InviteFacebookFriendsActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messenger.intents.ShareIntentHandler" android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.facebook.messaging.attribution.ChatHeadsReplyFlowHandlerActivity" android:taskAffinity="com.facebook.messaging.attribution.ChatHeadsReplyFlowHandlerActivity.TASK_AFFINITY"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.facebook.orca.phone.IncallActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:name="com.facebook.stickers.store.StickerStoreActivity"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:exported="true" android:launchMode="singleInstance" android:name="com.facebook.rtc.activities.WebrtcIncallActivity" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:screenOrientation="portrait" android:theme="@style/Theme.Orca.Neue.Webrtc">
+            <intent-filter>
+                <action android:name="com.facebook.rtc.fbwebrtc.intent.action.INCOMING_CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.facebook.rtc.fbwebrtc.intent.action.CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.facebook.rtc.fbwebrtc.WebrtcIncallNotificationService" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION"/>
+        <service android:name="com.facebook.rtc.services.BackgroundVideoCallService"/>
+        <activity android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:launchMode="singleTask" android:name="com.facebook.rtc.activities.RtcCancelVideoChatHeadsActivity" android:screenOrientation="portrait" android:taskAffinity="com.facebook.orca.notification.dialog" android:theme="@style/Theme.Transparent.OrcaDialogNeue"/>
+        <activity android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:launchMode="singleTask" android:name="com.facebook.rtc.activities.RtcCallPermissionActivity" android:taskAffinity="com.facebook.orca.notification.dialog" android:theme="@style/Theme.Transparent.OrcaDialogNeue"/>
+        <provider android:authorities="com.facebook.orca.provider.MessengerPlatformProvider" android:exported="true" android:name="com.facebook.messaging.platform.MessengerPlatformProvider"/>
+        <activity android:name="com.facebook.bugreporter.activity.BugReportActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.facebook.common.keyguard.KeyguardPendingIntentActivity" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:screenOrientation="portrait" android:taskAffinity="com.facebook.common.keyguard" android:theme="@style/Theme.KeyguardPendingIntent"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.facebook.messaging.chatheads.activity.TrayNotificationDelegatingActivity" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:screenOrientation="portrait" android:taskAffinity="com.facebook.orca.chatheads" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.facebook.orca.threadview.ThreadViewVideoActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.facebook.messaging.chatheads.activity.ChatHeadsVideoViewActivity" android:taskAffinity="com.facebook.orca.chatheads" android:theme="@android:style/Theme.Black.NoTitleBar"/>
+        <activity android:configChanges="orientation" android:name="com.facebook.messaging.media.mediapicker.MediaPickerActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.facebook.messaging.media.picker.MediaPickerWithFoldersActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.facebook.messaging.media.picking.MessengerVideoEditActivity" android:theme="@style/Theme.Orca.Neue.VideoEditActivity"/>
+        <activity android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:launchMode="singleTask" android:name="com.facebook.messaging.mutators.ThreadNotificationsDialogActivity" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:taskAffinity="com.facebook.orca.notification.dialog" android:theme="@style/Theme.Messenger.Material.Dialog"/>
+        <activity android:excludeFromRecents="true" android:name="com.facebook.runtimepermissions.RequestPermissionsActivity" android:taskAffinity="com.facebook.orca.notification.dialog" android:theme="@style/Theme.Transparent.OrcaDialogNeue"/>
+        <service android:name="com.facebook.common.errorreporting.memory.MemoryDumpUploadService"/>
+        <service android:name="com.facebook.messaging.prefs.notifications.NotificationPrefsSyncService"/>
+        <receiver android:name="com.facebook.messenger.app.LoginReminderManager$AlarmBroadcastReceiver"/>
+        <receiver android:name="com.facebook.messenger.app.LoginReminderManager$NotificationBroadcastReceiver"/>
+        <provider android:authorities="com.facebook.orca.notify.MessengerLoggedInUserProvider" android:exported="true" android:name="com.facebook.messenger.app.MessengerLoggedInUserProvider" android:permission="com.facebook.orca.provider.ACCESS"/>
+        <provider android:authorities="com.facebook.orca.messages" android:exported="false" android:name="com.facebook.messaging.database.threads.MessagesDbContentProvider" android:permission="com.facebook.orca.provider.ACCESS"/>
+        <provider android:authorities="com.facebook.orca.attachments.DecryptedAttachmentProvider" android:exported="false" android:name="com.facebook.messaging.attachments.DecryptedAttachmentProvider" android:permission="com.facebook.orca.provider.ACCESS"/>
+        <uses-library android:name="com.google.android.maps" android:required="false"/>
+        <service android:exported="false" android:name="com.facebook.messaging.chatheads.service.ChatHeadService"/>
+        <activity android:label="@string/thread_new_conversation_title" android:name="com.facebook.messaging.chatheads.activity.ChatHeadsCreateThreadActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:taskAffinity="com.facebook.orca.chatheads" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.camera.activity.CameraFragmentActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.facebook.messaging.neue.threadsettings.MessengerThreadSettingsActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:theme="@style/Theme.Orca.Neue">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <receiver android:name="com.facebook.messaging.chatheads.service.ChatHeadsServiceBroadcastReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION">
+            <intent-filter android:priority="499">
+                <action android:name="com.facebook.orca.chatheads.ACTION_SHOW_CHATHEADS"/>
+                <action android:name="com.facebook.orca.chatheads.ACTION_HIDE_CHATHEADS"/>
+                <action android:name="com.facebook.orca.chatheads.ACTION_SHOW_CHAT_HEAD_AFTER_CALL"/>
+                <action android:name="com.facebook.orca.chatheads.ACTION_HIDE_CHAT_HEAD_DURING_CALL"/>
+                <action android:name="com.facebook.orca.chatheads.ACTION_COLLAPSE_CHATHEADS"/>
+                <action android:name="com.facebook.orca.chatheads.ACTION_SET_CHATHEADS_POLICY"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.facebook.contacts.service.ContactLocaleChangeService"/>
+        <receiver android:name="com.facebook.contacts.service.ContactLocaleChangeReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.facebook.messaging.chatheads.service.ChatHeadsBooterService"/>
+        <receiver android:name="com.facebook.messaging.chatheads.service.ChatHeadsBooter">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.facebook.orca.notify.MessagesNotificationService"/>
+        <service android:name="com.facebook.orca.notify.MessagesSystemTrayLogService"/>
+        <receiver android:name="com.facebook.orca.notify.MessagesNotificationBroadcastReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION">
+            <intent-filter>
+                <action android:name="com.facebook.orca.notify.ACTION_NEW_MESSAGE"/>
+                <action android:name="com.facebook.orca.notify.ACTION_FAILED_SEND"/>
+                <action android:name="com.facebook.orca.notify.ACTION_NEW_FRIEND_INSTALL"/>
+                <action android:name="com.facebook.orca.notify.ACTION_P2P_PAYMENT"/>
+                <action android:name="com.facebook.orca.notify.ACTION_READ_THREAD"/>
+                <action android:name="com.facebook.orca.notify.ACTION_NEW_BUILD"/>
+                <action android:name="com.facebook.orca.notify.ACTION_LOGGED_OUT_MESSAGE"/>
+                <action android:name="com.facebook.orca.notify.ACTION_NUX_SKIPPABLE"/>
+                <action android:name="com.facebook.orca.notify.ACTION_CLEAR_THREAD"/>
+                <action android:name="com.facebook.orca.notify.ACTION_CLEAR_THREAD_CLEAR_CONFERENCE_CALL"/>
+                <action android:name="com.facebook.orca.notify.ACTION_CLEAR_FRIEND_INSTALL"/>
+                <action android:name="com.facebook.orca.notify.ACTION_CLEAR_NEW_BUILD_NOTIFICATION"/>
+                <action android:name="com.facebook.orca.notify.ACTION_CLEAR_NUX_SKIPPABLE_NOTIFICATION"/>
+                <action android:name="com.facebook.orca.notify.ACTION_CLEAR_MESSENGER_MULTIPLE_ACCOUNTS_NEW_MESSAGES"/>
+                <action android:name="com.facebook.orca.notify.ACTION_CLEAR_ALL_NOTIFICATIONS"/>
+                <action android:name="com.facebook.orca.notify.ACTION_MESSENGER_PROMOTION"/>
+                <action android:name="com.facebook.orca.notify.ACTION_MESSENGER_STALE"/>
+                <action android:name="com.facebook.orca.notify.ACTION_INTERNAL_MESSAGE"/>
+                <action android:name="com.facebook.orca.notify.ACTION_MISSED_CALL"/>
+                <action android:name="com.facebook.orca.notify.ACTION_INCOMING_CALL"/>
+                <action android:name="com.facebook.orca.notify.ACTION_CALLEE_READY"/>
+                <action android:name="com.facebook.orca.notify.ACTION_MESSAGE_REQUEST"/>
+                <action android:name="com.facebook.orca.notify.ACTION_TINCAN_MESSAGE_REQUEST"/>
+                <action android:name="com.facebook.orca.notify.ACTION_CLEAR_TINCAN_MESSAGE_REQUEST_NOTIFICATION"/>
+                <action android:name="com.facebook.orca.notify.ACTION_PRE_REG_PUSH_MESSAGE"/>
+                <action android:name="com.facebook.orca.notify.ACTION_MESSENGER_MULTIPLE_ACCOUNTS_NEW_MESSAGES"/>
+                <action android:name="com.facebook.orca.notify.ACTION_MESSENGER_NEW_JOIN_REQUEST"/>
+                <action android:name="com.facebook.orca.notify.ACTION_FACEBOOK_LOGIN"/>
+                <action android:name="com.facebook.orca.notify.ACTION_CLEAR_SWITCH_TO_FB_ACCOUNT_NOTIFICATION"/>
+                <action android:name="com.facebook.orca.notify.ACTION_EVENT_REMINDER"/>
+                <action android:name="ACTION_MQTT_NO_AUTH"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.facebook.messaging.newphoto.NewPhotoIntentService"/>
+        <service android:exported="false" android:name="com.facebook.messaging.pichead.PicHeadService"/>
+        <receiver android:exported="true" android:name="com.facebook.messaging.newphoto.NewPhotoBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.camera.NEW_PICTURE"/>
+                <action android:name="android.hardware.action.NEW_PICTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.facebook.orca.provider.PlatformProvider" android:exported="true" android:name="com.facebook.platform.common.provider.PlatformProviderBase"/>
+        <activity android:name="com.facebook.platform.common.activity.PlatformWrapperActivity" android:theme="@style/Theme.FBUi.Transparent"/>
+        <activity android:name="com.facebook.platform.common.activity.PlatformActivity" android:theme="@style/Theme.OrcaTransparent">
+            <intent-filter>
+                <action android:name="com.facebook.platform.PLATFORM_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.facebook.messaging.selfupdate.StartUpdateInstallActivity" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:launchMode="singleTask" android:name="com.facebook.rtc.activities.RtcZeroRatingActivity" android:taskAffinity="com.facebook.orca.notification.dialog" android:theme="@style/Theme.Transparent.OrcaDialogNeue"/>
+        <receiver android:name="com.facebook.rtc.receivers.WebrtcReminderReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.prod.WEBRTC_REMINDER_NOTIFICATION_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.facebook.rtc.receivers.RtcRedirectToActivityReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.prod.RTC_SHOW_THREAD_VIEW_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.rtc.receivers.RtcStartCallReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.prod.RTC_START_CALL_ACTION"/>
+                <action android:name="com.facebook.intent.action.prod.RTC_DISMISS_MISSED_CALL_ACTION"/>
+                <action android:name="com.facebook.intent.action.prod.RTC_SHOW_IN_CALL_ACTION"/>
+                <action android:name="com.facebook.intent.action.prod.RTC_DECLINE_CALL_ACTION"/>
+                <action android:name="com.facebook.intent.action.prod.RTC_JOIN_CONFERENCE_CALL_ACTION"/>
+                <action android:name="com.facebook.intent.action.prod.RTC_END_CALL_ACTION"/>
+                <action android:name="com.facebook.intent.action.prod.RTC_REMINDER_MESSAGING_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.rtc.receivers.RtcShowCallUiReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.prod.RTC_SHOW_CALL_UI"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.facebook.watson.WatsonBroadcastReceiver"/>
+        <receiver android:enabled="false" android:name="com.facebook.messaging.connectivity.ConnectivityBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+                <action android:name="android.net.wifi.SCAN_RESULTS"/>
+                <action android:name="android.net.wifi.RSSI_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.facebook.messaging.sms.migration.SMSContactsMigratorActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messaging.sms.migration.SMSContactsMigratorActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.groups.links.JoinGroupsPreviewActivity" android:theme="@style/Theme.Messenger.Material"/>
+        <activity android:exported="false" android:name="com.facebook.messaging.neue.nux.SmsBridgeJoinGroupsNuxActivity" android:theme="@style/Theme.Messenger.Material"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.facebook.abtest.gkprefs.GkSettingsListActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.facebook.abtest.qe.settings.QuickExperimentListActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.facebook.abtest.qe.settings.QuickExperimentViewActivity"/>
+        <provider android:authorities="com.facebook.orca.experiments" android:name="com.facebook.abtest.qe.db.QuickExperimentContentProvider" android:permission="com.facebook.orca.provider.ACCESS"/>
+        <service android:label="EventService" android:name="com.facebook.analytics.service.AnalyticsService"/>
+        <service android:exported="true" android:name="com.facebook.analytics2.logger.LollipopUploadService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.facebook.analytics2.logger.AlarmBasedUploadService"/>
+        <service android:exported="true" android:name="com.facebook.analytics2.logger.GooglePlayUploadService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.facebook.appupdate.WaitForInitActivity"/>
+        <service android:exported="false" android:name="com.facebook.appupdate.AppUpdateService"/>
+        <receiver android:exported="true" android:name="com.facebook.appupdate.DownloadNotificationClickReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.facebook.appupdate.DownloadCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.facebook.appupdate.activity.DefaultAppUpdateActivity"/>
+        <service android:name="com.facebook.auth.login.LoginApprovalNotificationService"/>
+        <service android:exported="true" android:name="com.facebook.bugreporter.scheduler.GCMBugReportService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.facebook.bugreporter.scheduler.LollipopBugReportService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name="com.facebook.bugreporter.scheduler.AlarmsBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.bugreporter.scheduler.AlarmsBroadcastReceiver.RETRY_UPLOAD"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:name="com.facebook.camera.activity.CameraActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.prod.com.facebook.orca.OPEN_DEFAULT_CAMERA"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:name="com.facebook.camera.activity.CameraFallbackActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <service android:label="Dex optimization service" android:name="com.facebook.common.dextricks.DexOptimization$Service" android:process=":optsvc"/>
+        <activity android:name="com.facebook.common.init.DefaultSplashScreenActivity"/>
+        <service android:name="com.facebook.conditionalworker.ConditionalWorkerService"/>
+        <receiver android:name="com.facebook.contacts.background.AddressBookPeriodicRunner$LocalBroadcastReceiver"/>
+        <provider android:authorities="com.facebook.orca.contacts" android:exported="false" android:name="com.facebook.contacts.data.FbContactsContentProvider" android:permission="com.facebook.orca.provider.ACCESS"/>
+        <receiver android:name="com.facebook.contacts.database.AddressBookPeriodicRunner$LocalBroadcastReceiver"/>
+        <activity android:name="com.facebook.debug.debugoverlay.DebugOverlaySettingsActivity"/>
+        <service android:name="com.facebook.delayedworker.DelayedWorkerService"/>
+        <receiver android:name="com.facebook.device_id.UniqueDeviceIdBroadcastSender$LocalBroadcastReceiver"/>
+        <receiver android:name="com.facebook.device_id.UniqueIdSupplier" android:permission="com.facebook.receiver.permission.ACCESS">
+            <intent-filter>
+                <action android:name="com.facebook.GET_UNIQUE_ID"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.facebook.device_id.DefaultPhoneIdRequestReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.GET_PHONE_ID"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.dialtone.activity.DialtoneModeTransitionInterstitialActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.dialtone.activity.DialtoneModeSelectionActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.facebook.dialtone.activity.DialtoneWifiInterstitialActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.facebook.dialtone.activity.DialtoneUnsupportedCarrierInterstitialActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.dialtone.activity.DialtoneIntentInterstitialActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.facebook.dialtone.activity.DialtoneUriIntentHandlerActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:name="com.facebook.exoplayer.VideoPlayerService" android:process=":videoplayer">
+            <intent-filter>
+                <action android:name="com.facebook.exoplayer.VideoPlayerService"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.facebook.fbservice.service.DefaultBlueService"/>
+        <service android:exported="false" android:name="com.facebook.googleplay.GooglePlayInstallRefererService"/>
+        <receiver android:exported="true" android:name="com.facebook.googleplay.GooglePlayInstallReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.facebook.graphql.executor.GraphQLMutationService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.facebook.maps.HereMapsUpsellDialogActivity" android:theme="@style/Theme.Facebook.Transparent"/>
+        <activity android:label="Accounts" android:name="com.facebook.messaging.accountswitch.SwitchAccountActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:screenOrientation="nosensor">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:name="com.facebook.messaging.bball.BballActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Orca.Neue">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <receiver android:exported="true" android:name="com.facebook.messaging.business.calendar.CalendarSyncReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/contact_upload_upsell_learn_more" android:name="com.facebook.messaging.contactsync.learn.ContactSyncLearnMoreActivity"/>
+        <activity android:name="com.facebook.messaging.customthreads.HotEmojilikePickerActivity" android:theme="@style/Theme.Orca.EmojiPicker.Neue"/>
+        <activity android:exported="false" android:name="com.facebook.messaging.games.GamesSelectionActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.facebook.messaging.groups.create.CreateCustomizableGroupActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Messenger.Material.Blue">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="Articles" android:name="com.facebook.instantarticles.InstantArticlesActivity" android:screenOrientation="portrait" android:theme="@style/Theme.RichDocument" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/internal_pref_root_screen_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:label="@string/internal_pref_caches_screen_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalCachesSettingsActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/internal_pref_performance_screen_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalPerformancePreferenceActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/internal_pref_sandbox_screen_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalSandboxSettingsActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/internal_pref_features_screen_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalFeaturesPreferenceActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/internal_pref_webrtc_screen_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalWebRTCPreferenceActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/internal_pref_voip_screen_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalVoipPreferencesActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/internal_pref_push_notification_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalPushNotificationPreferenceActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/internal_pref_shared_pref_editor_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalSharedPrefListActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/internal_pref_gk_editor_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalGatekeeperListActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/debug_http_profiling" android:name="com.facebook.messaging.internalprefs.MessengerHttpActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPerformancePreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPerformancePreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/debug_mqtt_profiling" android:name="com.facebook.messaging.internalprefs.MessengerMqttActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPerformancePreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPerformancePreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/internal_pref_manage_omnistore_collections_title" android:name="com.facebook.messaging.internalprefs.MessengerInternalManageOmnistoreCollectionsActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalFeaturesPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messaging.internalprefs.MessengerInternalFeaturesPreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/debug_analytics" android:name="com.facebook.messaging.internalprefs.MessengerAnalyticsActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPerformancePreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPerformancePreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/debug_analytics" android:name="com.facebook.messaging.internalprefs.WorkChatInternalSettingsActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPerformancePreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.orca.prefs.MessengerInternalPerformancePreferenceActivity"/>
+        </activity>
+        <activity android:exported="false" android:label="MobileConfig Management" android:name="com.facebook.mobileconfig.ui.MobileConfigPreferenceActivity" android:parentActivityName="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messaging.internalprefs.MessengerInternalPreferenceActivity"/>
+        </activity>
+        <receiver android:name="com.facebook.messaging.login.RemoteLogoutBroadcastReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION">
+            <intent-filter>
+                <action android:name="ACTION_MQTT_NO_AUTH"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.facebook.messaging.momentsinvite.webview.MomentsInviteWebViewActivity"/>
+        <activity android:name="com.facebook.messaging.montage.audience.MontageAudiencePickerActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:exported="false" android:label="Messenger Onboarding Flow" android:name="com.facebook.messaging.onboarding.OnboardingActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <activity android:exported="false" android:name="com.facebook.messaging.payment.contactpicker.PaymentSearchActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.facebook.messaging.phonebookintegration.matching.ContactPermissionActivity" android:theme="@style/Theme.Transparent.OrcaDialogNeue"/>
+        <service android:exported="true" android:name="com.facebook.messaging.phonebookintegration.account.MessengerAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <service android:exported="true" android:name="com.facebook.messaging.phonebookintegration.account.MessengerSyncAdapterService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter"/>
+            <meta-data android:name="android.provider.CONTACTS_STRUCTURE" android:resource="@xml/contacts"/>
+        </service>
+        <receiver android:enabled="false" android:name="com.facebook.messaging.phoneintegration.callupsell.PhoneCallReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+            <intent-filter android:priority="-999">
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.facebook.messaging.sms.defaultapp.ComposeSmsActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+                <data android:scheme="mms"/>
+                <data android:scheme="mmsto"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.facebook.messaging.sms.defaultapp.SmsDefaultAppDialogActivity" android:theme="@style/Theme.Sms.DefaultApp.Promotion"/>
+        <activity android:exported="false" android:name="com.facebook.messaging.neue.nux.SmsTakeoverInterstitialNuxActivity"/>
+        <service android:exported="true" android:name="com.facebook.messaging.sms.defaultapp.HeadlessSmsSendService" android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+                <data android:scheme="mms"/>
+                <data android:scheme="mmsto"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.facebook.messaging.sms.defaultapp.SmsHandlerService"/>
+        <service android:name="android_src.mmsv2.MmsService"/>
+        <receiver android:name="com.facebook.messaging.sms.defaultapp.PrivilegedSmsReceiver" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.messaging.sms.defaultapp.PrivilegedMmsReceiver" android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER"/>
+                <data android:mimeType="application/vnd.wap.mms-message"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.messaging.sms.defaultapp.SmsReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.messaging.sms.COMPOSE_SMS"/>
+                <action android:name="com.facebook.messaging.sms.REQUEST_SEND_MESSAGE"/>
+                <action android:name="com.facebook.messaging.sms.MESSAGE_SENT"/>
+                <action android:name="com.facebook.messaging.sms.DOWNLOAD_MMS"/>
+                <action android:name="com.facebook.messaging.sms.MMS_DOWNLOADED"/>
+                <action android:name="com.facebook.messaging.sms.MARK_PENDING_MMS"/>
+                <action android:name="com.facebook.messaging.sms.E2E_TEST_RECEIVING_SMS"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.facebook.messaging.sms.MmsFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.facebook.messaging.sms.defaultapp.MmsFileProvider"/>
+        <activity android:name="com.facebook.messaging.soccer.SoccerActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Orca.Neue">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <service android:enabled="true" android:name="com.facebook.messengerwear.support.MessengerWearDetectionService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.facebook.messengerwear.support.WearMessageActionListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.facebook.messengerwear.support.WearNotificationListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED"/>
+                <data android:host="*" android:pathPrefix="/analytics" android:scheme="wear"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED"/>
+                <data android:host="*" android:pathPrefix="/reporting" android:scheme="wear"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED"/>
+                <data android:host="*" android:pathPrefix="/threads" android:scheme="wear"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.facebook.messengerwear.support.MessageNotificationDeleteHandlerService"/>
+        <service android:enabled="true" android:exported="true" android:label="MessagingService" android:name="com.facebook.mqttlite.MqttService"/>
+        <service android:enabled="false" android:exported="false" android:label="MessagingServiceUltraLight" android:name="com.facebook.mqttlite.MqttUltraLightService"/>
+        <receiver android:exported="false" android:name="com.facebook.nobreak.CrashLoop$LastState">
+            <meta-data android:name="crash.loop.exclude" android:value="true"/>
+        </receiver>
+        <provider android:authorities="com.facebook.orca.threads_properties" android:exported="false" android:name="com.facebook.messaging.database.threads.ThreadsDbPropertiesContentProvider" android:permission="com.facebook.orca.provider.ACCESS"/>
+        <activity android:label="@string/app_update_title" android:name="com.facebook.oxygen.preloads.integration.appupdates.orca.AppUpdatePreferenceActivity" android:parentActivityName="com.facebook.messenger.neue.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.facebook.messenger.neue.MainActivity"/>
+        </activity>
+        <receiver android:enabled="false" android:exported="false" android:name="com.facebook.oxygen.preloads.integration.tosacceptance.TosAcceptedFlagComponent"/>
+        <activity android:exported="false" android:name="com.facebook.payments.checkout.CheckoutActivity" android:theme="@style/Subtheme.Payments.Transparent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:name="com.facebook.payments.confirmation.ConfirmationActivity" android:theme="@style/Subtheme.Payments.Transparent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:name="com.facebook.payments.contactinfo.form.ContactInfoFormActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.facebook.payments.paymentmethods.cardform.CardFormActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.facebook.payments.picker.PickerScreenActivity" android:theme="@style/Subtheme.Payments.Transparent"/>
+        <activity android:name="com.facebook.payments.shipping.form.ShippingAddressActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <service android:name="com.facebook.push.fbpushdata.FbPushDataHandlerService"/>
+        <service android:enabled="false" android:name="com.facebook.push.adm.ADMRegistrarService"/>
+        <service android:enabled="false" android:name="com.facebook.push.adm.ADMService"/>
+        <service android:enabled="false" android:exported="false" android:name="com.facebook.push.adm.ADMBroadcastReceiver"/>
+        <service android:enabled="false" android:name="com.facebook.push.nna.NNAService"/>
+        <service android:enabled="false" android:name="com.facebook.push.c2dm.C2DMService"/>
+        <service android:name="com.facebook.push.registration.RegistrarHelperService"/>
+        <service android:exported="false" android:name="com.facebook.push.fbnslite.FbnsLitePushNotificationHandler"/>
+        <service android:name="com.facebook.push.crossapp.PackageRemovedReporterService"/>
+        <receiver android:name="com.facebook.push.PushInitializer$LocalBroadcastReceiver"/>
+        <receiver android:enabled="false" android:name="com.facebook.push.adm.ADMBroadcastReceiver$MessageAlertReceiver" android:permission="com.amazon.device.messaging.permission.SEND">
+            <intent-filter>
+                <action android:name="com.amazon.device.messaging.intent.REGISTRATION"/>
+                <action android:name="com.amazon.device.messaging.intent.RECEIVE"/>
+                <category android:name="com.facebook.orca"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:name="com.facebook.push.nna.NNABroadcastReceiver" android:permission="com.nokia.pushnotifications.permission.SEND">
+            <intent-filter>
+                <action android:name="com.nokia.pushnotifications.intent.RECEIVE"/>
+                <action android:name="com.nokia.pushnotifications.intent.REGISTRATION"/>
+                <category android:name="com.facebook.orca"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:name="com.facebook.push.c2dm.C2DMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.facebook.orca"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.facebook.push.registration.RegistrarHelperReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.push.registration.ACTION_TOKEN_REQUEST_RETRY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.facebook.push.registration.FacebookPushServerRegistrar$LocalBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.push.registration.ACTION_ALARM"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:name="com.facebook.push.crossapp.PackageFullyRemovedBroadcastReceiver">
+            <intent-filter>
+                <data android:scheme="package" android:sspPrefix="com.facebook"/>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.facebook.push.fbnslite.FbnsLitePushNotificationHandler$FbnsLiteCallbackReceiver">
+            <intent-filter>
+                <category android:name="com.facebook.orca"/>
+                <action android:name="com.facebook.rti.fbns.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="com.amazon.device.messaging" android:required="false"/>
+        <service android:name="com.facebook.push.mqtt.service.MqttPushHelperService"/>
+        <receiver android:name="com.facebook.push.mqtt.receiver.BootCompleteBroadcastReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.facebook.quickpromotion.debug.QuickPromotionSettingsActivity" android:theme="@style/Theme.Facebook.Preferences"/>
+        <activity android:name="com.facebook.quickpromotion.debug.QuickPromotionFiltersActivity" android:theme="@style/Theme.Facebook.Preferences"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:launchMode="singleTop" android:name="com.facebook.quickpromotion.ui.QuickPromotionInterstitialActivity" android:theme="@style/Theme.Facebook.Overlay"/>
+        <activity android:name="com.facebook.quickpromotion.debug.SeguePreviewSettingsActivity" android:theme="@style/Theme.Facebook.Preferences"/>
+        <activity android:name="com.facebook.quickpromotion.debug.QuickPromotionTriggersActivity" android:theme="@style/Theme.Facebook.Preferences"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.facebook.quicksilver.QuicksilverActivity" android:theme="@style/QuicksilverActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.facebook.rapidfeedback.debug.DebugRapidFeedbackActivity"/>
+        <service android:exported="false" android:name="com.facebook.reportaproblem.base.bugreport.BugReportUploadService"/>
+        <activity android:name="com.facebook.resources.impl.WaitingForStringsActivity"/>
+        <service android:enabled="false" android:exported="true" android:label="NotificationService" android:name="com.facebook.rti.push.service.FbnsService" android:process=":notification"/>
+        <service android:enabled="false" android:exported="false" android:name="com.facebook.rti.config.ConfigProxyService"/>
+        <service android:enabled="true" android:exported="true" android:label="FacebookMainService" android:name="com.facebook.rti.orca.MainService"/>
+        <service android:name="com.facebook.rti.orca.MainService$CheckNetwork"/>
+        <receiver android:exported="true" android:name="com.facebook.rti.push.service.idsharing.FbnsSharingStateReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.rti.fbns.intent.SHARE_IDS"/>
+                <action android:name="com.facebook.rti.intent.SHARED_QE_FLAG_REQUEST"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:name="com.facebook.rti.orca.UpdateQeBroadcastReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:name="com.facebook.rti.orca.FbnsLiteBroadcastReceiver" android:process=":notification">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE"/>
+                <action android:name="com.facebook.rti.mqtt.intent.ACTION_WAKEUP"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.facebook.orca.mqttsharedprefs" android:exported="false" android:multiprocess="false" android:name="com.facebook.rti.common.sharedprefs.SharedPreferencesContentProvider" android:process=":notification"/>
+        <activity android:name="com.facebook.selfupdate.SelfUpdateForegroundActivity"/>
+        <activity android:name="com.facebook.selfupdate.SelfUpdateInstallActivity"/>
+        <activity android:name="com.facebook.selfupdate.SelfUpdateSettingsActivity"/>
+        <service android:name="com.facebook.selfupdate.SelfUpdateFetchService"/>
+        <receiver android:enabled="false" android:name="com.facebook.sms.receiver.SmsLowPriBroadcastReceiver">
+            <intent-filter android:priority="-1">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:name="com.facebook.sosource.bsod.BSODActivity" android:process=":bsod" android:theme="@style/Theme.Facebook"/>
+        <service android:exported="false" android:name="com.facebook.trace.DebugTraceUploadService"/>
+        <service android:enabled="false" android:name="com.facebook.wearlistener.DataLayerListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.facebook.zero.activity.ZeroIntentInterstitialActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.facebook.zero.upsell.activity.ZeroUpsellBuyConfirmInterstitialActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.facebook.zero.activity.NativeOptinInterstitialActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.facebook.zero.activity.NativeTermsAndConditionsActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.zero.activity.ZeroOptinInterstitialActivity" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.zero.activity.DialtoneOptinInterstitialActivity" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.zero.activity.DialtoneOptinInterstitialActivityNew" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.zero.activity.LightswitchOptinInterstitialActivity" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.zero.activity.LightswitchOptinInterstitialActivityNew" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.zero.activity.MessengerOptinInterstitialActivityOld" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.zero.activity.MessengerOptinInterstitialActivity" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.zero.activity.MessengerOptinInterstitialActivityNew" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.zero.activity.TimeBasedOptinInterstitialActivity" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.facebook.zero.activity.TimeBasedOptinInterstitialActivityNew" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.facebook.zero.activity.ZeroDogfoodingAppActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name="com.facebook.zero.activity.ZeroInternStatusActivity"/>
+        <activity android:name="com.facebook.zero.activity.ZeroUrlDebugActivity"/>
+        <service android:exported="false" android:name="com.facebook.zero.messenger.MessageCapMqttResetService"/>
+        <service android:name="com.facebook.zero.notification.ZeroPersistentNotificationService"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity-alias android:name="com.facebook.orca.auth.StartScreenActivity" android:targetActivity="com.facebook.messenger.neue.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="crash.loop.exclude" android:value="true"/>
+        </activity-alias>
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <permission android:name="com.facebook.orca.permission.CROSS_PROCESS_BROADCAST_MANAGER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.facebook.orca.permission.CROSS_PROCESS_BROADCAST_MANAGER"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <permission android:name="com.facebook.receiver.permission.ACCESS" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.facebook.receiver.permission.ACCESS"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.facebook.home.permission.WRITE_BADGES"/>
+    <permission android:name="com.facebook.orca.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.facebook.orca.permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.facebook.orca.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.nokia.pushnotifications.permission.RECEIVE"/>
+    <uses-permission android:name="com.facebook.orca.permission.RECEIVE_ADM_MESSAGE"/>
+    <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+</manifest>

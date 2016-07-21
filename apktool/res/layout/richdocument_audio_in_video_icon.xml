@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbImageButton android:id="@id/video_audio_muted_icon" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="20.0dip" android:src="@null" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" fb:layout_anchorTo="top" fb:layout_anchorPosition="start" />
+</merge>

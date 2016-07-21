@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.FbTextView android:id="@id/sprout_item_nux_view" android:background="@drawable/nux_pill_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/composer_sprouts_nux" style="@style/SproutNuxPillText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

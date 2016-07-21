@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:background="@drawable/feed_attachment_background" android:padding="@dimen/sports_stories_padding" android:layout_width="fill_parent" android:layout_height="@dimen/sports_stories_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/sports_stories_without_scores_home_team_logo" android:layout_width="@dimen/sports_stories_team_logo_size" android:layout_height="@dimen/sports_stories_team_logo_size" fb:placeholderImage="@color/feed_story_photo_placeholder_color" fb:actualImageScaleType="centerCrop" />
+    <com.facebook.widget.CustomLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.facebook.resources.ui.FbTextView android:id="@id/sports_stories_without_scores_home_team_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sports_stories_team_name" />
+        <com.facebook.resources.ui.FbTextView android:textAppearance="@style/TextAppearance.FBUi.Medium" android:textColor="?android:textColorTertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feed_sports_stories_versus_text" android:includeFontPadding="false" />
+        <com.facebook.resources.ui.FbTextView android:id="@id/sports_stories_without_scores_away_team_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sports_stories_team_name" />
+    </com.facebook.widget.CustomLinearLayout>
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/sports_stories_without_scores_away_team_logo" android:layout_width="@dimen/sports_stories_team_logo_size" android:layout_height="@dimen/sports_stories_team_logo_size" fb:placeholderImage="@color/feed_story_photo_placeholder_color" fb:actualImageScaleType="centerCrop" />
+</com.facebook.widget.CustomLinearLayout>

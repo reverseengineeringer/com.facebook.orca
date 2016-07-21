@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/intro_card_privacy_message" />
+    <com.facebook.resources.ui.FbEditText android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_bluegrey_80" android:textColorHint="@color/fbui_bluegrey_30" android:id="@id/timeline_edit_bio_edit_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edit_bio_horizontal_padding" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/edit_bio_horizontal_padding" android:hint="@string/timeline_edit_bio_hint" android:layout_marginStart="@dimen/edit_bio_horizontal_padding" android:layout_marginEnd="@dimen/edit_bio_horizontal_padding" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:gravity="top" android:layout_gravity="end" android:id="@id/edit_bio_char_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/edit_bio_horizontal_padding" android:layout_weight="1.0" android:layout_marginEnd="@dimen/edit_bio_horizontal_padding" />
+    <ViewStub android:id="@id/feed_sharing_view_stub" android:inflatedId="@id/feed_sharing_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

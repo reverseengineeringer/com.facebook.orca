@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/thread_warning_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/orca_thread_error_neue" android:layout_marginEnd="11.0dip" />
+    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/thread_send_progress_bar" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="11.0dip" android:indeterminateDrawable="?threadListSendInProgressIndeterminateDrawable" android:layout_marginEnd="11.0dip" />
+    <com.facebook.resources.ui.FbTextView android:layout_gravity="center_vertical" android:id="@id/thread_sponsored_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginStart="0.0dip" style="?threadListItemTimeStyle" />
+</FrameLayout>

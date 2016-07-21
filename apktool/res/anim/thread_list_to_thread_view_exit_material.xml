@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@anim/accelerate_quart" android:duration="150" android:fillBefore="true" android:fillAfter="true" android:startOffset="@integer/thread_list_to_thread_view_fade_exit_delay" android:fromAlpha="1.0" android:toAlpha="0.0" android:fillEnabled="true" />
+</set>

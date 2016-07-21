@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/bank_list_padding" android:layout_width="fill_parent" android:layout_height="@dimen/bank_list_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="start|center" android:id="@id/bank_logo" android:paddingRight="@dimen/bank_list_padding" android:layout_width="@dimen/bank_list_logo_width" android:layout_height="wrap_content" />
+    <com.facebook.widget.text.BetterTextView android:layout_gravity="center_vertical" android:id="@id/bank_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

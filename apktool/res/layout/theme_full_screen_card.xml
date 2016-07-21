@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="top" android:id="@id/full_screen_card_top_image" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:viewAspectRatio="1.0" fb:actualImageScaleType="fitStart" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="bottom" android:id="@id/full_screen_card_bottom_image" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:viewAspectRatio="1.0" fb:actualImageScaleType="fitEnd" />
+    <com.facebook.messaging.payment.ui.DollarIconEditText android:enabled="false" android:textSize="70.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/full_screen_card_amount" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="sans-serif-thin" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/payment_action_blue" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/see_receipt_action_text" android:background="@drawable/orca_neue_item_background" android:padding="16.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/theme_card_see_receipt" />
+</FrameLayout>

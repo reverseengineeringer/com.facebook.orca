@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.facebook.widget.text.BetterTextView android:id="@id/ad_interfaces_bid_amount_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad_interfaces_bid_amount_title_text" style="@style/AdInterfacesText.MediumSize.Subtitle" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/ad_interfaces_bid_amount_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad_interfaces_bid_amount_subtitle_text" style="@style/AdInterfacesText.LargeSize.Title" />
+    </LinearLayout>
+    <com.facebook.widget.text.BetterTextView android:layout_gravity="center" android:id="@id/ad_interfaces_bid_amount_currency_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/AdInterfacesText.LargeSize.Title" />
+    <com.facebook.widget.text.BetterEditTextView android:layout_gravity="center" android:id="@id/ad_interfaces_bid_amount_edittext" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="5" android:inputType="numberDecimal" android:drawableEnd="@drawable/edit_dark_grey_l" style="@style/AdInterfacesText.LargeSize.Title" />
+</merge>

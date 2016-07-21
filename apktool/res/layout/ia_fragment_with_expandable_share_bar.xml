@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.richdocument.view.widget.RichDocumentActivityTransitioner android:id="@id/richdocument_transitioner" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/document_fragment_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.richdocument.view.widget.RichDocumentCollapsingHeaderAndRecyclerViewLayout android:id="@id/richdocument_layout_with_collapsing_header_and_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.fbui.tinyclicks.widget.MasterTouchDelegateFrameLayout android:id="@id/master_touch_delegate_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <FrameLayout android:id="@id/frame_trackers" android:visibility="invisible" android:layout_width="1.0px" android:layout_height="1.0px" />
+                <com.facebook.richdocument.view.widget.InstantArticlesCollapsingHeader android:id="@id/black_header" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="@dimen/richdocument_sharebar_height_expanded">
+                    <com.facebook.richdocument.view.widget.InstantArticlesDocumentLoadingProgressIndicator android:id="@id/ia_document_loading_indicator" android:background="@drawable/ia_document_loading_indicator_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <com.facebook.richdocument.view.widget.ShareBar android:layout_gravity="top" android:id="@id/share_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </com.facebook.richdocument.view.widget.InstantArticlesCollapsingHeader>
+                <com.facebook.richdocument.view.widget.RichDocumentRecyclerView android:scrollbarThumbVertical="@drawable/ia_scrollbar" android:layout_gravity="top" android:id="@id/recycler_view" android:scrollbars="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/richdocument_recycler"
+                  xmlns:android="http://schemas.android.com/apk/res/android" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/stalled_load_progress_bar" android:visibility="gone" android:layout_width="@dimen/richdocument_indeterminate_progress_bar_size" android:layout_height="@dimen/richdocument_indeterminate_progress_bar_size" style="@style/Widget.ProgressBar.FBUi" />
+                <ViewStub android:layout_gravity="center" android:id="@id/document_load_failure_view_stub" android:layout="@layout/ia_retry_view" android:inflatedId="@id/document_load_failure_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/richdocument_sharebar_height" />
+            </com.facebook.fbui.tinyclicks.widget.MasterTouchDelegateFrameLayout>
+        </com.facebook.richdocument.view.widget.RichDocumentCollapsingHeaderAndRecyclerViewLayout>
+    </FrameLayout>
+</com.facebook.richdocument.view.widget.RichDocumentActivityTransitioner>

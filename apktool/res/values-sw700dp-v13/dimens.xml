@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="integrated_title_bar_space_between_tab_glyphs">32.0dip</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.fbui.widget.inlineactionbar.InlineActionButton android:gravity="center" android:layout_gravity="center" android:id="@id/refresher_button" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:textColor="@color/fbui_white" android:gravity="center" android:layout_gravity="center|top" android:id="@id/refresher_badge" android:background="@drawable/edit_about_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="4.0dip" android:includeFontPadding="false" android:layout_marginStart="14.0dip" />
+</FrameLayout>

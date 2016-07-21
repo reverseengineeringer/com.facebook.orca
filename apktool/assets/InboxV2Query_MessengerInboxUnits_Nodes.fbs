@@ -1,0 +1,240 @@
+// Copyright 2004-present Facebook. All Rights Reserved.
+// _GENERATED_GRAPHQL_ FlatBufferSchemaBuilder.js
+// @generated SignedSource<<0a621e976a174e545022b816148ab886>>
+// @nolint
+
+namespace com.facebook.messaging.inbox2.graphql.flatbuffers;
+
+table MessengerInbox2RecentUnitConfig {
+  config_type: string;
+  max_hours_back: int;
+  max_num_threads_to_show: int;
+  min_num_threads_to_show: int;
+}
+
+table GraphQLObjectType {
+  name: string;
+}
+
+table AnnouncementInbox2UnitFragment_ActionText {
+  text: string;
+}
+
+table DefaultImageFields {
+  height: int;
+  uri: string;
+  width: int;
+}
+
+table DefaultNamePartFields {
+  length: int;
+  offset: int;
+  part: string;
+}
+
+table DefaultNameFields {
+  locale: string;
+  parts: [DefaultNamePartFields];
+  text: string;
+}
+
+table ContactYouMayKnowInfo {
+  id: string;
+  is_messenger_cymk_hidden: bool;
+  mutual_contacts_count: int;
+  squareProfilePicBig: DefaultImageFields;
+  structured_name: DefaultNameFields;
+}
+
+table AnnouncementInbox2UnitFragment_Description {
+  text: string;
+}
+
+table ConversationStartersFields_ItemDescription {
+  text: string;
+}
+
+table ConversationStartersFields_ItemDescriptionIcon {
+  uri: string;
+}
+
+table InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitItems_MessengerInboxItemAttachment_ItemImage {
+  uri: string;
+}
+
+table ConversationStartersFields_ItemUser {
+  id: string;
+  is_messenger_user: bool;
+  is_partial: bool;
+}
+
+table ExternalUrlInboxItemFragment_Link_ExternalUrlOwningProfile_ProfilePicture {
+  uri: string;
+}
+
+table ExternalUrlInboxItemFragment_Link_ExternalUrlOwningProfile {
+  __type__: GraphQLObjectType;
+  profile_picture: ExternalUrlInboxItemFragment_Link_ExternalUrlOwningProfile_ProfilePicture;
+}
+
+table ExternalUrlInboxItemFragment_Link_Icon {
+  uri: string;
+}
+
+table ExternalUrlInboxItemFragment_Link_LinkMedia_Image {
+  uri: string;
+}
+
+table ExternalUrlInboxItemFragment_Link_LinkMedia {
+  __type__: GraphQLObjectType;
+  image: ExternalUrlInboxItemFragment_Link_LinkMedia_Image;
+}
+
+table ExternalUrlInboxItemFragment_Link_Source {
+  text: string;
+}
+
+table ExternalUrlInboxItemFragment_Link_Summary {
+  text: string;
+}
+
+table ExternalUrlInboxItemFragment_Link_Title {
+  text: string;
+}
+
+table ExternalUrlInboxItemFragment_Link {
+  article_author_name: string;
+  external_url_owning_profile: ExternalUrlInboxItemFragment_Link_ExternalUrlOwningProfile;
+  icon: ExternalUrlInboxItemFragment_Link_Icon;
+  id: string;
+  link_media: ExternalUrlInboxItemFragment_Link_LinkMedia;
+  name: string;
+  source: ExternalUrlInboxItemFragment_Link_Source;
+  summary: ExternalUrlInboxItemFragment_Link_Summary;
+  title: ExternalUrlInboxItemFragment_Link_Title;
+  url: string;
+}
+
+table ConversationStartersFields_McsItemTitle {
+  text: string;
+}
+
+table Inbox2PageItemFragment_Page {
+  id: string;
+  is_messenger_user: bool;
+  name: string;
+}
+
+table MessageThreadsInbox2UnitFragment_Thread_ThreadKey {
+  other_user_id: string;
+  thread_fbid: string;
+}
+
+table MessageThreadsInbox2UnitFragment_Thread {
+  is_group_thread: bool;
+  thread_key: MessageThreadsInbox2UnitFragment_Thread_ThreadKey;
+}
+
+table InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitItems_MessengerInboxItemAttachment_User {
+  id: string;
+  is_messenger_user: bool;
+  is_pymm_hidden: bool;
+  structured_name: DefaultNameFields;
+}
+
+table Inbox2VideoItemFragment_Video_Image {
+  uri: string;
+}
+
+table Inbox2VideoItemFragment_Video_Message {
+  text: string;
+}
+
+table Inbox2VideoItemFragment_Video_Owner_ProfilePicture {
+  uri: string;
+}
+
+table Inbox2VideoItemFragment_Video_Owner {
+  __type__: GraphQLObjectType;
+  name: string;
+  profile_picture: Inbox2VideoItemFragment_Video_Owner_ProfilePicture;
+}
+
+table Inbox2VideoItemFragment_Video_Title {
+  text: string;
+}
+
+table Inbox2VideoItemFragment_Video {
+  height: int;
+  id: string;
+  image: Inbox2VideoItemFragment_Video_Image;
+  message: Inbox2VideoItemFragment_Video_Message;
+  owner: Inbox2VideoItemFragment_Video_Owner;
+  playableUrlHD: string;
+  playable_duration_in_ms: int;
+  playable_url: string;
+  title: Inbox2VideoItemFragment_Video_Title;
+  url: string;
+  width: int;
+}
+
+table InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitItems_MessengerInboxItemAttachment {
+  __type__: GraphQLObjectType;
+  action_text: AnnouncementInbox2UnitFragment_ActionText;
+  call_to_action_url: string;
+  candidate: ContactYouMayKnowInfo;
+  description: AnnouncementInbox2UnitFragment_Description;
+  id: string;
+  item_description: ConversationStartersFields_ItemDescription;
+  item_description_icon: ConversationStartersFields_ItemDescriptionIcon;
+  item_image: InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitItems_MessengerInboxItemAttachment_ItemImage;
+  item_user: ConversationStartersFields_ItemUser;
+  link: ExternalUrlInboxItemFragment_Link;
+  mcs_item_title: ConversationStartersFields_McsItemTitle;
+  page: Inbox2PageItemFragment_Page;
+  pymm_icon_type: string;
+  reason: string;
+  show_presence: bool;
+  snippet: string;
+  thread: MessageThreadsInbox2UnitFragment_Thread;
+  total_count: int;
+  unread_count: int;
+  user: InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitItems_MessengerInboxItemAttachment_User;
+  video: Inbox2VideoItemFragment_Video;
+}
+
+table InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitItems_MessengerInboxItemTitle {
+  text: string;
+}
+
+table InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitItems {
+  id: string;
+  messenger_inbox_item_attachment: InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitItems_MessengerInboxItemAttachment;
+  messenger_inbox_item_clicks_remaining: int;
+  messenger_inbox_item_hides_remaining: int;
+  messenger_inbox_item_impressions_remaining: int;
+  messenger_inbox_item_logging_data: string;
+  messenger_inbox_item_title: InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitItems_MessengerInboxItemTitle;
+}
+
+table InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitTitle {
+  text: string;
+}
+
+table InboxV2Query_MessengerInboxUnits_Nodes {
+  id: string;
+  messenger_inbox_unit_config: MessengerInbox2RecentUnitConfig;
+  messenger_inbox_unit_hides_remaining: int;
+  messenger_inbox_unit_items: [InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitItems];
+  messenger_inbox_unit_logging_data: string;
+  messenger_inbox_unit_should_log_item_impressions: bool;
+  messenger_inbox_unit_should_show_see_more: bool;
+  messenger_inbox_unit_title: InboxV2Query_MessengerInboxUnits_Nodes_MessengerInboxUnitTitle;
+  messenger_inbox_unit_type: string;
+  messenger_inbox_unit_update_status: string;
+  messenger_inbox_unit_updated_time: long;
+}
+
+root_type InboxV2Query_MessengerInboxUnits_Nodes;
+
+file_identifier "FLAT";

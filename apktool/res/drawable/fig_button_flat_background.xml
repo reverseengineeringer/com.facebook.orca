@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:variablePadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/fig_button_flat_background_pressed_color" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/fig_button_flat_background_default_color" />
+        </shape>
+    </item>
+</selector>

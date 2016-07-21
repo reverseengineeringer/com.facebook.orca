@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:background="?rootFragmentBackgroundColor" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="?android:textColorSecondary" android:id="@id/identity_key_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_standard_padding" android:text="@string/identity_key_description" />
+        <com.facebook.widget.text.BetterTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_standard_padding" android:text="@string/identity_key_your_key" style="@style/IdentityKeyHeaderText" />
+        <com.facebook.widget.text.BetterTextView android:typeface="monospace" android:id="@id/identity_key_my_key_text" android:background="@drawable/identity_key_box_background" android:padding="@dimen/material_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?topToolbarElevation" android:outlineProvider="bounds" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/identity_key_other_user_key_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_standard_padding" android:text="@string/identity_key_other_user_key" style="@style/IdentityKeyHeaderText" />
+        <com.facebook.widget.text.BetterTextView android:typeface="monospace" android:id="@id/identity_key_other_user_key_text" android:background="@drawable/identity_key_box_background" android:padding="@dimen/material_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?topToolbarElevation" android:outlineProvider="bounds" />
+    </com.facebook.widget.CustomLinearLayout>
+</ScrollView>

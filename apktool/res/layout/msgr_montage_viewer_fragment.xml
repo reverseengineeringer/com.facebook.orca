@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.messaging.montage.viewer.MontageViewerContainerView android:id="@id/item_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.messaging.montage.viewer.NonConsumingSystemInsetLinearLayout android:orientation="vertical" android:id="@id/montage_chrome_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/material_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.user.tiles.UserTileView android:id="@id/user_tile" android:layout_width="@dimen/msgr_montage_viewer_user_tile_size" android:layout_height="@dimen/msgr_montage_viewer_user_tile_size" android:layout_marginRight="@dimen/msgr_montage_viewer_user_info_item_margin" android:layout_marginEnd="@dimen/msgr_montage_viewer_user_info_item_margin" app:tileSize="@dimen/msgr_montage_viewer_user_tile_size" app:asCircle="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.facebook.resources.ui.FbTextView android:id="@id/user_name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MontageSenderInfo.Text.Username" />
+                <com.facebook.resources.ui.FbTextView android:id="@id/timestamp" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MontageSenderInfo.Text.Timestamp" />
+            </LinearLayout>
+        </LinearLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <android.support.v7.internal.widget.ViewStubCompat android:layout_gravity="bottom" android:id="@id/seen_by_view_stub" android:layout="@layout/msgr_montage_viewer_seen_by_seen_heads_view" android:layout_width="fill_parent" android:layout_height="@dimen/msgr_montage_viewer_bottom_bar_height" android:layout_marginBottom="@dimen/msgr_montage_viewer_progress_indicator_height" />
+        <com.facebook.resources.ui.FbTextView android:id="@id/write_message_prompt" android:paddingLeft="@dimen/material_standard_padding" android:paddingRight="@dimen/material_standard_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/msgr_montage_viewer_bottom_bar_height" android:layout_marginBottom="@dimen/msgr_montage_viewer_progress_indicator_height" android:text="@string/msgr_montage_viewer_reply_prompt" style="@style/MontageViewerReplyPrompt" />
+    </com.facebook.messaging.montage.viewer.NonConsumingSystemInsetLinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

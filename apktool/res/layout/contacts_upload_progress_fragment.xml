@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/contact_import_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/contacts_upload_progress_view_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.messaging.contacts.uploaddialog.ContactsUploadProgressView android:id="@id/contacts_upload_progress_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/contacts_upload_progress_view_bottom_margin" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/continue_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_neue_login_button_caps" style="@style/Widget.Messenger.Button.Blue.Nux" />
+        <android.support.v7.internal.widget.ViewStubCompat android:layout_gravity="end|bottom|center" android:id="@id/update_view_state_button" android:layout="@layout/update_view_state_debug_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contacts_upload_progress_view_debug_button_top_margin" />
+    </LinearLayout>
+</ScrollView>

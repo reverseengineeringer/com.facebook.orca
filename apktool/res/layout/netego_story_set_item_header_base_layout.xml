@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.feed.rows.sections.header.ui.HScrollPageHeaderView android:id="@id/story_set_item_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/one_px" />
+    <com.facebook.components.feed.FeedComponentView android:id="@id/story_set_item_header_component" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:id="@id/caption_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msgr_inline_thread_theme_picker_caption" style="@style/Widget.Messenger.Dialog.SlidingSheet.Text.Caption.PopUp" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/subcaption_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Messenger.Dialog.SlidingSheet.Text.Subcaption.PopUp" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="18.0dip" android:paddingBottom="18.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="228.0dip" />
+</com.facebook.widget.CustomLinearLayout>

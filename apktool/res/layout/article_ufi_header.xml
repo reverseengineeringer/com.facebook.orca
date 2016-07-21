@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:showDividers="middle" fb:divider="@color/fbui_bluegrey_5" fb:dividerThickness="@dimen/one_px">
+        <FrameLayout android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/article_feedback_logo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ufiservice_flyout_header_row_min_height" android:minHeight="@dimen/ufiservice_flyout_header_row_min_height" fb:actualImageScaleType="fitStart" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.resources.ui.FbTextView android:id="@id/article_feedback_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ufiservice_flyout_header_row_min_height" />
+            <com.facebook.resources.ui.FbTextView android:id="@id/article_feedback_author_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="@dimen/ufiservice_flyout_header_row_min_height" />
+        </LinearLayout>
+    </com.facebook.fbui.widget.layout.SegmentedLinearLayout>
+</merge>

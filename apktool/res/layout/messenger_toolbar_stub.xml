@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:auto="http://schemas.android.com/apk/res-auto">
+    <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+    <com.facebook.messaging.widget.toolbar.MessengerHomeToolbarView android:id="@id/home_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/msgr_toolbar_margin_horizontal" android:layout_marginTop="@dimen/msgr_toolbar_top_margin" android:layout_marginRight="@dimen/msgr_toolbar_margin_horizontal" android:layout_marginBottom="@dimen/msgr_toolbar_bottom_margin" auto:collapsedBackground="@drawable/msgr_toolbar_search_rounded_corner" auto:expandedBackground="?expandedSearchToolbarBackground" auto:toolbarElevation="?topToolbarElevation" />
+</LinearLayout>

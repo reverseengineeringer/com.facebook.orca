@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.user.tiles.UserTileView android:id="@id/other_user_tile" android:layout_marginRight="@dimen/orca_montage_status_item_horizontal_padding" android:layout_marginEnd="@dimen/orca_montage_status_item_horizontal_padding" style="?messageItemViewUserTileStyle" />
+    <com.facebook.messaging.montage.MontageTileView android:id="@id/other_user_montage_tile" style="@style/MontageStatusItemView.MontageTile" />
+    <LinearLayout android:orientation="vertical" android:id="@id/text_container" android:paddingLeft="@dimen/orca_montage_status_item_horizontal_padding" android:paddingRight="@dimen/orca_montage_status_item_horizontal_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.facebook.widget.text.BetterTextView android:id="@id/primary_text" style="@style/MontageStatusItemView.Text.Primary" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/secondary_text" style="@style/MontageStatusItemView.Text.Secondary" />
+    </LinearLayout>
+    <com.facebook.messaging.montage.MontageTileView android:id="@id/my_montage_tile" style="@style/MontageStatusItemView.MontageTile" />
+    <com.facebook.user.tiles.UserTileView android:id="@id/my_user_tile" android:layout_marginLeft="@dimen/orca_montage_status_item_horizontal_padding" android:layout_marginStart="@dimen/orca_montage_status_item_horizontal_padding" style="?messageItemViewUserTileStyle" />
+</merge>

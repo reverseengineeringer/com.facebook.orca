@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/popover_mini_view_v1" android:layout_width="@dimen/popover_view_v1_mini_size" android:layout_height="@dimen/popover_view_v1_mini_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_white_badge_ds" android:scaleType="centerInside" />
+    <com.facebook.resources.ui.FbTextView android:layout_gravity="end|center|top" android:id="@id/badge_count" style="@style/PicHead.Popover.Badge.Blue" />
+</FrameLayout>

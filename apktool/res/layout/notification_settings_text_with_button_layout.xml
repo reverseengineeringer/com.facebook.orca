@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.contentview.ContentViewWithButton android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:thumbnailGravity="center" fb:thumbnailSize="xsmall" fb:maxLinesFromThumbnailSize="false" fb:titleMaxLines="2" fb:subtitleMaxLines="2" fb:actionButtonTheme="none"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fig.button.FigButton android:id="@id/button_view" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:layout_useAsAuxView="true" fb:buttonType="outline_primary_small" />
+</com.facebook.fbui.widget.contentview.ContentViewWithButton>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.spherical.photo.SphericalPhotoTextureView android:id="@id/spherical_photo_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.drawee.view.GenericDraweeView android:gravity="center_horizontal" android:id="@id/preview_image_attachment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cropToPadding="true" android:layout_centerHorizontal="true" />
+    <com.facebook.spherical.photo.ui.PhotoVRCastPlugin android:id="@id/photo_vr_cast_plugin" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.spherical.photo.ui.SphericalPhotoIndicatorPlugin android:id="@id/spherical_indicator_plugin" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.spherical.photo.ui.PhotoHeadingPlugin android:id="@id/photo_heading_plugin" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

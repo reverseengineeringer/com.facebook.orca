@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fig.sectionheader.FigSectionHeader android:layout_width="fill_parent" android:layout_height="wrap_content" fb:titleText="@string/notification_settings_alerts_title" />
+    <com.facebook.fig.listitem.FigListItem android:id="@id/ringtone_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:titleText="@string/notification_settings_alerts_ringtone" fb:actionType="badge" />
+    <com.facebook.fig.listitem.FigListItem android:id="@id/sound_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:titleText="@string/notification_settings_alerts_sounds" fb:actionType="switchCompat" />
+    <com.facebook.fig.listitem.FigListItem android:id="@id/vibrate_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:titleText="@string/notification_settings_alerts_vibrate" fb:actionType="switchCompat" />
+    <com.facebook.fig.listitem.FigListItem android:id="@id/led_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:titleText="@string/notification_settings_alerts_phone_led" fb:actionType="switchCompat" />
+</LinearLayout>

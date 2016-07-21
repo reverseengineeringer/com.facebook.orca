@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/popover_badge_shadow_offset">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/popover_badge_radius" />
+            <gradient android:endColor="@android:color/transparent" android:type="radial" android:gradientRadius="@dimen/popover_badge_radius" android:centerColor="@color/black_alpha_60" />
+            <size android:height="@dimen/popover_badge_diameter" />
+        </shape>
+    </item>
+    <item android:bottom="@dimen/popover_badge_shadow_offset">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/popover_badge_radius" />
+            <size android:height="@dimen/popover_badge_diameter" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</layer-list>

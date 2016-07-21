@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/voip_accept_video" />
+            </item>
+            <item android:drawable="@drawable/rtc_green_circle_background" />
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/voip_accept_video" />
+            </item>
+            <item android:drawable="@drawable/rtc_green_circle_background" />
+            <item android:drawable="@drawable/rtc_gray_circle_transparent" />
+        </layer-list>
+    </item>
+</selector>

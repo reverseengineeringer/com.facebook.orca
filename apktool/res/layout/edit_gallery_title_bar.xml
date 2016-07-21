@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:id="@id/edit_gallery_title_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.ui.titlebar.Fb4aTitleBar android:id="@id/titlebar" android:background="?titleBarBackground" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/profile_privacy_view" android:layout="@layout/profile_privacy_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.facebook.widget.CustomLinearLayout>

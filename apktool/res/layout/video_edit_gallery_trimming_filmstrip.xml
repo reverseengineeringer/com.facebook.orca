@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.video.creativeediting.ui.fresco.ZoomableDraweeStripView android:id="@id/frame_strip" android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="@dimen/gallery_trimmer_filmstrip_height" />
+    <View android:layout_gravity="left" android:id="@id/film_strip_left_mask" android:background="@color/trimmed_out_mask_color" android:layout_width="0.0dip" android:layout_height="@dimen/gallery_trimmer_filmstrip_height" />
+    <View android:layout_gravity="right" android:id="@id/film_strip_right_mask" android:background="@color/trimmed_out_mask_color" android:layout_width="0.0dip" android:layout_height="@dimen/gallery_trimmer_filmstrip_height" />
+    <View android:id="@id/film_strip_border" android:background="@drawable/video_edit_gallery_filmstrip_border" android:layout_width="fill_parent" android:layout_height="@dimen/gallery_trimmer_filmstrip_height" android:layout_marginLeft="@dimen/gallery_trimmer_handle_touch_target_increase" android:layout_marginRight="@dimen/gallery_trimmer_handle_touch_target_increase" />
+    <View android:layout_gravity="left" android:id="@id/film_strip_left_handle" android:background="@drawable/video_edit_gallery_trimming_left_handle" android:layout_width="@dimen/gallery_trimmer_handle_width" android:layout_height="@dimen/gallery_trimmer_filmstrip_height" />
+    <View android:layout_gravity="right" android:id="@id/film_strip_right_handle" android:background="@drawable/video_edit_gallery_trimming_right_handle" android:layout_width="@dimen/gallery_trimmer_handle_width" android:layout_height="@dimen/gallery_trimmer_filmstrip_height" />
+    <View android:layout_gravity="left" android:id="@id/film_strip_scrubber" android:background="@drawable/video_edit_gallery_trimming_scrubber" android:layout_width="@dimen/gallery_trimmer_scrubber_width" android:layout_height="@dimen/gallery_trimmer_filmstrip_height" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.FbImageView android:id="@id/volume_unmute_icon" android:paddingTop="@dimen/video_volume_mute_button_padding" android:paddingBottom="@dimen/video_volume_mute_button_padding" android:layout_width="@dimen/video_volume_button_size" android:layout_height="@dimen/video_volume_button_size" android:src="@drawable/volume_unmute" android:contentDescription="@string/video_volume_unmute_button_description" style="@style/video_volume_button" />
+    <com.facebook.widget.FbImageView android:id="@id/volume_mute_icon" android:layout_width="@dimen/video_volume_button_size" android:layout_height="@dimen/video_volume_button_size" android:src="@drawable/volume_mute" android:contentDescription="@string/video_volume_mute_button_description" style="@style/video_volume_button" />
+</merge>

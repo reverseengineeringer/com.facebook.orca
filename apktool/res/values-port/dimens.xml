@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_bar_height">54.0dip</dimen>
+    <dimen name="dialog_min_width">300.0dip</dimen>
+    <dimen name="publisher_height">48.0dip</dimen>
+    <dimen name="harrison_tab_bar_height">48.0dip</dimen>
+    <dimen name="harrison_tab_bar_above_indicator_height">42.0dip</dimen>
+    <dimen name="harrison_tab_bar_above_indicator_padding_top">7.0dip</dimen>
+    <dimen name="harrison_tab_bar_above_indicator_padding_bottom">3.0dip</dimen>
+    <dimen name="harrison_tab_bar_indicator_height">6.0dip</dimen>
+    <dimen name="harrison_total_chrome_height">96.0dip</dimen>
+    <dimen name="zero_rating_top_banner_height">40.0sp</dimen>
+    <dimen name="dialtone_switcher_top_banner_height">40.0sp</dimen>
+    <dimen name="dsm_top_banner_height">40.0sp</dimen>
+    <dimen name="harrison_overlap_padding">48.0dip</dimen>
+    <dimen name="inline_reply_fragment_top_padding">140.0dip</dimen>
+</resources>

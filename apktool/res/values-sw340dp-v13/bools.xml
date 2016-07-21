@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="thread_view_title_abbreviate_last_active_status_text">false</bool>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/feed_story_bg_middle" android:left="@dimen/story_background_outer_padding" android:right="@dimen/story_background_outer_padding" />
+    <item android:drawable="@drawable/feed_story_bg_top" android:left="@dimen/story_background_inner_padding" android:right="@dimen/story_background_inner_padding" />
+</layer-list>

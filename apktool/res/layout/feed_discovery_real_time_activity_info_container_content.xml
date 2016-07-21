@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/real_time_activity_info_facepile_view_stub" android:layout="@layout/real_time_activity_info_facepile_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/feed_discovery_facepile_spacing_end" android:layout_marginEnd="@dimen/feed_discovery_facepile_spacing_end" />
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/real_time_activity_info_text_view_stub" android:layout="@layout/real_time_activity_info_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.feedback.reactions.ui.PillsBlingBarView android:id="@id/reactions_pills_bling_view" android:paddingLeft="@dimen/fbui_padding_standard" android:paddingTop="@dimen/fbui_padding_standard" android:paddingRight="@dimen/fbui_padding_standard" android:paddingBottom="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.feedplugins.feedbackreactions.ui.ReactionsFooterView android:id="@id/reactions_ufi_footerview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.facebook.widget.CustomLinearLayout>
+</merge>

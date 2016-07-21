@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.pages.common.ui.widgets.AlbumWithOffsetShadow android:id="@id/page_photo_album_cover_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small_medium" android:textStyle="bold" android:textColor="@color/fbui_black" android:ellipsize="end" android:gravity="center" android:id="@id/page_photo_album_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_grey_40" android:gravity="center" android:id="@id/page_photo_album_size" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

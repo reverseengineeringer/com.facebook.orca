@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/orca_settings_row_badge_circle_radius" />
+    <size android:height="@dimen/orca_settings_row_badge_circle_diameter" />
+    <solid android:color="@color/orca_badge_red" />
+    <padding android:left="@dimen/orca_settings_row_badge_lr_padding" android:right="@dimen/orca_settings_row_badge_lr_padding" />
+</shape>

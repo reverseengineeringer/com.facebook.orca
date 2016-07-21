@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingRight="@dimen/msgr_montage_seen_heads_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.user.tiles.UserTileView android:id="@id/user_tile" android:layout_width="@dimen/msgr_montage_seen_heads_tile_size" android:layout_height="@dimen/msgr_montage_seen_heads_tile_size" app:tileSize="@dimen/msgr_montage_seen_heads_tile_size" app:asCircle="true" />
+</FrameLayout>

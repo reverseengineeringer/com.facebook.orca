@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_white" android:id="@id/whos_watching_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fbui_padding_standard" android:text="@string/whos_watching_title" android:layout_marginStart="@dimen/fbui_padding_standard" fb:fontFamily="roboto" fb:fontWeight="medium" />
+    <ViewStub android:id="@id/whos_watching_nux_viewstub" android:layout="@layout/whos_watching_nux_viewstub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fbui_padding_standard" android:layout_marginRight="@dimen/fbui_padding_standard" android:layout_marginStart="@dimen/fbui_padding_standard" android:layout_marginEnd="@dimen/fbui_padding_standard" />
+    <com.facebook.facecastdisplay.whoswatching.LiveWhosWatchingView android:id="@id/live_whos_watching_view" android:paddingLeft="@dimen/whos_watching_grid_horizontal_margin" android:paddingTop="@dimen/fbui_padding_half_standard" android:paddingRight="@dimen/whos_watching_grid_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

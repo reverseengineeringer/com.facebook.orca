@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.contentview.ContentView android:id="@id/toggle_approval_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="32.0dip" android:layout_marginStart="32.0dip" app:titleTextAppearance="@style/TextAppearance.FBUi.Large" app:subtitleTextAppearance="@style/TextAppearance.FBUi.Small" app:thumbnailPadding="12.0dip" app:subtitleText="@string/share_sheet_approval_subtitle" app:maxLinesFromThumbnailSize="false" />
+    <LinearLayout android:id="@id/toggle_row_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <com.facebook.widget.text.BetterTextView android:textColor="@color/black_alpha_54" android:id="@id/toggle_row_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/toggle_row_left_margin" android:text="@string/share_sheet_approval_switch" android:maxLines="3" android:layout_weight="1.0" android:layout_marginStart="@dimen/toggle_row_left_margin" />
+        <com.facebook.widget.SwitchCompat android:layout_gravity="end" android:id="@id/toggle_row_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:contentDescription="@string/share_sheet_approval_switch" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</merge>

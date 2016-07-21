@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.BetterTextView android:textSize="@dimen/movie_secondary_text_size" android:textStyle="bold" android:textColor="@color/movie_primary_text" android:background="@drawable/orca_neue_item_background" android:paddingLeft="@dimen/movie_showtime_horizontal_padding" android:paddingTop="@dimen/movie_showtime_vertical_padding" android:paddingRight="@dimen/movie_showtime_vertical_padding" android:paddingBottom="@dimen/movie_showtime_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

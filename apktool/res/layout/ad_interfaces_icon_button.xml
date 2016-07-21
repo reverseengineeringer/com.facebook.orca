@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.FbImageView android:layout_gravity="center_vertical" android:id="@id/boost_post_arrow_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/trending_badge" android:tint="@color/ad_interfaces_orange" />
+    <com.facebook.widget.text.BetterTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/boost_post_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ad_interfaces_boost_post_text_left_margin" android:layout_weight="1.0" android:layout_marginStart="@dimen/ad_interfaces_boost_post_text_left_margin" />
+    <com.facebook.resources.ui.FbButton android:layout_gravity="center_vertical" android:id="@id/create_ad_icon_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Button.FBUi.Light.Special.Small" />
+</merge>

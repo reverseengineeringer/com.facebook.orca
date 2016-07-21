@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/inline_reply_actor_image_layout" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/inline_reply_composer_text_margin_size" android:layout_marginEnd="@dimen/inline_reply_composer_text_margin_size">
+        <com.facebook.resources.ui.FbTextView android:textAppearance="@style/CommentViewAuthorTextAppearanceStyle" android:id="@id/inline_reply_actor_name_text_view" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/inline_reply_draft_name_tag_margin_end" android:layout_marginEnd="@dimen/inline_reply_draft_name_tag_margin_end" />
+        <com.facebook.resources.ui.FbTextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InlineReplyDraftTag" />
+    </LinearLayout>
+    <com.facebook.resources.ui.FbTextView android:id="@id/inline_reply_draft_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InlineReplyDraftText" />
+    <ViewStub android:layout_gravity="start" android:id="@id/inline_reply_draft_image_preview_view_stub" android:layout="@layout/comment_image_preview_image_layout" android:layout_width="@dimen/inline_reply_composer_image_preview_size" android:layout_height="@dimen/inline_reply_composer_image_preview_size" android:layout_marginTop="@dimen/inline_reply_composer_action_row_top_margin_size" />
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" xmlns:fbui="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center" android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" fbui:viewAspectRatio="1.0" fbui:actualImageScaleType="centerCrop" />
+    <ViewStub android:layout_gravity="center" android:id="@id/video_icon" android:layout="@layout/uw_video_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:id="@id/edit_button" android:background="@drawable/edit_gallery_launcher_bg" android:paddingLeft="@dimen/fbui_padding_text" android:paddingTop="@dimen/fbui_padding_one_fourth_standard" android:paddingRight="@dimen/fbui_padding_text" android:paddingBottom="@dimen/fbui_padding_one_fourth_standard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fbui_padding_standard" android:layout_marginBottom="@dimen/fbui_padding_standard" android:layout_marginStart="@dimen/fbui_padding_standard">
+        <com.facebook.fbui.glyph.GlyphView android:layout_width="@dimen/fbui_image_button_size_small" android:layout_height="@dimen/fbui_image_button_size_small" android:layout_marginRight="@dimen/fbui_padding_one_fourth_standard" android:src="@drawable/fbui_pencil_l" android:layout_marginEnd="@dimen/fbui_padding_one_fourth_standard" fbui:glyphColor="@color/fbui_white" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_edit_gallery_launch_text" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+    <include layout="@layout/uw_remove_button_layout" />
+</merge>

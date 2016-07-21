@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:orca="http://schemas.android.com/apk/res-auto" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/rtc_pulsing_button" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/voip_video_titlebar_button_icon_blue" android:layout_centerInParent="true" fb:glyphColor="@color/orca_white" />
+    <com.facebook.rtc.views.RtcPulsingCircleView android:id="@id/rtc_pulsing_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

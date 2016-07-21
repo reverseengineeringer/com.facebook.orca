@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/video_trimming_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/video_rotate_button_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/video_trimming_rotate_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/gallery_trimmer_rotation_view_height" android:src="@drawable/rotate_blue" android:scaleType="centerInside" android:contentDescription="@string/video_trimming_rotate_button_description" />
+    </FrameLayout>
+</LinearLayout>

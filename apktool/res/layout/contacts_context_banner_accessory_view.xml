@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.BetterTextView android:textAppearance="@style/TextAppearance.Messenger.ContextBannerSubtitle" android:paddingTop="@dimen/context_banner_bottom_text_top_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

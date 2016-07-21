@@ -1,0 +1,134 @@
+namespace com.facebook.contacts.omnistore.flatbuffer;
+
+enum SubscribeStatus : byte {
+  INVALID,
+  CANNOT_SUBSCRIBE,
+  IS_SUBSCRIBED,
+  CAN_SUBSCRIBE
+}
+
+enum FriendshipStatus : byte {
+  INVALID,
+  CANNOT_REQUEST,
+  ARE_FRIENDS,
+  INCOMING_REQUEST,
+  OUTGOING_REQUEST,
+  CAN_REQUEST
+}
+
+enum StructuredNamePart : byte {
+  invalid,
+  first,
+  middle,
+  last
+}
+
+struct Vect2 {
+  x:float;
+  y:float;
+}
+
+table SquareImage {
+ uri:string;
+ width:int;
+}
+
+table Image {
+  uri:string;
+  width:int;
+  height:int;
+}
+
+table Photo {
+  imageLowRes:Image;
+  imageMidRes:Image;
+  imageHighRes:Image;
+}
+
+table CoverPhoto {
+  focus:Vect2;
+  photo:Photo;
+}
+
+table PhoneNumber {
+  display_number:string;
+  universal_number:string;
+}
+
+table TextWithEntities {
+  text:string;
+}
+
+table ContactField {
+  id:string;
+  label:string;
+  value:TextWithEntities;
+  phone:PhoneNumber;
+}
+
+table ContactEntry {
+  is_verified:bool;
+  primary_field:ContactField;
+}
+
+table NamePart {
+  part:StructuredNamePart;
+  offset:int;
+  length:int;
+}
+
+table Name {
+  parts:[NamePart];
+  text:string;
+}
+
+table Date {
+  day:int;
+  month:int;
+}
+
+table City {
+  name:string;
+}
+
+table ProfileType {
+  name:string;
+}
+
+table Actor {
+  id:string;
+  profile_type:ProfileType;
+  birthdate:Date;
+  current_city:City;
+  communicationRank:float;
+  withTaggingRank:float;
+  can_viewer_message:bool;
+  is_mobile_pushable:bool;
+  is_messenger_user:bool;
+  messenger_install_time:long;
+  is_memorialized:bool;
+  subscribe_status:SubscribeStatus;
+  friendship_status:FriendshipStatus;
+  cover_photo:CoverPhoto;
+  name_search_tokens:[string];
+  is_partial:bool;
+  phatRank:float;
+  username:string;
+}
+
+table Contact {
+  id:string;
+  graph_api_write_id:string;
+  represented_profile:Actor;
+  structured_name:Name;
+  phonetic_name:Name;
+  imported_phone_entries:[ContactEntry];
+  is_on_viewer_contact_list:bool;
+  name_entries:[ContactEntry];
+  added_time:long;
+  smallPictureUrl:SquareImage;
+  bigPictureUrl:SquareImage;
+  hugePictureUrl:SquareImage;
+}
+
+root_type Contact;

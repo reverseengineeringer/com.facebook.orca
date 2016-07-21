@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/background_fade" android:background="@color/white_alpha_54" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.particles.ParticleSystemView android:id="@id/back_particles_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/dialog_view" android:background="@drawable/fbui_popover_light" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/dialog_contents" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+            <com.facebook.widget.text.BetterTextView android:textSize="20.0sp" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" app:fontFamily="roboto" app:fontWeight="medium" />
+            <com.facebook.widget.text.BetterTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxWidth="225.0dip" android:text="@string/msgr_thread_view_particles_balloon_intro_caption" />
+            <com.facebook.widget.text.BetterButton android:id="@id/ok_button" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_ok" style="?alertDialogPrimaryButtonStyle" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.facebook.particles.ParticleSystemView android:id="@id/front_particles_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.facebook.widget.CustomFrameLayout>

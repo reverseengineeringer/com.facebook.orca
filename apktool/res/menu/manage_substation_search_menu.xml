@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/abc_ic_search_api_mtrl_alpha" android:id="@id/manage_substation_search" android:title="@string/substation_search_title" fb:showAsAction="collapseActionView|ifRoom" fb:actionViewClass="android.support.v7.widget.SearchView" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:id="@id/richdocument_native_ad_header_with_chevron" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/richdocument_block_new"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.richdocument.view.widget.RichTextView android:id="@id/richdocument_native_ad_header" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/richdocument_webview_header" android:singleLine="true" android:layout_weight="0.95" android:textAllCaps="true" style="@style/richdocument_richtext_native_ad_header" />
+    <com.facebook.fbui.glyph.GlyphView android:gravity="end|center|top" android:layout_gravity="end" android:id="@id/richdocument_native_ad_chevron" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/fbui_chevron_down_s" android:layout_weight="0.05" fb:glyphColor="@color/richdocument_25_percent_black" />
+</com.facebook.widget.CustomLinearLayout>

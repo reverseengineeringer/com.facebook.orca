@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.messaging.business.airline.view.AirlineGridView android:id="@id/airline_bubble_flight_route_info_grid_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/airline_margin_default">
+        <com.facebook.messaging.business.common.view.BusinessPairTextView android:id="@id/flight_route_details_pair_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:textOrientation="vertical" />
+        <com.facebook.messaging.business.common.view.BusinessPairTextView android:id="@id/flight_route_details_pair_text_2" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:textOrientation="vertical" />
+        <com.facebook.messaging.business.common.view.BusinessPairTextView android:id="@id/flight_route_details_pair_text_3" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:textOrientation="vertical" />
+    </com.facebook.messaging.business.airline.view.AirlineGridView>
+    <com.facebook.messaging.business.airline.view.AirlineAirportRouteView android:id="@id/flight_route_airport_route_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</merge>

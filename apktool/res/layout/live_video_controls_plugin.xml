@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/live_video_control_top_gradient" android:background="@drawable/live_video_top_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/live_video_top_gradient_height" android:layout_alignParentTop="true" />
+    <View android:id="@id/live_video_control_shadow" android:background="@color/black_20" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignTop="@id/video_container" android:layout_alignBottom="@id/video_container" />
+    <com.facebook.feed.video.fullscreen.LiveContextClickToPlayNoPausePlugin android:id="@id/live_video_control_click_to_play" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.video.player.plugins.OverflowMenuPlugin android:id="@id/live_video_context_overflow_menu_plugin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.video.player.plugins.FullScreenCastPlugin android:id="@id/live_video_full_screen_cast_plugin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

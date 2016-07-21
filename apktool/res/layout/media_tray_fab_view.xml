@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.uicontrib.fab.FabView android:id="@id/fab_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/orca_neue_primary" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/media_tray_fab_badge" android:background="@drawable/media_tray_fab_background" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/media_tray_fab_badge_diameter" android:layout_height="@dimen/media_tray_fab_badge_diameter" android:layout_marginTop="@dimen/media_tray_fab_badge_margin_top" android:layout_marginRight="@dimen/media_tray_fab_badge_margin_end" android:includeFontPadding="false" android:layout_marginEnd="@dimen/media_tray_fab_badge_margin_end" fb:fontFamily="roboto" fb:fontWeight="medium" />
+</merge>

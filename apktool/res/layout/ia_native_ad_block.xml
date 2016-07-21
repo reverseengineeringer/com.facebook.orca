@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.richdocument.view.widget.IAadsCustomLinearLayout android:orientation="vertical" android:id="@id/richdocument_native_ad_block" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/richdocument_block_new"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/ia_native_ad_block_header" />
+    <View android:id="@id/richdocument_native_ad_placeholder" android:background="@color/richdocument_ham_placeholder_on_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="300.0dip" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/richdocument_native_ad_image" android:background="@drawable/native_ad_body_block_background" android:paddingLeft="1.0px" android:paddingTop="1.0px" android:paddingRight="1.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cropToPadding="true" fb:placeholderImage="@color/richdocument_ham_placeholder_on_white" fb:actualImageScaleType="fitXY" />
+    <include layout="@layout/ia_native_ad_video_block" />
+    <include layout="@layout/ia_native_ad_multishare_block" />
+    <include layout="@layout/ia_native_ad_block_body" />
+</com.facebook.richdocument.view.widget.IAadsCustomLinearLayout>

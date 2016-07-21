@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" style="@style/UfiServicesReactorsFlyoutButtonLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.friends.ui.SmartButtonLite android:ellipsize="end" android:gravity="center" android:id="@id/ufiservices_flyout_profile_friending_button" android:layout_width="@dimen/ufiservices_likers_profile_button_width" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" android:drawablePadding="0.0dip" />
+    <include layout="@layout/pages_invite_user_button" />
+    <include layout="@layout/pages_ban_user_button" />
+</LinearLayout>

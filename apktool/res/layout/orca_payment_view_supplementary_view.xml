@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:id="@id/message_text" style="@style/Payments.Bubble.Supplementary.Style" />
+    <com.facebook.widget.text.BetterTextView android:id="@id/drawable_text" android:drawableLeft="@drawable/lock" android:drawablePadding="@dimen/payment_bubble_drawable_padding" style="@style/Payments.Bubble.Supplementary.Style" />
+</merge>

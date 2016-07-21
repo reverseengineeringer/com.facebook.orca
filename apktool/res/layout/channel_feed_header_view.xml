@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="19.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/profile_pic" android:layout_width="66.0dip" android:layout_height="66.0dip" android:layout_centerHorizontal="true" fb:roundAsCircle="true" />
+        <com.facebook.resources.ui.FbTextView android:id="@id/badge_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-12.0dip" android:layout_alignTop="@id/profile_pic" android:layout_alignRight="@id/profile_pic" android:layout_marginEnd="-12.0dip" android:layout_alignEnd="@id/profile_pic" style="@style/video_live_badge_view" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+    <com.facebook.resources.ui.FbTextView android:textSize="20.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:maxLines="2" />
+    <com.facebook.resources.ui.FbTextView android:textSize="11.0sp" android:textColor="#ffcccccc" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.5dip" />
+    <com.facebook.video.followvideos.VideoHomeFollowVideosButton android:id="@id/subscribe_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.facebook.widget.CustomLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/fbui_newsfeed_checkmark_s" android:id="@id/offers_wallet_item_mark_used" android:checked="false" android:title="@string/offer_detail_button_mark_as_used_chevron" android:checkable="true" />
+    <item android:icon="@drawable/fbui_share_s" android:id="@id/offers_wallet_item_share" android:checked="false" android:title="@string/offers_share_offer" android:checkable="false" />
+    <item android:icon="@drawable/fbui_globe_americas_s" android:id="@id/offers_wallet_item_toggle_notifications" android:checked="false" android:title="@string/offer_detail_button_turn_off_notifs_chevron" android:checkable="true" />
+</menu>

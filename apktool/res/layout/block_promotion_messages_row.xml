@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/block_promotion_messages_row" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Messenger.BlockRowContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/block_row_text_container" />
+    <include layout="@layout/block_promotion_messages_switch_and_progressbar" />
+</LinearLayout>

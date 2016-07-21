@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Messenger.ManageMessagesAdapterItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.internal.widget.ViewStubCompat android:layout_gravity="start|center|top" android:id="@id/image_stub" android:layout="@layout/manage_messages_toggle_image" android:layout_width="@dimen/manage_messages_toggle_image_size" android:layout_height="@dimen/manage_messages_toggle_image_size" style="@style/Widget.Messenger.ManageMessagesToggleImage" />
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.text.BetterTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Messenger.ManageMessagesToggleTitle" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Messenger.ManageMessagesToggleDescription" />
+    </LinearLayout>
+</LinearLayout>

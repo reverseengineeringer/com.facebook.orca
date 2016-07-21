@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.payments.ui.titlebar.PaymentsTitleBarViewStub android:id="@id/titlebar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_input_container" android:paddingLeft="@dimen/card_form_overall_left_right_paddings" android:paddingRight="@dimen/card_form_overall_left_right_paddings" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/card_number_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/payment_card_info_edit_text_top_margin" fb:hint="@string/hint_card_number" fb:maxLength="@integer/max_digits_card_number" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="7.0">
+                    <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/exp_date_edit_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" fb:hint="@string/hint_expiration_date" fb:maxLength="@integer/max_digits_expiration_date" />
+                    <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/security_edit_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" fb:hint="@string/hint_security_code" fb:maxLength="@integer/max_digits_security_code" />
+                    <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/billing_zip_edit_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" fb:hint="@string/hint_billing_zip" fb:maxLength="@integer/max_digits_billing_zip" />
+                </LinearLayout>
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="@dimen/progress_bar_width" android:layout_height="@dimen/progress_bar_height" style="?android:attr/progressBarStyle" />
+        </FrameLayout>
+    </ScrollView>
+</com.facebook.widget.CustomLinearLayout>

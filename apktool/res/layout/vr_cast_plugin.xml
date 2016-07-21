@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbButton android:id="@id/inline_video_cast_to_vr_button" android:visibility="gone" android:text="@string/video_cast_vr_plugin_text" android:drawableLeft="@drawable/watch_in_vr_button" fb:layout_anchorTo="top" fb:layout_anchorIndex="2" fb:layout_anchorPosition="start" style="@style/CastToVrButton" />
+</merge>

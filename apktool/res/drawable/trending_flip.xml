@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate android:drawable="@drawable/fbui_trending_l" android:fromDegrees="90.0" android:toDegrees="-90.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

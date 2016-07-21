@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="design_navigation_padding_top_default">24.0dip</dimen>
+    <item type="dimen" name="top_sms_header_item_bottom_vertical_inset">@dimen/top_sms_header_item_line_spacing</item>
+</resources>

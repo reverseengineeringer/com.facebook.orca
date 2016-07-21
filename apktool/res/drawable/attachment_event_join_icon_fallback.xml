@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/feed_event_attachment_button_background" />
+    <item android:drawable="@drawable/feed_event_attachment_button_plus" />
+</layer-list>

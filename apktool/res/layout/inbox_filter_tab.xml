@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.text.BadgeTextView android:ellipsize="end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="1.0dip" app:badgeTextAppearance="@style/Widget.Messenger.Neue.TabBadge" app:badgeBackground="@drawable/orca_neue_tab_badge_background" app:badgePlacement="withText" app:badgeGravity="top" style="@style/TabBar2TabNameText"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

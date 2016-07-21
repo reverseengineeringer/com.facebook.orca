@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.business.airline.view.AirlineItineraryFlightInfoView android:id="@id/airline_itinerary_flight_info_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/airline_detail_section_margin_top" android:layout_marginBottom="@dimen/airline_margin_default" style="@style/airline_horizontal_margin_default"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

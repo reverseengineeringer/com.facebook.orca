@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/minimize_button" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/minimize_button_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/msgr_ic_arrow_back" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="25.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:gravity="center_vertical" android:id="@id/minimize_button_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:maxEms="25" />
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:id="@id/incall_action_bar_timer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/incall_action_bar_right_anchor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <com.facebook.fbui.glyph.GlyphButton android:id="@id/incall_button_roster" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_roster" android:layout_toLeftOf="@id/incall_action_bar_right_anchor" android:layout_toStartOf="@id/incall_action_bar_right_anchor" />
+    <com.facebook.fbui.glyph.GlyphButton android:id="@id/incall_button_swap_camera" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/voip_video_flip_camera" android:layout_toLeftOf="@id/incall_button_roster" android:layout_toStartOf="@id/incall_button_roster" />
+    <com.facebook.fbui.glyph.GlyphButton android:id="@id/incall_action_bar_bluetooth_button" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/voip_bluetooth_speakerphone_blue" android:layout_toLeftOf="@id/incall_button_swap_camera" android:layout_toStartOf="@id/incall_button_swap_camera" />
+    <ImageView android:id="@id/incall_action_bar_signal_strength" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/incall_action_bar_bluetooth_button" android:layout_toStartOf="@id/incall_action_bar_bluetooth_button" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

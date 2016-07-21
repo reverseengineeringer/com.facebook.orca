@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetRight="@dimen/material_standard_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:topLeftRadius="@dimen/fast_scroll_overlay_corner" android:topRightRadius="@dimen/fast_scroll_overlay_corner" android:bottomLeftRadius="@dimen/fast_scroll_overlay_corner" android:bottomRightRadius="0.0dip" />
+        <solid android:color="#ff0084ff" />
+    </shape>
+</inset>

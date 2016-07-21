@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/voip_hide_blue" />
+            </item>
+            <item android:drawable="@drawable/voip_incall_voice_circle" />
+        </layer-list>
+    </item>
+</selector>

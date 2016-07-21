@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/payment_transaction_history_activity" android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.fbui.pagerindicator.TabbedViewPagerIndicator android:id="@id/messenger_pay_history_tabs" style="@style/Payments.TabIndicator" />
+    <android.support.v4.view.ViewPager android:gravity="center" android:id="@id/messenger_pay_history_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

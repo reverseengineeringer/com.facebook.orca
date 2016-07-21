@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/media_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/thumbnail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:viewAspectRatio="1.0" app:actualImageScaleType="centerCrop" />
+    <com.facebook.fbui.widget.text.ImageWithTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/white" android:gravity="center" android:id="@id/error" android:background="@color/media_error_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/error_loading_media" android:drawablePadding="@dimen/fbui_drawable_padding" app:drawable="@drawable/media_error_icon_small" app:drawableOrientation="top" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/play" android:layout_width="@dimen/media_item_icon_size" android:layout_height="@dimen/media_item_icon_size" android:layout_margin="@dimen/media_item_icon_margin" android:src="@drawable/msgr_ic_play_overlay_36dp" />
+</FrameLayout>

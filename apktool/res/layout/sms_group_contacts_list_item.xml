@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.user.tiles.UserTileView android:id="@id/contact_user_tile_image" android:layout_centerVertical="true" style="?contactPickerThreadTileViewStyle" />
+    <com.facebook.widget.CustomRelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_toRightOf="@id/contact_user_tile_image" android:layout_centerVertical="true" android:layout_toEndOf="@id/contact_user_tile_image" style="?contactPickerItemTextContainerStyle">
+        <com.facebook.widget.text.SimpleVariableTextLayoutView android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:textColor="@color/black" style="?attr/contactPickerItemNameStyle" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/rtc_admin_msg_subtitle" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/contact_name">
+            <com.facebook.resources.ui.FbTextView android:ellipsize="end" android:id="@id/contact_status" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" style="?attr/contactPickerItemStatusStyle" />
+        </LinearLayout>
+    </com.facebook.widget.CustomRelativeLayout>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

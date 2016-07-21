@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/inline_reply_actor_image_layout" />
+    <com.facebook.resources.ui.FbTextView android:textAppearance="@style/CommentViewAuthorTextAppearanceStyle" android:id="@id/inline_reply_actor_name_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InlineReplyComposerActorNameText" />
+    <com.facebook.tagging.ui.MentionsAutoCompleteTextView android:id="@id/inline_reply_mentions_auto_complete_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/InlineReplyComposerEditText" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/inline_reply_composer_action_row_top_margin_size">
+        <ViewStub android:layout_gravity="start" android:id="@id/inline_reply_image_preview_stub" android:layout="@layout/comment_image_preview_image_layout" android:layout_width="@dimen/inline_reply_composer_image_preview_size" android:layout_height="@dimen/inline_reply_composer_image_preview_size" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" />
+        <com.facebook.resources.ui.FbTextView android:layout_gravity="start|center" android:id="@id/inline_reply_remove_image_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InlineReplyRemoveImageText" />
+        <ImageButton android:layout_gravity="end" android:id="@id/inline_reply_add_photo_button" android:layout_width="@dimen/inline_reply_composer_post_button_size" android:layout_height="@dimen/inline_reply_composer_post_button_size" android:src="@drawable/ufi_camera_icon_disabled" android:contentDescription="@string/ufiservices_photo_comment" style="@style/InlineReplyComposerAddPhotoButton" />
+        <com.facebook.feedback.ui.CommentComposerPostButton android:layout_gravity="end" android:id="@id/inline_reply_post_button" android:layout_width="@dimen/inline_reply_composer_post_button_size" android:layout_height="@dimen/inline_reply_composer_post_button_size" android:contentDescription="@string/comment_send_button_description" style="@style/InlineReplyComposerPostButton" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/swipe_to_refresh_stub" android:layout="@layout/swipe_to_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.widget.listview.BetterListView android:id="@id/place_picker_list_view" style="@style/PlacePickerList" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:indeterminate="true" android:layout_marginEnd="10.0dip" style="@style/Widget.ProgressBar.FBUi" />
+</merge>

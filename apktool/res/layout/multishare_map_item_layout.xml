@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/multi_share_item_container" android:background="@drawable/feed_attachment_background_white_pressable" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:facebook="http://schemas.android.com/apk/facebook">
+    <FrameLayout android:id="@id/map_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.maps.FbStaticMapView android:id="@id/feed_story_map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center" android:id="@id/icon" android:layout_width="52.0dip" android:layout_height="59.0dip" android:layout_marginBottom="29.0dip" facebook:actualImageScaleType="fitCenter" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/multi_share_map_item_footer" android:paddingLeft="@dimen/multi_share_footer_padding_left" android:paddingTop="@dimen/multi_share_footer_padding_top" android:paddingRight="@dimen/multi_share_footer_padding_right" android:paddingBottom="@dimen/multi_share_footer_padding_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.facebook.resources.ui.EllipsizingTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/feed_attachment_title_color" android:gravity="center_vertical" android:id="@id/multi_share_map_item_title" android:paddingBottom="@dimen/multi_share_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lines="2" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/multi_share_title_spacing_extra" facebook:ellipsizeLineBreaks="false" />
+            <com.facebook.resources.ui.EllipsizingTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/feed_attachment_context_color" android:gravity="bottom" android:id="@id/multi_share_map_item_description" android:paddingTop="@dimen/multi_share_description_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:includeFontPadding="false" facebook:ellipsizeLineBreaks="false" />
+        </LinearLayout>
+        <com.facebook.attachments.angora.actionbutton.GenericActionButtonView android:id="@id/multi_share_maps_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/multi_share_cta_margin_left" android:layout_marginEnd="@dimen/multi_share_cta_margin_left" />
+    </LinearLayout>
+</LinearLayout>

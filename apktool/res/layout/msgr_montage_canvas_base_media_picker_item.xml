@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/media" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:viewAspectRatio="1.0" fb:placeholderImage="@color/media_placeholder_color" fb:placeholderImageScaleType="fitCenter" fb:actualImageScaleType="centerCrop" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/error_view_stub" android:layout="@layout/msgr_montage_canvas_base_media_picker_item_error_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/video_indicator" android:layout_width="@dimen/msgr_montage_canvas_media_picker_video_indicator_size" android:layout_height="@dimen/msgr_montage_canvas_media_picker_video_indicator_size" android:layout_margin="@dimen/msgr_montage_canvas_media_picker_video_indicator_margin" android:src="@drawable/msgr_ic_play_overlay_36dp" />
+</merge>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="orca_split_home_buttons_from_tabs">false</bool>
+</resources>

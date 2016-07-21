@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/undoodle_button" android:src="@drawable/msgr_ic_undo_shadow" android:contentDescription="@string/undo_button_description" style="@style/PhotoEditingControl" />
+    <ImageButton android:id="@id/add_doodle_layer_button" android:src="@drawable/msgr_add_doodle_layer_drawable" android:contentDescription="@string/draw_button_description" style="@style/PhotoEditingControl" />
+    <ImageButton android:id="@id/add_sticker_layer_button" android:src="@drawable/msgr_ic_stickers_shadow" android:contentDescription="@string/sticker_button_description" style="@style/PhotoEditingControl" />
+    <ImageButton android:id="@id/add_text_layer_button" android:src="@drawable/msgr_ic_text_shadow" android:contentDescription="@string/text_button_description" style="@style/PhotoEditingControl" />
+</merge>

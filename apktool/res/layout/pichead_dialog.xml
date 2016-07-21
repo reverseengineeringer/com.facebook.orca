@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.messaging.pichead.orientation.OrientableLinearLayout android:gravity="bottom" android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.facebook.messaging.pichead.orientation.OrientableLinearLayout>
+</FrameLayout>

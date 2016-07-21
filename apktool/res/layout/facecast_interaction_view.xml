@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomViewPager android:layout_gravity="bottom" android:id="@id/facecast_view_pager" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="0.0dip" fb:initializeHeightToFirstItem="true" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/live_video_context_layout_stub" android:layout="@layout/live_video_context_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/whos_watching_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/whos_watching_gradient_height" />
+</merge>

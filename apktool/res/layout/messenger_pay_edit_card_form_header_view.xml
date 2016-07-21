@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:background="@drawable/orca_neue_list_selector_background" android:visibility="gone" layout="@layout/payment_dpo" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_bluegrey_50" android:gravity="center_vertical" android:id="@id/primary_card_text" android:background="@drawable/payment_underline_border" android:paddingLeft="@dimen/payment_card_info_preference_padding_left_large" android:paddingRight="@dimen/payment_card_info_preference_padding_right_large" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/payment_card_info_preference_height" android:text="@string/edit_payment_card_is_primary_card_text" android:drawableLeft="@drawable/primary_card_checkmark" android:drawablePadding="@dimen/payment_card_info_drawable_padding_large" />
+</merge>

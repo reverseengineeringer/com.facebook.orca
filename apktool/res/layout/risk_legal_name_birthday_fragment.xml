@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/payment_form_overall_left_right_paddings" android:paddingRight="@dimen/payment_form_overall_left_right_paddings" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.messaging.payment.ui.PaymentHeaderSubheaderLayout android:id="@id/header_subheader" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/legal_name" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.resources.ui.FbEditText android:id="@id/first_name" android:singleLine="true" style="@style/PaymentCardInfoEditText.Portrait" />
+            <com.facebook.resources.ui.FbEditText android:id="@id/last_name" android:singleLine="true" style="@style/PaymentCardInfoEditText.Portrait" />
+        </LinearLayout>
+        <DatePicker android:id="@id/birthday_date_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:calendarViewShown="false" style="@android:style/Widget.DatePicker" />
+    </FrameLayout>
+</LinearLayout>

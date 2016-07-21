@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.glyph.GlyphButton android:src="@drawable/three_dots_grey_l" android:contentDescription="@string/composer_accessibility_composer_publish_mode" fbui:glyphColor="@color/footer_button_color" style="@style/footer_bar_button"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto" />

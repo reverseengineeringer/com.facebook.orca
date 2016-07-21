@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.composer.inlinesprouts.SproutListItem android:gravity="center_vertical" android:paddingLeft="@dimen/fbui_button_padding_left_medium" android:paddingRight="@dimen/fbui_button_padding_left_medium" android:layout_width="fill_parent" android:layout_height="@dimen/composer_sprouts_item_height" fb:thumbnailGravity="center" fb:thumbnailPadding="@dimen/fbui_button_padding_left_medium" fb:thumbnailSize="xsmall" fb:maxLinesFromThumbnailSize="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

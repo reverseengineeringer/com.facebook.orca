@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:background="@color/offline_story_media_upload_header_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/media_upload_progress_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:id="@id/processing_message" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:padding="@dimen/media_upload_progress_spinner_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="@style/Widget.ProgressBar.FBUi" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/media_upload_progress_message_text_size" android:textColor="@color/fbui_facebook_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/media_upload_progress_message_margin_top" android:text="@string/upload_progress_completing" />
+    </com.facebook.widget.CustomLinearLayout>
+    <View android:background="@color/feed_feedback_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/one_dp" android:layout_marginLeft="@dimen/media_upload_progress_divider_margin" android:layout_marginRight="@dimen/media_upload_progress_divider_margin" android:layout_below="@id/processing_message" android:layout_marginStart="@dimen/media_upload_progress_divider_margin" android:layout_marginEnd="@dimen/media_upload_progress_divider_margin" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

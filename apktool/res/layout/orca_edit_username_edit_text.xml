@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge app:layout_width="fill_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/username_edit_text_top_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbEditText app:textSize="@dimen/fbui_text_size_large" app:ellipsize="end" app:layout_gravity="start|center|top" app:id="@id/username_edit_text" app:background="@drawable/username_edit_text_background" app:paddingBottom="@dimen/username_edit_text_padding" app:saveEnabled="true" app:layout_width="fill_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/username_edit_text_bottom_margin" app:hint="@string/edit_username_hint" app:singleLine="true" app:maxLength="@integer/username_max_length" app:inputType="textNoSuggestions" app:imeOptions="actionSearch" />
+    <ProgressBar app:layout_gravity="end|center|top" app:id="@id/username_edit_loading_spinner" app:visibility="gone" app:layout_width="@dimen/username_edit_loading_spinner_size" app:layout_height="@dimen/username_edit_loading_spinner_size" />
+    <com.facebook.resources.ui.FbTextView app:textSize="@dimen/fbui_text_size_small" app:textColor="@color/fbui_red" app:layout_gravity="start|bottom|center" app:id="@id/username_unavailable_status_text" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/username_unavailable_text" />
+    <com.facebook.resources.ui.FbTextView app:textSize="@dimen/fbui_text_size_small" app:textColor="?android:textColorSecondary" app:layout_gravity="end|bottom|center" app:id="@id/username_number_of_chars_text" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+</merge>

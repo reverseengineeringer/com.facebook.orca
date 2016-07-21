@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/events_container" android:paddingTop="@dimen/event_container_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.fbui.widget.layout.ImageBlockLayout android:paddingTop="@dimen/event_input_container_padding" android:paddingBottom="@dimen/event_input_container_padding" style="@style/EventInputTextContainer">
+            <com.facebook.fbui.glyph.GlyphView android:id="@id/event_title_glyph" fb:layout_useAsThumbnail="true" fb:source="@drawable/msgr_ic_event" style="@style/EventInputGlyph" />
+            <com.facebook.resources.ui.FbEditText android:id="@id/event_title_text" android:hint="@string/event_set_title_text" style="@style/EventInputText" />
+            <View style="@style/EventInputTextSeparator" />
+        </com.facebook.fbui.widget.layout.ImageBlockLayout>
+        <com.facebook.fbui.widget.layout.ImageBlockLayout android:paddingTop="@dimen/event_input_container_padding" android:paddingBottom="@dimen/event_input_container_padding" style="@style/EventInputTextContainer">
+            <com.facebook.fbui.glyph.GlyphView android:id="@id/event_time_glyph" fb:layout_useAsThumbnail="true" fb:source="@drawable/msgr_ic_clock" style="@style/EventInputGlyph" />
+            <CheckBox android:id="@id/event_all_day_check" android:button="@null" android:text="@string/event_set_time_all_day" android:drawableRight="?android:listChoiceIndicatorMultiple" style="@style/EventInputText" />
+            <com.facebook.resources.ui.FbTextView android:id="@id/event_start_time_text" android:hint="@string/event_pick_start_time_text" style="@style/EventInputText" />
+            <com.facebook.resources.ui.FbTextView android:id="@id/event_end_time_text" android:hint="@string/event_pick_end_time_text" style="@style/EventInputText" />
+            <View style="@style/EventInputTextSeparator" />
+        </com.facebook.fbui.widget.layout.ImageBlockLayout>
+        <com.facebook.fbui.widget.layout.ImageBlockLayout android:paddingTop="@dimen/event_input_container_padding" android:paddingBottom="@dimen/event_input_container_padding" style="@style/EventInputTextContainer">
+            <com.facebook.fbui.glyph.GlyphView android:id="@id/event_location_glyph" fb:layout_useAsThumbnail="true" fb:source="@drawable/msgr_ic_place" style="@style/EventInputGlyph" />
+            <com.facebook.resources.ui.FbTextView android:id="@id/event_location_text" android:hint="@string/event_pick_location_text" style="@style/EventInputText" />
+            <View style="@style/EventInputTextSeparator" />
+        </com.facebook.fbui.widget.layout.ImageBlockLayout>
+    </LinearLayout>
+</ScrollView>

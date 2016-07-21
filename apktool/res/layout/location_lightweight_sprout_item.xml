@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.composer.inlinesprouts.SproutListItem android:gravity="center_vertical" android:id="@id/location_sprout_item" android:background="@drawable/lightweight_sprout_pressed_state" android:paddingLeft="@dimen/fbui_button_padding_left_medium" android:paddingRight="@dimen/fbui_button_padding_left_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:thumbnailGravity="center" fb:thumbnailPadding="@dimen/fbui_button_padding_left_medium" fb:thumbnailSize="xsmall" fb:maxLinesFromThumbnailSize="false" />
+    <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@id/lightweight_picker_view" android:layout_width="fill_parent" android:layout_height="44.0dip" />
+</LinearLayout>

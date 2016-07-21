@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.payment.thread.PaymentBubbleHeaderView android:id="@id/payment_bubble_header_item" style="@style/Payments.Bubble.Style.Padded.Underline"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

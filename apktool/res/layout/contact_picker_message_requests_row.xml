@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:src="@drawable/msgr_ic_message_requests" app:glyphColor="@color/orca_neue_primary" style="?contactPickerActionRowIconStyle" />
+    <com.facebook.widget.CustomLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_weight="1.0" style="?contactPickerItemTextContainerStyle">
+        <com.facebook.fbui.widget.text.BadgeTextView android:ellipsize="end" android:gravity="start|center" android:id="@id/message_requests_badge_textview" android:layout_width="fill_parent" android:layout_height="?contactPickerRowHeight" android:text="@string/message_requests_title" android:maxLines="2" android:layout_centerVertical="true" app:badgeTextAppearance="@style/MessageRequestsBadgeTextAppearance" app:badgeBackground="@drawable/round_rect_badge_background" app:badgePlacement="awayFromText" style="?attr/contactPickerItemNameStyle" />
+    </com.facebook.widget.CustomLinearLayout>
+</merge>

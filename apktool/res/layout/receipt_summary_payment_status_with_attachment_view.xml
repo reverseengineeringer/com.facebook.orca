@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/payment_send_money_receiver_border" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/text_and_image_small_layout" android:padding="@dimen/receipt_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.facebook.widget.text.BetterTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/commerce_invoice_payment_status_title" style="@style/ReceiptsText.Title" />
+            <com.facebook.widget.text.BetterTextView android:id="@id/payment_status_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ReceiptsText.Detail" />
+        </LinearLayout>
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/receipt_image_small" android:layout_width="@dimen/receipt_image_thumbnail_size" android:layout_height="@dimen/receipt_image_thumbnail_size" fb:viewAspectRatio="1.0" />
+    </LinearLayout>
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/receipt_image_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/receipt_padding_standard" android:layout_marginRight="@dimen/receipt_padding_standard" android:layout_marginBottom="@dimen/receipt_padding_standard" android:layout_marginStart="@dimen/receipt_padding_standard" android:layout_marginEnd="@dimen/receipt_padding_standard" fb:viewAspectRatio="1.0" />
+</LinearLayout>

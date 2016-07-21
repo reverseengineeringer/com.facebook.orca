@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/invite_dialog_no_user_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/orca_neue_add_contact_not_found" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:gravity="center" android:id="@id/invite_dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="14.0dip" android:maxLines="3" android:layout_below="@id/invite_dialog_no_user_image" />
+    <com.facebook.resources.ui.FbButton android:id="@id/invite_dialog_invite_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/invite_contact_dialog_invite" android:layout_below="@id/invite_dialog_message" style="@style/Widget.Messenger.Neue.Button.PanelBottom" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

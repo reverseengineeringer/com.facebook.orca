@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/orca_neue_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/picture_section_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <com.facebook.user.tiles.UserTileView android:id="@id/me_user_tile_image" android:layout_width="@dimen/user_tile_dimen" android:layout_height="@dimen/user_tile_dimen" android:layout_margin="16.0dip" orca:messengerBadge="@drawable/orca_messenger_user_badge_list" orca:asCircle="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_weight="1.0">
+        <com.facebook.resources.ui.FbTextView android:textSize="18.0sp" android:gravity="left" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.resources.ui.FbTextView android:textSize="14.0sp" android:textColor="#8a000000" android:gravity="left" android:id="@id/online_status" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:layout_gravity="center_vertical" android:id="@id/unread_count_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/unread_badge_lr_margin" android:layout_marginRight="@dimen/unread_badge_lr_margin" android:layout_marginStart="@dimen/unread_badge_lr_margin" android:layout_marginEnd="@dimen/unread_badge_lr_margin" layout="@layout/orca_neue_preference_badge" />
+    <ImageView android:id="@id/popup_menu_anchor" android:background="@drawable/orca_neue_item_background" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@drawable/orca_action_overflow_button" android:scaleType="center" android:contentDescription="@string/menu_more_options" />
+</LinearLayout>

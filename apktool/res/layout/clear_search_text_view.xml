@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.FbImageButton android:id="@id/clear_search_text_button" android:background="@color/transparent" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/places_checkin_clear_search" android:contentDescription="@string/places_clear_search_text"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

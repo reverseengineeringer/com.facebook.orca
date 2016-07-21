@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.ImageBlockLayout android:gravity="center" android:paddingLeft="@dimen/fig_bottom_sheet_padding" android:paddingRight="@dimen/fig_bottom_sheet_padding" android:layout_width="fill_parent" android:layout_height="@dimen/fig_bottom_sheet_title_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.text.BadgeTextView android:layout_gravity="center_vertical" android:id="@id/bottomsheet_list_title" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:badgeTextAppearance="@style/Widget.Bottomsheet.BadgeText" style="?attr/bottomsheetTitleStyle" />
+</com.facebook.fbui.widget.layout.ImageBlockLayout>

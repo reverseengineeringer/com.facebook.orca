@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_horizontal" android:id="@id/souvenir_nux_shadow" android:background="@color/souvenir_nux_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/souvenir_nux_anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</FrameLayout>

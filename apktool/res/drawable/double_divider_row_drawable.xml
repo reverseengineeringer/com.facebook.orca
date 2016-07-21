@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/inverse_payments_divider_height" android:right="@dimen/inverse_payments_divider_height">
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="@dimen/payments_divider_height" android:color="@color/payments_divider_color" />
+        </shape>
+    </item>
+</layer-list>

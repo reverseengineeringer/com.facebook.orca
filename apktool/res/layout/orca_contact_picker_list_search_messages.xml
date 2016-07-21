@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/contact_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/contactPickerItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="48.0dip" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/query" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?attr/contactPickerItemNameStyle" />
+    <View android:id="@id/contact_divider" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="?attr/contactPickerItemDividerStyle" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/selected_group_photo" android:layout_width="@dimen/msgr_add_photo_circle_size" android:layout_height="@dimen/msgr_add_photo_circle_size" app:actualImageScaleType="centerCrop" app:roundAsCircle="true" />
+        <com.facebook.resources.ui.FbEditText android:id="@id/group_name" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="@string/msgr_create_group_name_hint" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/orca_neue_primary" android:gravity="center" android:id="@id/customize_button" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/msgr_create_group_customize" app:fontFamily="roboto" app:fontWeight="medium" />
+    </LinearLayout>
+    <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="vertical" android:id="@id/group_thread_customization_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:showDividers="beginning|middle" app:divider="@color/black_alpha_12" app:dividerThickness="1.0dip">
+        <view android:id="@id/emoji_customization_row" android:paddingLeft="@dimen/material_standard_padding" android:paddingTop="24.0dip" android:paddingRight="@dimen/material_standard_padding" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.facebook.messaging.groups.create.CreateGroupCustomizationRowView$EmojiRowView" />
+    </com.facebook.fbui.widget.layout.SegmentedLinearLayout>
+</merge>

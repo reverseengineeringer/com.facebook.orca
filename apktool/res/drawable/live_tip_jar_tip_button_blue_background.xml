@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/live_tip_jar_button_corner_radius" />
+            <solid android:color="@color/fbui_blue_80" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/live_tip_jar_button_corner_radius" />
+            <solid android:color="@color/fbui_accent_blue" />
+        </shape>
+    </item>
+</selector>

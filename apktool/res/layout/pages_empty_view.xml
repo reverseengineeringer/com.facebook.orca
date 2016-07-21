@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:gravity="center" android:id="@id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pages_empty_view_margin_top" android:drawablePadding="@dimen/pages_empty_view_normal_spacing" style="@style/TextAppearance.Fig.Usage.TitleDefault" />
+    <com.facebook.fig.button.FigButton android:id="@id/empty_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pages_empty_view_normal_spacing" fb:buttonType="outline_secondary_medium" />
+    <ViewStub android:layout_gravity="center" android:id="@id/empty_item_progress" android:layout="@layout/orca_empty_list_view_item_progress_bar" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</merge>

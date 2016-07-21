@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/msgr_montage_inbox_item_compose" android:padding="@dimen/material_standard_icon_padding" android:src="@drawable/ic_add_white" style="@style/MontageInboxItem.MontageTile" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/user_name" android:text="@string/msgr_montage_inbox_unit_item_my_montage" style="@style/MontageInboxItem.Username" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:background="@color/orca_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ad_preferences_link_row" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Messenger.BlockRowContainer">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_xlarge" android:textColor="@color/black" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad_preferences_link_label" fb:adjustLRGravityByTextDirectionCompat="true" />
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/blocking_ad_offsite" android:layout_width="@dimen/manage_blocking_ad_preference_link_offsite_icon_size" android:layout_height="@dimen/manage_blocking_ad_preference_link_offsite_icon_size" android:layout_marginLeft="@dimen/manage_blocking_ad_preference_link_offsite_icon_margin" android:src="@drawable/fbui_ad_choice_l" android:layout_marginStart="@dimen/manage_blocking_ad_preference_link_offsite_icon_margin" fb:glyphColor="@color/blocking_ad_offsite" />
+    </com.facebook.widget.CustomLinearLayout>
+    <include android:id="@id/block_messages_row" layout="@layout/block_messages_row" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/block_promotion_messages_row_stub" android:layout="@layout/block_promotion_messages_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/block_subscription_messages_row_stub" android:layout="@layout/block_subscription_messages_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/block_on_facebook_row" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/report_user_row_stub" android:layout="@layout/report_user_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.facebook.widget.CustomLinearLayout>

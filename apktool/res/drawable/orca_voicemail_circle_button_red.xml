@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffff3f34" />
+    <size android:height="@dimen/orca_custom_voicemail_record_button_size" android:width="@dimen/orca_custom_voicemail_record_button_size" />
+</shape>

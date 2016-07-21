@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.feedback.reactions.ui.PillsBlingBarView android:id="@id/story_set_item_reactions_blingbar" android:paddingLeft="@dimen/video_sets_bling_bar_margin_left" android:paddingRight="@dimen/video_sets_bling_bar_margin_right" android:paddingBottom="@dimen/video_sets_bling_bar_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

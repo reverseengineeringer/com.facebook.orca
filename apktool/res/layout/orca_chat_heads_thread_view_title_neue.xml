@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0">
+            <com.facebook.messaging.common.ui.widgets.FloatRightCustomLayout android:id="@id/thread_name_presence" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.facebook.messaging.ui.name.ThreadNameView android:layout_gravity="center_vertical" android:id="@id/thread_title_name" android:layout_width="wrap_content" android:layout_height="wrap_content" orca:maxLines="2" orca:alignment="normal" style="?threadTitleNameStyle" />
+                <ProgressBar android:layout_gravity="center_vertical" android:id="@id/thread_title_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="2.0dip" style="?android:attr/progressBarStyleSmall" />
+            </com.facebook.messaging.common.ui.widgets.FloatRightCustomLayout>
+            <com.facebook.widget.text.BetterTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/thread_title_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?threadTitleStatusStyle" />
+        </LinearLayout>
+        <include layout="@layout/thread_view_invite_button" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/thread_ephemeral_mode_stub" android:layout="@layout/ephemeral_toggle_button" android:layout_width="@dimen/abc_action_button_min_width_material" android:layout_height="fill_parent" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/group_share_button" android:layout="@layout/chathead_group_share_button_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/voip_direct_video_button_stub" android:layout="@layout/voip_direct_video_titlebar_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/voip_instant_video_button_stub" android:layout="@layout/thread_view_instant_video_button" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/voip_instant_video_button_static_stub" android:layout="@layout/thread_view_instant_video_button_static_animation" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/voip_action_button_stub" android:layout="@layout/voip_action_titlebar_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/voip_merged_audio_video_button" android:layout="@layout/voip_merged_audio_video_titlebar_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/block_thread_stub" android:layout="@layout/thread_view_block_button" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/thread_settings_stub" android:layout="@layout/thread_settings_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/sms_phone_call_stub" android:layout="@layout/sms_phone_call_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/sms_contact_stub" android:layout="@layout/sms_contact_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageButton android:layout_gravity="right" android:id="@id/popup_menu_button" android:background="@drawable/orca_neue_item_background" android:layout_width="@dimen/abc_action_button_min_width_material" android:layout_height="fill_parent" android:src="@drawable/orca_neue_ab_menu_moreoverflow_light" android:scaleType="center" android:contentDescription="@string/chat_heads_popup_menu_description" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/bottom_divider" android:background="?chatHeadThreadAbDividerColor" android:layout_width="fill_parent" android:layout_height="@dimen/chat_thread_compose_divider_width" />
+</merge>

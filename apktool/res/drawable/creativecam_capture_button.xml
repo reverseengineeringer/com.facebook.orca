@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/transparent" />
+            <stroke android:width="@dimen/capture_button_outerborder" android:color="@color/solid_white" />
+        </shape>
+    </item>
+    <item android:id="@id/creativecam_capture_button_innercircle" android:left="@dimen/capture_button_innerborder" android:top="@dimen/capture_button_innerborder" android:right="@dimen/capture_button_innerborder" android:bottom="@dimen/capture_button_innerborder">
+        <shape android:shape="oval" />
+    </item>
+    <item android:id="@id/creativecam_capture_button_innersquare">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/capture_button_innersquare_radius" />
+            <solid android:color="@color/creativecam_video_button_innersquare" />
+        </shape>
+    </item>
+</layer-list>

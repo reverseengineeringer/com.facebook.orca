@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fig_ui_light_30" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payment_methods_security_message" fb:fontFamily="roboto" fb:fontWeight="regular" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/payment_method_view_id" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="?paymentsActionTextColor" android:id="@id/learn_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/generic_learn_more" fb:fontFamily="roboto" fb:fontWeight="regular" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fig_ui_light_30" android:id="@id/dot_between_links" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payments_security_info_horizontal_padding_between_links" android:layout_marginRight="@dimen/payments_security_info_horizontal_padding_between_links" android:text="•" android:layout_marginStart="@dimen/payments_security_info_horizontal_padding_between_links" android:layout_marginEnd="@dimen/payments_security_info_horizontal_padding_between_links" fb:fontFamily="roboto" fb:fontWeight="regular" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="?paymentsActionTextColor" android:id="@id/terms" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_methods_terms" fb:fontFamily="roboto" fb:fontWeight="regular" />
+    </LinearLayout>
+</merge>

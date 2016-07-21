@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/thumbnail_with_dh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:actualImageScaleType="centerCrop" />
+    <com.facebook.widget.listview.EmptyListViewItem android:layout_gravity="center" android:id="@id/media_preview_loading_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/share_launcher_playable_player_stub" android:layout="@layout/orca_share_launcher_view_stub" android:inflatedId="@id/share_launcher_playable_player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/preview_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/orca_share_preview_thumbnail_frame" />
+    <com.facebook.fbui.widget.text.ImageWithTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/white" android:gravity="center" android:id="@id/share_launcher_error" android:background="@color/media_error_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/error_loading_media" android:drawablePadding="@dimen/fbui_drawable_padding" fb:drawable="@drawable/media_error_icon_small" fb:drawableOrientation="top" />
+</merge>

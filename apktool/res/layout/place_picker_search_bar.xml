@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/place_picker_secondary_bar_side_padding" android:paddingRight="@dimen/place_picker_secondary_bar_side_padding" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.SoftKeyboardStateAwareEditText android:textSize="@dimen/fbui_text_size_medium" android:id="@id/checkin_search_bar_view" android:background="@null" android:padding="@dimen/fbui_padding_text" android:layout_width="0.0dip" android:layout_height="@dimen/place_picker_secondary_bar_height" android:singleLine="true" android:drawableLeft="@drawable/search" android:drawablePadding="@dimen/fbui_padding_text" android:layout_weight="1.0" android:imeOptions="actionDone" android:drawableStart="@drawable/search" />
+    <ViewStub android:layout_gravity="center|right" android:id="@id/clear_search_text_stub" android:layout="@layout/clear_search_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.facebook.widget.CustomLinearLayout>

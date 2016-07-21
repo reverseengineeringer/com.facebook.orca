@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.payment.thread.PaymentBubbleSupplementaryView android:background="@drawable/orca_payment_supplementary_view_overline" android:paddingBottom="@dimen/payment_bubble_widgets_vertical_spacing" style="@style/Payments.Bubble.Style.Padded"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

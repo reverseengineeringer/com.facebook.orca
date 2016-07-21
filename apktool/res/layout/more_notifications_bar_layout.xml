@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.text.ImageWithTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/dark_gray_text_color" android:gravity="center" android:id="@id/more_notifications_button" android:background="@drawable/more_notifications_bar_background" android:paddingTop="@dimen/more_notifications_bar_padding" android:paddingBottom="@dimen/more_notifications_bar_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/more_notification" android:drawablePadding="@dimen/more_notifications_bar_drawable_padding" fb:drawable="@drawable/feed_story_chevron" fb:drawableOrientation="end" />
+    <View android:background="@color/black10a" android:layout_width="fill_parent" android:layout_height="@dimen/more_notifications_bar_divider_height" />
+</merge>

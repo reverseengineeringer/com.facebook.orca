@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/richdocument_block_new"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hairline" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/richdocument_hairline_thickness" android:src="@color/richdocument_hairline_color_on_white" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/richdocument_related_article_image" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/richdocument_related_article_lightning_icon" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/ia_lightning_bolt" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+        </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.facebook.richdocument.view.widget.RichTextView android:id="@id/richdocument_related_article_sponsored" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/richdocument_related_article_sponsored_tag" android:includeFontPadding="false" style="@style/richdocument_related_articles_sponsored_text_style" />
+            <com.facebook.richdocument.view.widget.RichTextView android:ellipsize="end" android:id="@id/richdocumet_related_article_kicker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" style="@style/richdocument_related_articles_kicker_text_style" />
+            <com.facebook.richdocument.view.widget.RichTextView android:id="@id/richdocumet_related_article_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/richdocument_related_articles_title_text_style" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

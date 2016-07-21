@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/open_chat_head" android:orderInCategory="200" android:title="@string/thread_context_menu_show_chat_head" fb:showAsAction="collapseActionView" />
+    <item android:id="@id/open_full_view" android:orderInCategory="200" android:title="@string/menu_open_full_view_messenger" fb:showAsAction="collapseActionView" />
+    <item android:id="@id/change_group_photo" android:orderInCategory="210" android:title="@string/set_photo" fb:showAsAction="collapseActionView" />
+    <item android:id="@id/change_group_name" android:orderInCategory="220" android:title="@string/name_thread" fb:showAsAction="collapseActionView" />
+    <item android:id="@id/create_shortcut" android:orderInCategory="230" android:title="@string/thread_context_menu_create_shortcut" fb:showAsAction="collapseActionView" />
+    <item android:id="@id/delete" android:orderInCategory="240" android:title="@string/thread_settings_delete_conversation" fb:showAsAction="collapseActionView" />
+    <item android:id="@id/leave_conversation" android:orderInCategory="250" android:title="@string/leave_group_action" fb:showAsAction="collapseActionView" />
+    <item android:id="@id/thread_settings_report_bug" android:orderInCategory="260" android:title="@string/bug_report_button_title" fb:showAsAction="collapseActionView" />
+</menu>

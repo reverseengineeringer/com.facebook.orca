@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/theme_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/input_container" android:background="@color/transparent" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                <com.facebook.user.tiles.UserTileView android:id="@id/receiver_tile_img" android:layout_width="36.0dip" android:layout_height="36.0dip" fb:asCircle="true" />
+                <com.facebook.payments.ui.FloatingLabelTextView android:id="@id/receiver_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_marginStart="10.0dip" />
+            </LinearLayout>
+            <com.facebook.payments.ui.FloatingLabelTextView android:gravity="center_vertical" android:id="@id/memo_text" android:paddingLeft="46.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" fb:hint="@string/memo_title_text" />
+            <View android:background="@color/send_money_receiver_bottom_border_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.facebook.messaging.payment.ui.DollarIconEditText android:enabled="false" android:textSize="@dimen/payment_value_text_size_large" android:layout_gravity="center" android:id="@id/payment_value" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="sans-serif-thin" />
+            <FrameLayout android:id="@id/card_info_frame_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="center" android:id="@id/payment_card_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallTitle" />
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/payment_card_button_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip">
+                    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/payment_no_action_gray_text_color" android:id="@id/payment_card_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.facebook.resources.ui.FbButton android:textColor="@color/payment_action_blue" android:id="@id/payment_card_change_button" android:background="@drawable/payment_enter_payment_change_card_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_money_change_card_button_text" style="@style/Widget.FacebookHolo.Light.Button.Borderless.Small" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <com.facebook.widget.text.BetterButton android:enabled="false" android:id="@id/pay_request_button" android:layout_marginTop="12.0dip" android:text="@string/request_pay_button" style="@style/Payments.Button" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/payment_no_action_gray_text_color" android:layout_gravity="center_horizontal" android:id="@id/decline_request_action_text" android:clickable="true" android:layout_marginTop="12.0dip" android:text="@string/decline_request_action_text" android:fontFamily="sans-serif" style="@style/PaymentActionTextViewStyle" />
+    </LinearLayout>
+</FrameLayout>

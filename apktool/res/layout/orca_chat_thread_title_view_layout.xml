@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.threadview.title.ThreadTitleView android:layout_gravity="center|left|top" android:id="@id/thread_title_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/chat_title_bar_height" android:elevation="?topToolbarElevation" app:alignment="opposite" app:chatStyle="true" style="?toolbarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

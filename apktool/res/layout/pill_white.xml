@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:background="@drawable/pill_background_white_selector" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:id="@id/pill_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/pill_up_arrow_grey" android:drawableStart="@drawable/pill_up_arrow_grey" style="@style/pill_spacing" />
+</com.facebook.widget.CustomFrameLayout>

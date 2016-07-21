@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/divebarContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/payments_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" fb:theme="?actionBarTheme" fb:navigationIcon="?homeAsUpIndicator" fb:navigationContentDescription="@string/navigate_up_content_description">
+        <com.facebook.widget.text.BetterEditTextView android:textSize="@dimen/fbui_text_size_large" android:id="@id/payments_search_box" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/messaging_edit_text_margin_top_small" android:layout_marginBottom="@dimen/messaging_edit_text_margin_bottom_small" android:hint="@string/payment_search_hint" android:singleLine="true" android:inputType="textFilter" android:imeOptions="flagNoExtractUi" style="Widget.Messenger.EditText.Material.Blue" />
+    </android.support.v7.widget.Toolbar>
+    <com.facebook.contacts.picker.ContactPickerView android:id="@id/payments_contact_picker_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" fb:pickerLayoutResource="@layout/orca_neue_picker_tab_view" />
+</LinearLayout>

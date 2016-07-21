@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/button_list_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" fb:traceAs="ComposerFooterBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/composer_footer_photo_button_stub" android:layout="@layout/composer_photo_button" android:inflatedId="@id/composer_footer_photo_button" style="@style/footer_bar_button" />
+    <ViewStub android:id="@id/composer_footer_album_button_stub" android:layout="@layout/composer_album_button" android:inflatedId="@id/composer_footer_album_button" style="@style/footer_bar_button" />
+    <ViewStub android:id="@id/composer_footer_facecast_button_stub" android:layout="@layout/footer_facecast_button" android:inflatedId="@id/composer_footer_facecast_button" style="@style/footer_bar_button_base" />
+    <ViewStub android:id="@id/composer_footer_tag_people_button_stub" android:layout="@layout/footer_tag_people" android:inflatedId="@id/composer_footer_tag_people_button" style="@style/footer_bar_button" />
+    <ViewStub android:id="@id/composer_footer_minutiae_button_stub" android:layout="@layout/footer_minutiae" android:inflatedId="@id/composer_footer_minutiae_button" style="@style/footer_bar_button" />
+    <ViewStub android:id="@id/composer_footer_tag_place_button_stub" android:layout="@layout/footer_tag_place" android:inflatedId="@id/composer_footer_tag_place_button" style="@style/footer_bar_button" />
+    <ViewStub android:id="@id/composer_footer_pick_date_button_stub" android:layout="@layout/footer_pick_date" android:inflatedId="@id/composer_footer_pick_date_button" style="@style/footer_bar_button_base" />
+    <ViewStub android:id="@id/composer_footer_transliterate_button_stub" android:layout="@layout/footer_transliterate" android:inflatedId="@id/composer_footer_transliterate_button" style="@style/footer_bar_button" />
+    <LinearLayout android:gravity="end|center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="end|center" android:id="@id/composer_footer_implicit_location_stub" android:visibility="gone" android:layout="@layout/footer_implicit_location" android:inflatedId="@id/composer_footer_implicit_location" android:layout_width="wrap_content" android:layout_height="@dimen/composer_footer_bar_height" />
+        <ViewStub android:layout_gravity="end|center" android:id="@id/composer_footer_publish_mode_button_stub" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout="@layout/footer_publishmode" android:inflatedId="@id/composer_footer_publish_mode_button" android:layout_width="wrap_content" style="@style/footer_bar_button" />
+    </LinearLayout>
+</com.facebook.widget.CustomLinearLayout>

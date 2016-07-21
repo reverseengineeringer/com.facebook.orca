@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="vertical" android:background="@color/fbui_white" android:layout_width="260.0dip" android:layout_height="wrap_content" fb:showDividers="middle" fb:divider="@color/fig_usage_mobile_wash" fb:dividerThickness="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="260.0dip" android:layout_height="wrap_content" layout="@layout/link_share" />
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="260.0dip" android:layout_height="50.0dip">
+        <com.facebook.widget.text.BetterButton android:id="@id/friend_request_secondary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@style/Widget.Messenger.Button.CallToAction" />
+        <com.facebook.widget.text.BetterButton android:id="@id/friend_request_primary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@style/Widget.Messenger.Button.CallToAction" />
+        <com.facebook.resources.ui.FbTextView android:textSize="14.0sp" android:textColor="@color/fig_usage_secondary_text" android:gravity="end" android:id="@id/friend_request_footer_text" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxLines="1" android:singleLine="true" />
+    </LinearLayout>
+</com.facebook.fbui.widget.layout.SegmentedLinearLayout>

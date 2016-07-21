@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/live_video_paused_overlay" android:background="@color/video_paused_overlay_background" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignLeft="@id/video_container" android:layout_alignTop="@id/video_container" android:layout_alignRight="@id/video_container" android:layout_alignBottom="@id/video_container" android:layout_alignStart="@id/video_container" android:layout_alignEnd="@id/video_container" />
+    <com.facebook.facecastdisplay.LiveVideoStatusView android:id="@id/live_status_view" android:padding="@dimen/fbui_padding_standard" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:layout_anchorTo="top" fb:layout_anchorPosition="start" />
+    <com.facebook.facecastdisplay.LiveVideoStatusMessage android:textSize="@dimen/fbui_text_size_small" android:id="@id/live_status_message" android:padding="@dimen/fbui_padding_standard" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:layout_anchorTo="inner_center" fb:layout_anchorPosition="center" />
+</merge>

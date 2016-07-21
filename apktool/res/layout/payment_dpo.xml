@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.ImageBlockLayout android:gravity="center_vertical" android:id="@id/dpo_layout" android:background="@drawable/payment_preference_divider" android:layout_width="fill_parent" android:layout_height="@dimen/payment_card_info_preference_height" fb:thumbnailPadding="@dimen/payment_card_info_drawable_padding_large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dpo_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payment_dpo_icon_left_margin" android:src="@drawable/dpo_icon" android:layout_marginStart="@dimen/payment_dpo_icon_left_margin" fb:layout_useAsThumbnail="true" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/black" android:id="@id/dpo_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.facebook.fbui.widget.layout.ImageBlockLayout>

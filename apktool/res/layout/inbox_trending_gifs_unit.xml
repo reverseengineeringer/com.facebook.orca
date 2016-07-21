@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@id/inbox_tending_gifs_results" android:paddingTop="@dimen/inbox_trending_gifs_unit_vertical_padding" android:paddingBottom="@dimen/inbox_trending_gifs_unit_vertical_padding" android:layout_width="fill_parent" android:layout_height="@dimen/inbox_trending_gifs_unit_height" />
+    <com.facebook.resources.ui.FbTextView android:gravity="center_vertical" android:id="@id/inbox_trending_gifs_error_message" android:paddingLeft="@dimen/material_standard_padding" android:paddingTop="@dimen/inbox_trending_gifs_unit_vertical_padding" android:paddingRight="@dimen/material_standard_padding" android:paddingBottom="@dimen/inbox_trending_gifs_unit_vertical_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/inbox_trending_gifs_unit_height" android:text="@string/inbox_error_loading_trending_gifs" />
+</FrameLayout>

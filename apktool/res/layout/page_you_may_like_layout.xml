@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ego_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" xmlns:fbui="http://schemas.android.com/apk/res-auto">
+    <com.facebook.feedplugins.pyml.rows.ui.PageYouMayLikeHeaderView android:id="@id/ego_item_social_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ego_item_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_padding">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/ego_item_actor" android:focusable="true" android:clickable="false" android:layout_width="@dimen/feed_profile_image_size" android:layout_height="@dimen/feed_profile_image_size" android:layout_marginRight="@dimen/feed_story_margin" android:layout_marginEnd="@dimen/feed_story_margin" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:ellipsize="end" android:id="@id/ego_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/feed_app_ad_social_context_color" android:id="@id/ego_item_sponsored_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/feed_app_ad_description_color" android:ellipsize="end" android:id="@id/description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_padding" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ego_item_inner" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/cover_photo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ego_item_bottom" android:background="@color/feed_app_ad_card_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/ego_item_bottom_text" android:paddingLeft="@dimen/feed_story_margin" android:paddingTop="@dimen/pyml_text_container_padding_top" android:paddingRight="@dimen/feed_story_margin" android:paddingBottom="@dimen/pyml_text_container_padding_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.facebook.resources.ui.EllipsizingTextView android:textSize="@dimen/fbui_text_size_medium" android:id="@id/ego_item_bottom_titles" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/pyml_title_text_spacing_extra" fbui:ellipsizeLineBreaks="false" fbui:strictDelimiterMode="true" />
+                <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textStyle="bold" android:textColor="@color/feed_app_ad_social_context_color" android:ellipsize="end" android:id="@id/ego_like_sentence" android:paddingTop="@dimen/pyml_subtitle_text_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+            <View android:id="@id/feed_feedback_share_divider" android:background="@color/feed_feedback_action_button_bar_divider_color" android:layout_width="@dimen/one_px" android:layout_height="fill_parent" android:layout_marginTop="@dimen/feed_story_margin" android:layout_marginBottom="@dimen/feed_story_margin" />
+            <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:id="@id/ego_like_button" android:padding="@dimen/pyml_action_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feed_like_icon" fbui:glyphColor="@color/like_action_button_color" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

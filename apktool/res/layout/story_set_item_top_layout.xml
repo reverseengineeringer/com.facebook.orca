@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/story_set_item_social_context" />
+    <com.facebook.feed.rows.sections.header.ui.HScrollPageHeaderView android:id="@id/story_set_item_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/one_px" />
+    <com.facebook.components.feed.FeedComponentView android:id="@id/story_set_item_header_component" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/feed_app_ad_description_color" android:ellipsize="end" android:id="@id/story_set_item_description_text" android:paddingLeft="@dimen/feed_story_margin" android:paddingRight="@dimen/feed_story_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feed_story_margin" />
+</merge>

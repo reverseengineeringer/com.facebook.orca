@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/share_preview_target_divider_bg" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.messaging.sharing.mediapreview.MediaSharePreviewThumbnailView android:id="@id/story_attachment_image" android:layout_width="@dimen/share_preview_attachment_image_size" android:layout_height="@dimen/share_preview_attachment_image_size" />
+    <com.facebook.resources.ui.FbEditText android:textSize="@dimen/messenger_share_preview_text_size" android:gravity="center|left|top" android:id="@id/comments" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:hint="@string/share_media_preview_hint" android:maxLines="4" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:layout_marginStart="16.0dip" />
+</LinearLayout>

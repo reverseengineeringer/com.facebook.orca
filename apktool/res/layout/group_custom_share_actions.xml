@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.fbui.widget.text.ImageWithTextView android:id="@id/add_people_action" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_sheet_add_people" android:layout_weight="1.0" style="@style/Widget.ShareSheet.ActionItem" />
+    <com.facebook.fbui.widget.text.ImageWithTextView android:id="@id/get_link_action" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_sheet_get_link" android:layout_weight="1.0" style="@style/Widget.ShareSheet.ActionItem" />
+    <com.facebook.fbui.widget.text.ImageWithTextView android:id="@id/forward_action" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_sheet_forward" android:layout_weight="1.0" style="@style/Widget.ShareSheet.ActionItem" />
+</merge>

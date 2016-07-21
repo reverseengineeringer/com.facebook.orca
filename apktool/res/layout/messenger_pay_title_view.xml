@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/messenger_pay_title_left_right_padding" android:layout_marginRight="@dimen/messenger_pay_title_left_right_padding" android:layout_marginStart="@dimen/messenger_pay_title_left_right_padding" android:layout_marginEnd="@dimen/messenger_pay_title_left_right_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:layout_gravity="center_vertical" android:id="@id/messenger_pay_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Payments.MessengerPayTitle" />
+    <com.facebook.resources.ui.FbTextView android:gravity="center_vertical" android:id="@id/messenger_pay_title_user_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/Payments.MessengerPayTitleUserName" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NuxDiveBarButtonLayout">
+        <item name="android:layout_marginLeft">-12.0dip</item>
+        <item name="android:layout_marginTop">-25.0dip</item>
+        <item name="android:layout_marginRight">-12.0dip</item>
+        <item name="android:layout_marginBottom">30.0dip</item>
+    </style>
+</resources>

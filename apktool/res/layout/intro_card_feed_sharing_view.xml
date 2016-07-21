@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.timeline.header.intro.LinearLayoutWithTopBorder android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/feed_sharing_view" android:layout_width="0.0dip" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ToggleButton android:id="@id/feed_sharing_toggle_switch" android:background="@drawable/checkmark_blue" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="@dimen/timeline_intro_card_vertical_padding" android:layout_marginRight="@dimen/timeline_intro_card_vertical_padding" android:textOn="" android:textOff="" android:layout_marginStart="@dimen/timeline_intro_card_vertical_padding" android:layout_marginEnd="@dimen/timeline_intro_card_vertical_padding" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small_medium" android:gravity="center_vertical" android:id="@id/feed_sharing_toggle_text" android:layout_width="wrap_content" android:layout_height="40.0dip" />
+</com.facebook.timeline.header.intro.LinearLayoutWithTopBorder>

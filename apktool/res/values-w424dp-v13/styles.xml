@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NotificationContainer">
+        <item name="android:layout_width">@dimen/notification_width</item>
+    </style>
+</resources>

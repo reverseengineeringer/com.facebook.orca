@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/camera_preview_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.resources.ui.FbTextView android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/error_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_already_open_error" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/request_permission_view_stub" android:layout="@layout/quickcam_permission_request_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.messaging.media.viewer.SquarePercentRelativeLayout android:id="@id/media_gallery_grid_one" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/grid_one_top_left" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/Widget.Messenger.MediaGallery.Item.Large" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/grid_one_top_right" android:layout_toRightOf="@id/grid_one_top_left" android:layout_alignParentTop="true" android:layout_toEndOf="@id/grid_one_top_left" style="@style/Widget.Messenger.MediaGallery.Item.Small" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/grid_one_middle_right" android:layout_toRightOf="@id/grid_one_top_left" android:layout_below="@id/grid_one_top_right" android:layout_toEndOf="@id/grid_one_top_left" style="@style/Widget.Messenger.MediaGallery.Item.Small" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/grid_one_bottom_right" android:layout_toRightOf="@id/grid_one_bottom_middle" android:layout_below="@id/grid_one_middle_right" android:layout_toEndOf="@id/grid_one_bottom_middle" style="@style/Widget.Messenger.MediaGallery.Item.Small" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/grid_one_bottom_middle" android:layout_toRightOf="@id/grid_one_bottom_left" android:layout_below="@id/grid_one_top_left" android:layout_toEndOf="@id/grid_one_bottom_left" style="@style/Widget.Messenger.MediaGallery.Item.Small" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/grid_one_bottom_left" android:layout_below="@id/grid_one_top_left" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/Widget.Messenger.MediaGallery.Item.Small" />
+</com.facebook.messaging.media.viewer.SquarePercentRelativeLayout>

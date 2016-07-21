@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/camera_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/orca_quick_cam_preview" />
+    </FrameLayout>
+    <com.facebook.messaging.quickcam.NonConsumingSystemInsetFrameLayout android:id="@id/composer_popup_content_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/orca_quick_cam_nux_string" />
+        <include layout="@layout/orca_quick_cam_progress_bar" />
+        <com.facebook.messaging.photos.editing.LayerGroupLayout android:id="@id/layers" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/edit_text_layer" />
+        </com.facebook.messaging.photos.editing.LayerGroupLayout>
+        <include layout="@layout/orca_photo_editing_controls_layout" />
+        <include layout="@layout/orca_photo_editing_text_styles_layout" />
+        <include layout="@layout/orca_photo_editing_delete_layer_button" />
+        <include layout="@layout/orca_quick_cam_corner_buttons" />
+        <include layout="@layout/orca_quick_cam_common_controls" />
+    </com.facebook.messaging.quickcam.NonConsumingSystemInsetFrameLayout>
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/quick_cam_permission_request_view_stub" android:layout="@layout/quick_cam_permission_request_keyboard_view_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

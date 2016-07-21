@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/add_text" android:src="@drawable/msgr_ic_text" fb:glyphColor="@android:color/white" style="@style/MontageComposerCanvas.Icon" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/add_doodle" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/msgr_ic_more" fb:glyphColor="@android:color/white" style="@style/MontageComposerCanvas.Icon" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/add_sticker" android:src="@drawable/msgr_ic_stickers" fb:glyphColor="@android:color/white" style="@style/MontageComposerCanvas.Icon" />
+</LinearLayout>

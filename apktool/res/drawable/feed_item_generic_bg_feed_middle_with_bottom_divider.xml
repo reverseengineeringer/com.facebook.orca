@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/feed_list_item_bg_color" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/feed_story_bg_middle" android:left="@dimen/story_background_outer_padding" android:right="@dimen/story_background_outer_padding" />
+    <item android:left="@dimen/default_padding" android:right="@dimen/default_padding" android:bottom="@dimen/feed_divider_top_padding">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/feed_story_divider_color" />
+        </shape>
+    </item>
+    <item android:left="@dimen/default_padding" android:right="@dimen/default_padding" android:bottom="@dimen/top_padding">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+</layer-list>

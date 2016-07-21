@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/fbui_padding_standard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.facecastdisplay.LiveMetadataView android:id="@id/live_metadata_view" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:thumbnailWidth="36.0dip" fb:thumbnailHeight="36.0dip" />
+    <ScrollView android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fbui_padding_standard" android:fillViewport="true" android:layout_weight="1.0">
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fig_ui_light_50" android:id="@id/live_video_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontFamily="roboto" fb:fontWeight="regular" />
+    </ScrollView>
+    <com.facebook.feedback.reactions.ui.PillsBlingBarView android:id="@id/live_video_context_bling_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fbui_padding_standard" />
+</LinearLayout>

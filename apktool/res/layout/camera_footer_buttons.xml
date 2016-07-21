@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center_vertical" android:id="@id/picker_button" android:layout_width="@dimen/picker_button_size" android:layout_height="@dimen/picker_button_size" android:layout_marginLeft="@dimen/creative_cam_bottom_control_margin" android:layout_marginStart="@dimen/creative_cam_bottom_control_margin" fb:placeholderImage="@color/grey40" fb:actualImageScaleType="centerCrop" fb:roundedCornerRadius="@dimen/picker_button_corner_radius" />
+    <ViewStub android:id="@id/capture_button_stub" style="@style/capture_button_style" />
+    <com.facebook.photos.creativecam.ui.CreativeCamPhotoVideoSwitch android:layout_gravity="end|center" android:id="@id/camera_toggle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/creative_cam_bottom_control_margin" android:layout_marginEnd="@dimen/creative_cam_bottom_control_margin" />
+</com.facebook.widget.CustomFrameLayout>

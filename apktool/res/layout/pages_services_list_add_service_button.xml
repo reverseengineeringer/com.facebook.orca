@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.ImageBlockLayout android:gravity="center_vertical" android:background="@drawable/page_identity_service_item_bg" android:padding="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:borderColor="@color/fig_usage_divider" fb:borderTop="@dimen/one_px" fb:borderBottom="@dimen/one_px" fb:clipBorderToPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/page_identity_service_add_service_button_text_caps" style="@style/TextAppearance.Fig.MediumSize.BlueColor"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />
+</com.facebook.fbui.widget.layout.ImageBlockLayout>

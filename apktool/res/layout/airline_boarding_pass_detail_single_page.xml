@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.messaging.business.airline.view.AirlineBoardingPassDetailView android:id="@id/airline_boarding_pass_single_page" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</ScrollView>

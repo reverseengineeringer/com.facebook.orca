@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/composer_pill_border_width" android:color="@color/fbui_bluegrey_20" />
+    <corners android:radius="@dimen/composer_pill_border_corner" />
+    <solid android:color="@android:color/transparent" />
+</shape>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/story_set_item_container" android:background="@drawable/feed_storyset_item_background_box" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.GenericDraweeView android:id="@id/story_set_item_photo_attachment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <com.facebook.feedplugins.storyset.rows.ui.StoryPageGenericLabelView android:gravity="center_vertical" android:id="@id/story_set_item_label" android:padding="@dimen/story_set_label_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.feedplugins.storyset.rows.ui.LinkSetsShareSaveFooterView android:id="@id/link_set_share_save_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

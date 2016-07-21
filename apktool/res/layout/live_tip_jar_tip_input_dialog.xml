@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/live_tip_input_dialog_empty_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/live_tip_jar_input_dialog_height">
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center_vertical" android:id="@id/tip_icon" android:padding="@dimen/fbui_padding_standard" android:layout_width="@dimen/live_tip_jar_icon_width" android:layout_height="@dimen/live_tip_jar_icon_height" fbui:glyphColor="@color/fbui_accent_blue" />
+        <com.facebook.resources.ui.FbEditText android:layout_gravity="center_vertical" android:id="@id/live_tip_amount_edit_text" android:paddingTop="@dimen/fbui_padding_standard" android:paddingBottom="@dimen/fbui_padding_standard" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:digits="0123456789." android:layout_weight="1.0" android:inputType="numberDecimal" style="@style/LiveTipInputEditText" />
+        <com.facebook.resources.ui.FbButton android:gravity="center" android:id="@id/live_tip_confirm_button" android:paddingLeft="@dimen/live_tip_jar_confirm_buttom_padding" android:paddingRight="@dimen/live_tip_jar_confirm_buttom_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="@dimen/fbui_padding_standard" android:text="@string/dialog_confirm" style="@style/LiveTipJarConfirmButton" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/contact_picker_section_contact_sync_progress_bar" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmall" />
+    <com.facebook.messaging.contacts.picker.ContactPickerSectionTopRowView android:id="@id/contact_picker_section_contact_sync_row" android:background="@drawable/orca_neue_list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

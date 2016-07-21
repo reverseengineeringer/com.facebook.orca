@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@anim/decelerate_quart" android:duration="200" android:fillBefore="true" android:fillAfter="true" android:fromAlpha="0.0" android:toAlpha="1.0" android:fillEnabled="true" />
+    <translate android:interpolator="@anim/decelerate_quint" android:duration="@integer/thread_list_to_thread_view_duration_ms" android:fillBefore="false" android:fillAfter="true" android:fromYDelta="8.000004%" android:toYDelta="0.0" android:fillEnabled="true" />
+</set>

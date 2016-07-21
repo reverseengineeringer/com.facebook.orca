@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="vertical" android:background="@color/fbui_accent_blue" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:showDividers="beginning" fb:divider="@color/fbui_white_40" fb:dividerThickness="@dimen/one_px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_all_caps" android:textColor="@color/fbui_bluegrey_5_60" android:gravity="start|center" android:id="@id/redspace_subtitle_text" android:paddingLeft="@dimen/composer_status_wrapper_padding" android:paddingTop="2.0dip" android:paddingRight="@dimen/composer_status_wrapper_padding" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/composer_redspace_composer_label" android:textAlignment="viewStart" />
+</com.facebook.fbui.widget.layout.SegmentedLinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/orca_contact_picker_group_aggregation_row_stub" android:layout="@layout/orca_contact_picker_aggregation_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <com.facebook.widget.tiles.ThreadTileView android:id="@id/contact_group_tile_image" android:layout_centerVertical="true" style="?attr/contactPickerThreadTileViewStyle" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_toLeftOf="@id/contact_row_extras_holder" android:layout_toRightOf="@id/contact_group_tile_image" android:layout_centerVertical="true" style="?attr/contactPickerItemTextContainerStyle">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.messaging.ui.name.ThreadNameView android:id="@id/group_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" orca:maxLines="1" orca:minScaledTextSize="15" orca:maxScaledTextSize="15" orca:alignment="normal" style="?attr/contactPickerItemNameStyle" />
+            <com.facebook.resources.ui.FbTextView android:id="@id/group_count" android:paddingLeft="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" orca:maxLines="1" orca:minScaledTextSize="15" orca:maxScaledTextSize="15" orca:alignment="normal" style="?attr/contactPickerItemNameStyle" />
+        </LinearLayout>
+        <com.facebook.messaging.ui.name.ThreadNameView android:id="@id/group_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" orca:maxLines="1" orca:minScaledTextSize="12" orca:maxScaledTextSize="12" orca:alignment="normal" orca:nameOption="useParticipantsNamesOnly" style="?attr/contactPickerItemStatusStyle" />
+        <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.internal.widget.ViewStubCompat android:id="@id/rtc_group_calllog_glyphs_subtitle_stub" android:layout="@layout/orca_contact_picker_rtc_calllog_glyphs_subtitle" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <com.facebook.resources.ui.FbTextView android:ellipsize="end" android:id="@id/group_call_status" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" style="?attr/contactPickerItemStatusStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contact_row_extras_holder" android:layout_width="wrap_content" android:layout_height="?contactPickerRowHeight" android:layout_alignParentRight="true">
+        <CheckBox android:id="@id/is_picked_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:textOn="@null" android:textOff="@null" android:text="@null" style="?contactPickerSecondaryCheckboxStyle" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/rtc_group_call_buttons_stub" android:layout="@layout/orca_contact_picker_rtc_group_buttons" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/single_tap_send_button_stub" android:layout="@layout/contact_row_send_button" android:layout_width="wrap_content" android:layout_height="@dimen/contact_picker_invite_button_height" />
+        <ImageView android:id="@id/popup_menu_anchor" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="fill_parent" android:src="@drawable/orca_action_overflow_button" android:scaleType="center" android:contentDescription="@string/menu_more_options" />
+    </LinearLayout>
+    <ViewStub android:id="@id/disabled_overlay_view_stub" android:layout="@layout/disabled_contact_view" android:layout_width="fill_parent" android:layout_height="?contactPickerRowHeight" />
+    <View android:id="@id/contact_divider" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="?attr/contactPickerItemDividerStyle" />
+</merge>

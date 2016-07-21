@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/news_feed_inspiration_camera" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/fragment_news_feed_list_common" />
+    <include layout="@layout/fragment_news_feed_common" />
+</com.facebook.widget.CustomFrameLayout>

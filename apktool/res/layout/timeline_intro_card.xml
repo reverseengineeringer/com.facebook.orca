@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.timeline.header.TimelineIntroCardView android:orientation="vertical" android:id="@id/timeline_intro_card_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/intro_card_context_lines_section" layout="@layout/context_items_section" />
+    <ViewStub android:id="@id/timeline_fav_photos_empty_stub" android:layout="@layout/timeline_header_intro_card_empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/timeline_intro_card_empty_view_horizontal_margin" android:layout_marginTop="@dimen/timeline_intro_card_empty_view_vertical_margin" android:layout_marginRight="@dimen/timeline_intro_card_empty_view_horizontal_margin" android:layout_marginBottom="@dimen/timeline_intro_card_empty_view_vertical_margin" android:layout_marginStart="@dimen/timeline_intro_card_empty_view_horizontal_margin" android:layout_marginEnd="@dimen/timeline_intro_card_empty_view_horizontal_margin" />
+    <ViewStub android:id="@id/timeline_fav_photos_stub" android:layout="@layout/timeline_favorite_photos" android:inflatedId="@id/timeline_fav_photos" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/timeline_suggested_photos_stub" android:layout="@layout/timeline_suggested_photos" android:inflatedId="@id/timeline_suggested_photos" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.facebook.timeline.header.TimelineIntroCardView>

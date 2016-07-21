@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/receipt_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.messaging.common.ui.widgets.text.RowReceiptTextView android:layout_gravity="center|left|top" android:id="@id/receipt_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RowReceiptTextView" />
+    </FrameLayout>
+</merge>

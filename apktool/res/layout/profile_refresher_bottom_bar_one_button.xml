@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/fbui_blue_90" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbButton android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/fbui_white" android:id="@id/refresher_profile_bottom_bar_one_button_view" android:background="@drawable/fb_blue_bottom_bar_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/profile_refresher_profile_picture_upload" />
+</FrameLayout>

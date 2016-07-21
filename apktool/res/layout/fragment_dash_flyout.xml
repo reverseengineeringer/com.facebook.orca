@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/feed_flyout_bubble" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="36.0dip" android:layout_marginBottom="32.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/feed_flyout_background" android:background="@drawable/ufi_popover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginRight="-2.0dip" android:layout_marginBottom="14.0dip" android:layout_marginStart="-2.0dip" android:layout_marginEnd="-2.0dip" />
+    <ImageView android:id="@id/feed_flyout_nub" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ufi_flyout_nub_margin_bottom" android:src="@drawable/ufi_popover_arrow" android:layout_alignParentBottom="true" />
+    <com.facebook.fbui.tinyclicks.widget.MasterTouchDelegateRelativeLayout android:id="@id/flyout_content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="7.0dip" android:layout_marginBottom="22.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip">
+        <View android:id="@id/feed_flyout_drag_frame" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/feed_flyout_drag_handle" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ufi_flyout_drag_handle" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:gravity="center" android:id="@id/flyout_cached_bitmap_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+    </com.facebook.fbui.tinyclicks.widget.MasterTouchDelegateRelativeLayout>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

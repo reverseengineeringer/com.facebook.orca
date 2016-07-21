@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.richdocument.view.widget.IAadsFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:id="@id/richdocument_webview_block" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/richdocument_block_new"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:id="@id/richdocument_webview_header_with_chevron" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/richdocument_block_new"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <com.facebook.richdocument.view.widget.RichTextView android:id="@id/richdocument_webview_header" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.95" style="@style/richdocument_richtext_webview_header" />
+            <com.facebook.fbui.glyph.GlyphView android:gravity="end|center|top" android:layout_gravity="end" android:id="@id/richdocument_webview_header_chevron" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/fbui_chevron_down_s" android:layout_weight="0.05" fb:glyphColor="@color/richdocument_25_percent_black" />
+        </com.facebook.widget.CustomLinearLayout>
+        <com.facebook.richdocument.view.widget.AnnotationSlotLinearLayout android:id="@id/richdocument_webview_annotation_slot_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/richdocument_webview_block_webview_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.richdocument.view.widget.AnnotationSlotLinearLayout android:layout_gravity="center" android:id="@id/richdocument_webview_annotation_slot_center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <com.facebook.richdocument.view.widget.AnnotationSlotLinearLayout android:id="@id/richdocument_webview_annotation_slot_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.facebook.widget.CustomLinearLayout>
+    <include layout="@layout/ia_native_ad_block" />
+</com.facebook.richdocument.view.widget.IAadsFrameLayout>

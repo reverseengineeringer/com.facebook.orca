@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:gravity="center_vertical" android:id="@id/inline_sprout_collapsed" android:background="@drawable/inline_sprouts_collapsed_bg" android:padding="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.widget.listview.BetterListView android:id="@id/inline_sprout_list" android:background="@drawable/inline_sprouts_list_top_border" android:visibility="gone" android:fadingEdgeLength="100.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/fig_ui_light_15" android:dividerHeight="@dimen/inline_sprouts_item_border_width" android:requiresFadingEdge="vertical" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/add_callee_action_button_container" android:background="@drawable/voip_search_add_callee_continue_button" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/add_callee_action_button_drawable" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orca_action_bar_save" />
+        <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="end|center" android:id="@id/add_callee_action_button" android:layout_width="wrap_content" android:layout_height="@dimen/add_callee_button_height" android:text="@string/voip_add_callee" android:textAllCaps="true" />
+    </LinearLayout>
+    <fragment android:name="com.facebook.messaging.voipsearch.OrcaVoipSearchFragment" android:id="@id/voip_search_fragment" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" orca:is_dialog_mode="true" orca:is_multi_selector="true" />
+</LinearLayout>

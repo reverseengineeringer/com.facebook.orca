@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.facecastdisplay.FacecastSquareView android:id="@id/facecast_square_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/video_container" android:layout_alignParentTop="true" />
+    <com.facebook.facecastdisplay.LiveFeedbackInputView android:id="@id/live_feedback_input_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?attr/facecastBottomBarToolbarStyle" />
+    <com.facebook.resources.ui.FbTextView android:textColor="@color/fig_ui_light_30" android:gravity="center" android:id="@id/live_feedback_input_view_disabled_text" android:background="?disabledFeedbackBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/live_events_input_disabled_text" android:layout_alignTop="@id/live_feedback_input_view" android:layout_alignBottom="@id/live_feedback_input_view" style="@style/live_events_light_text" />
+    <com.facebook.facecastdisplay.FacecastInteractionView android:id="@id/facecast_interaction_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/live_feedback_input_view" />
+</merge>

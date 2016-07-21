@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textSize="?pagesMediumTextSize" android:textColor="?pagesDarkTextColor" android:id="@id/notifications_title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/PagesManagerNotificationsRowTitle" />
+    <com.facebook.widget.text.BetterTextView android:textSize="?pagesMediumTextSize" android:textStyle="normal" android:textColor="?pagesLightTextColor" android:ellipsize="end" android:id="@id/notifications_timestamp_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:drawablePadding="4.0dip" />
+</merge>

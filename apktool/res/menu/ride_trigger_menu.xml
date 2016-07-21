@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/request_ride_uber" android:title="@string/ride_request_uber" />
+    <item android:id="@id/request_ride_lyft" android:title="@string/ride_request_lyft" />
+    <item android:id="@id/open_in_map" android:title="@string/ride_open_in_map" />
+</menu>

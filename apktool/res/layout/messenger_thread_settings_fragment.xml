@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.listview.BetterListView android:id="@id/messenger_thread_settings_list" android:background="?rootFragmentBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="?rootFragmentBackgroundColor" android:divider="@drawable/transparent_drawable"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

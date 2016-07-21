@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/split_field_popup_window" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textAppearance="?android:textAppearanceSmallInverse" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:id="@id/split_field_popup_text_view" android:paddingLeft="@dimen/orca_reg_code_paste_left_right_padding" android:paddingTop="@dimen/orca_reg_code_paste_top_bottom_padding" android:paddingRight="@dimen/orca_reg_code_paste_left_right_padding" android:paddingBottom="@dimen/orca_reg_code_paste_top_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

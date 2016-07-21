@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/feed_attachment_bg_box" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:facebook="http://schemas.android.com/apk/facebook">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.maps.FbStaticMapView android:id="@id/checkin_composer_map_preview" android:layout_width="fill_parent" android:layout_height="133.0dip" facebook:centeredMapPinDrawable="@drawable/map_pin" facebook:centeredMapPinDrawableAnchorU="0.5" facebook:centeredMapPinDrawableAnchorV="0.93" />
+        <ViewStub android:layout_gravity="start|center|top" android:id="@id/add_photo_to_post" android:layout="@layout/checkin_preview_camera_text" android:layout_width="wrap_content" android:layout_height="40.0dip" />
+        <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/add_photo_to_post_bottom_right" android:layout="@layout/checkin_preview_camera_bottom_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginEnd="10.0dip" />
+    </FrameLayout>
+    <include layout="@layout/feed_story_location_place_info" />
+</LinearLayout>

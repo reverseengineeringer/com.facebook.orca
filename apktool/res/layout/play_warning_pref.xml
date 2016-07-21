@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/omvp_warning_grey" android:paddingLeft="@dimen/omvp_padding_large" android:paddingRight="@dimen/omvp_padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/omvp_warning_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/omvp_text_size_medium" android:textColor="@color/omvp_text_grey" android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" fb:adjustLRGravityByTextDirectionCompat="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

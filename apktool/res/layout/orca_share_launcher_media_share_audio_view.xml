@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/audio_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/audio_preview" android:scaleType="center"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/orca_platform_media_preview_text_size" android:textColor="@color/orca_share_audio_preview_text_color" android:gravity="center" android:layout_gravity="bottom|center|right" android:id="@id/audio_length" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_platform_media_preview_corner_text_margin_bottom" android:layout_marginEnd="@dimen/orca_platform_media_preview_corner_text_margin_end" />
+</merge>

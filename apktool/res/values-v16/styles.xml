@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LoginEditTextStyle" parent="@style/LoginEditTextStyle_v16" />
+    <style name="LoginBottomTextStyle" parent="@style/LoginBottomTextStyle_v16" />
+    <style name="LoginEditTextStyle_v16" parent="@style/LoginEditTextStyleBase">
+        <item name="android:textCursorDrawable">@drawable/fbui_edit_text_cursor_dark</item>
+        <item name="android:fontFamily">robotium</item>
+    </style>
+    <style name="LoginBottomTextStyle_v16" parent="@style/LoginBottomTextStyleBase">
+        <item name="android:fontFamily">robotium</item>
+    </style>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:variablePadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/fig_toggle_button_background_on_pressed_color" />
+        </shape>
+    </item>
+    <item android:state_enabled="false" android:state_checked="true">
+        <shape>
+            <solid android:color="@color/fig_toggle_button_background_on_disabled_color" />
+        </shape>
+    </item>
+    <item android:state_checked="true">
+        <shape>
+            <solid android:color="@color/fig_toggle_button_background_on_color" />
+        </shape>
+    </item>
+    <item android:state_checked="false" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/fig_toggle_button_background_off_pressed_color" />
+        </shape>
+    </item>
+    <item android:state_enabled="false" android:state_checked="false">
+        <shape>
+            <solid android:color="@color/fig_toggle_button_background_off_disabled_color" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/fig_toggle_button_background_off_color" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="@dimen/material_standard_touch_target_size" android:text="@string/msgr_montage_composer_canvas_media_picker_picker_title" android:singleLine="true" />
+    <com.facebook.messaging.media.mediapicker.AutoFitRecyclerView android:id="@id/picker_grid" android:visibility="gone" android:fadingEdgeLength="0.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/material_standard_touch_target_size" android:stretchMode="columnWidth" android:columnWidth="@dimen/msgr_montage_canvas_media_picker_grid_size" android:numColumns="3" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/request_permission_view_stub" android:layout="@layout/msgr_montage_canvas_base_media_picker_request_permission_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/empty_view_stub" android:layout="@layout/msgr_montage_canvas_base_media_picker_empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/error_view_stub" android:layout="@layout/msgr_montage_canvas_base_media_picker_error_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.facebook.widget.CustomFrameLayout>

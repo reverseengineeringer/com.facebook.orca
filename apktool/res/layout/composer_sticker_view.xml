@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/composer_sticker_drawee_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/sticker_post_sticker_margin_side" android:layout_marginTop="@dimen/sticker_post_sticker_margin_top" android:layout_marginRight="@dimen/sticker_post_sticker_margin_side" android:contentDescription="@string/composer_sticker_view_content_description" fb:actualImageScaleType="fitCenter"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />
+    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="end|center|top" android:id="@id/composer_sticker_remove_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sticker_post_remove_button_margin_top" android:layout_marginRight="@dimen/sticker_post_remove_button_margin_right" android:src="@drawable/fbui_cross_s" android:contentDescription="@string/composer_sticker_view_cancel_content_description" android:layout_marginEnd="@dimen/sticker_post_remove_button_margin_right" fb:glyphColor="@color/fbui_grey_40" />
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.pages.fb4a.admintabs.PageIdentityAdminTabsView android:id="@id/pages_admin_tabs" android:background="@color/secondary_tab_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/secondary_tab_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

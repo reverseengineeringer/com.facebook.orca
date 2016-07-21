@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.facecastdisplay.FacecastPercentFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.facecastdisplay.LiveEventsTickerView android:id="@id/live_events_ticker" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.facebook.facecastdisplay.FacecastPercentFrameLayout>

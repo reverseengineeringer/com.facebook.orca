@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:layout_gravity="center_vertical" android:id="@id/live_subscribe_event_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/live_subscribe_event_text" />
+    <com.facebook.resources.ui.FbButton android:textSize="@dimen/fbui_text_size_small" android:layout_gravity="center_vertical" android:id="@id/live_subscribe_event_button" android:paddingLeft="@dimen/live_subscribe_event_button_padding_horizontal" android:paddingTop="@dimen/live_subscribe_event_button_padding_vertical" android:paddingRight="@dimen/live_subscribe_event_button_padding_horizontal" android:paddingBottom="@dimen/live_subscribe_event_button_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/live_subscribe_event_button_margin" />
+</merge>

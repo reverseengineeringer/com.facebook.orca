@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.FbSwipeRefreshLayout android:id="@id/newsfeed_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.feed.ui.NewsFeedRecyclerView android:id="@android:id/list" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/feed_list_item_bg_color" android:divider="@null" android:dividerHeight="0.0px" />
+    </com.facebook.widget.FbSwipeRefreshLayout>
+</merge>

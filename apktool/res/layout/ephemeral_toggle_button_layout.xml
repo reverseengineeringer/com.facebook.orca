@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/ephemeral_mode_off_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msgr_ic_hourglass" fb:glyphColor="?topToolbarIconTintColor" style="?actionButtonStyle" />
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/ephemeral_mode_on_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msgr_ic_hourglass_selected" fb:glyphColor="@android:color/white" style="?actionButtonStyle" />
+</merge>

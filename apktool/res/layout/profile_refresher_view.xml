@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/fbui_white" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.widget.titlebar.TitleBarViewStub android:id="@id/titlebar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:hasBackButton="true" />
+        <ScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/refresher_scroll_view" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.widget.loadingindicator.LoadingIndicatorView android:id="@id/loading_indicator_view" android:paddingBottom="52.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:contentLayout="@layout/profile_refresher_body" />
+        </ScrollView>
+    </LinearLayout>
+    <ViewStub android:id="@id/profile_refresher_bottom_photo_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/publisher_height" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/profile_refresher_bottom_bio_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/publisher_height" android:layout_alignParentBottom="true" />
+</merge>

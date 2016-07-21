@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/gif_view" android:paddingLeft="@dimen/composer_attachment_padding" android:paddingTop="@dimen/fbui_padding_standard" android:paddingRight="@dimen/composer_attachment_padding" android:paddingBottom="@dimen/fbui_padding_standard" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/gif_composer_attachment_max_height" android:contentDescription="@string/composer_gif_accessibility_label" fb:viewAspectRatio="2.0" fb:actualImageScaleType="fitCenter" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/remove_button" android:padding="@dimen/underwood_remove_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preview_attachment_remove_button_margin_top" android:src="@drawable/remove_icon" />
+</merge>

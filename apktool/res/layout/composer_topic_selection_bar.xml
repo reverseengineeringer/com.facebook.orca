@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.composer.topics.TopicPillView android:id="@id/composer_topic_selection_bar" android:background="@drawable/pill_bg" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/composer_status_wrapper_padding" android:text="@string/composer_loading_dialog_text" android:drawableLeft="@drawable/fbui_tag_s" style="@style/ComposerPillText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

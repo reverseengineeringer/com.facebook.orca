@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="@dimen/event_reminder_members_tile_container_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/event_reminder_members_tile_container_margin" android:layout_marginEnd="@dimen/event_reminder_members_tile_container_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.user.tiles.UserTileView android:layout_gravity="center" android:id="@id/event_reminder_member_tile" android:layout_width="@dimen/event_reminder_members_tile_size" android:layout_height="@dimen/event_reminder_members_tile_size" app:tileSize="@dimen/event_reminder_members_tile_size" app:eventReminderGoingBadge="@drawable/event_reminder_going_badge" app:eventReminderDeclinedBadge="@drawable/event_reminder_declined_badge" app:asCircle="true" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_tiny_small" android:ellipsize="end" android:gravity="center" android:id="@id/event_reminder_members_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/event_reminder_facepile_text_margin_top" />
+</com.facebook.widget.CustomLinearLayout>

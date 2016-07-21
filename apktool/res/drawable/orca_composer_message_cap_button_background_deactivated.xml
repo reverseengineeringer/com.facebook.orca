@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/orca_neue_item_background" />
+    <item android:left="@dimen/message_cap_button_left_right_offset" android:top="@dimen/message_cap_button_top_bottom_offset" android:right="@dimen/message_cap_button_left_right_offset" android:bottom="@dimen/message_cap_button_top_bottom_offset">
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="@dimen/message_cap_button_corner_radius" />
+            <solid android:color="@color/orca_neue_light_gray" />
+        </shape>
+    </item>
+</layer-list>

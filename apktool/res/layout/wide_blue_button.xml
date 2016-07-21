@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.BetterButton android:layout_width="fill_parent" style="@style/Widget.Messenger.Button.Blue.Wide"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

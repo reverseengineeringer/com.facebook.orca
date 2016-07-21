@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.SegmentedLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:showDividers="beginning" fb:divider="@color/orca_reg_light_button_selected_bg_color" fb:dividerThickness="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterButton android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/orca_neue_primary" android:id="@id/signup_footer" android:background="@drawable/messenger_footer_background" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/orca_reg_sign_up_button" android:textAllCaps="false" fb:allCaps="false" />
+</com.facebook.fbui.widget.layout.SegmentedLinearLayout>

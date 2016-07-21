@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.SwitchCompat android:id="@id/thread_settings_preference_switch" android:paddingLeft="@dimen/thread_settings_preference_switch_left_right_padding" android:paddingRight="@dimen/thread_settings_preference_switch_left_right_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/MessengerThreadSettingsPreferenceRowElementMargins" />
+</merge>

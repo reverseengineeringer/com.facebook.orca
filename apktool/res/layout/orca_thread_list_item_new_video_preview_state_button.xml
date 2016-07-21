@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/orca_thread_list_video_preview_state_background" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/orca_video_message_item_background" />
+    <ImageView android:layout_gravity="center" android:id="@id/orca_thread_list_video_preview_state" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/orca_video_message_item_play" />
+</FrameLayout>

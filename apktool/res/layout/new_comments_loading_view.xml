@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/new_feedback_loading_indicator_view" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:indeterminate="true" style="@style/Widget.ProgressBar.FBUi" />
+    <com.facebook.feedback.ui.NewCommentsPillView android:layout_gravity="center" android:id="@id/new_comments_pill" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

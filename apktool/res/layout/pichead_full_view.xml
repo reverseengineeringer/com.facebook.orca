@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/dismiss_target" android:padding="4.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="@dimen/dismiss_target_size_large" android:layout_height="@dimen/dismiss_target_size_large">
+        <ImageView android:layout_gravity="center" android:id="@id/dismiss_target_halo" android:layout_width="@dimen/dismiss_target_size_small" android:layout_height="@dimen/dismiss_target_size_small" android:src="@drawable/popover_dismiss_target" />
+        <ImageView android:layout_gravity="center" android:id="@id/dismiss_target_icon" android:layout_width="@dimen/dismiss_target_size_small" android:layout_height="@dimen/dismiss_target_size_small" android:src="@drawable/orca_chat_close_icon" android:scaleType="center" />
+    </FrameLayout>
+    <com.facebook.messaging.pichead.orientation.OrientableLinearLayout android:gravity="bottom" android:id="@id/share_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.messaging.pichead.orientation.OrientableLinearLayout>
+</merge>

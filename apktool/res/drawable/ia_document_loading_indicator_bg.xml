@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip android:gravity="left" android:drawable="@drawable/ia_document_loading_grey_progress" android:clipOrientation="horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

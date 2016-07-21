@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:background="@color/page_identity_upsell_background" android:padding="?pagesDefaultPadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/page_admin_app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="?pagesDefaultPadding" android:src="@drawable/icon_pages" android:layout_alignParentLeft="true" android:layout_marginEnd="?pagesDefaultPadding" android:layout_alignParentStart="true" />
+    <com.facebook.resources.ui.FbTextView android:id="@id/page_admin_upsell_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/page_identity_pma" android:layout_toRightOf="@id/page_admin_app_icon" android:layout_toEndOf="@id/page_admin_app_icon" style="@style/PageUIButtonCardText" />
+    <com.facebook.resources.ui.FbTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/page_identity_pma_desc" android:layout_toRightOf="@id/page_admin_app_icon" android:layout_below="@id/page_admin_upsell_title" android:layout_toEndOf="@id/page_admin_app_icon" style="@style/ChambrayText.Light" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.facecastdisplay.streamingreactions.StreamingReactionsFireworksView android:layout_gravity="bottom|center|right" android:id="@id/streaming_reactions_fireworks_view" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xlarge" android:textStyle="bold" android:textColor="@color/fbui_black" android:gravity="center|left" android:id="@id/voted_option_text" android:paddingLeft="5.0dip" android:paddingRight="0.0dip" android:layout_width="0.0dip" android:layout_height="50.0dip" android:lines="1" android:layout_weight="1.0" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xlarge" android:textStyle="bold" android:textColor="@color/fbui_black" android:gravity="center|right" android:id="@id/vote_percent_text" android:paddingLeft="5.0dip" android:paddingRight="0.0dip" android:layout_width="0.0dip" android:layout_height="50.0dip" android:lines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/vote_percent_progress_bar" android:layout_width="fill_parent" android:layout_height="25.0dip" android:max="100" style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

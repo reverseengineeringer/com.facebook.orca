@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/orca_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/login_splash" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/login_logo1_splash" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/login_logo2_splash" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ScrollView android:id="@id/login_root" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/login_logo_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/login_logo1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/login_logo2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/login_main_group" android:paddingLeft="@dimen/orca_reg_side_margin" android:paddingRight="@dimen/orca_reg_side_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/orca_reg_normal_margin" android:text="@string/login_neue_welcome_message" android:singleLine="false" style="@style/OrcaRegMainTitleText" />
+                <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/orca_neue_sso_login_content" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/orca_reg_normal_margin" android:layout_marginBottom="@dimen/orca_reg_normal_margin" android:text="@string/login_neue_welcome_sub_message" android:singleLine="false" style="@style/Widget.Messenger.TextView.Secondary" />
+                <com.facebook.widget.text.BetterTextView android:id="@id/login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/orca_reg_normal_margin" android:layout_marginBottom="@dimen/orca_reg_normal_margin" style="@style/Widget.Messenger.Button.Blue.Nux" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/login_bottom_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.facebook.resources.ui.FbButton android:textSize="@dimen/orca_reg_secondary_text_size" android:textColor="@color/orca_neue_login_register_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/switch_account" android:background="@drawable/text_button_background_selector" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/login_neue_switch_account_button_caps" />
+                <include layout="@layout/orca_login_help_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/offers_wallet_top_menu_active_item" android:checked="true" android:title="@string/offers_menu_active" android:checkable="true" />
+    <item android:id="@id/offers_wallet_top_menu_inactive_item" android:checked="false" android:title="@string/offers_menu_inactive" android:checkable="true" />
+</menu>

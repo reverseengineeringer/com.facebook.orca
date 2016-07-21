@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/image" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:actualImageScaleType="centerCrop" />
+    <ViewStub android:id="@id/video_player" android:layout="@layout/video_player_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/video_grid_icon" android:layout="@layout/video_grid_icon" style="@style/video_grid_icon" />
+    <ViewStub android:id="@id/video_duration_text" android:layout="@layout/video_duration_text" style="@style/video_duration_text" />
+    <ViewStub android:id="@id/selected_border" android:layout="@layout/selected_border" style="@style/selected_border" />
+    <ViewStub android:id="@id/selected_order_text" android:layout="@layout/selected_order_text" style="@style/selected_order_text" />
+</merge>

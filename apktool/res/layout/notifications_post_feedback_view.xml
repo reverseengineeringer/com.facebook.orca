@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.BetterTextView android:gravity="center_vertical" android:id="@id/notifications_post_feedback_view" android:background="@color/fbui_white" android:paddingLeft="@dimen/caspian_notification_spacing" android:paddingTop="@dimen/caspian_notification_spacing" android:paddingRight="@dimen/caspian_notification_spacing" android:paddingBottom="@dimen/caspian_notification_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/post_feedback_view_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:variablePadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/fbui_btn_light_special_bg_pressed" />
+            <stroke android:width="@dimen/contact_picker_invite_button_stroke" android:color="@color/fbui_btn_light_special_bg_pressed" />
+            <corners android:radius="@dimen/contact_picker_invite_button_radius" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape>
+            <solid android:color="@color/contact_picker_invite_button_enabled" />
+            <stroke android:width="@dimen/contact_picker_invite_button_stroke" android:color="@color/contact_picker_invite_button_enabled" />
+            <corners android:radius="@dimen/contact_picker_invite_button_radius" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/transparent" />
+            <stroke android:width="@dimen/contact_picker_invite_button_stroke" android:color="@color/transparent" />
+            <corners android:radius="@dimen/contact_picker_invite_button_radius" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_gravity="bottom" android:id="@id/participant_image_holder" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip">
+        <View android:id="@id/participant_active_border" android:background="@drawable/rtc_video_participant_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.facebook.user.tiles.UserTileView android:layout_gravity="center" android:id="@id/participant_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="3.0dip" orca:asCircle="false" />
+        <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/participant_overlay" android:background="@color/voip_alpha_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/participant_no_video" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_videocam_off_white_24dp" android:layout_centerInParent="true" />
+        <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/participant_active_pin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="3.0dip">
+            <View android:background="@drawable/rtc_video_participant_corner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginBottom="15.0dip" android:layout_marginStart="15.0dip" />
+            <com.facebook.fbui.glyph.GlyphView android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_lock_black_18dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" orca:glyphColor="@color/voip_blue" />
+        </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+</FrameLayout>

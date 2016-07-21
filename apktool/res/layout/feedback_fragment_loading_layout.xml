@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.loadingindicator.LoadingIndicatorView android:id="@id/feedback_loading_indicator_view" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:imageSize="large" fb:contentLayout="@layout/feedback_no_comments_layout_stub" />
+    <ViewStub android:layout_gravity="center" android:id="@id/save_upsell_view" android:visibility="gone" android:layout="@layout/feedback_fragment_save_upsell_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/save_upsell_stub_margin_top" />
+</FrameLayout>

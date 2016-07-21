@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/pysf_item_inner" android:background="@drawable/feed_attachment_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/pysf_cover_photo" android:layout_width="fill_parent" android:layout_height="@dimen/pysf_cover_photo_height" android:layout_weight="1.0" fb:actualImageScaleType="focusCrop" />
+        <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="horizontal" android:id="@id/pysf_item_bottom" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/pysf_feed_unit_bottom_section_size" fb:showDividers="middle" fb:divider="@color/light_grey" fb:dividerThickness="1.0px">
+            <LinearLayout android:orientation="vertical" android:id="@id/pysf_item_bottom_text" android:paddingLeft="@dimen/feed_story_margin" android:paddingTop="2.0dip" android:paddingRight="@dimen/feed_story_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.facebook.resources.ui.EllipsizingTextView android:textSize="@dimen/fbui_text_size_small" android:id="@id/pysf_item_bottom_titles" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" fb:ellipsizeLineBreaks="false" fb:strictDelimiterMode="true" />
+                <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_tiny" android:textColor="@color/feed_app_ad_social_context_color" android:ellipsize="end" android:id="@id/pysf_follow_sentence" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+            <com.facebook.widget.springbutton.SpringScaleButton android:id="@id/pysf_follow_button" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="@dimen/pysf_follow_button_width" android:layout_height="fill_parent" android:scaleType="center" />
+        </com.facebook.fbui.widget.layout.SegmentedLinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/pysf_blacklist_icon" android:background="@drawable/feed_unit_blacklist_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/feed_unit_blacklist_icon" android:layout_marginEnd="6.0dip" />
+</merge>

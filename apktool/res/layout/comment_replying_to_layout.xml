@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/comment_replying_to_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fig_usage_secondary_text" android:ellipsize="end" android:id="@id/comment_replying_to_text_view" android:background="@android:color/transparent" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <View android:layout_gravity="bottom" android:background="@color/fbui_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+</FrameLayout>

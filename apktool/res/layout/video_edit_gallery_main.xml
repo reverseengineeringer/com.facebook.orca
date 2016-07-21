@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/edit_gallery_title_bar" />
+    <com.facebook.video.creativeediting.VideoEditGalleryPreviewLayout android:id="@id/video_preview_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/video_edit_gallery_action_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/video_edit_gallery_tab_switcher" />
+</LinearLayout>

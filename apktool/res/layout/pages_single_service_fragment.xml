@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="top" android:id="@id/service_scroll_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.fbui.widget.contentview.ContentView android:id="@id/page_profile_image_and_name" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:titleTextAppearance="@style/Pages.TextAppearance.Dark.XLarge" fb:subtitleTextAppearance="@style/Pages.TextAppearance.Light.Large" fb:thumbnailSize="large" />
+            <com.facebook.pages.common.services.PagesServiceItemLarge android:id="@id/service_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.facebook.widget.CustomLinearLayout>
+    </ScrollView>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.ProgressBar.FBUi" />
+</FrameLayout>

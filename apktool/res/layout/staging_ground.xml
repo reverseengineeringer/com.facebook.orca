@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.timeline.ui.common.ProfileMediaFragmentLayout android:orientation="vertical" android:id="@id/stagingground_rootlayout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:whitespaceWeightTop="0" fb:whitespaceWeightBottom="1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.titlebar.TitleBarViewStub android:id="@id/titlebar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:title="@string/staging_ground_title_bar_title" fb:navless="true" />
+        <include android:id="@id/privacy_view" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/profile_privacy_view" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/profile_media_preview_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/profile_picture_viewstub" android:layout="@layout/profile_picture_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/zoomable_profile_picture_viewstub" android:layout="@layout/zoomable_profile_picture_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/swipeable_frames_viewstub" android:layout="@layout/swipeable_frames_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/profile_video_viewstub" android:layout="@layout/profile_video_layout" android:inflatedId="@id/stagingground_profile_video_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/umg_launcher_viewstub" android:layout="@layout/edit_gallery_launcher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/staging_ground_edit_button_padding" android:layout_marginBottom="@dimen/staging_ground_edit_button_padding" android:layout_marginStart="@dimen/staging_ground_edit_button_padding" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/circle_page_indicator_viewstub" android:layout="@layout/staging_ground_circle_page_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <ViewStub android:id="@id/buttons_container_viewstub" android:layout="@layout/staging_ground_buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/media_caption_viewstub" android:layout="@layout/staging_ground_caption_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.facebook.timeline.ui.common.ProfileMediaFragmentLayout>

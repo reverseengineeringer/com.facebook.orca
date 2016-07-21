@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/msgr_ic_brush_shadow" />
+    <item android:id="@id/add_doodle_layer_button_brush_tip" android:drawable="@drawable/msgr_ic_brush_tint" />
+</layer-list>

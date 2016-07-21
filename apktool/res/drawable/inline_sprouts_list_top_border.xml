@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/inline_sprouts_item_border_width_negative" android:top="@dimen/inline_sprouts_item_border_width" android:right="@dimen/inline_sprouts_item_border_width_negative" android:bottom="@dimen/inline_sprouts_item_border_width_negative">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/inline_sprouts_item_border_width" android:color="@color/fig_ui_light_15" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>

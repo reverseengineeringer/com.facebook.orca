@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/friend_request_stub" android:layout="@layout/plutonium_timeline_friend_request_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/timeline_header_composer_header_view_stub" android:layout="@layout/timeline_header_composer_header" android:inflatedId="@id/timeline_header_composer_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/timeline_header_composer_footer_view_stub" android:layout="@layout/timeline_header_composer_footer" android:inflatedId="@id/timeline_header_composer_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/plutonium_context_lines_section" layout="@layout/context_items_section" />
+    <ViewStub android:id="@id/timeline_get_notified_stub" android:layout="@layout/timeline_get_notified" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

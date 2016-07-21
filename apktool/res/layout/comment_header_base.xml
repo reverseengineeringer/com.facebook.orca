@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/actor_image_view" android:layout_width="?comment_view_profile_picture_size" android:layout_height="?comment_view_profile_picture_size" fb:placeholderImage="@drawable/no_avatar" fb:actualImageScaleType="centerCrop" fb:layout_useAsThumbnail="true" />
+    <com.facebook.resources.ui.FbTextView android:textAppearance="@style/CommentViewAuthorTextAppearanceStyle" android:textColorHighlight="@color/flyout_press_state_background_color" android:gravity="center_vertical" android:id="@id/actor_name_text_view" android:background="@drawable/ufiservices_transparent_background_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.resources.ui.FbTextView android:textColor="@color/fig_ui_light_30" android:gravity="center_vertical" android:id="@id/district_title" android:paddingBottom="@dimen/feedback_comment_view_metadata_top_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/fig_button_small_drawable_spacing" />
+    <com.facebook.translation.ui.TranslatableTextView android:id="@id/body_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

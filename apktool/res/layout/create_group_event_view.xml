@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pinned_groups_event_container" android:paddingTop="@dimen/pinned_groups_container_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/create_group_input_container_padding" android:paddingBottom="@dimen/create_group_input_container_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/pinned_group_title_glyph" fb:source="@drawable/msgr_ic_event" style="@style/CreateGroupInputGlyph" />
+        <com.facebook.resources.ui.FbEditText android:id="@id/pinned_group_title_text" android:hint="@string/orca_neue_pinned_group_set_title_text" style="@style/CreateGroupInputText" />
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/pinned_group_event_details_glyph" fb:source="@drawable/msgr_ic_attach" style="@style/CreateGroupInputGlyph" />
+    </LinearLayout>
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/create_group_event_details_view" android:layout="@layout/create_group_event_details_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

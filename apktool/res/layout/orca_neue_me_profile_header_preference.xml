@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.CustomFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.messaging.imagecode.MessengerCodeView android:layout_gravity="center_horizontal" android:id="@id/messenger_code" android:layout_width="@dimen/orca_me_header_profile_picture_size" android:layout_height="@dimen/orca_me_header_profile_picture_size" android:layout_marginTop="@dimen/orca_me_header_preference_margin_top" />
+        <android.support.v7.internal.widget.ViewStubCompat android:layout_gravity="end|center|top" android:id="@id/edit_profile_stub" android:layout="@layout/me_edit_profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/orca_me_header_edit_button_margin" />
+    </com.facebook.widget.CustomFrameLayout>
+    <com.facebook.widget.text.BetterTextView android:id="@id/profile_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MePreferenceProfileName" />
+    <View android:background="@drawable/shadow_bottom" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</com.facebook.widget.CustomLinearLayout>

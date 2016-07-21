@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="start" android:id="@id/simple_picker_root" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/filter_image_view" android:paddingLeft="@dimen/filter_thumbnail_padding" android:paddingTop="@dimen/filter_thumbnail_padding" android:paddingRight="@dimen/filter_thumbnail_padding" android:paddingBottom="@dimen/filter_thumbnail_padding" android:layout_width="@dimen/filter_thumbnail_size" android:layout_height="@dimen/filter_thumbnail_size" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/directory_filter_text_color" android:layout_gravity="center_vertical" android:id="@id/filter_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

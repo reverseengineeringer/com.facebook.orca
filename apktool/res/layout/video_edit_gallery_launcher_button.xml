@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/video_gallery_launcher" android:paddingBottom="@dimen/video_edit_gallery_launcher_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/edit_gallery_launcher_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/video_edit_gallery_tip">
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/video_edit_launcher_glyph" android:padding="@dimen/video_edit_gallery_launcher_glyph_padding" android:layout_width="@dimen/video_edit_gallery_launcher_button_size" android:layout_height="@dimen/video_edit_gallery_launcher_button_size" android:layout_marginRight="@dimen/video_edit_gallery_launcher_button_margin" android:src="@drawable/fbui_magic_wand_l" android:layout_marginEnd="@dimen/video_edit_gallery_launcher_button_margin" fbui:glyphColor="@color/fbui_white" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:paddingRight="@dimen/video_edit_gallery_launcher_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_edit_gallery_launch_text" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

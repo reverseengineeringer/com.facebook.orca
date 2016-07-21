@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end" android:id="@id/menu_button" android:padding="@dimen/fbui_padding_half_standard" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fullscreen_video_menu_button" android:contentDescription="@string/accessibility_overflow_menu" android:rotation="90.0" fb:layout_anchorTo="top" fb:layout_anchorPosition="end" />
+</merge>

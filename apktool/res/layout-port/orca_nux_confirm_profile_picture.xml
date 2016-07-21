@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.SquareFrameLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/neue_nux_camera_preview_top_height_dp" fb:primaryDimension="width">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/profile_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:actualImageScaleType="centerCrop" />
+        <View android:background="@drawable/orca_circular_camera_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.widget.SquareFrameLayout>
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="48.0dip">
+        <com.facebook.widget.text.BetterTextView android:textStyle="bold" android:layout_gravity="center" android:id="@id/continue_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/orca_reg_normal_margin" android:layout_marginBottom="@dimen/orca_reg_normal_margin" android:text="@string/orca_nux_profile_picture_continue" fb:allCaps="true" style="@style/Widget.Messenger.Button.Blue.Nux" />
+        <com.facebook.widget.text.BetterTextView android:layout_gravity="center" android:id="@id/retake_picture_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/orca_nux_profile_picture_retake_picture" fb:allCaps="true" style="@style/OrcaRegBlueTextButton" />
+    </LinearLayout>
+</FrameLayout>

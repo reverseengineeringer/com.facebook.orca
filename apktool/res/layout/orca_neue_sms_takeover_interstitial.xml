@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.messaging.neue.nux.SmsTakeoverOptInView android:gravity="center" android:orientation="vertical" android:id="@id/optin_view" android:paddingLeft="@dimen/orca_reg_side_margin" android:paddingRight="@dimen/orca_reg_side_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</ScrollView>

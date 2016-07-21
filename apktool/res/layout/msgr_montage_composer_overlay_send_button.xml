@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="end|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_standard_icon_padding" android:layout_marginBottom="@dimen/material_standard_icon_padding" android:text="@string/msgr_montage_composer_send_button" android:layout_marginEnd="@dimen/material_standard_icon_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

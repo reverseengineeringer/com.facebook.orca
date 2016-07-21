@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/orca_contact_picker_aggregation_row" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/aggregation_row_glyph" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <com.facebook.widget.text.SimpleVariableTextLayoutView android:textSize="16.0sp" android:id="@id/aggregation_row_time" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/contactPickerItemNameStyle" />
+    <com.facebook.widget.text.SimpleVariableTextLayoutView android:textSize="16.0sp" android:id="@id/aggregation_row_duration" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/contactPickerItemNameStyle" />
+</LinearLayout>

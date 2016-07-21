@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/fbui_padding_standard" android:right="@dimen/fbui_padding_standard">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/professionalservices_booking_border_width" android:color="@color/fbui_divider" />
+        </shape>
+    </item>
+    <item android:left="@dimen/fbui_padding_standard" android:right="@dimen/fbui_padding_standard" android:bottom="@dimen/professionalservices_booking_border_width">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/professionalservices_booking_notification_banner_bg" />
+        </shape>
+    </item>
+</layer-list>

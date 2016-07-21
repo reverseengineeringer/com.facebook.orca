@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/orca_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/login_splash" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/login_logo1_splash" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/login_logo2_splash" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ScrollView android:id="@id/login_root" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="32.0dip" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/login_logo_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/login_logo1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/login_logo2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/login_main_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_reg_intertitle_margin" android:text="@string/login_neue_welcome_message" android:singleLine="false" style="@style/Widget.Messenger.TextView.Title" />
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/orca_reg_text_field" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_reg_intertitle_margin">
+                    <com.facebook.resources.ui.FbAutoCompleteTextView android:textColorHint="@color/orca_neue_login_text" android:gravity="start|center" android:id="@id/email" android:background="@android:color/transparent" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/login_screen_user_hint" android:singleLine="true" android:inputType="textEmailAddress|textNoSuggestions" android:imeOptions="actionNext" style="@style/OrcaRegTextInput" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/orca_reg_text_field" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_reg_normal_margin">
+                    <com.facebook.resources.ui.FbEditText android:textColorHint="?android:textColorTertiary" android:gravity="start|center" android:id="@id/password" android:background="@android:color/transparent" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/login_screen_password_hint" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionGo" style="@style/OrcaRegTextInput" />
+                </LinearLayout>
+                <com.facebook.fbui.widget.text.GlyphWithTextView android:id="@id/login" android:paddingLeft="28.0dip" android:paddingRight="28.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginBottom="12.0dip" android:text="@string/orca_reg_login_fb_button" android:drawablePadding="5.0dip" fb:fontWeight="medium" fb:drawable="@drawable/msgr_ic_facebook" style="@style/Widget.Messenger.Button.Blue.Wide" />
+                <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/orca_neue_primary" android:id="@id/forgot_password_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_forgot_facebook_password" />
+                <View android:id="@id/login_focus_holder" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:nextFocusRight="@id/email" android:nextFocusDown="@id/email" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/login_bottom_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="?android:textColorTertiary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/signup_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/login_native_registration_info" />
+                <com.facebook.resources.ui.FbButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/signup" android:layout_width="fill_parent" android:text="@string/msgr_reg_fork_reg_option_button_label" style="@style/Widget.Messenger.Button.White" />
+                <include layout="@layout/orca_login_help_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

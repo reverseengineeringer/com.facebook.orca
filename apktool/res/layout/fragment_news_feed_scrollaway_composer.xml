@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/fragment_news_feed_list_common" />
+        <android.support.design.widget.AppBarLayout android:id="@id/newsfeed_app_bar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.feed.inlinecomposer.multirow.ScrollAwayComposerView android:layout_gravity="center_vertical" android:id="@id/inline_composer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll" />
+        </android.support.design.widget.AppBarLayout>
+    </android.support.design.widget.CoordinatorLayout>
+    <include layout="@layout/fragment_news_feed_common" />
+</com.facebook.widget.CustomFrameLayout>

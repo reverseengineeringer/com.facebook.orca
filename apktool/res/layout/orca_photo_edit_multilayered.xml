@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/photo_view_layout" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/doodle_photo_editing_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/doodle_photo_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <com.facebook.messaging.photos.editing.LayerGroupLayout android:id="@id/layers" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/edit_text_layer" />
+    </com.facebook.messaging.photos.editing.LayerGroupLayout>
+    <include layout="@layout/orca_photo_editing_controls_layout" />
+    <include layout="@layout/orca_photo_editing_text_styles_layout" />
+    <include layout="@layout/orca_photo_editing_delete_layer_button" />
+    <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/send_cancel_bar" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_controls_container_height">
+        <ImageButton android:id="@id/cancel_button" android:background="@null" android:layout_width="@dimen/bottom_controls_container_height" android:layout_height="@dimen/bottom_controls_container_height" android:src="@drawable/orca_composer_camera_cancel" android:contentDescription="@string/dialog_cancel" />
+        <ImageButton android:id="@id/send_button" android:background="@null" android:layout_width="@dimen/bottom_controls_container_height" android:layout_height="@dimen/bottom_controls_container_height" android:src="@drawable/orca_composer_camera_send" android:contentDescription="@string/generic_send" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.friends.ui.SmartButtonLite android:ellipsize="end" android:gravity="center" android:id="@id/ufiservices_flyout_profile_friending_button" android:layout_width="@dimen/ufiservices_likers_profile_button_width" android:maxLines="1" android:singleLine="true" android:drawablePadding="0.0dip" style="@style/UfiServicesReactorsFlyoutButtonLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

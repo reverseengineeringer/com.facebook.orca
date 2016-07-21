@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/group_requests_empty_image" android:background="@drawable/group_requests_empty_image_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:glyphColor="@color/orca_neue_primary" app:source="@drawable/msgr_ic_person_large" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="?android:textColorSecondary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/join_request_empty_information" />
+    <com.facebook.widget.text.BetterButton android:id="@id/group_requests_empty_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/join_request_empty_button" style="@style/Widget.Messenger.Button.Blue.Nux" />
+</LinearLayout>

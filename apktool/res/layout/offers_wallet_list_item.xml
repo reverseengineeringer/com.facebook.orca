@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/fbui_white" android:paddingLeft="@dimen/offer_card_half_padding" android:paddingTop="@dimen/offer_card_half_padding" android:paddingRight="@dimen/offer_card_half_padding" android:paddingBottom="@dimen/offer_card_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/offer_card_half_margin" android:layout_marginBottom="@dimen/offer_card_half_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.layout.ImageBlockLayout android:id="@id/offer_item_imageblock" android:padding="@dimen/offer_card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" uib:thumbnailPadding="10.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uib="http://schemas.android.com/apk/res-auto">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/offer_item_profile_pic" android:layout_width="@dimen/offer_item_profile_pic_size" android:layout_height="@dimen/offer_item_profile_pic_size" uib:layout_useAsThumbnail="true" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_marginRight="@dimen/offer_chevron_margin" android:layout_marginBottom="1.0dip" android:layout_marginEnd="@dimen/offer_chevron_margin">
+                <com.facebook.resources.ui.FbTextView android:textStyle="bold" android:id="@id/offer_item_page_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/offers_wallet_see_details" android:layout_weight="1.0" style="@style/TextAppearance.FBUi.Title" />
+            </LinearLayout>
+            <com.facebook.resources.ui.FbButton android:layout_gravity="center|right|top" android:id="@id/offer_item_chevron_button" android:background="@drawable/chevron_down_light_grey_m" android:padding="@dimen/offer_chevron_margin" android:layout_width="@dimen/offer_item_chevron_width" android:layout_height="@dimen/offer_item_chevron_height" />
+        </FrameLayout>
+        <com.facebook.offers.views.OfferExpirationTimerView android:id="@id/offer_item_expires_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="@string/offers_wallet_shop_now" style="@style/TextAppearance.FBUi.Content" />
+    </com.facebook.fbui.widget.layout.ImageBlockLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/offer_item_photo_card" android:layout_width="fill_parent" android:layout_height="@dimen/offer_item_photo_card_height" android:layout_marginLeft="@dimen/offer_card_padding" android:layout_marginRight="@dimen/offer_card_padding" android:layout_marginStart="@dimen/offer_card_padding" android:layout_marginEnd="@dimen/offer_card_padding" />
+    <LinearLayout android:orientation="vertical" android:id="@id/offer_item_video_stub" android:layout_width="fill_parent" android:layout_height="@dimen/offer_item_photo_card_height" />
+    <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@id/offer_item_photo_carousel" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/offer_item_carousel_height" />
+</LinearLayout>

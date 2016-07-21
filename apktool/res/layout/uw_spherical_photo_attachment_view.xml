@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/uw_remove_button_layout" />
+    <com.facebook.widget.FbImageView android:layout_gravity="bottom|center|right" android:padding="@dimen/spherical_photo_gyro_indicator_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/spherical_photo_gyro_indicator_right_margin" android:src="@drawable/gyro_simple_picker" android:layout_marginEnd="@dimen/spherical_photo_gyro_indicator_right_margin" />
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.user.tiles.UserTileView android:layout_width="wrap_content" android:layout_height="wrap_content" orca:facebookBadge="@drawable/orca_facebook_user_badge_medium" orca:messengerBadge="@drawable/orca_messenger_user_badge_medium" orca:asCircle="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto" />

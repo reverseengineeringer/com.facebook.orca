@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.spherical.ui.HeadingBackgroundView android:layout_gravity="center" android:id="@id/heading_background" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+    <com.facebook.spherical.ui.HeadingFovView android:layout_gravity="center" android:id="@id/heading_fov_indicator" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+    <com.facebook.spherical.ui.HeadingPoiView android:layout_gravity="center" android:id="@id/heading_poi_indicator" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+</merge>

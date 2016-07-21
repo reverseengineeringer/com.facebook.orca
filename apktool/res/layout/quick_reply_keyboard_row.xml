@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/quick_reply_keyboard_background" android:paddingLeft="@dimen/quick_reply_message_padding_horizontal" android:paddingTop="@dimen/quick_reply_message_padding_vertical" android:paddingRight="@dimen/quick_reply_message_padding_horizontal" android:paddingBottom="@dimen/quick_reply_message_padding_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.CustomLinearLayout android:id="@id/qr_message_container" android:background="@drawable/quick_reply_keyboard_background" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/quick_reply_keyboard">
+        <com.facebook.widget.text.BetterTextView android:id="@id/qr_message" style="@style/quick_reply_keyboard_text" />
+    </com.facebook.widget.CustomLinearLayout>
+</FrameLayout>

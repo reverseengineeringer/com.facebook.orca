@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/cast_to_vr_button_width" android:color="@color/off_white" />
+    <corners android:topLeftRadius="@dimen/cast_to_vr_button_radius" android:topRightRadius="@dimen/cast_to_vr_button_radius" android:bottomLeftRadius="@dimen/cast_to_vr_button_radius" android:bottomRightRadius="@dimen/cast_to_vr_button_radius" />
+    <padding android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="0.0dip" />
+    <solid android:color="@color/cast_to_vr_button_color" />
+</shape>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="messenger_home_fragment_with_camera">@layout/messenger_home_fragment</item>
+</resources>

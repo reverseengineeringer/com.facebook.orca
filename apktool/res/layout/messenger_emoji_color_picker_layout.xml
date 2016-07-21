@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="@dimen/emoji_skin_tone_picker_width" android:layout_height="@dimen/emoji_skin_tone_picker_height" />
+</merge>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/orca_contact_calllog_aggregation_details_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.tiles.ThreadTileView android:id="@id/aggregation_header_threadtile" android:visibility="gone" style="?contactPickerThreadTileViewStyle" />
+    <com.facebook.user.tiles.UserTileView android:id="@id/aggregation_header_usertile" android:visibility="gone" style="?contactPickerThreadTileViewStyle" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:id="@id/aggregation_header_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:id="@id/aggregation_header_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/send_message_button" android:background="?android:selectableItemBackground" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/msgr_ic_message" android:scaleType="center" android:contentDescription="@string/contact_menu_thread_call_log" />
+        <ImageView android:id="@id/audio_call_button" android:background="?android:selectableItemBackground" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/voip_titlebar_button_icon_blue" android:scaleType="center" android:contentDescription="@string/webrtc_start_call_title" />
+        <ImageView android:id="@id/video_call_button" android:background="?android:selectableItemBackground" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/voip_video_titlebar_button_icon_blue" android:scaleType="center" android:contentDescription="@string/webrtc_start_video_call_title" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/feed_feedback_bling_bar_container" android:background="@drawable/bling_bar_pressable_rounded_rect" android:paddingLeft="@dimen/feed_bling_bar_padding" android:paddingTop="@dimen/feed_bling_bar_padding_top" android:paddingRight="@dimen/feed_bling_bar_padding" android:paddingBottom="@dimen/feed_bling_bar_padding_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feed_bling_bar_margin_top" android:layout_marginBottom="@dimen/feed_bling_bar_margin_bottom" fb:showDividers="middle" fb:divider="@android:color/transparent" fb:dividerThickness="@dimen/feed_bling_bar_divider">
+        <include layout="@layout/bling_bar_buttons" />
+        <include layout="@layout/generic_bling_bar_extra_text" />
+    </com.facebook.fbui.widget.layout.SegmentedLinearLayout>
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextNode android:textSize="@dimen/content_text_size" android:textColor="@color/feed_text_body_color" android:textColorHighlight="@color/feed_press_state_background_color" android:id="@id/content_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/content_text_line_spacing" android:lineSpacingMultiplier="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

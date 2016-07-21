@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/orca_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/dummy_focus_elt" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/orca_reg_side_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/login_logo_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orca_reg_login_approval_lock" />
+            </LinearLayout>
+            <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/orca_reg_normal_margin" android:layout_marginBottom="@dimen/orca_reg_intertitle_margin" android:text="@string/login_neue_login_approval_title" android:singleLine="false" style="@style/Widget.Messenger.TextView.Title" />
+            <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_reg_normal_margin" android:text="@string/login_neue_login_approval_phone" android:singleLine="false" style="@style/Widget.Messenger.TextView.Secondary" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/orca_reg_text_field" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_reg_normal_margin">
+                <com.facebook.resources.ui.FbEditText android:textColorHint="@color/orca_neue_login_text" android:gravity="left" android:id="@id/password" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/login_approval_code_hint" android:singleLine="true" android:inputType="number" android:imeOptions="actionGo" style="@style/OrcaRegTextInput" />
+            </LinearLayout>
+            <com.facebook.widget.text.BetterTextView android:id="@id/login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_neue_login_button_caps" style="@style/Widget.Messenger.Button.Blue.Nux" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

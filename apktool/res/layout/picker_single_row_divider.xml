@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.payments.ui.PaymentsComponentViewGroup android:background="@color/payments_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/payments_divider_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

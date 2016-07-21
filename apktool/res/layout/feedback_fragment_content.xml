@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/feedback_list_view_wrapper" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ViewStub android:id="@id/comment_list_view_stub" android:layout="@layout/feedback_fragment_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/comment_recycler_view_stub" android:layout="@layout/feedback_fragment_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/new_comments_button_stub" android:layout="@layout/feedback_new_comments_pill_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/new_comments_loading_stub" android:layout="@layout/feedback_new_comments_loading_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/typing_pill_stub" android:layout="@layout/feedback_typing_pill_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/feedback_loading_indicator_view_stub" android:layout="@layout/feedback_fragment_loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/feedback_footer_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.feedback.ui.SingleLineCommentComposerView android:id="@id/comment_composer_view" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:progressive_textview="true" style="?attr/commentComposerViewStyle"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <ViewStub android:id="@id/comments_disabled_notice_stub" android:layout="@layout/comments_disabled_notice_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</merge>

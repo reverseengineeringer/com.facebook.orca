@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:background="@color/fbui_accent_blue" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/follow_videos_upsell_toast_title" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_white" android:id="@id/follow_videos_toast_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.facebook.widget.CustomLinearLayout>
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_white" android:layout_gravity="center_vertical" android:id="@id/follow_videos_toast_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/follow_videos_upsell_toast_action_button_turn_on" android:layout_marginStart="20.0dip" />
+</com.facebook.widget.CustomLinearLayout>

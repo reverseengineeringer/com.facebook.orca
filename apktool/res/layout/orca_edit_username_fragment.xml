@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/edit_username_toolbar" layout="@layout/action_bar_toolbar" />
+    <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.messaging.users.username.EditUsernameEditText android:id="@id/username_edit_text_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="?android:textColorSecondary" android:id="@id/username_edit_info_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_username_information_top_margin" android:layout_marginBottom="@dimen/edit_username_information_bottom_margin" android:text="@string/edit_username_information" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="?android:textColorSecondary" android:id="@id/edit_username_help_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.facebook.widget.CustomLinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fig_ui_light_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/billing_country_text" fb:fontFamily="roboto" fb:fontWeight="regular" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fig_ui_light_30" android:id="@id/billing_country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" fb:fontFamily="roboto" fb:fontWeight="regular" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/video_controls_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.video.player.plugins.VideoControlPlugin android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.feed.video.fullscreen.FeedFullscreenSeekBarPlugin android:id="@id/feed_fullscreen_seekbar_plugin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.feed.video.fullscreen.FullscreenFeedbackWithCountPlugin android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.video.player.plugins.FullScreenCastPlugin android:id="@id/feed_video_full_screen_cast_plugin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

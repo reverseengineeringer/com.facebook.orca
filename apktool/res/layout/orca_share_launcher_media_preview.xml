@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/media_share_preview" android:layout="@layout/messenger_share_media_preview" android:inflatedId="@id/share_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/link_share_preview" android:layout="@layout/messenger_share_link_preview" android:inflatedId="@id/share_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/payment_eligible_share_preview" android:layout="@layout/messenger_share_payment_eligible_preview" android:inflatedId="@id/share_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/text_share_preview" android:layout="@layout/messenger_share_text_preview" android:inflatedId="@id/share_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

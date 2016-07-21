@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?liveHighlightedEventBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/live_event_view"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/live_announcement_event_view_icon" android:background="@drawable/live_video_circle_background" android:padding="@dimen/live_announcement_event_icon_padding" style="@style/live_events_icon_style" />
+    <com.facebook.resources.ui.FbTextView android:layout_gravity="center_vertical" android:id="@id/live_announcement_event_view_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="?attr/liveEventsTextStyle" />
+</LinearLayout>

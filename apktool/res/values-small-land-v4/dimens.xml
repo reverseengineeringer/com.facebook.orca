@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialtone_fb_logo_margin_top">16.0dip</dimen>
+    <dimen name="dialtone_upgrade_message_margin_bottom">16.0dip</dimen>
+    <dimen name="dialtone_upgrade_message_margin_side">14.0dip</dimen>
+    <dimen name="dialtone_interstitial_side_padding">24.0dip</dimen>
+    <dimen name="dialtone_interstitial_top_bottom_padding">6.0dip</dimen>
+    <dimen name="dialtone_interstitial_line_view_paddings">12.0dip</dimen>
+    <dimen name="lightswitch_optin_confetti_margin_top">-100.0dip</dimen>
+    <dimen name="lightswitch_optin_header_section_image_top_margin">20.0dip</dimen>
+    <dimen name="lightswitch_optin_header_section_image_bottom_margin">12.0dip</dimen>
+    <dimen name="lightswitch_optin_header_description_top_margin">12.0dip</dimen>
+</resources>

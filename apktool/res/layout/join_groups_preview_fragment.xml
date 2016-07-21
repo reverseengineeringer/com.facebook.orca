@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/preview_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/action_bar_toolbar" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" android:layout_weight="1.0">
+        <com.facebook.widget.text.BetterTextView android:id="@id/preview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/JoinPreview.Title" />
+        <com.facebook.widget.tiles.ThreadTileView android:id="@id/preview_image_tile_view" android:layout_width="@dimen/group_preview_tile_size" android:layout_height="@dimen/group_preview_tile_size" android:layout_marginTop="28.0dip" style="@style/JoinPreview.ThreadTile" />
+        <com.facebook.widget.text.BetterTextView android:id="@id/preview_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="16.0dip" style="@style/JoinPreview.Subtitle" />
+        <com.facebook.resources.ui.FbButton android:id="@id/join_group_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" style="@style/Widget.Messenger.Button.Blue.Nux" />
+    </LinearLayout>
+    <com.facebook.widget.text.BetterTextView android:layout_gravity="center_horizontal" android:id="@id/preview_learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="32.0dip" style="@style/JoinPreview.LearnMore" />
+</com.facebook.widget.CustomLinearLayout>

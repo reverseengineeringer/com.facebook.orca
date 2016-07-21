@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_xlarge" android:textColor="@color/black" android:id="@id/block_row_title" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:adjustLRGravityByTextDirectionCompat="true" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/orca_neue_text_grey" android:id="@id/block_row_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/block_row_title" android:layout_alignLeft="@id/block_row_title" android:layout_alignStart="@id/block_row_title" fb:adjustLRGravityByTextDirectionCompat="true" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

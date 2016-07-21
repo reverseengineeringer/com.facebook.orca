@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.payments.ui.FloatingLabelTextView android:id="@id/floating_label_text_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" fb:hintTextSize="@dimen/fbui_text_size_medium" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/image" android:padding="@dimen/fbui_padding_half_standard" android:layout_width="@dimen/commerce_checkout_detail_row_height" android:layout_height="@dimen/commerce_checkout_detail_row_height" />
+</merge>

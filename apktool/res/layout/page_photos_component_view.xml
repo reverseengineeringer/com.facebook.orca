@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/page_photos_component_big_photo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/page_photos_grid_layout_margin" android:layout_marginEnd="@dimen/page_photos_grid_layout_margin" />
+    <LinearLayout android:orientation="vertical" android:id="@id/page_photos_component_small_photo_items" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+</merge>

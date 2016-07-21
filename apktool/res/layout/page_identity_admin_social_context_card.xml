@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xxxlarge_1" android:textColor="@color/fbui_accent_blue" android:gravity="center" android:id="@id/page_identity_likes_count" android:paddingTop="@dimen/fbui_padding_half_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="?android:textColorTertiary" android:gravity="center" android:id="@id/page_identity_likes_description_text" android:paddingBottom="@dimen/fbui_padding_half_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/page_identity_likes_divider" layout="@layout/page_card_divider" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:gravity="center|left" android:id="@id/page_identity_friend_inviter_more_friends_button" android:padding="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/page_ui_friend_inviter_title" android:maxLines="2" android:drawableLeft="@drawable/pages_manager_invite_friends" android:drawablePadding="@dimen/fbui_padding_standard" style="@style/ChambrayText.Dark" />
+</com.facebook.widget.CustomLinearLayout>

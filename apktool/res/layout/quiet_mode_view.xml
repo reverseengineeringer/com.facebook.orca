@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.facecastdisplay.quietmode.QuietModeView android:background="?liveEventsListBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/live_events_comment_nux_view_stub" />
+</com.facebook.facecastdisplay.quietmode.QuietModeView>

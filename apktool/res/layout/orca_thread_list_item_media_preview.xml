@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.orca.threadlist.ThreadListItemMediaPreviewView android:layout_width="@dimen/thread_list_item_media_preview_size" android:layout_height="@dimen/thread_list_item_media_preview_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

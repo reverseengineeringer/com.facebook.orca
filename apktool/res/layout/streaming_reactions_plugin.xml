@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.facecastdisplay.streamingreactions.StreamingReactionsView android:id="@id/streaming_reactions_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/streaming_reactions_bottom_margin" android:layout_alignBottom="@id/facecast_square_view" />
+</merge>

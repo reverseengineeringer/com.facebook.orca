@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.text.textwithentitiesview.TextWithEntitiesView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_bluegrey_30" android:layout_gravity="center_vertical" android:id="@id/real_time_activity_info_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:highlightColor="@color/fbui_bluegrey_50" fb:highlightStyle="bold"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

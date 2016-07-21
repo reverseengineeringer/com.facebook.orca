@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/white" android:paddingLeft="@dimen/orca_reg_side_margin" android:paddingRight="@dimen/orca_reg_side_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/user_tile_view_container" android:layout_width="@dimen/neue_nux_user_tile_size" android:layout_height="@dimen/neue_nux_user_tile_size" android:layout_marginBottom="@dimen/orca_reg_normal_margin">
+            <com.facebook.user.tiles.UserTileView android:id="@id/user_tile_view" android:padding="@dimen/neue_nux_user_tile_padding_size" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/orca_neue_nux_youre_on_messenger_user_view_desc" fb:tileSize="@dimen/neue_nux_user_tile_size" fb:asCircle="true" />
+            <FrameLayout android:id="@id/user_tile_view_badge_container" android:padding="@dimen/neue_nux_user_tile_padding_size" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="bottom|center|right" android:id="@id/user_tile_view_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orca_messenger_user_badge_large" android:contentDescription="@string/orca_neue_nux_youre_on_messenger_badge_desc" />
+            </FrameLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_reg_intertitle_margin" android:text="@string/orca_neue_nux_youre_on_messenger_title" android:singleLine="false" style="@style/Widget.Messenger.TextView.Title" />
+            <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/orca_reg_normal_margin" android:text="@string/orca_neue_nux_youre_on_messenger_desc" android:singleLine="false" style="@style/Widget.Messenger.TextView.Secondary" />
+        </LinearLayout>
+        <com.facebook.widget.text.BetterTextView android:id="@id/continue_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/orca_neue_nux_youre_on_messenger_continue" android:alpha="0.0" style="@style/Widget.Messenger.Button.Blue.Nux" />
+    </LinearLayout>
+</ScrollView>

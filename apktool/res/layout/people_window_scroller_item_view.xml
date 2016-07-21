@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="@dimen/people_window_scroller_item_width" android:layout_height="@dimen/people_window_scroller_item_width">
+            <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/profile_pic" android:layout_width="@dimen/people_window_scroller_item_width" android:layout_height="@dimen/people_window_scroller_item_width" fb:actualImageScaleType="fitCenter" />
+            <com.facebook.resources.ui.FbImageButton android:id="@id/hide_contact_button" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msgr_cymk_remove" android:contentDescription="@string/cymk_hide_contact" />
+        </FrameLayout>
+        <com.facebook.widget.text.BetterTextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/people_window_scroller_padding" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/people_window_scroller_padding" android:singleLine="true" style="@style/TextAppearance.FBUi.Title" />
+        <com.facebook.widget.text.BetterTextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/mutual_contacts" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/people_window_scroller_padding" android:layout_marginRight="@dimen/people_window_scroller_text_padding_right" android:singleLine="true" android:layout_marginStart="@dimen/people_window_scroller_padding" android:layout_marginEnd="@dimen/people_window_scroller_text_padding_right" style="@style/TextAppearance.FBUi.Small" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.widget.text.BetterTextView android:textSize="12.0sp" android:textColor="@color/orca_light_blue_text_button" android:id="@id/add_contact_button" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/people_window_scroller_padding" android:paddingTop="12.0dip" android:paddingRight="@dimen/people_window_scroller_padding" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cymk_add_contact_label" fb:fontFamily="roboto" fb:fontWeight="medium" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/add_contact_spinner" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <android.support.v7.internal.widget.ViewStubCompat android:layout_gravity="center_vertical" android:id="@id/contact_added_view" android:layout="@layout/people_window_scroller_added_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/people_window_scroller_padding" android:layout_marginStart="@dimen/people_window_scroller_padding" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include layout="@layout/story_page_generic_label_layout" />
+    <include layout="@layout/story_page_label_social_context_layout" />
+    <include layout="@layout/story_page_label_button_layout" />
+</merge>

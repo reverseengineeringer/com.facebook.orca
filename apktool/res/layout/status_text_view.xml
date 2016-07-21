@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:id="@id/composer_edit_text_wrapper" android:paddingLeft="@dimen/composer_status_wrapper_padding" android:paddingRight="@dimen/composer_status_wrapper_padding" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="start" android:id="@id/composer_profile_image_stub" android:layout="@layout/composer_profile_image_layout" android:inflatedId="@id/composer_profile_image" android:layout_width="@dimen/composer_profile_image_size" android:layout_height="@dimen/composer_profile_image_size" />
+    <View android:id="@id/composer_mentions_dropdown_anchor" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.composer.ui.text.ComposerEditText android:textColor="@color/black" android:textColorHint="?android:textColorTertiary" android:gravity="start|center|top" android:layout_gravity="start" android:id="@id/status_text" android:background="@null" android:saveEnabled="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:completionThreshold="1" android:layout_weight="1.0" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionDone" />
+        <ViewStub android:id="@id/composer_transliterate_button_stub" android:layout="@layout/composer_transliteration_button_layout" android:inflatedId="@id/composer_transliterate_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.facebook.widget.CustomFrameLayout>

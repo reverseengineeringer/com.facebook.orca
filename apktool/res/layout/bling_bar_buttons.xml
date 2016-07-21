@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/feed_bling_bar_font_size" android:textColor="@color/fbui_bluegrey_30" android:id="@id/feed_feedback_likers_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/feed_bling_bar_font_size" android:textColor="@color/fbui_bluegrey_30" android:id="@id/feed_feedback_commenters_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/feed_bling_bar_font_size" android:textColor="@color/fbui_bluegrey_30" android:id="@id/feed_feedback_shares_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif" />
+</merge>

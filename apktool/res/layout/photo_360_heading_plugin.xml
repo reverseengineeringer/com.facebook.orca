@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.spherical.ui.SphericalHeadingIndicatorPlugin android:layout_gravity="center_horizontal" android:id="@id/heading_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/spherical_heading_plugin_right_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/spherical_heading_plugin_right_margin" android:layout_alignParentEnd="true" />
+</merge>

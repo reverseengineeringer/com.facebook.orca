@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.events.widget.eventcard.EventCardHeaderView android:id="@id/event_card_top_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.events.widget.eventcard.EventCardFooterView android:gravity="center" android:layout_gravity="bottom" android:id="@id/event_card_bottom_view_container" android:layout_width="fill_parent" android:layout_height="@dimen/event_card_bottom_view_height" />
+</merge>

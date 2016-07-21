@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" layout="@layout/toolbar" />
+    <fragment android:name="com.facebook.maps.FbMapFragmentDelegate" android:id="@id/map" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.facebook.messaging.location.renderer.LocationMapDetailsView android:id="@id/location_details" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

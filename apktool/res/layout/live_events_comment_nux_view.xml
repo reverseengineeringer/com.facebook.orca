@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.facecastdisplay.LiveEventsCommentNuxView android:id="@id/live_events_comment_nux_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/liveEventsCommentNuxTextStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

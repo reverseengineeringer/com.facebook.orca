@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.SquareFrameLayout android:background="@color/fig_ui_white_alpha_10" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/whos_watching_grid_item_margin" fb:primaryDimension="width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.user.tiles.UserTileView android:id="@id/whos_watching_profile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/whos_watching_item_gradient" />
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_tiny_small" android:textColor="@color/fbui_white" android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/whos_watching_item_text" android:padding="@dimen/fbui_padding_half_text" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontFamily="roboto" fb:fontWeight="medium" />
+</com.facebook.widget.SquareFrameLayout>

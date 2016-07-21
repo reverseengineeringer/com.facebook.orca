@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/feed_app_ad_unit_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hscroll_item_view_margins" android:layout_marginRight="@dimen/hscroll_item_view_margins" android:layout_marginStart="@dimen/hscroll_item_view_margins" android:layout_marginEnd="@dimen/hscroll_item_view_margins">
+        <LinearLayout android:orientation="horizontal" android:id="@id/feed_app_ad_unit_item_header_container" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/profile_image" android:focusable="true" android:clickable="false" android:layout_width="@dimen/feed_profile_image_size" android:layout_height="@dimen/feed_profile_image_size" android:layout_marginRight="12.0dip" android:layout_marginEnd="12.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/feed_story_blue_text_color" android:ellipsize="end" android:id="@id/feed_app_ad_item_name_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/feed_app_ad_social_context_color" android:id="@id/feed_app_ad_sponsored_context" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/feed_app_ad_description_color" android:id="@id/feed_app_ad_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feed_digital_goods_description_margin" android:layout_marginBottom="@dimen/feed_digital_goods_description_margin" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/feed_app_item_card_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/story_attachment_video_parent" android:background="@drawable/feed_app_item_card_media_background" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip">
+                <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/feed_app_ad_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" orca:placeholderImage="@color/white" />
+                <ImageView android:gravity="center" android:id="@id/button_camera_video_play" android:background="@drawable/feed_video_attachment_play_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+            </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/feed_digital_goods_footer_margin" android:layout_weight="1.0">
+                    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/feed_feedback_text_color" android:id="@id/feed_app_ad_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+                    <RatingBar android:id="@id/feed_app_ad_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:progressDrawable="@drawable/app_center_rating_bar" android:numStars="5" android:stepSize="0.25" android:isIndicator="false" style="?android:attr/ratingBarStyleSmall" />
+                    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/feed_app_ad_social_context_color" android:id="@id/feed_app_ad_social_context" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/feed_feedback_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/feed_app_ad_install_button" android:background="@drawable/fbui_btn_light_regular_small_bg" android:padding="5.0dip" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="@string/feed_install_now" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

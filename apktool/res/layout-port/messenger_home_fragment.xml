@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.common.ui.keyboard.SoftInputDetectingLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/search_and_tabs_container" android:background="?topToolbarBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?topToolbarElevation">
+        <android.support.v7.internal.widget.ViewStubCompat android:id="@id/searchview_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.messenger.neue.DelayedAssetLoadingIconTabbedViewPagerIndicator android:id="@id/tab_indicator" android:layout_width="fill_parent" android:layout_height="?actionBarSize" fb:fillParentWidth="true" style="?tabbedViewPagerIndicatorStyle" />
+    </LinearLayout>
+    <com.facebook.messenger.neue.MessengerHomeFragmentView android:id="@id/messenger_home_root" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.facebook.widget.AdvancedVerticalLinearLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:spaceSavingThreshold="@dimen/space_saving_height">
+            <include layout="@layout/messenger_home_fragment_main_content" />
+            <android.support.v7.internal.widget.ViewStubCompat android:id="@id/home_buttons_stub" android:layout="@layout/orca_home_button_layout_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.facebook.widget.AdvancedVerticalLinearLayout>
+        <View android:id="@id/drag_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/orca_home_fab_view_stub_compat" />
+    </com.facebook.messenger.neue.MessengerHomeFragmentView>
+</com.facebook.common.ui.keyboard.SoftInputDetectingLinearLayout>

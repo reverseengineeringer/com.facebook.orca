@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.EllipsizingTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/feed_attachment_title_color" android:id="@id/story_set_item_label_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="0.5dip" fb:ellipsizeLineBreaks="false" fb:strictDelimiterMode="true" />
+    <com.facebook.resources.ui.EllipsizingTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/feed_attachment_context_color" android:id="@id/story_set_item_label_context" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" android:includeFontPadding="false" fb:ellipsizeLineBreaks="false" fb:strictDelimiterMode="true" />
+</merge>

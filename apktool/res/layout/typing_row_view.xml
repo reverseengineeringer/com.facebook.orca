@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.feedback.ui.TypingDotsView android:layout_width="?comment_view_profile_picture_size" android:layout_height="?comment_view_profile_picture_size" fb:layout_useAsThumbnail="true" fb:dotColor="@color/fbui_bluegrey_20" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/flyout_light_gray_text_color" android:gravity="center_vertical" android:id="@id/body_text_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?comment_view_profile_picture_size" android:text="@string/friend_typing_indicator" />
+</merge>

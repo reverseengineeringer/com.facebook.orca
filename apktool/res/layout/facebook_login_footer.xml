@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <View android:background="#2e000000" android:layout_width="fill_parent" android:layout_height="@dimen/one_px" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/orca_reg_fb_login" android:background="@drawable/text_button_background_selector" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/orca_reg_facebook_logo" android:layout_marginEnd="10.0dip" />
+        <com.facebook.widget.text.BetterTextView android:textSize="14.0sp" android:textColor="@color/orca_neue_primary" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/orca_reg_login_fb_button" android:fontFamily="sans-serif" fb:allCaps="true" />
+    </LinearLayout>
+</LinearLayout>

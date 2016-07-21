@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.user.tiles.UserTileView android:id="@id/join_request_user_tile" android:layout_width="@dimen/material_user_tile_size_large" android:layout_height="@dimen/material_user_tile_size_large" app:tileSize="@dimen/material_user_tile_size_large" app:asCircle="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

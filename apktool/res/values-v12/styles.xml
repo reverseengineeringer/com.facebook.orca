@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LoginEditTextStyle" parent="@style/LoginEditTextStyle_v12" />
+    <style name="LoginEditTextStyle_v12" parent="@style/LoginEditTextStyleBase">
+        <item name="android:textCursorDrawable">@drawable/fbui_edit_text_cursor_dark</item>
+    </style>
+</resources>

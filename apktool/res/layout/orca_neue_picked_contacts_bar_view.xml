@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/picked_contacts_bar_height">
+        <it.sephiroth.android.library.widget.HListView android:id="@id/picked_contacts_list" android:layout_width="0.0dip" android:layout_height="fill_parent" android:listSelector="@drawable/transparent_drawable" android:layout_weight="1.0" />
+        <com.facebook.fbui.glyph.GlyphButton android:layout_gravity="center_vertical" android:id="@id/send_button" android:background="?android:selectableItemBackground" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/msgr_ic_send" android:contentDescription="@string/send_button_description" app:glyphColor="@color/picked_contacts_bar_send_color" />
+    </LinearLayout>
+</merge>

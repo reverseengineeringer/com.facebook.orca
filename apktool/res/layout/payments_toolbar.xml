@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:theme="@style/Subtheme.Payments.Toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationIcon="?homeAsUpIndicator" app:navigationContentDescription="@string/navigate_up_content_description" style="@style/Widget.Payments.Toolbar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:layout_gravity="center" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Widget.Payments.Toolbar.Title" />
+</android.support.v7.widget.Toolbar>

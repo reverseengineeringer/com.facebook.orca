@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <com.facebook.user.tiles.UserTileView android:id="@id/peer_profile_picture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <org.webrtc.videoengine.ViEAndroidGLES20 android:id="@id/peer_video_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <org.webrtc.videoengine.ViEAndroidGLES20SurfaceView android:id="@id/peer_video_surfaceview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/video_chat_head_video_weak_connection_image" android:background="@color/voip_alpha_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/video_weak_connection_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voip_video_weak_connection" android:layout_centerInParent="true" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:orientation="vertical" android:id="@id/peer_user_tile_holder" android:paddingBottom="68.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.facebook.user.tiles.UserTileView android:id="@id/peer_profile_picture_while_ringing" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" orca:asCircle="true" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:orientation="vertical" android:id="@id/status_text_on_endcall" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.facebook.user.tiles.UserTileView android:id="@id/peer_profile_picture_on_endcall_state" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_centerHorizontal="true" orca:asCircle="true" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/rectangular_video_chat_head_peer_name_text_size" android:textColor="@color/fbui_white" android:gravity="center" android:id="@id/peer_name_on_endcall_state" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:minLines="1" android:layout_below="@id/peer_profile_picture_on_endcall_state" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/rectangular_video_chat_head_call_status_text_size" android:textColor="@color/fbui_white" android:gravity="center" android:id="@id/endcall_state_text" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/webrtc_incall_status_video_chat_head_ended" android:layout_below="@id/peer_name_on_endcall_state" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/peer_meta_holder" android:background="@drawable/rtc_chat_head_time_rectangular_overlay" android:paddingTop="22.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/rectangular_video_chat_head_peer_name_text_size" android:textColor="@color/fbui_white" android:gravity="center" android:id="@id/peer_name_text_view" android:paddingTop="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/rectangular_video_chat_head_call_status_text_size" android:textColor="@color/fbui_white" android:gravity="center" android:id="@id/peer_video_time_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/peer_name_text_view" />
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/popover_full_view_v1" android:layout_width="@dimen/popover_view_v1_full_size" android:layout_height="@dimen/popover_view_v1_full_size" android:transformPivotX="@dimen/popover_view_v1_pivot" android:transformPivotY="@dimen/popover_view_v1_pivot"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/photo_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transformPivotX="@dimen/popover_view_v1_full_size" android:transformPivotY="@dimen/popover_view_v1_full_size">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/photo" android:background="@drawable/light_gray_background_with_rounded_corners" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cropToPadding="true" app:actualImageScaleType="centerCrop" />
+        <ImageView android:id="@id/photo_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/white_frame_with_rounded_corners" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/icon_container" android:visibility="invisible" android:layout_width="@dimen/popover_view_v1_mini_size" android:layout_height="@dimen/popover_view_v1_mini_size" android:transformPivotX="@dimen/popover_view_v1_mini_size" android:transformPivotY="@dimen/popover_view_v1_mini_size">
+        <ImageView android:layout_gravity="start|bottom|center" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_white_badge_ds" android:scaleType="centerInside" />
+        <com.facebook.resources.ui.FbTextView android:layout_gravity="end|center|top" android:id="@id/icon_badge" style="@style/PicHead.Popover.Badge.Blue" />
+    </FrameLayout>
+</FrameLayout>

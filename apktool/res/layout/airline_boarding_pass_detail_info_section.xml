@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/airline_margin_default" style="@style/airline_horizontal_margin_default">
+        <com.facebook.messaging.business.common.view.BusinessPairTextView android:id="@id/airline_boarding_pass_detail_passenger_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" fb:reverseTextColor="true" fb:titleString="@string/airline_passenger_title" fb:textOrientation="vertical" />
+        <com.facebook.messaging.business.common.view.BusinessPairTextView android:id="@id/airline_boarding_pass_header_text_field" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" fb:reverseTextColor="true" fb:textOrientation="vertical" fb:pairAlignRight="true" />
+    </LinearLayout>
+    <include layout="@layout/airline_divider_reverse" />
+    <com.facebook.messaging.business.airline.view.AirlineAirportRouteView android:id="@id/airline_boarding_pass_detail_airport_route" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/airline_margin_default" android:layout_marginBottom="@dimen/airline_margin_default" style="@style/airline_horizontal_margin_default" />
+    <com.facebook.messaging.business.airline.view.AirlineGridView android:orientation="horizontal" android:id="@id/airline_boarding_pass_detail_auxiliary_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/airline_margin_default" style="@style/airline_horizontal_margin_default" />
+    <com.facebook.messaging.business.airline.view.AirlineGridView android:orientation="horizontal" android:id="@id/airline_boarding_pass_detail_secondary_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/airline_margin_default" style="@style/airline_horizontal_margin_default" />
+</merge>

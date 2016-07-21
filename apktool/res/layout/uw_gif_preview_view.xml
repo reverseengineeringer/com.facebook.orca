@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/gif_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/uw_remove_button_layout" />
+    <com.facebook.gif.AnimatedImagePlayButtonView android:layout_gravity="center" android:id="@id/uw_gif_play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

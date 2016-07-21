@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dot_1" android:background="@drawable/typing_dot" android:layout_width="@dimen/feedback_typing_dot_size" android:layout_height="@dimen/feedback_typing_dot_size" android:layout_marginLeft="@dimen/feedback_typing_dot_horizontal_margin" android:layout_marginStart="@dimen/feedback_typing_dot_horizontal_margin" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dot_2" android:background="@drawable/typing_dot" android:layout_width="@dimen/feedback_typing_dot_size" android:layout_height="@dimen/feedback_typing_dot_size" android:layout_marginLeft="@dimen/feedback_typing_dot_horizontal_spacing" android:layout_marginRight="@dimen/feedback_typing_dot_horizontal_spacing" android:layout_marginStart="@dimen/feedback_typing_dot_horizontal_spacing" android:layout_marginEnd="@dimen/feedback_typing_dot_horizontal_spacing" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dot_3" android:background="@drawable/typing_dot" android:layout_width="@dimen/feedback_typing_dot_size" android:layout_height="@dimen/feedback_typing_dot_size" android:layout_marginRight="@dimen/feedback_typing_dot_horizontal_margin" android:layout_marginEnd="@dimen/feedback_typing_dot_horizontal_margin" />
+</merge>

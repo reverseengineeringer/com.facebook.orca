@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/profile_edit_button_anim_duration_ms" android:drawable="@drawable/fbui_camera_s" />
+    <item android:duration="@integer/profile_edit_button_anim_duration_ms" android:drawable="@drawable/fbui_camcorder_s" />
+</animation-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fbui_padding_standard" android:layout_marginBottom="@dimen/fbui_padding_standard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:id="@id/pick_date" android:paddingLeft="@dimen/fbui_padding_standard" android:paddingRight="@dimen/fbui_padding_standard" android:focusable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:cursorVisible="false" android:lines="1" android:layout_weight="60.0" />
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:id="@id/pick_time" android:paddingLeft="@dimen/fbui_padding_standard" android:paddingRight="@dimen/fbui_padding_standard" android:focusable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:cursorVisible="false" android:lines="1" android:layout_weight="40.0" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:background="@color/fbui_bg_medium" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.payments.ui.titlebar.PaymentsTitleBarViewStub android:id="@id/titlebar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/layout_input_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                <com.facebook.payments.paymentmethods.cardform.PaymentFormEditTextView android:id="@id/contact_info_edit_text" android:background="@color/fbui_white" android:paddingLeft="@dimen/contact_info_form_left_right_padding" android:paddingTop="@dimen/contact_info_form_field_top_padding" android:paddingRight="@dimen/contact_info_form_left_right_padding" android:paddingBottom="@dimen/contact_info_form_field_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="@dimen/progress_bar_width" android:layout_height="@dimen/progress_bar_height" style="?android:attr/progressBarStyle" />
+        </FrameLayout>
+    </ScrollView>
+</com.facebook.widget.CustomLinearLayout>

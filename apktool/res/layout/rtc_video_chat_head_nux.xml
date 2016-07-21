@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="start" android:paddingTop="6.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.fbui.widget.layout.ImageBlockLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/fbui_tooltip_background" android:background="?tooltipBackground" android:paddingLeft="28.0dip" android:paddingTop="20.0dip" android:paddingRight="28.0dip" android:paddingBottom="26.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:thumbnailGravity="center" fb:thumbnailPadding="20.0dip">
+            <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_gravity="center" android:id="@id/floating_view_container" android:background="@drawable/vch_promotion_chat" android:layout_width="88.0dip" android:layout_height="156.0dip" fb:layout_useAsThumbnail="true">
+                <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <com.facebook.user.tiles.UserTileView android:id="@id/fbui_tooltip_peer_profile_picture" android:layout_width="64.0dip" android:layout_height="64.0dip" fb:asCircle="true" />
+                    <com.facebook.user.tiles.UserTileView android:id="@id/fbui_tooltip_self_profile_picture" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignRight="@id/fbui_tooltip_peer_profile_picture" android:layout_alignBottom="@id/fbui_tooltip_peer_profile_picture" android:layout_alignEnd="@id/fbui_tooltip_peer_profile_picture" fb:asCircle="true" />
+                </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+            </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+            <com.facebook.resources.ui.FbTextView android:textColor="@color/rtc_nux_title_color" android:id="@id/fbui_tooltip_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" style="?attr/tooltipTitleStyle" />
+            <com.facebook.resources.ui.FbTextView android:textColor="@color/rtc_nux_description_color" android:id="@id/fbui_tooltip_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/tooltipDescriptionStyle" />
+            <LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip">
+                <com.facebook.resources.ui.FbButton android:textSize="@dimen/rtc_video_chat_head_nux_button_text_size" android:textStyle="bold" android:textColor="@color/rtc_nux_button_color" android:id="@id/fbui_tooltip_button_left" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="74.0dip" android:text="@string/rtc_video_chat_head_nux_later" android:textAllCaps="true" />
+                <com.facebook.resources.ui.FbButton android:textSize="@dimen/rtc_video_chat_head_nux_button_text_size" android:textStyle="bold" android:textColor="@color/rtc_nux_button_color" android:id="@id/fbui_tooltip_button_right" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="20.0dip" android:minWidth="74.0dip" android:text="@string/rtc_video_chat_head_nux_try_it" android:textAllCaps="true" android:layout_marginStart="20.0dip" />
+            </LinearLayout>
+        </com.facebook.fbui.widget.layout.ImageBlockLayout>
+    </FrameLayout>
+    <ImageView android:layout_gravity="top" android:id="@id/fbui_tooltip_nub_below" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="12.0dip" android:src="?tooltipNubBelow" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/fbui_tooltip_nub_above" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="16.0dip" android:src="?tooltipNubAbove" />
+</FrameLayout>

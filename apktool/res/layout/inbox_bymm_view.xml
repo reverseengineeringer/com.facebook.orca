@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.recyclerview.BetterRecyclerView android:layout_gravity="center_vertical" android:id="@id/bymm_results_list" android:layout_width="fill_parent" android:layout_height="@dimen/bymm_row_height_with_names" style="?peopleYouMayMessageRecyclerViewStyle" />
+</merge>

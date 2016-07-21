@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/payments_underline_border" android:padding="@dimen/receipt_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/commerce_invoice_quantity_title" style="@style/ReceiptsText.Title" />
+    <com.facebook.widget.text.BetterTextView android:gravity="end" android:id="@id/quantity" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ReceiptsText.Detail" />
+</LinearLayout>
